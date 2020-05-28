@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Erste Schritte mit CSS </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/">Erste Schritte mit CSS</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="erste-schritte-mit-css">Erste Schritte mit CSS</h1>
+
+<h2 id="ziel-der-übung">Ziel der Übung</h2>
+
+<p>In dieser Übung lernst du <em>Cascading Style Sheets</em> (kurz CSS) kennen. Unser Ziel ist es, eine HTML-Seite mit CSS zu formatieren und hübsch zu gestalten. Wenn du nach dieser Übung mehr über CSS lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf <a href="http://www.w3schools.com/css/css_intro.asp" target="_blank">die CSS Einführung auf w3schools.com</a> werfen.</p>
+
+<p>Falls du noch überhaupt keine Erfahrung mit HTML hast, wende dich an eine CoderDojo Mentorin oder einen Mentor. Sie werden dir die HTML-Basics erklären oder dir eine Übung für HTML-Grundlagen zeigen.</p>
+
+<h2 id="entwicklungsumgebung-öffnen">Entwicklungsumgebung öffnen</h2>
+
+<p>Besonders einfach ist es mit HTML und CSS zu experimentieren, indem man die Webseite <a href="https://jsfiddle.net/" target="_blank">https://jsfiddle.net/</a> verwendet.</p>
+
+<ol>
+<li><p>Öffne einen Webbrowser deiner Wahl und navigiere zu <a href="https://jsfiddle.net/" target="_blank">https://jsfiddle.net/</a>.</p></li>
+
+<li><p>Klicke rechts oben auf <em>Login/Sign up</em>, und lege dir einen Benutzer an. Die Anmeldung ist wichtig, damit du deine Arbeitsergebnisse speichern kannst.</p></li>
+
+<li><p>Nach dem Anlegen des Benutzers kehre zurück zum <em>JSFIDDLE Editor</em>, damit wir mit der Übung beginnen können.</p></li>
+</ol>
+
+<h2 id="html-grundgerüst">HTML Grundgerüst</h2>
+
+<p>Zum Experimentiere mit Styles brauchen wir Inhalt, den wir gestalten können. Der Inhalt kommt in JSFIDDLE in das Eingabefeld links oben, das mit <em>HTML</em> beschriftet ist.</p>
+
+<ol>
+<li><p>Erstelle eine Überschrift erster Ordnung: <code>&lt;h1&gt;CoderDojo &amp;Uuml;bung&lt;/h1&gt;</code>.</p></li>
+
+<li><p>Als nächstes möchten wir etwas Fließtext. Dazu müssen wir etwas Text generieren. Sehr einfach geht das mit <em>Lorem Ipsum Generatoren</em>. Sie erzeugen sinnlosen Text, der für Entwürfe als Platzhalter dient. Einen solchen Generator findest du unter <a href="http://www.loremipsum.de/" target="_blank">http://www.loremipsum.de/</a>. Öffne diese Seite, generiere 50 Wörter und kopiere sie in die Zwischenablage. Anschließend füge den kopierten Text in einen HTML-Absatz ein: <code>&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;</code>.</p></li>
+
+<li><p>Erstelle darunter eine Überschrift zweiter Ordnung: <code>&lt;h2&gt;Einleitung&lt;/h2&gt;</code>.</p></li>
+
+<li><p>Für analog zu Schritt 2 wieder Fließtext ein.</p></li>
+
+<li><p>Wiederhole die Schritte 3 und 4 ein paar Mal mit verändertem Text, damit wir ein wenig Inhalt zum Experimentieren haben.</p></li>
+
+<li><p>Klicke auf <em>Run</em> und kontrolliere, ob dein HTML richtig angezeigt wird.<br/>
+<img src="erste-schritte-mit-css/html-in-jsfiddle.png" alt="Unformatiertes HTML in JSFIDDLE" /></p></li>
+</ol>
+
+<h2 id="erste-formatierungen">Erste Formatierungen</h2>
+
+<p>Unser Ziel ist folgendes Layout. Wir möchten es nur mit Hilfe von CSS erreichen, ohne den HTML-Code zu verändern.<br/>
+<img src="erste-schritte-mit-css/html-erste-formatierungen.png" alt="HTML mit ersten Formatierungen" /></p>
+
+<ol>
+<li><p>Als erstes ändern wir die Schriftart für den gesamten Text der Seite. Dazu formatieren wir den gesamten <em>body</em> der HTML-Seite mit folgendem CSS Element. Füge es in JSFIDDLE rechts oben im Bereich <em>CSS</em> ein und probiere die Auswirkung aus, indem du auf <em>Run</em> drückst.</p>
+<pre><code>body {
+    font-family:&#39;Arial&#39;;
+}</code></pre></li>
+
+<li><p>Formatiere die Überschrift erster Ordnung mit folgendem CSS Element.</p>
+<pre><code>h1 {
+    font-family:&#39;Arial Black&#39;;
+    color: #1a1a1a;
+    font-size: 4em;
+    background: #F2E6E6;
+    line-height: 150px;
+    margin: 0px 0px 0px 10px;
+    padding-left: 20px;
+}</code></pre></li>
+
+<li><p>Formatiere die Überschriften zweiter Ordnung mit folgendem CSS:</p>
+<pre><code>h2 {
+    color: #313131;
+    font-size: 2em;
+    margin-top: 50px;
+    border-bottom: 2px red dotted;
+    overflow: hidden;
+}</code></pre></li>
+
+<li><p>Formatiere den Fließtext mit folgendem CSS:</p>
+<pre><code>p {
+    color: #464646;
+    line-height: 150%;
+    padding-top: 10px;
+    padding-left: 60px;
+}</code></pre></li>
+
+<li><p>Spiele mit verschiedenen Farben (siehe auch <a href="http://www.w3schools.com/tags/ref_colorpicker.asp" target="_blank">HTML Color Picker</a>), Schriftgrößen und Abständen, indem du die CSS Elemente veränderst. Lies dazu auf <a href="http://www.w3schools.com/css/css_text.asp" target="_blank">w3schools</a> nach, um mehr über Textformatierung, Schriftarten, Ränder etc. zu erfahren.</p></li>
+</ol>
+
+<h2 id="klassen-und-ids-selektieren">Klassen und IDs selektieren</h2>
+
+<p>Als nächstes möchten wir mit Hilfe von <em>CSS selectors</em> gewisse Teile unserer Webseite besonders hervorheben. Unser Ziel ist folgendes Layout:<br/>
+<img src="erste-schritte-mit-css/css-mit-selektoren.png" alt="HTML mit Selektoren" /></p>
+
+<ol>
+<li><p>Markiere den ersten Fließtext direkt unter der <code>h1</code> Überschrift mit einer CSS Klasse: <code>&lt;p class='intro'&gt;...&lt;/p&gt;</code></p></li>
+
+<li><p>Formatiere den Fließtext mit der Klasse <em>intro</em> mit folgendem CSS:</p>
+<pre><code>.intro {
+    font-size: larger;
+    padding-bottom: 10px;
+    background: #c8c8c8;
+    border-left: solid 25px #4c0000;
+    margin-left: 10px;
+    padding-left: 25px;
+}</code></pre></li>
+
+<li><p>Wir möchten in der ersten Überschrift das Wort <em>CoderDojo</em> in dunklem Rot hervorheben. Umschließe dafür das Wort <em>CoderDojo</em> mit einem <code>span</code> Element und ordne die CSS Klasse <code>highlight</code> zu: <code>&lt;h1&gt;&lt;span class='highlight'&gt;CoderDojo&lt;/span&gt; &amp;Uuml;bung&lt;/h1&gt;</code>.</p></li>
+
+<li><p>Formatiere <code>highlight</code> mit folgendem CSS:</p>
+<pre><code>.highlight {
+    color: #4c0000;
+}</code></pre></li>
+
+<li><p>Ändere den <code>intro</code>-Fließtext von <code>class</code> auf <code>id</code>: <code>&lt;p id='intro'&gt;...&lt;/p&gt;</code>. Aktualisiere das Ergebnis und du wirst sehen, dass der <code>.intro</code>-Selektor nicht mehr funktioniert.</p></li>
+
+<li><p>Ändere den CSS-Selektor von <code>.intro</code> auf <code>#intro</code> und aktualisiere das Ergebnis. Wie du siehst klappt jetzt wieder alles. Mit <code>.</code> selektierst du alle auf Grundlage einer CSS Klasse, mit <code>#</code> auf Grundlage einer <code>id</code>.</p></li>
+</ol>
+
+<h2 id="verschachtelte-elemente-selektieren">Verschachtelte Elemente selektieren</h2>
+
+<p>In der nächsten Übung möchten wir Hyperlinks im Fließtext schöner formatieren. So sieht unser Ziel-Layout aus:<br/>
+<img src="erste-schritte-mit-css/formatierter-hyperlink.png" alt="HTML mit Selektoren" /></p>
+
+<ol>
+<li><p>Mache im ersten Fließtext-Absatz ein paar Wörter zu einem Hyperlink:</p>
+<pre><code>&lt;p id=&#39;intro&#39;&gt;Lorem ipsum &lt;a href=&#34;http://www.google.at&#34;&gt;dolor sit amet&lt;/a&gt;, consetetur ...&lt;/p&gt;</code></pre></li>
+
+<li><p>Aktualisiere das Ergebnis und beachte, wie der Hyperlink standardmäßig formatiert wird.</p></li>
+
+<li><p>Definiere einen Stil, der nur auf Hyperlinks (<code>a</code> Tag) innnerhalb von Fließtexten (<code>p</code> Tag) angewendet wird. Probiere den Stil aus und experimentiere mit den Einstellungen.</p>
+<pre><code>p a {
+    color: #330000;
+    text-decoration: none;
+    border-bottom: 1px red dotted;
+}</code></pre></li>
+
+<li><p>Wenn der Hyperlink schon einmal angeklickt wurde (<code>visited</code>), soll er eine leicht andere Farbe haben. Verwende dazu folgenden Stil und probiere ihn aus. <code>visited</code> ist eine sogenannte <em>pseudo-Klasse</em>. Mehr dazu findest du auf <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">w3school</a>.</p>
+<pre><code>p a:visited {
+    color: #b20000;
+}</code></pre></li>
+</ol>
+
+<h2 id="arbeiten-mit-div">Arbeiten mit <code>div</code></h2>
+
+<p>Unser Ziel ist es, einen Kasten mit einem wichtigen Hinweis rechts neben die Einleitung zu setzen.<br/>
+<img src="erste-schritte-mit-css/hervorgehobener-kasten.png" alt="HTML mit Selektoren" /></p>
+
+<ol>
+<li><p>Füge vor der Einleitung den Kastentext hinzu. Umschließe ihn mit einem <code>div</code> Element mit der Klasse <code>sidebar</code>.</p>
+<pre><code>&lt;div class=&#34;sidebar&#34;&gt;
+        Mehr zu dem Thema gibt es auf meiner Webseite. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+&lt;/div&gt;</code></pre></li>
+
+<li><p>Formatiere die <em>sidebar</em> mit folgendem CSS. Experimentiere mit den Einstellungen.</p>
+<pre><code>.sidebar {
+    width: 200px;
+    float: right;
+    background: #b20000;
+    padding: 25px;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: white;
+}</code></pre></li>
+</ol>
+
+<h2 id="styles-in-html-dateien">Styles in HTML-Dateien</h2>
+
+<p>Bisher haben wir CSS nur in JSFIDDLE ausprobiert. Zum Abschluss werden wir den erstellten CSS-Code in einer echten HTML-Webseite ausprobieren.</p>
+
+<ol>
+<li><p>Öffne einen beliebigen Texteditor. Es wäre ideal, wenn du einen Editor hast, der HTML und CSS besonders unterstützt. Eine kostenloses Produkt, das diese Funktionen bietet, ist <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>. Es funktioniert auf Windows, MacOS und Linux. Falls du keinen solchen Editor hast oder installieren kannst, kannst du die folgenden Schritte auch mit jedem anderer, bei dir eingebauten Editor machen (unter Windows z.B. <em>Notepad</em>).</p></li>
+
+<li><p>Lege einen leeren Ordner an.</p></li>
+
+<li><p>Erstelle mit dem Editor eine Datei namens <em>content.html</em> und füge dort folgenden Code ein:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Erste Schritte mit CSS&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;!-- Hier bitte den HTML-Code aus JSFIDDLE einfügen --&gt; 
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></li>
+
+<li><p>Ersetze den Kommentar <code>&lt;!-- Hier bitte den HTML-Code aus JSFIDDLE einfügen --&gt;</code> durch den HTML-Code, den du zuvor in JSFIDDLE geschrieben hast.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Erste Schritte mit CSS&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;&lt;span class=&#39;highlight&#39;&gt;CoderDojo&lt;/span&gt; &amp;Uuml;bung&lt;/h1&gt;
+
+&lt;p id=&#34;intro&#34;&gt;Ut labore ...&lt;/p&gt;
+
+&lt;div class=&#34;sidebar&#34;&gt;Mehr zu dem Thema ...&lt;/div&gt;
+&lt;h2&gt;Einleitung&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum &lt;a href=&#34;http://www.google.at&#34;&gt;dolor sit amet&lt;/a&gt;, consetetur ...&lt;/p&gt;
+
+&lt;h2&gt;Mehr zum Thema&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ...&lt;/p&gt;
+
+&lt;h2&gt;Abschluss&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, ...&lt;/p&gt; 
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></li>
+
+<li><p>Füge innerhalb des <code>head</code> Elements das Element <code>style</code> ein. In das <code>style</code> Elements musst du den CSS-Code einfügen, den zuvor in JSFIDDLE erstellt hast.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Erste Schritte mit CSS&lt;/title&gt;
+    &lt;style&gt;
+       &lt;!-- Hier den CSS Code aus JSFIDDLE einfügen --&gt;
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+...</code></pre></li>
+
+<li><p>Falls du einen Editor wie <em>Visual Studio Code</em> verwendest, wirst du sehen, dass er dir das Schreiben von CSS erleichtert. Du musst nicht alles auswendig wissen. Der Editor bietet dir Auswahlmöglichkeiten an, zeigt dir gleich an, wie die gewählte Farbe aussieht und vieles mehr.<br/>
+<img src="erste-schritte-mit-css/style-in-vscode.png" alt="HTML mit Selektoren" /></p></li>
+
+<li><p>Öffne die HTML-Datei mit einen Browser. Du solltest die schön formatierte Seite im Browser sehen.</p></li>
+</ol>
+
+<h2 id="weitere-übungen">Weitere Übungen</h2>
+
+<ol>
+<li><p>Wir haben ein <em>internes Stylesheet</em> erstellt. Lies den Artikel unter <a href="http://www.w3schools.com/css/css_howto.asp" target="_blank">http://www.w3schools.com/css/css_howto.asp</a> und versuche, unser Beispiel auf ein <em>externes Stylesheet</em> umzustellen.</p></li>
+
+<li><p>Wenn du schon etwas Erfahrung mit CSS gesammelt hast, kannst du das <a href="http://www.w3schools.com/css/css_quiz.asp" target="_blank">CSS Quiz auf w3schools</a> probieren. Wie viele Fragen kannst du richtig beantworten? Lies nach, um dein CSS-Wissen noch zu erweitern.</p></li>
+
+<li><p>Baue dir einen Webserver mit Node.JS (eine Übungsbeispiel dafür findest du <a href="/trainingsanleitungen/web/nodejs-webserver.html">hier</a>) und liefere damit den in dieser Übung erstellten HTML- und CSS-Code aus.</p></li>
+
+<li><p>Möchtest du deine Webseite im Internet veröffentlichen? Ein Übungsbeispiel dafür findest du <a href="/trainingsanleitungen/web/dreamspark-azure.html">hier</a>.</p></li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

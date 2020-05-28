@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Scratch Breakout </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-breakout-v3/">Scratch Breakout</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="scratch-breakout-span-class-badge-badge-scratch3-scratch-3-0-span-a-href-scratch-breakout-html-class-change-scratch-version-scratch-2-0-a">Scratch Breakout <span class="badge badge-scratch3">Scratch 3.0</span> <a href="scratch-breakout.html" class="change-scratch-version">Scratch 2.0</a></h1>
+
+<p><img src="scratch-breakout-v3/breakout.png" alt="Breakout" />{: .right}</p>
+
+<p>In diesem Spiel pulverisierst du bunte Mauersteine, indem du mit deinem Schläger einen Ball darauf schleuderst. Wenn alle Mauersteine zerstört sind, kommst du in den nächsten Level, wo dein Ball dann noch schneller fliegt.</p>
+
+<h2 id="downloads">Downloads</h2>
+
+<p>Ball <a href="scratch-breakout-v3/Ball.sprite2/" target="_blank">Figur downloaden</a>
+Block <a href="scratch-breakout-v3/Block.sprite2/" target="_blank">Figur downloaden</a>
+Schläger <a href="scratch-breakout-v3/Schlaeger.sprite2/" target="_blank">Figur downloaden</a></p>
+
+<h2 id="bühne-und-figuren-anlegen">Bühne und Figuren anlegen</h2>
+
+<ol>
+<li><p><img src="scratch-breakout-v3/buehne-waehlen.png" alt="Bühnenbild auswählen" />{: .right}
+Zuerst suchen wir uns ein cooles Bühnenbild aus. Klicke auf <em>Bühnenbild wählen</em>. Das Bild <em>Stars</em> passt recht gut, aber du kannst dir aussuchen, was du möchtest.</p></li>
+
+<li><p><img src="scratch-breakout-v3/loeschen.png" alt="Scratchy löschen" />{: .right}
+Als nächstes lösche die Figur <em>Scratchy</em> mit dem Namen <em>Sprite 1</em>, indem du mit der rechten Maustaste darauf klickst und <em>Löschen</em> auswählst.</p></li>
+
+<li><p><img src="scratch-breakout-v3/hochladen.png" alt="Figuren hinzufügen" />{: .right}
+Wir brauchen insgesamt drei neue Figuren: Den Schläger, den Ball und einen Block. Lege drei neue Figuren an, indem deine Maus zuerst auf <em>Figur wählen</em> führst. Danach klicke auf das gerade erschienene Feld <em>Herunterladen</em>. Deine Mentoren haben passende Grafiken auf einem Memorystick dabei, die du in dein Projekt laden kannst. Oder du kannst ähnliche Figuren selbst zeichnen, ganz wie du möchtest! Nenne deine Figuren <em>Schlaeger</em>, <em>Ball</em> und <em>Block</em>. Das funktioniert, indem du die Figur auswählst, und unter der Bühne rechts neben dem Wort Figur in das Namensfeld einen Namen eingibst.</p></li>
+
+<li><p><img src="scratch-breakout-v3/schläger-mitte.png" alt="Kostüme zentrieren" />{: .right}
+Beim Platzieren der Grafiken oder beim Zeichnen ist wichtig, dass die Kostüme genau in der Mitte der Zeichnung liegen.</p></li>
+
+<li><p><img src="scratch-breakout-v3/game-over-mitte.png" alt="Ball Kostüme" />{: .right}
+Der Ball braucht ein zweites Kostüm, damit wir bei Spielende <em>Game Over</em> anzeigen können. Auch dafür gibt es von den Mentoren eine vorbereitete Grafik, oder du kannst den Text selbst in ein Kostüm schreiben, indem du im Malbereich das <em>T</em>-Symbol (für Text) drückst und den Text eingibst. Achte darauf, wie die Kostüme heißen: <em>Ball</em> und <em>GameOver</em>.</p></li>
+
+<li><p><img src="scratch-breakout-v3/block-mitte.png" alt="Block Kostüme" />{: .right}
+Für den Block gibt es gleich fünf Kostüme, damit die Sache etwas bunter wird. Die Kostüme findest du wieder auf den Memorysticks der Mentoren. Achte auch hier auf die Namen der Kostüme.</p></li>
+
+<li><p><img src="scratch-breakout-v3/klang-wählen.png" alt="Klänge" />{: .right}
+Schließlich benötigen wir noch Klänge. Klänge werden ebenfalls Figuren zugeordnet. Selektiere zuerst die Figur Ball, und klicke dort oben auf <em>Klänge</em>, und danach unten auf das Symbol <em>Klang wählen</em>. Zwei passende Klänge sind <em>Plopp</em> und <em>alien creak2</em>.
+Ähnlich funktioniert das beim Block, dort brauchen wir den Klang <em>laser1</em>. Unsere Figuren sind fertig, jetzt geht&rsquo;s ans Programmieren der Skripte.</p></li>
+</ol>
+
+<h2 id="der-schläger">Der Schläger</h2>
+
+<p><img src="scratch-breakout-v3/schläger-code.png" alt="Schäger Code" />{: .right}
+Der Schläger hat nur ein Skript und das ist ganz einfach. Gesteuert wird der Schläger mit der Maus. Du kannst hier auch gleich die vier globalen Variablen des Spiels anlegen. Globale Variable gelten für alle Figuren. Klicke dazu auf den Knopf <em>Neue Variable</em>, und lege folgende Variablen an: <em>BlockAnzahl</em>, <em>Leben</em>, <em>Level</em> und <em>Punkte</em>. Beachte, dass im Dialog der Auswahlknopf <em>Für alle Figuren</em> selektiert sein muss. Alle diese Variablen außer <em>BlockAnzahl</em> wollen wir auch am Spielfeld anzeigen. Klicke dazu den Auswahlknopf links vom Variablennamen.</p>
+
+<ul>
+<li>Ab Programmstart wird fortlaufend die X-Koordinate des Mauszeigers abgefragt, und der Schläger entsprechend positioniert. Außerdem müssen wir aufpassen, dass der Schläger nicht verschwindet, wenn die Maus über die Spielfeldgrenze hinaus bewegt wird (x-Position &lt; -240 oder x-Position &gt; 240).</li>
+</ul>
+
+<h2 id="der-ball">Der Ball</h2>
+
+<p><img src="scratch-breakout-v3/variablen.png" alt="Variablen" />{: .right}
+Der Ball ist schon ein bisschen komplizierter. So hat der Ball zusätzliche Variable, die aber nur für den Ball gelten (also <em>Nur für diese Figur</em>): <em>AbprallPunkt</em>, <em>BallAktiv</em> und <em>Geschwindigkeit</em>.</p>
+
+<p><img src="scratch-breakout-v3/ball-code.png" alt="Ball Code" />{: .right}
+<img src="scratch-breakout-v3/ball-code-2.png" alt="" />{: .right}</p>
+
+<ul>
+<li>Bei Programmstart versteckt sich der Ball. Erst wenn er Nachrichten empfängt, tut er etwas.</li>
+<li>Wenn die Nachricht <em>Start</em> ankommt, zeigt sich der Ball oberhalb des Schlägers, und beginnt nach oben zu fliegen. Seine Geschwindigkeit ergibt sich aus dem Level - je höher der Level, desto schneller. Nach jedem Schritt überprüft der Ball, ob er den Schläger berührt oder unten am Schläger vorbeigefallen ist. Bei Schläger-Berührung ändert er seine Flugbahn abhängig vom Abprall-Punkt (dazu benötigt man die spannende mathematische Funktion <em>asin</em>, die einen Wert zwischen -1 und +1 in einen Winkel umwandelt) - das macht das Spiel interessanter, weil die Spieler die Flugbahn beeinflussen kann. Außerdem muss der Ball ständig abfragen, ob er nicht vielleicht vom Rand abprallen muss. Zum Schluss versteckt er sich wieder, und prüft noch ob weitere Bälle (<em>Leben</em>) vorhanden sind.</li>
+<li>Die Kollisionsabfrage mit den Blöcken macht der Ball nicht selbst, weil er nicht alle Blöcke kennt. Stattdessen erhält der von den Blöcken die Nachricht <em>BlockTreffer</em>. Dann zählt er einen Punkt dazu und ändert seine Richtung um 180 Grad.</li>
+<li>Der Ball gehört aber manchmal gestoppt. Erhält er die Nachricht <em>Stop</em>, setzt er die Variable <em>BallAktiv</em> auf 0 (was so viel wie falsch bedeutet, also der Ball ist dann nicht aktiv). BallAktiv = 0 ist ein Abbruchkriterium für die Hautpschleife, er versteckt sich dann wieder und führt keine Aktionen mehr aus.</li>
+</ul>
+
+<h2 id="der-block">Der Block</h2>
+
+<p><img src="scratch-breakout-v3/block-code.png" alt="Block Code" />{: .right}
+<img src="scratch-breakout-v3/block-code-2.png" alt="" />{: .right}
+Zum Schluss der Block oder vielmehr die Blöcke, denn wir wollen ja viele Mauersteine abschießen. Die große Zahl unterschiedlicher Blöcke erzeugen wir, indem wir Klone mit verschiedenen Kostümen anlegen. Der Block braucht zwei neue Variablen: <em>Spalte</em> und <em>Zeile</em>. Bitte beachte: Die Variablen gelten wieder <em>Nur für diese Figur</em>.</p>
+
+<ul>
+<li>Zu Beginn schickt der Block die Nachricht <em>NeuerLevel</em>, auf die er selbst reagiert.</li>
+<li>Wenn der Block als Klon entstanden ist, wartet er eigentlich nur darauf von einem Ball getroffen zu werden. Ist das der Fall, spielt er noch einen Klang, fragt ab ob er der letzte Block war und startet dann einen neuen Level, und löscht sich schließlich selbst.</li>
+<li>Interessant ist, wie die Blöcke vervielfältigt werden. Das passiert bei der Nachricht <em>NeuerLevel</em>. Da heißt es erstmal <em>Stop</em> für alle, v.a. für den Ball, der während des Aufbaus des neuen Levels nicht stören soll. Darauf folgt eine geschachtelte Schleife für 5 Zeilen zu je 8 Blöcken. Jeder Block wird neu geklont, und erbt die Position des Ursprungs-Blocks, den wir jeweils weiterverschieben. Nach jeder Zeile von Blöcken ändern wir außerdem das Kostüm und damit die Farbe. Super, du hast es geschafft. Viel Spaß beim Spielen!</li>
+</ul>
+
+<h2 id="erweiterungen">Erweiterungen</h2>
+
+<p>Sicher hast du noch eine Menge Ideen, um das Breakout-Spiel zu verbessern. Ein paar Vorschläge:</p>
+
+<ul>
+<li>In jedem Level sollen sich Anzahl, Farbe und Position der Blöcke verändern.</li>
+<li>Die Blöcke können sich bewegen, damit sie schwerer zu treffen sind.</li>
+<li>Wenn der Ball am unteren Bildschirmrand verschwindet, sollte der Schläger explodieren - zum Beispiel indem man mehrere Explosions-Kostüme hintereinander anzeigt, und einen passenden Klang dazu abspielt.</li>
+</ul>
+
+<h2 id="herunterladen">Herunterladen</h2>
+
+<p>Du kannst das fertige Projekt unter <a href="scratch-breakout-v3/breakout.sb3" target="_blank">breakout.sb3</a> herunterladen.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

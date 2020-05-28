@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loeten on CoderDojo Linz</title>
+    <link>https://linz.coderdojo.net/uebungsanleitungen/elektronik/loeten/</link>
+    <description>Recent content in Loeten on CoderDojo Linz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    <lastBuildDate>Sun, 17 May 2020 08:41:32 +0200</lastBuildDate>
+    
+	<atom:link href="https://linz.coderdojo.net/uebungsanleitungen/elektronik/loeten/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wechselblinker löten</title>
+      <link>https://linz.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</guid>
+      <description>Wechselblinker Einleitung In dieser Übung baust du eine Schaltung, die zwei LEDs abwechselnd blinken lässt (Wechselblinker). In der Fachsprache bezeichnet man diese Schaltung als Multivibrator.
+In dieser Anleitung lernst du, wie du die Schaltung auf einem experimentier-Steckboard ohne Löten zusammenstellst. Im CoderDojo machen wir Löt-Workshops, in denen du die Schaltung dann löten kannst.
+So eine Schaltung kann man natürlich auch berechnen. Wir gehen aber in dieser Übung nicht auf die technischen Details und die Mathematik dahinter ein.</description>
+    </item>
+    
+  </channel>
+</rss>

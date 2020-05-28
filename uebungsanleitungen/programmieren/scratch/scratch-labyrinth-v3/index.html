@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Labyrinth-Spiel mit Scratch und JavaScript </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-labyrinth-v3/">Labyrinth-Spiel mit Scratch und JavaScript</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="labyrinth-spiel-mit-scratch-und-javascript-span-class-badge-badge-scratch3-scratch-3-0-span-a-href-scratch-labyrinth-html-class-change-scratch-version-scratch-2-0-a">Labyrinth-Spiel mit Scratch und JavaScript <span class="badge badge-scratch3">Scratch 3.0</span> <a href="scratch-labyrinth.html" class="change-scratch-version">Scratch 2.0</a></h1>
+
+<h2 id="ziel-der-übung">Ziel der Übung</h2>
+
+<p>In dieser Übung programmierst du ein Labyrinth-Spiel erst mit Scratch und danach mit JavaScript. So lernst du, das, was du in Scratch über Programmieren gelernt hast, in einer textbasierten Programmiersprache anzuwenden.</p>
+
+<h2 id="spielbeschreibung">Spielbeschreibung</h2>
+
+<p><img src="scratch-labyrinth-v3/endgame.png" alt="Endgame" />{: .right}</p>
+
+<p>Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein Ziel ist es, das mit <em>X</em> markierte Ziel zu erreichen. Die schwarzen und roten Felder sind Hindernisse. Schwarze Felder kannst du zerstören, indem du Anlauf nimmst. Rote kannst du nicht zerstören. Ziel ist es, mit möglichst wenigen Bewegungen das Ziel zu erreichen. Damit du deine Versuche vergleichen kannst, soll beim Erreichen des Ziels ausgegeben werden, wie viele Bewegungen du gebraucht hast.</p>
+
+<h3 id="figuren">Figuren</h3>
+
+<ol>
+<li><p><img src="scratch-labyrinth-v3/loeschen.png" alt="Lösche Scratchy" />{: .right}
+Lösche <em>Scratchy</em>. Wir brauchen für unser Spiel andere Figuren.</p></li>
+
+<li><p><img src="scratch-labyrinth-v3/malen.png" alt="Zeichne Figur" />{: .right}
+Klicke auf <em>Malen</em>. Gib der neuen Figur den Namen <em>LabyrinthElement</em>.</p></li>
+
+<li><p>Du musst die Figuren für dieses Spiel nicht selbst zeichnen. Du kannst sie <a href="scratch-labyrinth-v3/figuren.zip" target="_blank">herunterladen</a>. Falls du noch nicht weißt, wie du mit ZIP-Dateien umgehen musst, frag eine Mentorin oder einen Mentor im CoderDojo.</p></li>
+
+<li><p><img src="scratch-labyrinth-v3/hochladen.png" alt="Figur laden" />{: .right}
+Lade die Bilder <em>Beton.svg</em> und <em>Mauer.svg</em> als Kostüme in dein Spiel. Das automatisch angelegte Kostüm <em>Kostüm1</em> kannst du löschen.</p></li>
+
+<li><p><img src="scratch-labyrinth-v3/figuren.png" alt="Drei Figuren" />{: .right}
+Wiederhole die letzten drei Schritte und lege dir zwei weitere Figuren für den Spieler (<em>spieler.svg</em>) und das Ziel (<em>ziel.svg</em>) an. Am Ende solltest du drei Figuren in deinem Spiel haben.</p></li>
+</ol>
+
+<h3 id="globale-variablen">Globale Variablen</h3>
+
+<ol>
+<li><p><img src="scratch-labyrinth-v3/globale-daten.png" alt="Variablen" />{: .right}
+Lege die im Bild gezeigten Variablen an. Alle diese Variablen müssen <strong>für alle Figuren</strong> gelten.</p></li>
+
+<li><p><img src="scratch-labyrinth-v3/globale-liste.png" alt="Liste" />{: .right}
+Lege eine Liste an. Diese Liste muss ebenfalls <strong>für alle Figuren</strong> gelten.</p></li>
+</ol>
+
+<h3 id="spielfeld-aufbauen">Spielfeld aufbauen</h3>
+
+<ol>
+<li><p><strong>Wir arbeiten als erstes an der Figur <em>LabyrinthElement</em>.</strong></p></li>
+
+<li><p><img src="scratch-labyrinth-v3/labyrinth-daten.png" alt="Fehlende Variablen anlegen" />{: .right}
+Wir brauchen für unsere Figur noch weitere Variablen. Lege die Variablen an, die dir noch fehlen. Diese Variablen gelten <strong>nur für diese Figur</strong>.</p></li>
+
+<li><p>Das Spielfeld in Scratch ist horizontal (<em>x</em>) 480 Punkte breit. Vertikal (<em>y</em>) ist es 360 Punkte breit. Für unser Spiel teilen wir es in 30 mal 30 Punkte breite Quadrate. Wir haben also 16 mal 12 Quadrate. <strong>Beachte, dass bei Scratch der Mittelpunkt die Koordinaten x=0 und y=0 hat.</strong></p></li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/scratch-spielfeld.png" alt="Spielfeld" /></p>
+
+<ol>
+<li>Das Spielfeld wird in der Liste <em>Spielfeld</em> definiert. Das folgende Bild zeigt den neuen Block <em>Variablen fuer Spielfeld setzen</em>, den du dafür anlegen musst.</li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-laby-1.png" alt="Variablen für Spielfeld setzen" /></p>
+
+<ol>
+<li><p>Damit du nicht alle Zeilen vom Bild abschreiben musst, findet du hier das Spielfeld als Text. Kopiere den Text jeder Zeile in die Zwischenablage (<em>Strg + C</em>) und füge den Text in Scratch ein (<em>Strg + V</em>). Wenn das für dich ganz neu ist, frage eine Mentorin oder einen Mentor um Hilfe.</p>
+<pre><code>MMMMMMMMMMMMMMMO
+OOMMOBMBOOMMMMMM
+MOMOOOOOOMBMOOBM
+MMMMMMMOMMOOOBMM
+MOOOOOOOOBMMMBBM
+MBMMBMMBBMMBBOOM
+MMOOOOOBOMOOMMOB
+MOOBMMMOOMMOOOBM
+BMMMMBBOMBOOMMMM
+MBBBBOMMMMBMMOOM
+MOMMOOBMOOOMOOOM
+MMMMMMMMMMMMBBBB</code></pre></li>
+
+<li><p>Das folgende Bild zeigt den neuen Block <em>Baue Spielfeld</em>, den du anlegen musst, damit aus der Liste <em>Spielfeld</em>, die du im letzten Schritt angelegt hast, das Spielfeld gebaut wird. <strong>Wichtig: Achte darauf, dass du die Option <em>Ohne Bildschirmaktualisierung laufen lassen</em> aktivierst wenn du den neuen Block erstellst!</strong> Ansonsten braucht dein Spiel sehr lange zum starten.</p></li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-laby-2.png" alt="Baue Spielfeld" /></p>
+
+<ol>
+<li>Im vorigen Block erstellen wir Klone. Diese Klone müssen wir an die richtige Position bringen, wenn sie entstehen. Das machen wir mit diesem Block.</li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-laby-3.png" alt="Klon positionieren" /></p>
+
+<ol>
+<li><p><img src="scratch-labyrinth-v3/code-laby-4.png" alt="Hauptprogramm für Labyrinth-Element" />{: .right}
+Jetzt müssen wir nur noch dafür sorgen, dass unsere neuen Blöcke aufgerufen werden, wenn das Programm startet.</p></li>
+
+<li><p>So, jetzt kannst du dein Programm ausprobieren. Das Labyrinth müsste am Bildschirm erscheinen. Klappt es?</p></li>
+</ol>
+
+<h2 id="den-spieler-programmieren">Den Spieler programmieren</h2>
+
+<ol>
+<li><p><strong>Wir arbeiten als nächstes an der Figur <em>Spieler</em>.</strong></p></li>
+
+<li><p><img src="scratch-labyrinth-v3/code-spieler-1.png" alt="Fehlende Variablen anlegen" />{: .right}
+Wir brauchen für unsere Spieler-Figur noch weitere Variablen. Lege die Variablen an, die dir noch fehlen. Diese Variablen gelten <strong>nur für diese Figur</strong>.</p></li>
+
+<li><p>Bei der Programmierung des Spielers müssen wir oft herausfinden, welches Element sich an einer gewissen Position am Spielfeld befindet. Damit wir nicht jedes Mal die Programmelemente dafür immer wieder und wieder einfügen müssen, erstellen wir uns einen neuen Block <em>Ermittle Spielfeldelement</em> dafür. Den können wir dann überall verwenden, wo wir diese Logik brauchen. Man bezeichnet in der Praxis solche Programmteile auch als <em>Hilfsfunktionen</em>.</p></li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-spieler-2.png" alt="Ermittle Spielfeldelement" /></p>
+
+<ol>
+<li>Die zweite <em>Hilfsfunktion</em>, die wir brauchen, bewegt den Spieler an eine angegebene Position am Spielfeld. Auch das werden wir später mehrfach brauchen.</li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-spieler-3.png" alt="Aktualisiere Spielerposition" /></p>
+
+<ol>
+<li>Jetzt kommt eine Herausforderung auf dich zu: Wir müssen den Block <em>Bewege Vertikal</em> bauen, der den Spieler vertikal (nach oben/unten) bewegt.</li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-spieler-3.png" alt="Bewege Spieler vertikal" /></p>
+
+<ol>
+<li>Für die horizonale (nach links/rechts) Bewegung sieht der Block <em>Bewege Horizontal</em> ganz ähnlich aus wie der, den du zuvor erstellt hast. <strong>Tipp:</strong> Programmiere nicht also nochmals neu sondern kopiere den vorigen Block und ändere ihn nur entsprechend ab.</li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-spieler-4.png" alt="Bewege Spieler horizontal" /></p>
+
+<ol>
+<li>Nachdem du jetzt alle <em>Hilfsfunktionen</em> programmiert hast, können wir sie mit der Tastensteuerung verknüpfen.</li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-spieler-5.png" alt="Spielstart für den Spieler" /></p>
+
+<ol>
+<li><p><img src="scratch-labyrinth-v3/code-spieler-6.png" alt="Hauptprogramm für Spieler" />{: .right}
+Jetzt müssen wir nur noch dafür sorgen, dass unsere neuen Blöcke aufgerufen werden, wenn das Programm startet.</p></li>
+
+<li><p>So, jetzt kannst du dein Programm ausprobieren. Du müsstest jetzt den Spieler steuern können. Klappt alles?</p></li>
+</ol>
+
+<h2 id="schwarze-hindernisse-zerstören">Schwarze Hindernisse zerstören</h2>
+
+<ol>
+<li><p><strong>Wir arbeiten an der Figur <em>LabyrinthElement</em> weiter.</strong></p></li>
+
+<li><p>Du hast sicher gemerkt, dass der Spieler die Nachricht <em>Zerstoere</em> verschickt. Noch empfängt aber niemand diese Nachricht. Das ändern wir jetzt.</p></li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-laby-5.png" alt="Hindernisse zerstören" /></p>
+
+<ol>
+<li>So, jetzt kannst du dein Programm ausprobieren. Jetzt müsste der Spieler schon schwarze Hindernisse zerstören können. Klappt alles?</li>
+</ol>
+
+<h2 id="das-ziel-programmieren">Das Ziel programmieren</h2>
+
+<ol>
+<li><p><strong>Wir arbeiten als letztes an der Figur <em>Ziel</em>.</strong></p></li>
+
+<li><p>Das Ziel muss beim Spielstart richtig positioniert werden:</p></li>
+</ol>
+
+<p><img src="scratch-labyrinth-v3/code-ziel.png" alt="Ziel positionieren" /></p>
+
+<ol>
+<li>Fertig! Versuche mit dem Spieler das Ziel zu erreichen. Wie viele Bewegungen brauchst du? Fordere deine Freundinnen und Freunde heraus. Schaffen sie es genauso schnell wie du?</li>
+</ol>
+
+<h2 id="weitere-ideen">Weitere Ideen</h2>
+
+<ul>
+<li>Lass dir ein neues, schwierigeres Labyrinth einfallen. Versuche es durch Anpassen des Programms in dein Spiel einzubauen.</li>
+<li>Nachdem du jetzt das Programm in Scratch geschafft hast, könntest du es als nächstes in JavaScript programmieren. Im Bereich <em>Web</em> findest du genau <a href="../web/labyrinth-mit-svg.html">das gleiche Spiel als JavaScript-Übung</a>. Du wirst sehen, dass vieles ganz ähnlich funktioniert wie in Scratch.</li>
+</ul>
+
+<h2 id="herunterladen">Herunterladen</h2>
+
+<p>Du kannst das fertige Projekt unter <a href="scratch-labyrinth-v3/labyrinth.sb3" target="_blank">labyrinth.sb3</a> herunterladen.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

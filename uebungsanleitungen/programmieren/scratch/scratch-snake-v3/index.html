@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Scratch Snake </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-snake-v3/">Scratch Snake</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="scratch-snake-span-class-badge-badge-scratch3-scratch-3-0-span-a-href-scratch-snake-html-class-change-scratch-version-scratch-2-0-a">Scratch Snake <span class="badge badge-scratch3">Scratch 3.0</span> <a href="scratch-snake.html" class="change-scratch-version">Scratch 2.0</a></h1>
+
+<p><img src="scratch-snake-v3/endgame.png" alt="Endgame" />{: .right}
+Steuere die Schlange, um die Äpfel aufzusammeln. Aber pass auf, dass du nicht den Rand berührst und auch keinen Knoten in die Schlange machst, wenn sie länger wird.
+Das Spiel besteht aus 3 Figuren und 14 Skripten.</p>
+
+<h2 id="bühne-figuren">Bühne &amp; Figuren</h2>
+
+<p><img src="scratch-snake-v3/buehne.png" alt="" />
+Das Spiel besteht aus drei Figuren: der Schlange, dem Apfel und einer Nachricht, wenn das Spiel zu Ende ist. Für dieses Spiel brauchen wir kein Bühnenbild. Du kannst es einfach weiß lassen. Die Schlange besteht aus zwei Kostümen: Kopf und Körper. Der Kopf und der Körper der Schlange dürfen nicht größer als 20 sein. Nur die Zunge beim Kopf darf das überschreiten. Am besten, du malst zuerst den Körper mit einer Größe von 20, kopierst diesen dann für den Kopf und fügst Augen und eine Zunge hinzu. Beachte auch, dass der Körper eine andere Farbe als der Kopf haben muss.</p>
+
+<p>Schlange <a href="scratch-snake-v3/Schlange.sprite2" target="_blank">Figur downloaden</a>
+<img src="scratch-snake-v3/schlange.png" alt="" /></p>
+
+<p>Der Apfel braucht nur ein Kostüm. Damit er von der Schlange nur erwischt wird, wenn diese sich genau über den Apfel befindet, darf auch der Apfel nicht größer als 20 sein.
+Du kannst den Apfel selber malen, oder du verwendet den Apfel aus der Scratch Figurenbibliothek.</p>
+
+<p>Apfel <a href="scratch-snake-v3/Apfel.sprite2" target="_blank">Figur downloaden</a>
+<img src="scratch-snake-v3/apfel.png" alt="" /></p>
+
+<p>Dann brauchst du noch eine Figur für die <em>Game Over</em> Meldung (Englisch für <em>das Spiel aus aus</em>), die angezeigt wird, wenn der Spieler verloren hat.</p>
+
+<p>SpielZuEnde <a href="scratch-snake-v3/SpielZuEnde.sprite2" target="_blank">Figur downloaden</a>
+<img src="scratch-snake-v3/gameover.png" alt="" /></p>
+
+<h2 id="daten">Daten</h2>
+
+<p>Damit sich die Schlange bewegen kann müssen wir zwei Informationen speichern: die Länge der Schlange und wie lange jeder Teil der Schlange auf einer Position bleibt. Lege dafür zwei Variablen mit den Namen <em>DauerProPosition</em> und <em>Länge</em> an, die für alle Figuren zur Verfügung stehen.</p>
+
+<p><img src="scratch-snake-v3/daten.png" alt="Variablen" /></p>
+
+<h2 id="code-für-die-schlange">Code für die Schlange</h2>
+
+<ol>
+<li>Zeige als erstes den Kopf der Schlange in der Mitte der Bühne an und lass sie nach rechts schauen. Dann setze die Werte für die Daten Länge auf 5 und für DauerProPosition auf 0.2. Dann lass die Schlange fortlaufend 20iger Schritte gehen, warte für DauerProPosition Sekunden und erzeuge dann einen Klon. Der Klon wird später der Körper der Schlange.</li>
+</ol>
+
+<p><img src="scratch-snake-v3/Code-Schlange-1.png" alt="Bewege die Schlange" /></p>
+
+<ol>
+<li>Mache den Klon zum Körper der Schlange indem du das Kostüm auf Körper wechselst Zeige Klon für jede Position im Körper für die LängeProPosition an. Wenn die Schlange eine Länge von 3 hat, dann wird der Klon für 3 * 0.2 Sekunden = 0.6 Sekunden angezeigt. Wenn die Schlange schon eine Länge von 10 hat, dann wird der Klon für 10 * 0.2 Sekunden = 2 Sekunden angezeigt. Lösche dann den Klon.</li>
+</ol>
+
+<p><img src="scratch-snake-v3/Code-Schlange-2.png" alt="Mache den Klon zum Körper der Schlange" /></p>
+
+<ol>
+<li>Ändere mit den Pfeiltasten die Richtung der Schlange.</li>
+</ol>
+
+<p><img src="scratch-snake-v3/Code-Schlange-3.png" alt="Ändere die Richtung der Schlange" /></p>
+
+<ol>
+<li>Mach die DauerProPosition alle 10 Sekunden um 0.02 kleiner. Wenn die Schlange weniger lang an einer Position verweilt wird sie schneller.</li>
+</ol>
+
+<p><img src="scratch-snake-v3/Code-Schlange-4.png" alt="Erhöhe die Geschwindigkeit" /></p>
+
+<ol>
+<li>Das Spiel ist vorbei, wenn die Schlange entweder den Rand berührt oder wenn die Zunge der Schlange (rot) ihren Körper (grün) berührt. Sende dann die Nachricht <em>Verloren</em>.</li>
+</ol>
+
+<p><img src="scratch-snake-v3/Code-Schlange-5.png" alt="Erkenne wann das Spiel vorbei ist" /></p>
+
+<ol>
+<li>Wenn die Nachricht <em>Verloren</em> versandt wurde, stoppe alle Skripte und setzte die Schlange wieder auf die Anfangsposition.</li>
+</ol>
+
+<p><img src="scratch-snake-v3/Code-Schlange-6.png" alt="Stoppe alle Skripte" /></p>
+
+<h2 id="skripte-für-den-apfel">Skripte für den Apfel</h2>
+
+<ol>
+<li>Der Apfel muss zwei Aufgaben erfüllen: er muss eine Position finden, an der sich die Schlange gerade nicht befindet und er muss erkennen, wenn er von der Schlange berührt wird.</li>
+</ol>
+
+<ul>
+<li>Zeige den Apfel als erste an und setzte ihn auf die Position x: 20, y: 0.</li>
+
+<li><p>Dann wiederhole fortlaufend folgende Schritte:</p>
+
+<ul>
+<li>Finde eine Position, an der sich die Schlange gerade nicht befindet.</li>
+<li>Generiere dazu Zufallszahlen, die ein Vielfaches von 20 sind. Wir bewegen die Schlange in 20iger Schritten, daher sollte auch der Apfel auf einem Vielfachen von 20 platziert sein.</li>
+</ul></li>
+
+<li><p>Wiederhole das Generieren der Zufallszahlen solange, bis du eine Position findest, an der die Schlange gerade nicht berührt wird.</p></li>
+
+<li><p>Dann warte bis der Apfel von der Schlange berührt wird.</p></li>
+
+<li><p>Spiele einen Klang ab und mach die Schlange um einen Körperteil länger.</p></li>
+
+<li><p>Dann beginne wieder von vorne und suche eine neue Position für den Apfel.</p></li>
+</ul>
+
+<p><img src="scratch-snake-v3/Code-Apfel-1.png" alt="Code Apfel" /></p>
+
+<h2 id="skripte-für-spielzuende">Skripte für SpielZuEnde</h2>
+
+<ol>
+<li>Die Figur SpielZuEnde wird erst angezeigt, wenn du mit der Schlange entweder den Rand oder die Schlange selbst berührst.</li>
+</ol>
+
+<ul>
+<li>Beim Start des Spiels verstecke die Figur SpielZuEnde und setzte sie in die Mitte der Bühne.</li>
+<li>Wenn du die Nachricht <em>Verloren</em> empfängst, zeige die Figur an und spiele einen Klang. Nach drei Sekunden kannst du die Figur wieder verstecken und alle Skripte stoppten.</li></li>
+</ul>
+
+<p><img src="scratch-snake-v3/Code-Gameover-1.png" alt="Gameover" /></p>
+
+<h2 id="weitere-ideen">Weitere Ideen</h2>
+
+<ul>
+<li>Zähle mit, wie viele Äpfel du erwischst, bevor die Schlange zu lange wird.</li>
+</ul>
+
+<h2 id="herunterladen">Herunterladen</h2>
+
+<p>Du kannst das fertige Projekt unter <a href="scratch-snake-v3/snake.sb3" target="_blank">snake.sb3</a> herunterladen.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

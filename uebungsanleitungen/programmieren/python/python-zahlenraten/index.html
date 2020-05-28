@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Zahlen raten mit Python </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/python/">Python</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten/">Zahlen raten mit Python</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="zahlen-raten-mit-python">Zahlen raten mit Python</h1>
+
+<p>Wollen wir ein Programm für das Spiel &ldquo;Zahlen raten&rdquo; schreiben?
+Der Computer denkt sich eine Zahl im Bereich von 1 - 100 und der Spieler soll diese erraten.
+Nach jedem Versuch gibt das Programm aus, ob die eingegebene Zahl zu klein, zu groß
+oder richtig war.</p>
+
+<h1 id="allgemeines-zur-programmiersprache-python">Allgemeines zur Programmiersprache Python</h1>
+
+<p>Wir verwenden für die Programmierung die Programmiersprache Python (siehe die Python Homepage <a href="https://www.python.org/" target="_blank">www.python.org</a>),
+genauer gesagt Python 3, also eine Version von Python, deren Bezeichnung mit 3 beginnt, z.B. Python 3.7.1.
+Zu Beginn ist es am einfachsten, wenn du Python-Programme online im Browser (z.B. auf <a href="https://www.onlinegdb.com/online_python_interpreter" target="_blank">www.onlinegdb.com/online_python_interpreter</a>)
+entwickelst und ausführst.
+Wenn du Python-Programme lokal auf einem Rechner entwickeln und laufen lassen möchtest, muss Python installiert sein.
+Hilfe dazu findest du auf der <a href="https://www.python.org/about/gettingstarted/" target="_blank">Python Homepage</a> und im Python Wiki (siehe <a href="https://wiki.python.org/moin/BeginnersGuide/Download" target="_blank">wiki.python.org</a>).</p>
+
+<p>Achtung: Nicht alle Computersysteme und Programme können automatisch mit deutschen Sonderzeichen
+umgehen, oder verarbeiten sie unterschiedlich.
+Da wir hier z.B. den Buchstaben &lsquo;ß&rsquo; verwenden wollen, kann es zu Fehlermeldungen
+kommen, die z.B. so aussehen:</p>
+<pre><code class="language-none" data-lang="none">SyntaxError: Non-UTF-8 code ...</code></pre>
+<p>In diesem Fall kann man versuchen, sicher zu stellen, dass die Programmdatei mit
+UTF-8 Codierung abgespeichert wird. Oder man vermeidet die Sonderzeichen durch Umschreibung (z.B. &lsquo;ss&rsquo; statt &lsquo;ß&rsquo;).</p>
+
+<h1 id="eine-zahl-ausdenken">Eine Zahl ausdenken</h1>
+
+<p>Wie kann sich ein Computerprogramm eine Zahl ausdenken?
+Wir könnten einfach einer Variable, sagen wir <code>n</code>,
+eine Zahl zuweisen, die erraten werden soll:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  n <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span></code></pre></div>
+<p>Wenn das Programm für unser Spiel läuft, ist diese Zahl nicht sichtbar
+und der Spieler muss sie wirklich erraten.
+Allerdings wird der Spieler schnell herausfinden, dass immer die Zahl
+42 zu erraten ist, und das Interesse an unserem Spielprogramm verlieren.</p>
+
+<p>Wie kann man für jedes Spiel eine neue Zahl erzeugen?
+Am einfachsten ist die Verwendung eines (Pseudo-)Zufallsgenerators:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+  n <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">100</span>)</code></pre></div>
+<p>Die Variable <code>n</code> hat jetzt einen zufälligen Wert im Bereich von 1 - 100.
+(Wobei &ldquo;zufällig&rdquo; nicht ganz stimmt: die erste Zufallszahl nach dem Programmstart wird basierend auf
+der aktuellen Zeit bestimmt. Jede weitere Zufallszahl innerhalb
+eines Programmlaufs wird mit einer komplizierten Formel aus der vorhergehenden berechnet.)</p>
+
+<p>Das Programm sollte jetzt noch mitteilen, dass es eine Zahl gewählt hat:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Ich habe mir eine Zahl von 1-100 ausgedacht.&#39;</span>)</code></pre></div>
+<h1 id="einen-rateversuch-abfragen">Einen Rateversuch abfragen</h1>
+
+<p>Jetzt ist der Spieler an der Reihe.
+Dazu muss das Programm einen Rateversuch abfragen. Das geht am einfachsten
+mit der Funktion <code>input</code>, die Texteingaben mittels Tastatur entgegennimmt.
+Die Eingabe muss mit der Eingabetaste abgeschlossen werden.</p>
+
+<p>Als Argument kann man der Funktion <code>input</code> einen Text
+mitgeben, damit der Spieler weiß, was von ihm erwartet wird.
+Der Rückgabewert der Funktion ist die Eingabe des Spielers.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  versuch <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>)</code></pre></div>
+<p>Einen wichtigen Punkt müssen wir hier noch beachten:
+die Funktion <code>input</code> liefert einen Text, also einen Wert vom Typ <code>str</code>
+(&ldquo;string&rdquo;). Wenn der Benutzer bei obiger Codezeile also z.B. 99 eingegeben hat,
+dann würden wir in der Variable <code>versuch</code> den String <code>'99'</code> halten und nicht die Zahl <code>99</code>.
+Zum Glück ist eine Umwandlung in eine Zahl in Python sehr einfach:
+wir brauchen den String nur an die Funktion <code>int</code> zu übergeben.
+Damit sieht unsere Codezeile zum Abfragen des Rateversuchs so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  versuch <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>))</code></pre></div>
+<h1 id="den-versuch-auswerten">Den Versuch auswerten</h1>
+
+<p>Um zu entscheiden, ob der Spieler die Zahl erraten hat,
+müssen wir auf Gleichheit zwischen der gedachten Zahl,
+die wir uns in der Variable <code>n</code> gemerkt haben, und der
+eingegebenen Zahl, die wir in der Variable <code>versuch</code>
+abgelegt haben, prüfen. Dazu muss man in Python den Operator <code>==</code> verwenden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">==</span> n: 
+      <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Erraten! Ich habe mir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht.&#39;</span> <span style="color:#f92672">%</span> n)</code></pre></div>
+<p>Wenn die gedachte Zahl nicht erraten wurde, wollen wir
+einen Hinweis geben:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&lt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu klein!&#39;</span>)
+  <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&gt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu groß!&#39;</span>)</code></pre></div>
+<h1 id="die-spielschleife">Die Spielschleife</h1>
+
+<p>Das Programm soll solange nach neuen Rateversuchen fragen,
+bis die gedachte Zahl erraten wurde. Dazu können wir das
+Abfragen und Auswerten in eine Endlosschleife packen (<code>while True: ...</code>),
+die bei Erfolg abgebrochen wird (<code>break</code>).
+Insgesamt sieht unsere Spielschleife dann so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#66d9ef">while</span> True:
+      versuch <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>))
+      <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">==</span> n: 
+          <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Erraten! Ich habe mir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht.&#39;</span> <span style="color:#f92672">%</span> n)
+	      <span style="color:#66d9ef">break</span>
+      <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&lt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu klein!&#39;</span>)
+      <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&gt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu groß!&#39;</span>)</code></pre></div>
+<h1 id="das-gesamte-programm">Das gesamte Programm</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+  n <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">100</span>)
+  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Ich habe mir eine Zahl von 1-100 ausgedacht.&#39;</span>)
+  
+  <span style="color:#66d9ef">while</span> True:
+      versuch <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>))
+      <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">==</span> n: 
+          <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Erraten! Ich habe mir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht.&#39;</span> <span style="color:#f92672">%</span> n)
+	      <span style="color:#66d9ef">break</span>
+      <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&lt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu klein!&#39;</span>)
+      <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&gt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu groß!&#39;</span>)</code></pre></div>
+<p>Ein Spielverlauf könnte dann so aussehen:</p>
+
+<p><img src="python-zahlenraten/Zahlenraten.png" alt="Spielverlauf (gelb: Eingabe des Spielers)" /></p>
+
+<h1 id="erweiterungsmöglichkeiten">Erweiterungsmöglichkeiten</h1>
+
+<p>Willst du das Programm noch ausbauen? Folgende Ideen dazu:</p>
+
+<ul>
+<li>Zu Beginn könnte das Programm abfragen, bis zu welcher Größe die gedachte Zahl sein soll.</li>
+<li>Bei einer leeren Eingabe könnte das Programm fragen, ob man aufgeben möchte,
+und die gedachte Zahl verraten.</li>
+</ul>
+
+<h3 id="aufgabe-für-fortgeschrittene">Aufgabe für Fortgeschrittene</h3>
+
+<p><strong>Rollen tauschen:</strong> schreibe ein Programm, das versucht, die vom Menschen
+gedachte Zahl zu erraten! (siehe dazu auch <a href="python-zahlenraten-2.html" target="_blank">Zahlenraten, zweiter Teil</a>)</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

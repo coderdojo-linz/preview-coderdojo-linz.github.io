@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>  </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/"></a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="antlr-hello-world">ANTLR Hello World</h1>
+
+<h2 id="installation">Installation</h2>
+
+<ul>
+<li><p>Installieren von [IntelliJ Community Edition]<br/>(<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank">https://www.jetbrains.com/idea/download/#section=windows</a>) (kostenlos)</p></li>
+
+<li><p>IntelliJ starten</p></li>
+
+<li><p>Ein neues Projekt mit <em>New Project</em> - <em>Empty Project</em> starten. In dieser Anleitung gehen wir davon aus, dass das Projekt <em>antlr-hello-world</em> heißt.</p></li>
+
+<li><p><em>Settings</em>-Dialog mit <em>Strg+Alt+S</em> öffnen, nach dem <em>antlr</em> Plugin suchen und installieren<br/>
+<img src="antlr-hello-world/install-antlr.png" alt="ANTLR Plugin" /></p></li>
+
+<li><p>IntelliJ neu starten und das zuvor angelegte Projekt wieder laden</p></li>
+</ul>
+
+<h2 id="erste-grammatik-anlegen">Erste Grammatik anlegen</h2>
+
+<ul>
+<li><p>Neue Datei <em>Hello.g4</em> anlegen<br/>
+<img src="antlr-hello-world/new-file.png" alt="Neue Datei" /></p></li>
+
+<li><p>Folgende Grammatik in die neue Datei einfügen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">grammar Hello;
+greet     : &#39;hello&#39; ID ;         // Schlüsselwort hello gefolgt von einem Identifier
+ID        : [a-z]+ ;             // Identifier in Kleinbuchstaben
+WS        : [ \t\r\n]+ -&gt; skip ; // Leerzeichen, Tab, Leerzeilen ignorieren</code></pre></div></li>
+
+<li><p>Rechte Maustaste auf die Regel <code>greet</code> und <em>Test Rule greet</em> anklicken<br/>
+<img src="antlr-hello-world/test-rule.png" alt="Regel testen" /></p></li>
+
+<li><p><em>hello world</em> eingeben und ansehen, wie ANTLR den Text nach der angegebenen Grammatik zerlegt<br/>
+<img src="antlr-hello-world/test-rule-2.png" alt="Regel testen" /></p></li>
+
+<li><p>Experimentiere mit folgenden Eingaben (beachte die Fehler, die angezeigt werden)</p>
+
+<ul>
+<li><em>hello</em></li>
+<li><em>helo world</em></li>
+</ul></li>
+</ul>
+
+<h2 id="chat-grammatik">Chat Grammatik</h2>
+
+<ul>
+<li><p>Neue Datei <em>Chat.g4</em> anlegen</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">grammar chat;
+
+/*
+* Lexer Rules
+*/
+
+fragment A          : (&#39;A&#39;|&#39;a&#39;) ;
+fragment S          : (&#39;S&#39;|&#39;s&#39;) ;
+fragment Y          : (&#39;Y&#39;|&#39;y&#39;) ;
+fragment H          : (&#39;H&#39;|&#39;h&#39;) ;
+fragment O          : (&#39;O&#39;|&#39;o&#39;) ;
+fragment U          : (&#39;U&#39;|&#39;u&#39;) ;
+fragment T          : (&#39;T&#39;|&#39;t&#39;) ;
+
+fragment LOWERCASE  : [a-z] ;
+fragment UPPERCASE  : [A-Z] ;
+
+SAYS                : S A Y S ;
+
+SHOUTS              : S H O U T S;
+
+WORD                : (LOWERCASE | UPPERCASE | &#39;_&#39;)+ ;
+
+WHITESPACE          : (&#39; &#39; | &#39;\t&#39;);
+
+NEWLINE             : (&#39;\r&#39;? &#39;\n&#39; | &#39;\r&#39;)+ ;
+
+/*
+* Parser Rules
+*/
+
+chat                : line+ EOF ;
+
+line                : name command message NEWLINE;
+
+message             : (emoticon | mention | WORD | WHITESPACE)+ ;
+
+name                : WORD WHITESPACE;
+
+command             : (SAYS | SHOUTS) &#39;:&#39; WHITESPACE ;
+
+emoticon            : &#39;:&#39; &#39;-&#39;? &#39;)&#39;
+                | &#39;:&#39; &#39;-&#39;? &#39;(&#39;
+                ;
+
+mention             : &#39;@&#39; WORD ;</code></pre></div></li>
+
+<li><p>Testsätze:</p>
+
+<ul>
+<li><em>tim SAYS: hello world</em></li>
+<li><em>john SHOUTS: hello @michael :-)</em></li>
+</ul></li>
+
+<li><p>Antlr Generator konfigurieren<br/>
+<img src="antlr-hello-world/configure-antlr.png" alt="Konfigurieren" /><br/>
+<img src="antlr-hello-world/configure-antlr-2.png" alt="Konfigurieren" /></p></li>
+
+<li><p>Lexer/Parser generieren<br/>
+<img src="antlr-hello-world/lexer-parser-generate.png" alt="Generieren" /><br/>
+<img src="antlr-hello-world/lexer-parser-generate-2.png" alt="Generieren" /></p></li>
+</ul>
+
+<h2 id="compiler">Compiler</h2>
+
+<ul>
+<li><p><code>npm init</code></p></li>
+
+<li><p><code>npm install antlr4</code></p></li>
+
+<li><p><em>app.js</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">antlr4</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;antlr4&#39;</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ChatLexer</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;./compiler/chatLexer&#39;</span>).<span style="color:#a6e22e">chatLexer</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ChatParser</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;./compiler/chatParser&#39;</span>).<span style="color:#a6e22e">chatParser</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">input</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;tim SAYS: hello @world :-)\n&#39;</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">chars</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">antlr4</span>.<span style="color:#a6e22e">InputStream</span>(<span style="color:#a6e22e">input</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">lexer</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">ChatLexer</span>(<span style="color:#a6e22e">chars</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">tokens</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">antlr4</span>.<span style="color:#a6e22e">CommonTokenStream</span>(<span style="color:#a6e22e">lexer</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">parser</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">ChatParser</span>(<span style="color:#a6e22e">tokens</span>);
+<span style="color:#a6e22e">parser</span>.<span style="color:#a6e22e">buildParseTrees</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">tree</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">parser</span>.<span style="color:#a6e22e">chat</span>();
+
+<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">line</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">tree</span>.<span style="color:#a6e22e">children</span>) {
+<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">line</span>.<span style="color:#a6e22e">constructor</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">!==</span> <span style="color:#a6e22e">ChatParser</span>.<span style="color:#a6e22e">LineContext</span>.<span style="color:#a6e22e">name</span>) {
+    <span style="color:#75715e">// Reached end of program
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">break</span>;
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">line</span>.<span style="color:#a6e22e">children</span>[<span style="color:#ae81ff">0</span>];
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Name: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">name</span>.<span style="color:#a6e22e">children</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">getText</span>()<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">command</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">line</span>.<span style="color:#a6e22e">children</span>[<span style="color:#ae81ff">1</span>];
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Command: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">lexer</span>.<span style="color:#a6e22e">symbolicNames</span>[<span style="color:#a6e22e">command</span>.<span style="color:#a6e22e">children</span>[<span style="color:#ae81ff">0</span>].<span style="color:#a6e22e">getSymbol</span>().<span style="color:#a6e22e">type</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">line</span>.<span style="color:#a6e22e">children</span>[<span style="color:#ae81ff">2</span>];
+<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">msg</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">message</span>.<span style="color:#a6e22e">children</span>) {
+    <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">msg</span>.<span style="color:#a6e22e">constructor</span>.<span style="color:#a6e22e">name</span>) {
+        <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#39;TerminalNodeImpl&#39;</span><span style="color:#f92672">:</span>
+            <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">msg</span>.<span style="color:#a6e22e">getSymbol</span>().<span style="color:#a6e22e">type</span> <span style="color:#f92672">===</span> <span style="color:#a6e22e">ChatLexer</span>.<span style="color:#a6e22e">WORD</span>) {
+                <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Word: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">msg</span>.<span style="color:#a6e22e">getText</span>()<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+            }
+
+            <span style="color:#66d9ef">break</span>;
+        <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">ChatParser</span>.<span style="color:#a6e22e">MentionContext</span>.<span style="color:#a6e22e">name</span><span style="color:#f92672">:</span>
+            <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Mention: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">msg</span>.<span style="color:#a6e22e">children</span>[<span style="color:#ae81ff">1</span>].<span style="color:#a6e22e">getText</span>()<span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+            <span style="color:#66d9ef">break</span>;
+        <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">ChatParser</span>.<span style="color:#a6e22e">EmoticonContext</span>.<span style="color:#a6e22e">name</span><span style="color:#f92672">:</span>
+            <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">msg</span>.<span style="color:#a6e22e">children</span>[<span style="color:#a6e22e">msg</span>.<span style="color:#a6e22e">children</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].<span style="color:#a6e22e">getText</span>() <span style="color:#f92672">===</span> <span style="color:#e6db74">`)`</span>) {
+                <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Happy&#39;</span>);
+            } <span style="color:#66d9ef">else</span> {
+                <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Sad&#39;</span>);
+            }
+
+            <span style="color:#66d9ef">break</span>;
+    }
+}
+}
+</code></pre></div></li>
+
+<li><p><code>node app.js</code></p></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

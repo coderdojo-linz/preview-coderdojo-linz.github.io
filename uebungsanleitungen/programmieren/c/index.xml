@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on CoderDojo Linz</title>
+    <link>https://linz.coderdojo.net/uebungsanleitungen/programmieren/c/</link>
+    <description>Recent content in C on CoderDojo Linz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    <lastBuildDate>Sun, 17 May 2020 08:03:54 +0200</lastBuildDate>
+    
+	<atom:link href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Space Shooter</title>
+      <link>https://linz.coderdojo.net/uebungsanleitungen/programmieren/c/space-shooter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz.coderdojo.net/uebungsanleitungen/programmieren/c/space-shooter/</guid>
+      <description>Space Shooter In dieser Übung werden wir ein relativ fortgeschrittenes Computerspiel in C entwickeln, welches im Terminalemulator &amp;ndash; unter Windows standardmäßig, CMD &amp;ndash; läuft. Wir werden im Terminal mithilfe von speziellen control codes (Ketten von escape charactern) das gesamte Spiel zeichnen und durch Tastendrücke auf dem Keyboard kontrollieren.
+Für diese Übung solltest du bereits einfache Programmierkentnisse haben, die Konzepte von Schleifen, Bedingungen und Assignments bzw. Variablen sollten nichts neues sein.</description>
+    </item>
+    
+  </channel>
+</rss>

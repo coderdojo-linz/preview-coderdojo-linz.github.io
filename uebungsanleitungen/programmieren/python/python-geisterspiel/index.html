@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Geisterspiel mit Python </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/python/">Python</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/python/python-geisterspiel/">Geisterspiel mit Python</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="geisterspiel">Geisterspiel</h1>
+
+<p>In dieser Übung erstellen wir ein erstes, einfaches Computerspiel mit Python.
+Es wird nur ein text-basiertes UI (= <strong>U</strong>ser <strong>I</strong>nterface; deutsch: Benutzerschnittstelle) haben, d.h. wir werden Text auf dem Bildschirm lesen und Zeichen mit der Tastatur eingeben, um das Spiel zu steuern.</p>
+
+<h2 id="die-aufgabe">Die Aufgabe</h2>
+
+<p>Der Geist versteckt sich zufällig hinter einer von 3 Türen.
+Du entscheidest, welche Türe du öffnen möchtest.
+Tippe dazu 1, 2 oder 3 und drücke die ENTER-Taste.</p>
+
+<p>Unser Programm soll nun prüfen, ob der Geist sich hinter der Tür befindet und eine entsprechende Meldung ausgeben; also entweder &lsquo;Geist gefunden&rsquo; und damit das Spiel verloren oder &lsquo;Kein Geist&rsquo; und der Spieler darf zur nächsten Station mit wieder 3 Türen und einem zufällig versteckten Geist weitergehen.
+Das Programm soll also auch mitzählen, wie oft der Spieler durch eine Tür geht, ohne dabei auf den Geist zu stoßen.</p>
+
+<p>Ein möglicher Spielablauf könnte dann im Shell-Fenster so aussehen:</p>
+<pre><code>Geisterspiel
+============
+
+Vor dir sind drei Türen.
+Hinter einer ist ein Geist.
+Welche Tür öffnest du?
+1, 2 oder 3? 2
+Kein Geist!
+Du bis ein Zimmer weiter.
+
+Vor dir sind drei Türen.
+Hinter einer ist ein Geist.
+Welche Tür öffnest du?
+1, 2 oder 3? 2
+GEIST!
+Lauf schnell weg!
+
+Game over! Deine Punkte:  1</code></pre>
+<h2 id="bestandteile-des-programms">Bestandteile des Programms</h2>
+
+<p>Zunächst öffnen wir ein neues Code-Fenster, wie wir es am Ende der Ersten-Schritte-Übung für das Zeichnprogramm gemacht haben.
+Dort werden wir nun unser Geisterspiel-Programm schreiben und es unter dem Namen &ldquo;geisterspiel.py&rdquo; speichern.</p>
+
+<p>Von der ersten Übung her kennen wir auch schon ein paar Dinge, die wir hier wieder benötigen:</p>
+
+<ul>
+<li><p>Textausgabe auf dem Bildschirm mit der Funktion <code>print(...)</code></p></li>
+
+<li><p>Variablen und Zuweisungen von Werten, z.B. <code>a = 1</code></p></li>
+
+<li><p>Rechenoperation (auch mit Variablen), z.B. <code>a = a * 2</code></p></li>
+</ul>
+
+<p>Zusätzlich können wir noch folgende Dinge brauchen:</p>
+
+<h3 id="zufallszahlen">Zufallszahlen</h3>
+
+<p>Um eine Zufallszahl zwischen 1 und 3 erzeugen zu können, muss man die Funktion <code>randint</code> aus der Bibliothek <code>random</code> importieren:</p>
+<pre><code>from random import randint</code></pre>
+<p>und damit dann eine Tür für den Geist auswählen:</p>
+<pre><code>tuer = randint(1, 3)</code></pre>
+<h3 id="wertetypen-für-variablen">Wertetypen für Variablen</h3>
+
+<p>Wir können in Variablen aber nicht nur Zahlen, sondern auch Text oder Wahrheitswerte speichern.</p>
+
+<ul>
+<li><p>Text:</p>
+<pre><code>begruessung = &#39;Hallo&#39;
+name = input(&#39;Wie heißt du? &#39;)
+begruessung = begruessung + &#39; &#39; + name + &#39;!&#39;
+print(begruessung)</code></pre>
+<p>Wie du siehst, kann man mit Text auch &ldquo;rechnen&rdquo; (Zeile 3) und Werte von Variablen ausgeben (Zeile 4).
+Außerdem zeigt die Zeile 2, wie man dem Benutzer Fragen stellt und die Antwort gleich in einer Variablen speichert.</p></li>
+
+<li><p>Wahrheitswerte:</p>
+<pre><code>geist_gefunden = False
+du_bist_mutig = True</code></pre></li>
+
+<li><p>Wertetyp ändern:</p>
+
+<p>Es ist auch möglich, den Typ einer Variablen zu andern. Zum Beispiel wollen wir für unser Spiel, die Eingabe der Türnummer für das Programm als Zahl und nicht als Text haben.
+Dazu können wir mit <code>int('3')</code> den Text &ldquo;3&rdquo; in die Zahl 3 umwandeln (<em>int</em> steht für das englische <em>integer</em>, was auf Deutsch &ldquo;ganze Zahl&rdquo; bedeutet).</p></li>
+</ul>
+
+<h3 id="steuerung-des-programmablaufs">Steuerung des Programmablaufs</h3>
+
+<h4 id="bedingungen"><strong>Bedingungen</strong></h4>
+
+<p>Um eine Bedingung zu prüfen, gibt es den Befehl <code>if</code>, gefolgt von der Bedingung, die geprüft werden soll, und einem Doppelpunkt am Ende.</p>
+
+<ul>
+<li><p>Was passieren soll, wenn die Bedingung erfüllt ist, müssen wir in die nächste Zeile schreiben und - in Python ganz streng - auch noch eine Einrückung machen. Am besten mit der Tabulator-Taste (TAB).</p>
+
+<p><em>Hinweis</em>: Die IDLE hilft uns aber dabei und kümmert sich automatisch um die Einrückung, nachdem wir nach dem Doppelpunkt ENTER gedrückt haben.</p></li>
+
+<li><p>Um auch festzulegen, was passieren soll, wenn die Bedingung nicht erfüllt ist, können wir anschließend, wieder in eine neue Zeile und jetzt wieder ohne die Einrückung <code>else:</code> schreiben.
+In die nächste Zeile und wieder eingerückt kommen dann die Anweisungen dazu.</p></li>
+
+<li><p><strong>Logische Operatoren</strong>: Um eine Bedingung formulieren zu können, brauchen wir sogenannte logische Operatoren, die 2 Werte vergleichen und als Ergebnis den Wahrheitswert <em>WAHR</em> oder <em>FALSCH</em> liefern.
+In Python gibt es die folgenden logischen Operatoren:</p>
+
+<ul>
+<li><code>a == b</code> &hellip; a ist gleich b</li>
+<li><code>a != b</code> &hellip; a is ungleich b</li>
+<li><code>a &lt; b</code> &hellip; a ist kleiner als b</li>
+<li><code>a &gt; b</code> &hellip; a ist größer als b</li>
+<li><code>a &lt;= b</code> &hellip; a ist kleiner als oder gleich b</li>
+<li><code>a &gt;= b</code> &hellip; a ist größer als oder gleich b</li>
+</ul></li>
+
+<li><p>Ein Beispiel für eine if-Anweisung:</p>
+<pre><code>tuer = 0
+if tuer == 3:
+    print(&#39;Gefunden.&#39;)
+else:
+    print(&#39;Leider nicht.&#39;)</code></pre></li>
+</ul>
+
+<h4 id="schleifen"><strong>Schleifen</strong></h4>
+
+<ul>
+<li><p>Um Dinge zu beschreiben, die sich immer auf die gleich Art wiederholen sollen, solange eine Bedingung erfüllt ist, gibt es sogenannte Schleifen, z.B. die <strong>while</strong>-Schleife.
+Sie beginnt mit dem Befehl <code>while</code> gefolgt - wie bei der if-Anweisung - mit der Bedingung und abgeschlossen wird die Zeile auch wieder mit einem Doppelpunkt.
+Dann geht es in der nächsten Zeile, eingerückt mit den Anweisungen weiter, die nun wiederholt werden sollen.</p></li>
+
+<li><p>Ein Beispiel für eine while-Schleife:</p>
+<pre><code>punkte = 0
+while punkte &lt; 5:
+    print(&#39;Gehe weiter.&#39;)
+    punkte = punkte + 1</code></pre></li>
+</ul>
+
+<h2 id="eine-lösung">Eine Lösung</h2>
+
+<p><div class="alert alert-info cd-alert-medium">
+    Versuche zuerst selbst eine Lösung zu erstellen, bevor du weiterliest!<br/>
+    <a class="btn btn-success" href="#solution">Lösung anzeigen</a>
+</div>
+<div class="empty-page"></div>
+Eine mögliche Lösung für das Geisterspiel könnte dann so aussehen:</p>
+
+<p><a id="solution"></a></p>
+<pre><code># CoderDojo Linz - Geisterspiel
+
+from random import randint
+
+print(&#39;Geisterspiel&#39;)
+print(&#39;============&#39;)
+
+du_bist_mutig = True
+score = 0
+
+while du_bist_mutig:
+    geistertuer = randint(1, 3)
+    print(&#39; &#39;)
+    print(&#39;Vor dir sind drei Türen.&#39;)
+    print(&#39;Hinter einer ist ein Geist.&#39;)
+    print(&#39;Welche Tür öffnest du?&#39;)
+    tuer = input(&#39;1, 2 oder 3? &#39;)
+    tuer_nummer = int(tuer)
+    if tuer_nummer == geistertuer:
+        print(&#39;GEIST!&#39;)
+        print(&#39;Lauf schnell weg!&#39;)
+        du_bist_mutig = False
+    else:
+        print(&#39;Kein Geist!&#39;)
+        print(&#39;Du bis ein Zimmer weiter.&#39;)
+        score = score + 1
+
+print(&#39; &#39;)
+print(&#39;Game over! Deine Punkte: &#39;, score)</code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

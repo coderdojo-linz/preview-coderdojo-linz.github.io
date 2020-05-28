@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Termine on CoderDojo Linz</title>
+    <link>https://linz.coderdojo.net/termine/</link>
+    <description>Recent content in Termine on CoderDojo Linz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    
+	<atom:link href="https://linz.coderdojo.net/termine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://linz.coderdojo.net/termine/2020-05-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz.coderdojo.net/termine/2020-05-01/</guid>
+      <description>13:45 - 15:45Scratch Hacking mit Node.js und TypeScript Die letzten Wochen haben wir uns Details rund um TypeScript angesehen. Diesmal wenden wir das gelernte an, um Scratch zu hacken. Wir wollen mit Node.js und TypeScript computergenerierte Scratch-Spiele erzeugen und dabei etwas über den Umgang mit Dateien, JSON, Serialisierung von Daten etc. zu lernen. Scratch ist eine hervorragende, in TypeScript geschriebene Anwendung und wir möchten durch den Blick hinter die Kulissen von den Profis lernen, die Scratch entwickelt haben.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linz.coderdojo.net/termine/2020-05-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz.coderdojo.net/termine/2020-05-08/</guid>
+      <description>Details werden noch bekanntgegeben</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linz.coderdojo.net/termine/2020-05-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz.coderdojo.net/termine/2020-05-15/</guid>
+      <description>Details werden noch bekanntgegeben</description>
+    </item>
+    
+  </channel>
+</rss>

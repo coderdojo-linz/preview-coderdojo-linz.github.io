@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Getafix Magic Potion </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/minecraft/">Minecraft</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/06_getafix-magicpotion/">Getafix Magic Potion</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="miraculix-der-druide-teil-3">Miraculix der Druide - Teil 3</h1>
+
+<p>Inhalt:</p>
+
+<ul>
+<li><a href="#intro">Einleitung</a></li>
+<li><a href="#long">Ausführliche Anleitung</a></li>
+<li><a href="#short">Kurzversion für Profis</a></li>
+</ul>
+
+<h2 id="a-name-intro-a-einleitung"><a name="intro"></a>Einleitung</h2>
+
+<p>In der letzten Episode haben wir gelernt, wie man auf Events horchen und reagieren kann. Heute werden wir das anwenden indem wir unser Getafix-Plugin erweitern, sodass man Spielern einen Zaubertrank verabreichen kann.</p>
+<pre><code>/magicpotion WorkUser</code></pre>
+<p>Mit diesem Kommando (das natürlich wieder nur von ops verwendet werden darf) ist der Spieler <em>WorkUser</em> unbesiegbar, das heißt, er verliert keine Gesundheit mehr. Natürlich soll der Sender des Kommandos eine Rückmeldung bekommen, dass er den Spieler erfolgreich Zaubertrank verabreicht hat und auch der Spieler, der den Trank bekommen hat soll eine Information bekommen.</p>
+
+<p>Außerdem werden wir noch ein Kommando <code>/listpotiondrinkers</code> implementieren, in welchem ops alle Spieler auflisten können, welche bereits einen Zaubertrank bekommen haben:</p>
+
+<p><img src="06_getafix-MagicPotion/ListPotionDrinkers.png" alt="How the command looks like" /></p>
+
+<h2 id="a-name-long-a-ausführliche-anleitung"><a name="long"></a>Ausführliche Anleitung</h2>
+
+<p>Wir werden uns, wie bisher auch, schön langsam an das Thema herantasten. Der Fahrplan für diese Unit ist daher so:</p>
+
+<ol>
+<li>Wir bauen einen Event-Listener, mit einem Event-Handler, der auf das <code>EntityDamageEvent</code> horcht.</li>
+<li>Wir experimentieren ein bisschen rum um herauszufinden, was dieses Event alles auslöst und sehen uns dabei das API dieses Events genauer an.</li>
+<li>Wenn wir wissen, wie wir mit dem Event umgehen, werden wir das Command <code>/magicpotion</code> implementieren und dabei lernen, wie wir bequem eine Menge an Spielern abspeichern können</li>
+<li>Zum Abschluss implementieren wir noch das Kommando <code>/listpotiondrinkers</code>.</li>
+</ol>
+
+<h3 id="der-event-listener">Der Event-Listener</h3>
+
+<p>Wir beginnen mit dem Bauen des Event-Listeners, das dir schon aus der letzten Episode bekannt ist. Ich sage dir nur den Namen des Events, damit du weißt, welchen Parameter du verwenden sollst: <code>EntityDamageEvent</code>. Damit kannst du mit der <em>Zusammenfassung für Profis</em> aus der letzten Episode den Event-Handler aufbauen. Bau ihn einfach so, dass beim Auftreten des Events auf der Konsole eine Info &ldquo;Outch, something got damaged&rdquo; oder so ähnlich ausgegeben wird (Sieh nach in der Episode 2: <code>Bukkit.getLogger().info</code>, falls du unsicher bist, wie du etwas in der Konsole ausgeben kannst). Falls dir bei den Namen die Ideen ausgehen, hier meine Vorschläge:</p>
+
+<ul>
+<li>Listener-Klasse: <code>DamageListener</code></li>
+<li>Event-Handler: <code>onPlayerDamage</code></li>
+</ul>
+
+<p>Dann kannst du das Projekt gleich mal bauen und testen. Versuche heraus, wann der Handler  aufgerufen wird. Der heißt nicht umsonst sehr allgemein <code>EntityDamageEvent</code>.</p>
+
+<h3 id="das-entitydamageevent">Das <code>EntityDamageEvent</code></h3>
+
+<p>Durch unsere Experimente haben wir gesehen, dass der Handler immer aufgerufen wird, sobald irgendetwas kaputt geht. Wir sind aber nur dann an einem Damage interessiert, wenn er einen Spieler betrifft. Beachte, dass es uns jetzt noch egal ist, ob der Spieler einen Zaubertrank getrunken hat oder nicht. Wir bauen sozusagen gerade lauter Obelixe ;-).</p>
+
+<p>Also, wie finden wir heraus, ob der aktuelle Damage-Event sich gerade auf einen Spieler bezieht oder nicht. Als Profi wirst du schon ahnen, dass das irgendwo in unserer Rohrpost, also dem event-Objekt gespeichert ist. Die Methode <code>getEntityType</code> liefert dir den Wert zurück, der dir sagt, was gerade beschädigt wurde. Wenn du in der Methode <code>onPlayerDamage</code> einmal</p>
+<pre><code>EntityType.</code></pre>
+<p>eintippst (notfalls wieder mit <code>Ctrl</code> + <code>Space</code> nachhelfen), dann siehst du, wieviele verschiedene Dinge (Entities) beschädigt werden können. Und wenn du dann bis zum Buchstaben P hinunterscrollst, siehst du auch den <code>PLAYER</code>.</p>
+
+<p>Wir handeln jetzt im Beamten-Modus: Wenns uns nix angeht, lass ma gleich die Finger davon. Also: Wenn das betroffene Entity kein <code>PLAYER</code> ist, dann verlassen wir die Methode sofort. Auf Gut-Java:</p>
+
+<pre>
+public void onDamageEvent(EntityDamageEvent event) {
+    <b>if (event.getEntityType() != EntityType.PLAYER) {
+            return;
+    }</b>
+    Bukkit.getLogger().info("Outch, someone got damaged");
+}
+</pre>
+
+<p>Das probieren wir jetzt gleich wieder aus. Also bauen und testen. Du solltest jetzt sehen, dass die Meldung nur mehr ausgegeben wird, wenn ein Spieler zu Schaden kommt.</p>
+
+<h3 id="ein-event-abbrechen">Ein Event abbrechen</h3>
+
+<p>Jetzt wird es an der Zeit zu überlegen, was wir tun können, damit wir, falls der Spieler einen Schaden erleidet, diesen wieder gut machen. Eine erste Idee könnte sein, dass wir die bereits bekannte Methode <code>setHealth</code> verwenden und im Fall, dass ein Damage auftritt, einfach <code>setHealth(20)</code> aufrufen. Probier das einfach mal aus. Was siehst du?</p>
+
+<p>Also bei mir hat es so mittelgut funktioniert. Wenn du leichte Schäden erleidest (zum Beispiel wenn du unter Wasser keine Luft mehr bekommst und so langsam deine Herzen verschwinden)geht es einigermaßen. Aber hast du mal probiert von großer Höhe runterzuspringen? Da ist dann ganz schnell Schluss mit Lustig. Aber warum ist das so?</p>
+
+<p>Da müssen wir uns schnell an eine Sache aus der letzten Episode erinnern. Ziemlich zum Schluss habe ich dir vorgestellt, wie Ereignisse auf dem Bukkit-Server ablaufen. Hier nochmals zur Erinnerung:</p>
+
+<ol>
+<li>Er baut ein Event-Objekt (die Rohrpost), das den Event beschreibt</li>
+<li>Er schickt die Rohrpost an alle Plugins, diese können das Event-Objekt auslesen, verändern und was weiß ich noch alles machen</li>
+<li>Sobald das letzte Plugin das Event-Objekt gehabt hat, führt der Server das Event endlich aus. Dazu nimmt er aber das von den Plugins veränderte Event-Objekt her.</li>
+</ol>
+
+<p>Das heißt, dass dein Listener immer <strong>vor</strong> dem eigentlichen Event aufgerufen wird. Das heißt auch, dass du <strong>bevor</strong> der Damage wirklich passiert, deinem Spieler die maximale Gesundheit zukommen lässt. Wenn jetzt ein wirklich schlimmer Schaden passiert, wie z. B. der Fall aus ein er großen Höhe, dann nutzt das alles nix, weil der Spieler dann mehr als 20 Punkte Gesundheit verliert.</p>
+
+<p>Also brauchen wir eine andere Strategie, und die ist, dass wir das Event einfach abbrechen. Ja das geht. Wir können dem Server also sagen, dass er das Event nicht ausführen soll und das geht mit der Methode <code>setCancelled</code> des Event-Objekts. Wenn wir <code>setCancelled</code> mit <code>true</code> aufrufen, dann bekommen zwar alle Plugins das Event noch zugesandt aber der Server selbst führt es nicht mehr aus. Das ganze sieht dann so aus:
+<pre>
+public void onDamageEvent(EntityDamageEvent event) {
+    if (event.getEntityType() != EntityType.PLAYER) {
+            return;
+    }
+    <b>event.setCancelled(true)</b>
+    <span style="text-decoration: line-through; font-weight: bold">Bukkit.getLogger().info(&ldquo;Outch, something got damaged&rdquo;);</span>
+}
+</pre>
+Der durchgestrichene Text soll heißen, dass du diese Zeile in deine Code einfach löschen kannst. Probiere dein Plugin jetzt aus. Jetzt sollten alle Spieler auf deinem Server unverwundbar sein.</p>
+
+<p>Natürlich muss dein <code>plugin.yml</code> vorhanden sein und der <code>DamageListener</code> muss im Plugin in der Methode <code>onEnable()</code> registiert sein.
+<pre>
+@Override
+public void onEnable() {
+    getServer().getPluginManager().registerEvents(new DamageListener(), this);
+}
+</pre></p>
+
+<h3 id="spieler-speichern">Spieler speichern</h3>
+
+<p>Jetzt können wir den Event des Damage abfangen. Das passiert aber immer und für alle Spieler. Natürlich willst du, dass nur die Spieler, welche den Zaubertrank bekommen haben, unverwundbar sind. Und das gehen wir jetzt an.</p>
+
+<ul>
+<li>Einführung von PotionPot</li>
+<li>Implementierung mit TreeSet</li>
+</ul>
+
+<p>Die Spieler werden in einem <code>TreeSet</code> gespeichert. Dazu fügst du in der Hauptklasse, in der du auch die Kommandos abfragst, eine Variable <code>potionDrinkers</code> ein, in der die Spielernamen gespeichert werden. Außerdem muss der <code>DamageListener</code> Zugriff auf das Plugin bekommen, um überprüfen zu können, ob der Spieler unverwundbar ist.</p>
+
+<p>Das sieht dann so aus:
+<pre>
+public class GetafixPlugin extends JavaPlugin {</p>
+
+<p>private TreeSet&lt;String&gt; potionDrinkers = new TreeSet&lt;String&gt;();</p>
+<pre><code>@Override
+public void onEnable() {
+    getServer().getPluginManager().registerEvents(new DamageListener(this), this); //Übergabe des Plugins an den DamageListener
+}
+
+@Override
+public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+    ...
+    if (label.equalsIgnoreCase(&#34;magicpotion&#34;)) {
+        Bukkit.getLogger().info(&#34;/magicpotion for &#34; + player.getName() + &#34;: successfully added to list of potion drinkers&#34;);
+        potionDrinkers.add(player.getName());
+    } 
+    ...
+    return true;
+}
+
+//Überprüfung, ob ein Spieler einen Zaubertrank getrunken hat.
+public boolean isPotionDrinkerAllowed(String playerName) {
+    return potionDrinkers.contains(playerName);
+}</code></pre>
+<p>}
+</pre></p>
+
+<p>Der <code>DamageListener</code> sieht dann so aus:
+<pre>
+public class DamageListener implements Listener {</p>
+<pre><code>private GetafixPlugin plugin;
+
+public DamageListener(GetafixPlugin plugin) {
+    this.plugin = plugin;
+}
+
+@EventHandler
+public void onDamageEvent(EntityDamageEvent event) {
+    if (event.getEntityType() != EntityType.PLAYER) {
+        return;
+    }
+    Player player = (Player)event.getEntity();
+    if (plugin.isPotionDrinkerAllowed(player.getName())) {
+        event.setCancelled(true);
+    }
+}</code></pre>
+<p>}
+</pre></p>
+
+<h3 id="die-liste-der-leute-die-zaubertrank-getrunken-haben">Die Liste der Leute, die Zaubertrank getrunken haben</h3>
+
+<p>Alles was du jetzt machen musst, ist ein weiteres Kommando in der <code>plugin.yml</code> Datei hinzufügen, dieses Kommando in der <code>onCommand()</code> Methode abfragen, und die Liste der Potion Drinkers ausgeben.</p>
+
+<p><code>plugin.yml</code>
+<pre></p>
+
+<h2 id="yaml-template">YAML Template.</h2>
+
+<hr />
+
+<p>name: Getafix
+main: io.coderdojo.lisi.minecraft.firstplugin.GetafixPlugin
+version: 0.1.0
+author: E. Rosemann
+description: A miraculous healing plugin.
+commands:
+    gethealth:
+        description: Displays health level of player.
+        usage: /gethealth player-name
+    heal:
+        description: Brings your health to the top level.
+        usage: /heal me | player-name
+    magicpotion:
+        description: Adds user to the list of potion holders.
+        usage: /magicpotion me | player-name
+    listpotiondrinkers:
+        description: Lists all current potion holders.
+        usage: /listpotiondrinkers
+</pre></p>
+
+<p><code>GetafixPlugin.java</code>
+<pre>
+public class GetafixPlugin extends JavaPlugin {</p>
+<pre><code>private TreeSet&amp;lt;String&amp;gt; potionDrinkers = new TreeSet&amp;lt;String&amp;gt;();
+
+@Override
+public void onEnable() {
+    getServer().getPluginManager().registerEvents(new DamageListener(this), this);
+}
+
+@Override
+public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+    ...
+    if (label.equalsIgnoreCase(&#34;listpotiondrinkers&#34;)) {
+        Bukkit.getLogger().info(&#34;/listpotiondrinkers: &#34; + potionDrinkers.size() + &#34; potion drinkers&#34;);
+        sender.sendMessage(printCurrentPotionDrinkers());
+    } 
+    ...
+    return true;
+}
+
+private String printCurrentPotionDrinkers() {
+    StringBuilder sb = new StringBuilder(&#34;List of potion drinkers: &#34;);
+    if (potionDrinkers.size() &gt; 0) {
+        for (String playerName : potionDrinkers) {
+            sb.append(playerName);
+            sb.append(&#34; &#34;);
+        }
+    }
+    return sb.toString();
+}</code></pre>
+<p>}
+</pre></p>
+
+<h2 id="a-name-short-a-kurzversion-für-profis"><a name="short"></a>Kurzversion für Profis</h2>
+
+<ol>
+<li>Entweder verwendest du dein altes Projekt <code>GetafixPlugin</code>, oder du erstellst ein neues Projekt (siehe auch <a href="/trainingsanleitungen/minecraft-plugins/netbeans_cheatsheet.html">hier</a>)</li>
+<li>Füge eine neue Klasse namens <code>DamageListener</code> und  stelle sicher, dass nach dem Klassennamen <code>implements Listener</code> steht.</li>
+<li>Füge eine Methode <code>onDamageEvent</code> mit der Annotation <code>@EventHandler</code> hinzu, mit dem <code>event</code> Parameter vom Typ <code>EntityDamageEvent</code>.
+<pre>
+@EventHandler
+public void onDamageEvent(EntityDamageEvent event) {
+    if (event.getEntityType() != EntityType.PLAYER) {
+            return;
+    }
+    Bukkit.getLogger().info(&ldquo;Outch, someone got damaged&rdquo;);
+    event.setCancelled(true);
+}
+</pre></li>
+<li>Speichere die Spieler - siehe oben.</li>
+<li>Liste alle Spieler, die Zaubertränke getrunken haben - siehe oben.</li>
+<li>Baue das Paket: In Icon Leiste auf den Hammer <strong>Build Project (F11)</strong> klicken</li>
+<li>Kopiere bzw. ersetze das fertige jar File aus <code>dist</code> (siehe Pfad im <strong>Output</strong>) in das Minecraft Server Plugin-Verzeichnis.</li>
+<li>Starte den Server  oder gib <code>reload</code> in die Server Konsole ein.</li>
+<li>Teste das Plugin: wenn du den Server betrittst bzw. verlässt, sollen deine Nachrichten angezeigt werden. Wenn du eine Nachricht als Operator schickst, soll diese golden angezeigt werden.</li>
+</ol>
+
+<h2 id="a-name-ideas-a-ideen-für-weitere-entwicklungen"><a name="ideas"></a>Ideen für weitere Entwicklungen</h2>
+
+<ol>
+<li>Der Zaubertrank soll natürlich nicht unendlich lange wirken. Wie kannst du die Dauer des Zaubertranks einschränken?</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

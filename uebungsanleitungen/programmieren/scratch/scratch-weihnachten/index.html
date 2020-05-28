@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Scratch Weihnachtsspiel </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-weihnachten/">Scratch Weihnachtsspiel</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="scratch-weihnachtsspiel">Scratch Weihnachtsspiel</h1>
+
+<p>Bald ist Weihnachten - und der Weihnachtsmann hat alle Hände voll zu tun, um die Geschenke rechtzeitig in die Häuser zu bringen. Wie viel schaffst du in einer Minute?</p>
+
+<p>Das Spiel besteht aus 4 Figuren und 9 Skripten!</p>
+
+<h2 id="bilder-downloaden">Bilder downloaden</h2>
+
+<p>Wir haben einige Bilder vorbereitet, die du für dieses Spiel benötigst. Lade dir die folgende Datei herunter:
+<a href="scratch-weihnachten/Weihnachtsspiel.zip" target="_blank">weihnachtsspiel.zip</a></p>
+
+<h2 id="winterlandschaft">Winterlandschaft</h2>
+
+<p>Es soll so aussehen, dass der Weihnachtsmann sich von links nach rechts bewegt. Dabei darf er aber natürlich nicht aus dem Bild rausfliegen. Deshalb verwenden wir einen Trick: Wir bewegen nicht den Weihnachtsmann nach rechts, sondern den Hintergrund nach links. Der Weihnachtsmann bleibt immer an der gleichen Position – wie wenn du ihn mit einer Kamera filmen würdest.
+Erstelle eine neue Figur mit dem Bild aus der heruntergeladenen Vorlage und erstelle ein Skript, dass sie nach links schiebt:</p>
+
+<p><img src="scratch-weihnachten/hintergrund-position.PNG" alt="Hintergrund-Position" />{: .right}</p>
+
+<p>Wenn du jetzt auf die grüne Fahne klickst, siehst du, dass der Hintergrund nach links aus dem Bildschirm geschoben wird. Daher müssen wir die Figur zweimal nebeneinander darstellen. Sobald wir die erste so weit nach links geschoben haben, dass sie gar nicht mehr sichtbar ist, setzen wir sie wieder rechts neben die zweite&hellip; Hier siehst du eine Skizze, wie das ganze funktionieren soll (rot ist der Ausschnitt, den man im Spiel gerade sieht).</p>
+
+<p><img src="scratch-weihnachten/Hintergrund-Skizze.png" alt="Erklärung Verschiebung" />{: .right}</p>
+
+<p>Wir erstellen also im bestehenden Skript zusätzlich das zweite Bild (&ldquo;erzeuge einen Klon von mir selbst&rdquo;) und lassen diesen Klon genauso durchs Bild ziehen - allerdings mit einer anderen Startposition.</p>
+
+<p><img src="scratch-weihnachten/hintergrund-script.png" alt="Script für Hintergrund" />{: .right}</p>
+
+<p>Zeit für einen ersten Versuch: starte das Spiel - die Winterlandschaft sollte schon vorüberziehen?!</p>
+
+<h2 id="häuser">Häuser</h2>
+
+<p>Als nächstes kümmern wir uns um die Häuser. Erstelle eine neue Figur mit mehreren Kostümen, die Bilder dafür kannst du aus der Vorlage nehmen. Diese Figur werden wir nicht anzeigen, aber wir werden regelmäßig Klone erstellen, die dann so wie der Hintergrund von links nach rechts durchs Bild wandern:</p>
+
+<p><img src="scratch-weihnachten/haus-script.PNG" alt="Script für Häuser" />{: .right}</p>
+
+<p>Damit für etwas Abwechslung gesorgt ist, wählen wir für jeden Klon ein anderes Kostüm und vertauschen manchmal die Richtung. So sieht jedes Haus ein bisschen anders aus. Achte darauf, dass der Drehmodus richtig eingestellt ist:</p>
+
+<p><img src="scratch-weihnachten/Haus-Drehmodus.png" alt="Drehmodus" />{: .right}</p>
+
+<p>Setze den Drehpunkt bei jedem Kostüm in der Mitte am unteren Rand des Hauses:</p>
+
+<p><img src="scratch-weihnachten/Haus-Drehpunkt.PNG" alt="Drehpunkt" />{: .right}</p>
+
+<h2 id="weihnachtsmann">Weihnachtsmann</h2>
+
+<p>Jetzt kommt der Weihnachtsmann (oder das Christkind - je nach Wunsch): Erstelle eine neue Figur und zeichne einen Weihnachtsmann - gerne auch mit einem Rentierschlitten. Achte darauf, dass die Figur nicht zu groß wird - es sollen ja auch noch Häuser auf der Bühne Platz haben.</p>
+
+<p>Platziere den Weihnachtsmann oben links auf der Bühne. Sorge dafür, dass beim Starten des Spiels die Position korrekt gesetzt wird.</p>
+
+<p><img src="scratch-weihnachten/weihnachtsmann-position.png" alt="Position" />{: .right}</p>
+
+<h3 id="sound">Sound</h3>
+
+<p>Wenn du willst, kannst du auch einen Sound abspielen. Gehe dafür auf den Reiter &ldquo;Klänge&rdquo; und klicke unterhalb von &ldquo;Neuer Klang&rdquo; auf das Lautsprechersymbol (&ldquo;Klang aus der Bibliothek wählen&rdquo;). Das &ldquo;horse gallop&rdquo; würde ganz gut zu den Rentieren passen, oder?</p>
+
+<p><img src="scratch-weihnachten/sound-selection.png" alt="Weihnachtsmann" />{: .right}</p>
+
+<p>Anschließend kannst du den gewählten Sound zum Skript hinzufügen.</p>
+
+<p><img src="scratch-weihnachten/sound.png" alt="Sound" />{: .right}</p>
+
+<h3 id="zeitmessung">Zeitmessung</h3>
+
+<p>Jetzt beginnt der Stress: der Weihnachtsmann hat nur 60 Sekunden Zeit, um die Packerl zu liefern.</p>
+
+<p>Lege unter &ldquo;Daten&rdquo; eine neue Variable namens &ldquo;Zeit&rdquo; an. Wenn du den Haken neben der Variable ankreuzt, dann wird der aktuelle Wert auch auf der Bühne angezeigt.</p>
+
+<p><img src="scratch-weihnachten/variable-time.PNG" alt="Variable Zeit" />{: .right}</p>
+
+<p>Im Weihnachtsmann-Skript kannst du nun einen neuen Block hinzufügen, der die Zeit am Beginn auf 60 setzt - und anschließend nach unten zählt.</p>
+
+<p><img src="scratch-weihnachten/weihnachtsmann-timeout.PNG" alt="Variable Zeit" />{: .right}</p>
+
+<h2 id="geschenke">Geschenke</h2>
+
+<p>Es wird ernst: die Geschenke kommen!</p>
+
+<p>Füge eine neue Figur aus der Bibliothek hinzu: in der Rubrik &ldquo;Weihnachten&rdquo; gibt es ein Geschenkpackerl zur Auswahl.</p>
+
+<p>Erstelle zwei Skript-Blöcke:</p>
+
+<p>Beim Start des Spiels soll die Figur versteckt werden.</p>
+
+<p>Wenn ein neues Geschenk erzeugt wird (&ldquo;Wenn ich als Klon entstehe&rdquo;), dann soll das Geschenk an die Position des Weihnachtsmanns verschoben werden. Anschließend wird es angezeigt und nach unten fallen gelassen: also die y-Position in einer Schleife verändert.</p>
+
+<p><img src="scratch-weihnachten/gift-scripts-basic.PNG" alt="Geschenke Teil 1" />{: .right}</p>
+
+<h3 id="punkte-zählen">Punkte zählen</h3>
+
+<p>Damit wir am Ende wissen, wie viele Pakete zugestellt werden konnten, benötigen wir wieder eine neue Variable. Erstelle unter &ldquo;Daten&rdquo; die Variable &ldquo;Punkte&rdquo;.</p>
+
+<p>Anschließend ergänzen wir die beiden Skripts im Geschenk um die Punktevergabe:</p>
+
+<p>setze die Variable am Beginn auf 0</p>
+
+<p>wenn die graue Farbe am unteren Rand des Hintergrundbilds berührt wird: ziehe einen Punkt ab</p>
+
+<p>wenn ein Haus berührt wird: zähle einen Punkt dazu.</p>
+
+<p><img src="scratch-weihnachten/gift-scripts-extended.PNG" alt="Geschenke Teil 2" />{: .right}</p>
+
+<p>Wenn du möchtest, könntest du das Spiel auch etwas verändern: zum Beispiel doppelte Punkte abziehen, wenn man daneben wirft - oder das Kostüm des Geschenks per Zufall wechseln (dann fallen blaue und rote Packerl vom Himmel).</p>
+
+<h3 id="geschenke-abwerfen">Geschenke abwerfen</h3>
+
+<p>Bringen wir den Weihnachtsmann und die Geschenke noch zusammen. Erstelle in der Weihnachtsmann-Figur einen Block, der nach Drücken der Leertaste ein neues Geschenk erzeugt.</p>
+
+<p>Nach Ablauf der Zeit soll das natürlich nicht mehr möglich sein - daher fragen wir das vorher ab.</p>
+
+<p><img src="scratch-weihnachten/create-gift.PNG" alt="Geschenke abwerfen" />{: .right}</p>
+
+<h2 id="fertig">Fertig!</h2>
+
+<p>Und los gehts: wie viele Geschenke schaffst du in einer Minute?</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

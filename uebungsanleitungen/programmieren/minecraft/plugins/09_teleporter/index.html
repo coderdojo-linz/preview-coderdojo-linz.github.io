@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Einfaches Teleporter Plugin </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/minecraft/">Minecraft</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/09_teleporter/">Einfaches Teleporter Plugin</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="minecraft-teleporter">Minecraft Teleporter</h1>
+
+<p>Dieses plugin wurde mit der Entwicklungsumgebung <a href="https://www.jetbrains.com/idea/download" target="_blank">IntelliJ</a>
+der Firma JetBrains geschrieben. <a href="https://www.jetbrains.com/idea/download" target="_blank">IntelliJ</a> unterstützt die
+Entwicklung von Minecraft Plugins sehr gut.</p>
+
+<h2 id="vorbereitungen">Vorbereitungen</h2>
+
+<p>Zuerst ist es notwending die Entwicklungsumgebung <a href="https://www.jetbrains.com/idea/download" target="_blank">herunterzuladen</a> und zu installieren. Verwendet
+hierfür die &ldquo;Community Edition&rdquo;. Wenn das geschehen ist, bitte das Modul für Minecraft hinzufügen.</p>
+
+<p>Dafür bitte unter &ldquo;File&rdquo; -&gt; &ldquo;Settings&rdquo; die Einstellungen öffnen und danach &ldquo;Plugins&rdquo; klicken.</p>
+
+<p><img src="09_teleporter/intellij_install_plugin1.PNG" alt="" /></p>
+
+<p>Danach könnt ihr mit &ldquo;Browse repositories&rdquo; und dem Suchfeld nach &ldquo;Minecraft&rdquo; suchen.</p>
+
+<p><img src="09_teleporter/intellij_install_plugin2.PNG" alt="" /></p>
+
+<p>Ein Klick auf &ldquo;Install&rdquo; startet den Installationsvorgang (die Schaltfläche ist unter dem Titel und auf dem Bild leider nicht zu sehen).</p>
+
+<h2 id="neues-projekt-anlegen">Neues Projekt anlegen</h2>
+
+<p>Im Menü &ldquo;File&rdquo; -&gt; &ldquo;New&rdquo; könnt ihr nun ein neues Minecraft Projekt starten.</p>
+
+<p><img src="09_teleporter/newproject2.png" alt="" /></p>
+
+<p>Bitte hier den passenden Minecraft Server (Bukkit) anhaken und auf &ldquo;Next&rdquo; klicken.</p>
+
+<p><img src="09_teleporter/newproject3.png" alt="" /></p>
+
+<p>Wir verwenden zum bauen des Plugins das &ldquo;Gradle&rdquo; - System. Die Werte für GroupId und ArtifactId sind momentan beliebig.
+Mit &ldquo;Next&rdquo; gehts weiter.</p>
+
+<p>Anschließend geben wir dem Plugin noch einen Namen und eine Beschreibung. Main Class Name ist der Name der Java-Klasse in die wir die Funktionen unseres
+Plugins coden werden.<br />
+<img src="09_teleporter/newproject4.png" alt="" /></p>
+
+<p>Danach erhält das Projekt noch einen Namen und wir legen fest, wo der Code gespeichert werden soll.
+<img src="09_teleporter/newproject5.png" alt="" /></p>
+
+<p>Mit einem kurzen Klick auf &ldquo;Finish&rdquo; wird unser Projekt angelegt. Bitte kurz Geduld. Der Vorgang kann schon mal 1-2 Minuten dauern.</p>
+
+<h2 id="erstes-command">Erstes Command</h2>
+
+<p>Wenn alle Schritte oben erfogreich waren, sollte euer Bildschirm nachher in etwa so aussehen:
+<img src="09_teleporter/coding1.png" alt="" /></p>
+
+<p>Die wichtisten Dateien am Anfang sind</p>
+
+<ol>
+<li><strong>plugin.yml</strong> - sie enthält die Beschreibung der Befehle die das Plugin können soll und</li>
+<li><strong>Teleporter.java</strong> - Wird im IntellJ nur als &ldquo;Teleporter&rdquo; angezeigt. Sie enthält den Code für die Aktionen.</li>
+</ol>
+
+<p>Zuerst werden wir ein neues Kommando implementieren:
+<img src="09_teleporter/coding2.png" alt="" /></p>
+
+<p>Damit wird festegelegt dass dieses Kommando von unserem Plugin behandelt wird. Nun müssen wir noch dafür sorgen, dass es auch behandelt wird:
+Dazu öffnen wir die Klasse Teleporter und fügen &ldquo;onCommand&rdquo; ein. (ein druck auf &lt;strng&gt; und die Leertaste machen das viel einfacher).</p>
+
+<p><img src="09_teleporter/coding3.png" alt="" /></p>
+
+<p>Danach sorgen wir dafür, dass auch etwas passiert, wenn jemand &ldquo;/sayhello&rdquo; in den Chat tippt.</p>
+
+<p><img src="09_teleporter/coding4.png" alt="" /></p>
+
+<p>das sieht dann in etwa so aus:</p>
+
+<p><img src="09_teleporter/game1.png" alt="" /></p>
+
+<p><strong>Kleine hilfe am Rande:</strong>  Damit ihr nicht jedes mal nach dem Bauen das Plugin in den Server hineinkopieren müsst, kann man mit folgendem kleinen
+Zusatz im <em>build.gradle</em> das auch automatisch erledigen lassen.</p>
+
+<p><img src="09_teleporter/gradle_deploy.PNG" alt="" /></p>
+
+<h3 id="teleportieren">Teleportieren</h3>
+
+<p>Um erfolgreich teleportiert werden zu können muss man vorher natürlich wissen wohin. Am Ende erscheint ihr noch in einer Wand oder in 10km Höhe.</p>
+
+<p>Deswegen werden wir vorher einen Kommando definieren, bei dem man einen Ort markiert, an den Steve sich teleportieren soll.</p>
+
+<p><strong>plugin.yml</strong></p>
+<pre><code>name: Teleporter
+version: @version@
+main: at.coderdojo.teleporter.Teleporter
+load: STARTUP
+authors: [Minecraft, Mastercoders]
+description: Beispielplugin zum Teleportieren
+website: https://coderdojo-linz.github.io/
+commands:
+  sayhello:
+    description: Says hello
+    usage: /sayhello
+  teleportziel:
+    description: Ziel, an das wir uns teleportieren wollen.
+    usage: /teleportziel
+  teleportzu:
+    description: Teleportiere zum vorher markierten Ziel.
+    usage: /teleportzu</code></pre>
+<p><em>teleportziel</em> soll das Ziel markieren, an das sich Steve teleportieren soll. z.B. kann er sich so jedesmal augenblicklich nach
+Hause vor sein Bett teleportieren. Praktisch, wenn ihr euch schnell vor ein paar Zombies in Sicherheit bringen wollt tippt ihr danach
+einfach <em>teleportzu</em>.</p>
+
+<p>Nun fehlt uns nur noch der Code dazu im <em>Teleporter.java</em>.</p>
+
+<p>Zuerst müssen wir die <code>onCommand</code> Funktion anpassen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    <span style="color:#a6e22e">@Override</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">onCommand</span><span style="color:#f92672">(</span>CommandSender sender<span style="color:#f92672">,</span> Command command<span style="color:#f92672">,</span> String label<span style="color:#f92672">,</span> String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        <span style="color:#75715e">//sender.sendMessage(&#34;Hallo &#34; + sender.getName());
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">switch</span> <span style="color:#f92672">(</span>command<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;sayhello&#34;</span><span style="color:#f92672">:</span>
+                sender<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hallo &#34;</span> <span style="color:#f92672">+</span> sender<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">());</span>
+                <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;teleportziel&#34;</span><span style="color:#f92672">:</span>
+                teleportZielMerken<span style="color:#f92672">(</span>sender<span style="color:#f92672">);</span>
+                <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;teleportzu&#34;</span><span style="color:#f92672">:</span>
+                teleportZuZiel<span style="color:#f92672">(</span>sender<span style="color:#f92672">);</span>
+                <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+                sender<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Leider kann ich das Kommando &#34;</span> <span style="color:#f92672">+</span> command<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; noch nicht.&#34;</span><span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span></code></pre></div>
+<p>Damit kann <code>onCommand</code> zwischen den einzelnen Kommandos unterscheiden. Als nächstes brauche wir noch eine Möglichkeit die
+gemerkten Position für jeden einzelnen Spieler zu merken.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Teleporter</span> <span style="color:#66d9ef">extends</span> JavaPlugin <span style="color:#f92672">{</span>
+    Dictionary<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Location<span style="color:#f92672">&gt;</span> teleportZiele <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Hashtable<span style="color:#f92672">&lt;&gt;();</span>
+
+<span style="color:#f92672">....</span></code></pre></div>
+<p>Die Funktion, sich den Punkt zu merken sieht dann in etwa so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">teleportZielMerken</span><span style="color:#f92672">(</span>CommandSender sender<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        Player player <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Player<span style="color:#f92672">)</span> sender<span style="color:#f92672">;</span>
+        teleportZiele<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">(),</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getLocation</span><span style="color:#f92672">());</span>
+        player<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Ok, &#34;</span> <span style="color:#f92672">+</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, ich habe mir das gemerkt&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span></code></pre></div>
+<p>und die Funktion die Steve zu dem Ort zurückbringen soll in etwa so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">teleportZuZiel</span><span style="color:#f92672">(</span>CommandSender sender<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        Player player <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Player<span style="color:#f92672">)</span> sender<span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>teleportZiele<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">())</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            player<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hey, &#34;</span> <span style="color:#f92672">+</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;. Du musst dir zuerst einen Punkt merken&#34;</span><span style="color:#f92672">);</span>
+            <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+
+        player<span style="color:#f92672">.</span><span style="color:#a6e22e">teleport</span><span style="color:#f92672">(</span>teleportZiele<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()));</span>
+        player<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Ok, &#34;</span> <span style="color:#f92672">+</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, hab dich dorthin geschickt&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span></code></pre></div>
+<p><strong>Info:</strong> das <code>if (teleportZiele.get(player.getName()) == null)</code> dient dazu, zuerst festzustellen ob wir uns schon eine
+Position für diesen Spieler gemerkt haben. Ansonst würde das <code>player.teleport</code> einen Fehler verursachen.</p>
+
+<p>Das gesamte <code>Teleporter.java</code> sieht nach den Änderungen so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">package</span> at.coderdojo.teleporter<span style="color:#f92672">;</span>
+
+<span style="color:#f92672">import</span> org.bukkit.Location<span style="color:#f92672">;</span>
+<span style="color:#f92672">import</span> org.bukkit.command.Command<span style="color:#f92672">;</span>
+<span style="color:#f92672">import</span> org.bukkit.command.CommandSender<span style="color:#f92672">;</span>
+<span style="color:#f92672">import</span> org.bukkit.entity.Player<span style="color:#f92672">;</span>
+<span style="color:#f92672">import</span> org.bukkit.plugin.java.JavaPlugin<span style="color:#f92672">;</span>
+
+<span style="color:#f92672">import</span> java.util.Dictionary<span style="color:#f92672">;</span>
+<span style="color:#f92672">import</span> java.util.Hashtable<span style="color:#f92672">;</span>
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Teleporter</span> <span style="color:#66d9ef">extends</span> JavaPlugin <span style="color:#f92672">{</span>
+    Dictionary<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Location<span style="color:#f92672">&gt;</span> teleportZiele <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Hashtable<span style="color:#f92672">&lt;&gt;();</span>
+
+    <span style="color:#a6e22e">@Override</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onEnable</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#75715e">// Plugin startup logic
+</span><span style="color:#75715e"></span>
+    <span style="color:#f92672">}</span>
+
+    <span style="color:#a6e22e">@Override</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDisable</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#75715e">// Plugin shutdown logic
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+
+    <span style="color:#a6e22e">@Override</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">onCommand</span><span style="color:#f92672">(</span>CommandSender sender<span style="color:#f92672">,</span> Command command<span style="color:#f92672">,</span> String label<span style="color:#f92672">,</span> String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        <span style="color:#75715e">//sender.sendMessage(&#34;Hallo &#34; + sender.getName());
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">switch</span> <span style="color:#f92672">(</span>command<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;sayhello&#34;</span><span style="color:#f92672">:</span>
+                sender<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hallo &#34;</span> <span style="color:#f92672">+</span> sender<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">());</span>
+                <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;teleportziel&#34;</span><span style="color:#f92672">:</span>
+                teleportZielMerken<span style="color:#f92672">(</span>sender<span style="color:#f92672">);</span>
+                <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;teleportzu&#34;</span><span style="color:#f92672">:</span>
+                teleportZuZiel<span style="color:#f92672">(</span>sender<span style="color:#f92672">);</span>
+                <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+                sender<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Leider kann ich das Kommando &#34;</span> <span style="color:#f92672">+</span> command<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; noch nicht.&#34;</span><span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span>
+
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">teleportZielMerken</span><span style="color:#f92672">(</span>CommandSender sender<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        Player player <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Player<span style="color:#f92672">)</span> sender<span style="color:#f92672">;</span>
+        teleportZiele<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">(),</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getLocation</span><span style="color:#f92672">());</span>
+        player<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Ok, &#34;</span> <span style="color:#f92672">+</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, ich habe mir das gemerkt&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">teleportZuZiel</span><span style="color:#f92672">(</span>CommandSender sender<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        Player player <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Player<span style="color:#f92672">)</span> sender<span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>teleportZiele<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">())</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            player<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hey, &#34;</span> <span style="color:#f92672">+</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;. Du musst dir zuerst einen Punkt merken&#34;</span><span style="color:#f92672">);</span>
+            <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+
+        player<span style="color:#f92672">.</span><span style="color:#a6e22e">teleport</span><span style="color:#f92672">(</span>teleportZiele<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()));</span>
+        player<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Ok, &#34;</span> <span style="color:#f92672">+</span> player<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, hab dich dorthin geschickt&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span></code></pre></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

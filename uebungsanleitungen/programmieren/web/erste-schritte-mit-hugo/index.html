@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Erste Schritte mit Hugo </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-hugo/">Erste Schritte mit Hugo</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="erste-schritte-mit-hugo">Erste Schritte mit Hugo</h1>
+
+<h2 id="was-ist-hugo">Was ist Hugo</h2>
+
+<p><a href="https://gohugo.io/" target="_blank">Hugo</a> ist ein statischer Webseitengenerator. Man definiert Layoutmuster und Inhalte für die einzelnen Seiten und Hugo baut daraus  HTML Seiten.</p>
+
+<h2 id="installation">Installation</h2>
+
+<ul>
+<li>Lade als erstes unter <a href="https://github.com/spf13/hugo/releases" target="_blank">https://github.com/spf13/hugo/releases</a> die aktuellste Version von Hugo
+für dein Betriebssystem runter.</li>
+<li>Kopiere dann den Inhalt der .zip Datei in einen neuen Ordner (z.B: <code>C:\Hugo\</code>).</li>
+<li>Benenne die Datei <code>hugo_0.19_windows_amd64.exe</code> in <code>hugo.exe</code> um.</li>
+<li>Öffne den Dialog zum Editieren deiner Umgebungsvariablen und füge zur Variable PATH, den Pfad zu deinem Ordner für Hugo hinzu (z.B. <code>C:\Hugo</code>).</li>
+</ul>
+
+<p>Wenn du jetzt in einem Command Propmt den Befehl <code>hugo help</code> eingibst, erhältst du Informationen zu allen Kommandos in Hugo.</p>
+
+<p><img src="erste-schritte-mit-hugo/hugo-help.png" alt="Hugo Hilfe" />{: .max-full}</p>
+
+<h2 id="webseite-anlegen">Webseite anlegen</h2>
+
+<ul>
+<li>Lege im Dateiexplorer einen Ordner für deine Webseiten an (z.B. <code>C:\Users\k.huber\Documents\Meine Webseiten\</code>)</li>
+<li>Öffne diesen Ordner im Command Prompt mit dem Befehl <code>cd C:\Users\k.huber\Documents\Meine Webseiten</code></li>
+<li>Lege eine neue Webseite mit dem Befehl <code>hugo new site meine-erste-webseite</code>.</li>
+</ul>
+
+<p>Du solltest jetzt im Command Prompt folgendes sehen:</p>
+
+<p><img src="erste-schritte-mit-hugo/meine-erste-webseite.png" alt="Meine erste Webseite mit Hugo" />{: .max-full}</p>
+
+<p>Im Dateiexplorer siehst du im Ordner <code>Meine Webseiten</code> einen neuen Ordner <code>meine-erste-webseite</code> der auch bereits einige Unterordner und Dateien enthält.</p>
+
+<p><img src="erste-schritte-mit-hugo/meine-erste-webseite-dateiexplorer.png" alt="Meine erste Webseite mit Hugo" />{: .max-full}</p>
+
+<h2 id="erste-seite-anlegen">Erste Seite anlegen</h2>
+
+<ul>
+<li>Wechsel im Command Prompt mit dem Befehl <code>cd meine-erste-webseite</code> in den neuen Ordner.</li>
+<li>Lege mit dem Befehl <code>hugo new seite1.md</code> deine erste Seite an.</li>
+</ul>
+
+<p><img src="erste-schritte-mit-hugo/generiere-seite1.png" alt="Meine erste Webseite mit Hugo" />{: .max-full}</p>
+
+<h2 id="projekt-in-visual-studio-code-öffnen">Projekt in Visual Studio Code öffnen</h2>
+
+<ul>
+<li>Öffne den neuen Ordner <code>meine-erste-webseite</code> mit Visual Studio Code.</li>
+</ul>
+
+<p>Im Explorer auf der linken Seite siehst du ebenfalls die Ordnersturktur, die von Hugo angelegt wurde. Im Ordner <code>content</code> wurde die neue seite1 angelegt.</p>
+
+<p><img src="erste-schritte-mit-hugo/seite1.png" alt="seite1.md in Hugo" />{: .max-full}</p>
+
+<p>Der obere Bereich enhält den sogenannten <a href="http://gohugo.io/content/front-matter/" target="_blank">Front Matter</a> Bereich mit Metadaten für die Seite.</p>
+
+<ul>
+<li>Ändere den Wert für <code>draft</code> im oberen Bereich der Seite auf <code>false</code>.</li>
+</ul>
+
+<p>Unterhalb wird der Inhalt der Seite erfasst. Du kannst an dieser Stelle einfach HTML einfügen. Oder du kannst auch <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a> verwenden.</p>
+
+<h2 id="layout-definieren">Layout definieren</h2>
+
+<p>Nun fehlt uns noch ein letzter Baustein, um die erste Seite anzeigen zu können - das Layout.</p>
+
+<ul>
+<li>Füge im Ordner <code>layouts</code> einen neuen Ordner <code>_default</code> hinzu.</li>
+<li>Füge im neuen Ordner eine Datei <code>single.html</code> mit folgendem Inhalt hinzu:</li>
+</ul>
+
+<p><img src="erste-schritte-mit-hugo/single-layout.png" alt="Layout" />{: .max-full}</p>
+
+<p>Wichtig ist hier der Bereich <code>{{ .Content }}</code>. An dieser Stelle wird später der Content aus der aufgerufenen Seite (z.B. seite1.md) eingefügt.</p>
+
+<h2 id="hugo-webserver-starten">Hugo Webserver starten</h2>
+
+<ul>
+<li>Führe im Command Prompt den Befehl <code>hugo server</code> aus.</li>
+</ul>
+
+<p><img src="erste-schritte-mit-hugo/hugo-server.png" alt="Hugo Server" />{: .max-full}</p>
+
+<p>Nun kannst du im Browser wie im Command Prompt angegeben die URL <a href="http://localhost:1313/seite1" target="_blank">http://localhost:1313/seite1</a> öffnen. Die Teile aus dem Layout single.html und aus dem Content seite1.md werden nun zusammengefügt.</p>
+
+<p><img src="erste-schritte-mit-hugo/hugo-im-browser.png" alt="Hugo im Browser" />{: .max-full}</p>
+
+<h2 id="html-dateien-erstellen">HTML Dateien erstellen</h2>
+
+<ul>
+<li>Mit dem Befehl <code>hugo</code> im Command Prompt erstellst du die HTML Dateien, die du dann z.B. auf einem Webserver zur Verfügung stellen kannst.</li>
+</ul>
+
+<p>Du erhälst dadurch den neuen Ordner <code>public</code>, der das generierte HTML enthält:</p>
+
+<p><img src="erste-schritte-mit-hugo/public-ordner.png" alt="Generiertes HTML" />{: .max-full}</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

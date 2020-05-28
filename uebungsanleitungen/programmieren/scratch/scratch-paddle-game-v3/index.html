@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Scratch Paddle Game </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-paddle-game-v3/">Scratch Paddle Game</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="scratch-paddle-game-span-class-badge-badge-scratch3-scratch-3-0-span-a-href-scratch-paddle-game-html-class-change-scratch-version-scratch-2-0-a">Scratch Paddle Game <span class="badge badge-scratch3">Scratch 3.0</span> <a href="scratch-paddle-game.html" class="change-scratch-version">Scratch 2.0</a></h1>
+
+<p>In dieser Übung baust du ein kleines Spiel, indem du versuchst, einen Ball mit einem Schläger in der Luft zu halten.</p>
+
+<h2 id="bühne-und-figuren-anlegen">Bühne und Figuren anlegen</h2>
+
+<ol>
+<li><img src="scratch-paddle-game-v3/background.png" alt="Bühnenbild und Figuren anlegen" />{: .right}
+Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen die Bühne, hier der Strand, einen Ball, einen Schläger und einen Bereich, der markiert, wo der Ball im <em>Out</em> ist. Wenn du ein neues Projekt startest, siehst du eine weiße Bühne mit Scratchy, der Katze. Wähle als erstes rechts unten ein Bühnenbild aus.</li>
+</ol>
+
+<p><img src="scratch-paddle-game-v3/bühne-wählen.png" alt="Bühnenbild und Figuren anlegen" /></p>
+
+<ol>
+<li><p><img src="scratch-paddle-game-v3/löschen.png" alt="Figur löschen" />{: .right}
+Als nächstes lösche die Figur Scratchy mit dem Namen <em>Sprite 1</em> indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/neue-figur.png" alt="Figur hinzufügen" />{: .right}
+Jetzt brauchen wir einen Ball und einen Schläger. Links neben dem Bühnenbild findest du einen Menüpunkt, mit dem du neue Figuren hinzufügen kannst. Bei Thema <em>Sport</em> findest du verschiedene Bälle. Wähle einen davon aus.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/figur-malen.png" alt="Figur zeichnen" />{: .right}
+Als nächstes ist der Schläger dran. Diesen malen wir selbst. Dafür führst du deine Maus zuerst auf das Feld <em>Figur wählen</em>, darüber siehst du nun neue Felder. Klicke auf das Feld <em>Malen</em> und du bekommst links eine Zeichenfläche.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/how-to-draw.png" alt="Schläger zeichnen" />{: .right}
+Male ein einfaches Rechteck, dass den Ball daran hindern wird, am Boden aufzuschlagen. Du brauchst dazu das Werkzeug um Rechtecke zu malen. Wenn du das Rechteck gemalt hast, wähle noch eine schöne Füllfarbe aus. Danach kannst du es im rechten Bereich auf der Bühne verschieben. Verschiebe es in den unteren Bereich der Bühne, aber nicht ganz nach unten. Hier brauchen wir noch ein wenig Platz für den Bereich, indem der Ball im <em>Out</em> ist.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/how-it-should-look.png" alt="Out" />{: .right}
+Jetzt brauchst du noch den <em>Out</em> Bereich. Dafür malst du eine weitere Figur - ein Rechteck in einer anderen Farbe. Das Rechteck muss so breit wie der ganze Zeichenbereich sein. Das Rechteck schiebst du dann auf der Bühne ganz nach unten.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/name.png" alt="Figuren benennen" />{: .right}
+Damit du später die Figuren leichter verwenden kannst, gib ihnen Namen wie <em>Schläger</em> und <em>Out</em> anstelle von <em>Sprite 1</em> und <em>Sprite 2</em>. Du kannst den Namen unter der Bühne neben dem Wort Figur im Namensfeld ändern.</p></li>
+</ol>
+
+<h2 id="schläger-nach-links-und-rechts-bewegen">Schläger nach links und rechts bewegen</h2>
+
+<ol>
+<li><img src="scratch-paddle-game-v3/schläger-code-1.png" alt="Schläger bewegen" />{: .right}
+Damit du den Ball in der Luft halten kannst, musst du den Schläger nach links und rechts bewegen können. Verwende dazu das Ereignis <em>Wenn Taste &hellip; gedrückt</em>. Du kannst einmal <em>Pfeil nach links</em> und einmal <em>Pfeil nach rechts</em> auswählen. Wird der <em>Pfeil nach links</em> gedrückt, setze die Richtung auf -90 Grad. Das bedeutet der Schläger bewegt sich nach links. Dann bewege ihn 15 Schritte. Für den <em>Pfeil nach rechts</em> setze die Richtung stattdessen auf 90 Grad. Damit der Schläger nicht am linken oder rechten Rand verschwindet, kannst du prüfen, ob die <em>x-Position</em> des Schlägers noch nicht zu klein oder groß ist, bevor du den Schläger bewegst. Wenn du jetzt die Pfeiltasten nach links oder rechts drückt, bewegt sich der Schläger. Beim Start des Spiels soll der Schläger in der Mitte sein. Verwende dafür den Block <em>Wenn Fahne angeklickt</em> und setze die x-Position des Schlägers auf 0.</li>
+</ol>
+
+<h2 id="ball-herumhüpfen-lassen">Ball herumhüpfen lassen</h2>
+
+<ol>
+<li><p><img src="scratch-paddle-game-v3/ball-code-1.png" alt="Ball bewegen" />{: .right}
+Als nächstes kannst du den Ball bewegen. Wenn das Spiel gestartet wird, soll der Ball in die Mitte des Spielfelds gesetzt werden. Dazu setzt du die x- und y-Position auf 0. Setze außerdem die Richtung auf 0 - das heißt der Ball bewegt sich nach oben. Dann kannst du die Bewegung starten. Wiederhole dazu drei Blöcke: <em>gehe 10er-Schritt</em>, <em>pralle vom Rand ab</em> - damit wechselt der Ball die Richtung, wenn er den Rand erreicht und <em>warte 0.05 Sek.</em> - damit bestimmst du die Gewschwindigkeit des Balls.Wenn du diesen Block ausführst, pendelt der Ball zwischen dem oberen und unteren Rand der Bühne. Den Schläger ignoriert er aber noch.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/ball-code-2.png" alt="Schläger berühren" />{: .right}
+Um die Richtung des Balls zu ändern, wenn er den Schläger berührt, brauchst du einen weiteren Block, der beim Start des Spiels ausgeführt wird. Hier wird fortlaufend geprüft, ob der Ball gerade den Schläger berührt. Wenn ja, wird die Richtung auf einen zufälligen Wert zwischen -40 und 40 geändert. Die Richtung 0 Grad bedeutet gerade nach oben. Ein Wert zwischen -40 und 40 sagt aus, dass der Ball gerade nach oben oder aber auch etwas links oder rechts davon fliegt. Dann warte, bis der Ball den Schläger nicht mehr berührt, bevor der Block weiter ausgeführt wird.</p></li>
+
+<li><p><img src="scratch-paddle-game-v3/ball-code-3.png" alt="Out erkennen" />{: .right}
+Als letztes musst du noch erkennen, wann der Ball den Out-Bereich berührt. Dann ist das Spiel vorbei.
+<img src="scratch-paddle-game-v3/game-over.png" alt="Game over" /></p></li>
+</ol>
+
+<h2 id="weitere-ideen">Weitere Ideen</h2>
+
+<ul>
+<li>Lass den Ball nicht fix 10 Schritte gehen, sondern erhöhe die Anzahl der Schritte mit der Zeit, so dass das Spiel immer schwieriger wird.</li>
+<li>Steuere den Schläger mit der Maus statt mit der Tastatur.</li>
+<li>Bringe nach einiger Zeit einen weiteren Ball ins Spiel.</li>
+</ul>
+
+<h2 id="herunterladen">Herunterladen</h2>
+
+<p>Du kannst das fertige Projekt unter <a href="scratch-paddle-game-v3/paddle-game-new.sb3" target="_blank">paddle-game.sb3</a> herunterladen.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

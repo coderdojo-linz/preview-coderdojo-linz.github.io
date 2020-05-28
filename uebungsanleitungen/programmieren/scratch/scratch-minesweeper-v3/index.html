@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Scratch Minesweeper </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-minesweeper-v3/">Scratch Minesweeper</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="scratch-minesweeper-span-class-badge-badge-scratch3-scratch-3-0-span-a-href-scratch-minesweeper-html-class-change-scratch-version-scratch-2-0-a">Scratch Minesweeper <span class="badge badge-scratch3">Scratch 3.0</span> <a href="scratch-minesweeper.html" class="change-scratch-version">Scratch 2.0</a></h1>
+
+<p>In diesem Spiel musst du die Bomben im Spielfeld finden. Klicke auf eine Zelle um sie umzudrehen. Wenn du gleichzeitig die Leertaste drückst, markierst du eine Zelle als Bombe.</p>
+
+<p><img src="scratch-minesweeper-v3/endgame.png" alt="Endgame" />{: .right}</p>
+
+<p>Das Spiel besteht aus 2 Figuren und 15 Codeblöcken.</p>
+
+<h2 id="figuren-anlegen">Figuren anlegen</h2>
+
+<p>Das Spiel besteht aus nur zwei Figuren: einer Zelle für das Spielfeld und verschiedenen Nachrichten, die dem Spieler angezeigt werden können.</p>
+
+<ol>
+<li><p><img src="scratch-minesweeper-v3/loeschen.png" alt="Figur löschen" />{: .right}
+Lösche als erstes die Figur Scratchy mit dem Namen <em>Sprite 1</em> indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/hochladen.png" alt="Karte hinzufügen" />{: .right}
+Die Figur <em>Zelle</em> besteht aus mehreren Kostümen; einer nicht aufgedeckten Zelle, einer Bombe, einer leeren Zelle, einer Fahne und den Ziffern 1 bis 8. Damit du nicht alle Figuren selbst zeichnen musst, kannst du die Figur unter
+<a href="https://scratch-minesweeper/Zelle.sprite2/" target="_blank">https://scratch-minesweeper/Zelle.sprite2/</a> downloaden.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/nachricht.png" alt="Karte hinzufügen" />{: .right}
+Die zweite Figur <em>Nachrichten</em> besteht aus drei Kostümen: den Nachrichten <em>Spielfeld laden</em>, <em>Gewonnen</em> und <em>Verloren</em>. Diese kannst du nach deinen Vorstellungen gestalten.</p></li>
+</ol>
+
+<h2 id="daten-anlegen">Daten anlegen</h2>
+
+<p>In diesem Spiel werden eine ganze Menge an Daten benötigt. Sie werden später in den Skripten verwendet. Lege als erstes folgende Daten an:</p>
+
+<h3 id="daten-für-alle-figuren">Daten für alle Figuren</h3>
+
+<ul>
+<li>anzahlBomben</li>
+<li>anzahlGefundeneBomben</li>
+<li>anzahlUmliegendeBomben</li>
+<li>i</li>
+<li>spielBeendet</li>
+</ul>
+
+<h3 id="listen-für-alle-figuren">Listen für alle Figuren</h3>
+
+<ul>
+<li>zellen</li>
+<li>zellenStatus</li>
+</ul>
+
+<h3 id="daten-für-die-zelle">Daten für die Zelle</h3>
+
+<ul>
+<li>cloneIndex</li>
+</ul>
+
+<p>Wenn du alle Variablen und Listen richtig angelegt hast, solltest du bei den Figuren <em>Zelle</em> und <em>Nachrichten</em> folgende Daten sehen:</p>
+
+<p><img src="scratch-minesweeper-v3/daten-zelle.png" alt="Karten anordnen" /></p>
+
+<h2 id="code-für-die-nachrichten">Code für die Nachrichten</h2>
+
+<ol>
+<li><img src="scratch-minesweeper-v3/code-nachricht.png" alt="Code für Nachrichten" />{: .right}
+Für die Figur <em>Nachrichten</em> brauchen wir nur wenige Skripte. Sie reagiert auf Nachrichten,
+die von der Figur <em>Zelle</em> geschickt werden und zeigt dem Benutzer die entsprechende Nachricht an. Es gibt vier mögliche Nachrichten, auf die die Figur reagieren kann: spielfeldLaden, spielfeldGeladen, gewonnen und verloren.</li>
+</ol>
+
+<h2 id="code-für-die-zelle">Code für die Zelle</h2>
+
+<ol>
+<li><p><img src="scratch-minesweeper-v3/code-zelle-1.png" alt="Spiel initialisieren" />{: .right}
+Als erstes müssen wir das Spielfeld initialisieren. Dazu schicken wir zuerst einmal eine Nachricht an die Figur <em>Nachrichten</em>, dass die Meldung <em>Spielfeld laden</em> angezeigt werden soll. Dann werden die Daten auf einen passenden Wert gesetzt. Als nächstes erstellen wir das Spielfeld, platzieren die Bomben und ermitteln für jedes Feld die Anzahl der umliegenden Bomben. Dazu verwenden wir eigene, neue Blöcke. Der Inhalt dazu kommt später. Am Schluss schicken wir nochmal eine Nachricht, dass das Spielfeld jetzt fertig geladen ist.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-2.png" alt="Spielfeld erstellen" />{: .right}
+Zum Erstellen des Spielfelds füllen wir die Listen <em>zellen</em> und <em>zellenStatus</em> mit Initialwerten. Die Liste <em>zellen</em> enthält für jede der 100 Positionen (10 x 10) auf dem Spielfeld eine der folgenden Informationen: - = nicht definiert, b = Bombe, 1 = 1 Bombe in den umliegenden Zellen, 2 = 2 Bomben in den umliegenden Zellen, usw. Zum Initialisieren setzen wir den Wert <em>-</em> für nicht definiert. Die Liste <em>zellenStatus</em> enthält für jede Zelle nur die Information, ob sie aufgedeckt sein soll (0 = nicht aufgedeckt, 1 = aufgedeckt). Das brauchen wir erst später, um bei Klick auf eine Zelle ohne umliegende Bomben automatisch auch die umliegenden Zellen aufzudecken. Außerdem erzeugen wir für jedes Feld einen Klon der Zelle. Diese wird dann im nächsten Skript an der richtigen Position im Spielfeld platziert.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-3.png" alt="Zelle platzieren" />{: .right}
+Sobald ein Klon einer Zelle entsteht, wechseln wir das Kostüm auf <em>unknown</em> und zeigen den Klon an.
+Die Positionen werden auf folgende Werte gesetzt:
+<code>x = -150 + (((cloneIndex - 1) mod 10) * 32)</code>
+<code>y = 150 - ((abrunden von ((cloneIndex - 1) / 10)) * 32)</code>
+Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut werden.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-4.png" alt="Bomben platzieren" />{: .right}
+Jetzt werden auf dem Spielfeld die Bomben platziert. Mittels Zufallszahl wird die Position der Bomben ermittelt und in der Liste <em>zellen</em> mit einem <em>b</em> gekennzeichnet.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-5.png" alt="Anzahl Bomben ermitteln" />{: .right}
+Jetzt kommt der wirklich schwierige Teil - wir müssen für jede Zelle am Spielfeld ermitteln, wie viele Bomben an sie angrenzen. Das sind im besten Fall 0 und im schlechtesten Fall 8, wenn alle umliegenden Zellen Bomben enthalten. Je nachdem, ob die Zelle im Eck, am Rand, oder in der Mitte liegt, hat sie mehr oder weniger umliegende Zellen. Das prüfen wir in diesem Skript und für jede der Zellen sehen wir nach, ob sie eine Bombe enthält. Am Ende tragen wir die ermittelte Zahl der Bomben in die Liste <em>zellen</em> ein.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-6.png" alt="Klick auf Zelle" />{: .right}
+Nun können wir mit dem Spiel starten, der Spieler kann die erste Zelle anklicken. Mit der linken Maustaste wird eine Zelle aufgedeckt. Wird gleichzeitig die Leertaste gedrückt, wird eine Fahne gesetzt oder wieder entfernt. Falls eine Fahne zum Markieren einer Bombe gesetzt wird, müssen wir nachher überprüfen, ob schon alle Bomben gefunden wurden. Wird eine Zelle zum Aufdecken angeklickt, müssen wir dann das Kostüm ändern.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-7.png" alt="Zelle aufdecken" />{: .right}
+Die Liste <em>zellen</em> enthält für jede Zelle die Anzahl der umliegenden Bomben. Wir müssen nach dem Anklicken nur noch das richtige Kostüm für die Zelle anzeigen. Du kannst das Skript <em>UmliegendeZellenAufdecken</em> noch leer lassen. Das Spiel wird jetzt schon funktionieren. Du kannst jetzt gleich ausprobieren, ob du alle Bomben findest.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-8.png" alt="Umliegende Zellen aufdecken" />{: .right}
+Wenn du das Skript <em>UmliegendeZellenAufdecken</em> implementierst, wird das Spiel noch besser. Wenn du eine Zelle ohne angrenzende Bomben anklickst, werden automatisch alle umliegenden Zellen aufgedeckt, solange bis Zellen mit angrenzenden Bomben gefunden werden. So musst du nicht alle Zellen mit dem Wert 0 selbst anklicken und kannst viel schneller spielen. In diesem Script werden alle Zellen, die aufgedeckt werden sollen, in der Liste <em>zellenStatus</em> mit 1 markiert. Dann wird die Nachricht <em>zellenAktualiseren</em> gesendet.</p></li>
+
+<li><p><img src="scratch-minesweeper-v3/code-zelle-9.png" alt="Zellen aktualisieren" />{: .right}
+Wenn die Nachricht <em>zellenAktualiseren</em> dann von jedem einzelnen Klon empfangen wird, prüft dieser, ob seine Position in der Liste <em>zellenStatus</em> schon mit 1 markiert ist. Wenn ja, wird die Zelle aufgedeckt.</p></li>
+</ol>
+
+<h2 id="herunterladen">Herunterladen</h2>
+
+<p>Du kannst das fertige Projekt unter <a href="scratch-minesweeper-v3/minesweeper.sb3" target="_blank">minesweeper.sb3</a> herunterladen.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

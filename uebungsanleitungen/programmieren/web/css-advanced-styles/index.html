@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Advanced CSS Styles </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/css-advanced-styles/">Advanced CSS Styles</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="advanced-css-styles">Advanced CSS Styles</h1>
+
+<p>Für diese Übung starten wir mit einer existierenden Webseite, die nur HTML enthält, aber noch gar keine Styles.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;Scratch - Fang mich&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&#34;content&#34;&gt;
+        &lt;h1&gt;Scratch Fang-Mich &lt;span class=&#34;version&#34;&gt;Scratch 3.0&lt;/span&gt;&lt;/h1&gt;
+
+        &lt;div class=&#34;intro&#34;&gt;
+            &lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;
+            &lt;p&gt;In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?&lt;/p&gt;
+        &lt;/div&gt;
+        ...</code></pre>
+<p>Ihr könnt das initiale Projekt mit allen Bildern aber ohne Styles hier herunterladen: <a href="css-advanced-styles/initial-project.zip" target="_blank">Startprojekt</a></p>
+
+<p>Wenn ihr die Webseite index.html darin öffnet, sieht das dann so aus:</p>
+
+<p><img src="css-advanced-styles/website-without-styles.png" alt="Website without styles" /></p>
+
+<h2 id="css-file-hinzufügen">CSS File hinzufügen</h2>
+
+<p>Damit wir die Styles für die Webseite in einem eigenen File verwalten können, legen wir zuerst einen Ordner <em>styles</em> in unserem Projekt an, und in diesem Ordner brauchen wir ein neues File <em>style.css</em>.</p>
+
+<p>Im <code>head</code> unsere Webseite müssen wir einen Verweis auf das File einfügen.</p>
+
+<p><img src="css-advanced-styles/styles-file.png" alt="Styles" /></p>
+
+<p>Im File <em>style.css</em> könnt ihr dann erste Styles zu eurem Projekt hinzufügen:</p>
+<pre><code>body {
+    background-color: lightblue;
+}</code></pre>
+<h2 id="google-font-verwenden">Google Font verwenden</h2>
+
+<p>Als erstes fügen wir eine hübschere Schriftart dazu. Ihr findet z.B. unter <a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a> eine Menge an kostenloser Schriftarten.</p>
+
+<p><img src="css-advanced-styles/google-fonts.png" alt="Google Fonts" /></p>
+
+<p>Klickt auf eine Schriftart, die euch gefällt, und klickt dann bei den folgenden drei Styles auf &ldquo;+ Select this style&rdquo;:</p>
+
+<ul>
+<li>Light 300</li>
+<li>Regular 400</li>
+<li>Bold 700</li>
+</ul>
+
+<p>Ihr findet dann auf der rechten Seite unter <em>Embed</em> den Code zum Einbetten in eure Webseite.</p>
+
+<p><img src="css-advanced-styles/google-fonts-selection.png" alt="Google Fonts Auswahl" /></p>
+
+<p>Den Link müsst ihr im <code>head</code> der HTML Seite einfügen:</p>
+<pre><code>&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;Scratch - Fang mich&lt;/title&gt;
+    &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;styles/1-style.css&#34;&gt;
+&lt;/head&gt;</code></pre>
+<p>Damit die neue Schriftart verwendet wird, müsst ihr im CSS unter <code>body</code> den Style für die <code>font-family</code> einfügen. Wir geben hier außerdem auch gleich noch die Größe der Schrift mit <code>font-size</code> an:</p>
+<pre><code>body {
+    font-family: &#39;Open Sans&#39;, sans-serif;
+    font-size: 18px;
+    background-color: lightblue;
+}</code></pre>
+<p><img src="css-advanced-styles/website-with-font.png" alt="Website mit background und and font" /></p>
+
+<h2 id="content-in-der-mitte-platzieren">Content in der Mitte platzieren</h2>
+
+<p>Als nächstes möchten wir den Bereich mit Texten und Bildern in der Mitte platzieren und mit weißen Hintergrund hinterlegen, damit er besser lesbar wird. Dazu ergänzen wir zuerst den <code>body</code> um <code>padding-left</code> und <code>padding-right</code>. Das bewirkt, dass der Text links und rechts etwas Abstand zum Rand bekommt:</p>
+<pre><code>body {
+    ...
+    padding-left: 60px;
+    padding-right: 60px;
+}</code></pre>
+<p>Dann fügen wir einen eigenen Style für das <code>&lt;div ...&gt;</code> mit der Klasse <code>content</code> ein:</p>
+<pre><code>.content {
+    background-color: white;
+    padding: 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 10px 10px 8px 1px rgba(0, 0, 0, 0.3);
+}</code></pre>
+<p><img src="css-advanced-styles/website-content.png" alt="Website mit Content Bereich" /></p>
+
+<h2 id="headers">Headers</h2>
+
+<p>Als nächstes fügen wir Styles für die Überschriften hinzu. Die erste große Überschrift <code>&lt;h1&gt;</code> soll in blauen Großbuchstaben dargestellt werden. Füge dazu einen neuen Style für <code>h1</code> im Stylesheet hinzu:</p>
+<pre><code>h1 {
+    text-transform: uppercase;
+    color: #0081e4;
+}</code></pre>
+<p>In der HTML Seite siehst du, dass in der Überschrift <code>&lt;h1&gt;</code> ein weiteres Tag <code>&lt;span&gt;</code> enthalten ist, das den Bereich mit der Versionsnummer markiert:</p>
+<pre><code>&lt;h1&gt;Scratch Fang-Mich &lt;span class=&#34;version&#34;&gt;Scratch 3.0&lt;/span&gt;&lt;/h1&gt;</code></pre>
+<p>Wir können dafür einen eigenen Style im Stylesheet hinzufügen. Wenn Styles im CSS mit Leerzeichen getrennt werden, dann bedeutet das, dass die Elemente ineinander vorkommen müssen. Hier suchen wir also alle Elemente mit der Klasse <em>version</em>, die innerhalb von <code>&lt;h1&gt;</code> Elemente vorkommen:</p>
+<pre><code>h1 .version {
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #2b992b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 10px;
+    /* necessary for vertical alignment within h1 */
+    vertical-align: 0.5em;
+}</code></pre>
+<p>Die kleineren Überschriften wollen wir in einem Kästchen mit grünem Hintergrund und einem Schatteneffekt darstellen:</p>
+<pre><code>h2 {
+    background-color: #2b992b;
+    color: #fff;
+    display: inline-block;
+    margin-block-start: 2em;
+    padding: 2px 10px;
+    box-shadow: 8px 8px 0 2px rgba(0, 0, 0, 0.3);
+}</code></pre>
+<p><img src="css-advanced-styles/website-headers.png" alt="Website mit gestylten Überschriften" /></p>
+
+<h2 id="bilder">Bilder</h2>
+
+<p>Die Bilder sollen einen Rahmen erhalten, und wenn man mit der Maus drüber fährt, sollte es sich leicht vergrößern und einen Schatten anzeigen. Dazu fügen wir die folgenden Styles ein:</p>
+<pre><code>img {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    max-width: 100%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* center images */
+    margin-left: auto;
+    margin-right: auto;
+    /* animation */
+    transition: all 0.5s;
+}
+
+img:hover {
+    /* changes when mouse moves over image */
+    transform: scale(1.01);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}</code></pre>
+<p><img src="css-advanced-styles/website-images.png" alt="Website mit gestylten Bildern" /></p>
+
+<h2 id="intro-bereich">Intro Bereich</h2>
+
+<p>Im Einleitungsbereich der Webseite wollen wir den Text etwas größer und zentriert darstellen. Das Bild soll rotieren, wenn die Maus darüber bewegt wird:</p>
+<pre><code>.intro p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.intro&gt;img {
+    transition: transform 1s;
+}
+
+.intro&gt;img:hover {
+    transform: rotateY(180deg);
+    box-shadow: none;
+}</code></pre>
+<p><img src="css-advanced-styles/website-intro.png" alt="Website Intro" /></p>
+
+<h2 id="hintergrundbild">Hintergrundbild</h2>
+
+<p>Um für die ganze Seite ein Hintergrundbild hinzuzufügen, füge folgende Styles zum <code>body</code> hinzu:</p>
+<pre><code>body {
+    ...
+    background-image: url(&#39;/images/underwater-treasures.jpg&#39;);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}</code></pre>
+<p>Außerdem kannst du beim Style für den Contentbereich noch die Hintergrundfarbe leicht transparent machen, ändere dafür im Style für <code>.content</code> die <code>background-color</code>:</p>
+<pre><code>.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    ...
+}</code></pre>
+<p><img src="css-advanced-styles/website-background-image.png" alt="Website Background Image" /></p>
+
+<h2 id="aufzählungen">Aufzählungen</h2>
+
+<p>Aufzählungen, die mit dem Element ´<ol>´ gemacht werden, sehen in HTML standardmäßig so aus:</p>
+
+<p><img src="css-advanced-styles/website-list.png" alt="Website Aufzählung" /></p>
+
+<p>Wir können aber ändern, wie die Nummern dargestellt werden. Dazu schalten wir im <code>ol</code> mit <code>list-style: none</code> die Standarddarstellung aus. Stattdessen bauen wir im Style <code>ol&gt;li:before</code> unsere ganz eigene Version:</p>
+<pre><code>ol {
+    list-style: none;
+    counter-reset: my-counter;
+    padding-inline-start: 0;
+}
+
+ol&gt;li {
+    counter-increment: my-counter;
+    padding-left: 50px;
+    padding-top: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+ol&gt;li:before {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    content: counter(my-counter) &#34;.&#34;;
+    background-color: #2b992b;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -5px;
+}</code></pre>
+<p><img src="css-advanced-styles/website-list-items.png" alt="Website Aufzählungen" /></p>
+
+<h2 id="flip-box">Flip Box</h2>
+
+<p>Zu guter letzt wollen wir das Bild im Einleitungsbereich noch etwas erweitern. Wenn man mit der Maus drüber fährt, soll es nicht nur rotieren, es soll auf der Hinterseite des Bildes ein Text angezeigt werden, der dadurch dann sichtbar wird.</p>
+
+<p>Dazu müssen wir zuerst im HTML eine Änderung machen. Ersetze im Bereich <code>&lt;div class=&quot;intro&quot;&gt;</code> folgendes Bild:</p>
+<pre><code>&lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;</code></pre>
+<p>durch folgendes HTML:</p>
+<pre><code>&lt;div class=&#34;flip-box&#34;&gt;
+    &lt;div class=&#34;flip-box-inner&#34;&gt;
+        &lt;div class=&#34;flip-box-front&#34;&gt;
+            &lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;flip-box-back&#34;&gt;
+            &lt;h3&gt;Scratch Fang-Mich&lt;/h3&gt;
+            &lt;p&gt;Figuren: 2&lt;br /&gt;Scripte: 8&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Das HTML bildet die Flip Box mit einem Bereich für die Vorderseite und einem Bereich für die Hinterseite des Bildes ab.</p>
+
+<p>Im Stylesheet müssen wir jetzt folgende Styles hinzufügen:</p>
+<pre><code>.flip-box {
+    width: 540px;
+    height: 407px;
+    max-width: 100%;
+    /* center flip box */
+    margin-left: auto;
+    margin-right: auto;
+    /* Remove this if you don&#39;t want the 3D effect */
+    perspective: 1000px;
+}
+
+/* Remove general img styles */
+.flip-box img {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 20px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    background-color: #0081e4;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.flip-box-back h3 {
+    margin-block-start: 4em;
+    font-size: 2rem;
+}</code></pre>
+<p>Wenn man jetzt mit der Maus über das Bild fährt, wird es umgedreht und der Text auf der Hinterseite angezeigt:</p>
+
+<p><img src="css-advanced-styles/website-flip-box.png" alt="Website Flip Box" /></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

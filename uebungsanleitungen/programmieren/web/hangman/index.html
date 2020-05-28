@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Hangman </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/hangman/">Hangman</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="hangman">Hangman</h1>
+
+<h2 id="ziel-der-übung">Ziel der Übung</h2>
+
+<p>Der erste Spieler gibt ein Wort ein, das vom zweiten Spieler erraten werden muss.</p>
+
+<p>Zuerst sieht der zweite Spieler nur ein Sternchen für jeden Buchstaben. Jeder erratene Buchstabe wird aufgedeckt. Für jeden falsch geratenen Buchstaben
+wird der Galgen um eine Linie erweitert. Ziel ist es, das Wort zu erraten bevor der Galgen fertig ist.</p>
+
+<p><img src="hangman/images/hangman.png" alt="Hangman" /></p>
+
+<h2 id="grundgerüst-der-html-seite">Grundgerüst der HTML Seite</h2>
+
+<p>Erstelle als erstes eine neue HTML Seite mit dem Namen hangman.html.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Hangman&lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;styles.css&#34;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h1&gt;Hangman&lt;/h1&gt;
+
+    &lt;div class=&#34;spielBereich&#34;&gt;
+        &lt;div class=&#34;rateBereich&#34;&gt;
+            &lt;div&gt;Tippe einen Buchstaben ein.&lt;/div&gt;
+            &lt;div id=&#34;wort&#34;&gt;&lt;/div&gt;
+            &lt;div id=&#34;info&#34;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;hangmanBereich&#34;&gt;
+            &lt;svg id=&#34;hangman&#34; width=&#34;400&#34; height=&#34;500&#34;&gt;&lt;/svg&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js&#34;&gt;&lt;/script&gt;
+
+    &lt;script type=&#34;text/javascript&#34;&gt;
+
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+<h2 id="styles">Styles</h2>
+
+<p>Die Styles sind hier nicht direkt im HTML enthalten, sondern es wird auf die externe Datei styles.css verwiesen. Die Datei muss sich im selben Ordner wie hangman.htm befinden. Du kannst die Datei entweder unter <a href="hangman/styles.css">styles.css</a> herunterladen,
+oder du erstellst eine neue Datei styles.css mit folgendem Inhalt:</p>
+<pre><code>body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.spielBereich {
+    height: 500px;
+    display: flex;
+    align-items: stretch;
+}
+
+.rateBereich {
+    width: 50%;
+    padding-right: 20px;
+}   
+
+#wort {
+    text-transform: uppercase;
+    font-family: Courier New, Courier, monospace;
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+#info {
+    margin-top: 40px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.hangmanBereich {
+    width: 50%;
+    background-color: #ddff99;
+}
+
+line, circle, ellipse, rect, text, path {
+    stroke: black;
+    fill: none;
+}</code></pre>
+<h2 id="skripte">Skripte</h2>
+
+<p>Damit im Spiel jetzt auch was passiert, müssen wir im <code>&lt;javascript&gt;</code> Bereich unsere Skripte einfügen. Als erstes bauen wir das Grundgerüst für unser Programm.
+Wir brauchen Variablen für die Anzahl der Fehlversuche, einen Indikator, ob das Spiel bereits zu Ende ist, die bereits geratenen Buchstaben.
+Weiters brauchen wir den SVG Zeichen-Bereich mit dem Namen &ldquo;hangman&rdquo;.</p>
+
+<p>Als nächstes fordern wir mit <code>prompt</code> den ersten Spieler auf, ein Wort einzugeben.</p>
+
+<p>Wenn im Dokument eine Taste gedrückt wird (<code>onkeyup</code>), müssen wir nachsehen, ob der gedrückte Buchstabe im Wort vorkommt.</p>
+
+<p>Dann brauchen wir noch die Funktionen wortAzeigen, buchstabePruefen und hangmanMalen.</p>
+<pre><code>var anzahlFehlversuche = 0;
+var gameFinished = false;
+var gerateneBuchstaben = [];
+var svg = Snap(&#34;#hangman&#34;);
+
+// wähle ein Wort aus und zeige es mit * an
+var wort = window.prompt(&#34;Welches Wort soll erraten werden?&#34;).toLowerCase();
+wortAnzeigen();
+// window.focus() ist in manchen Browsern notwendig, damit später document.onkeyup reagiert
+window.focus();
+
+// reagiere, wenn ein Buchstabe gedrückt wird
+document.onkeyup = function(event) {
+    // TODO
+};
+
+// zeige das Wort mit * für noch nicht erratene Buchstaben an
+function wortAnzeigen() {
+    // TODO
+}
+
+// prüfe, ob ein Buchstabe bereits geraten wurde oder gar nicht im Wort vorkommt
+function buchstabePruefen(key) {
+    // TODO
+}
+
+// male das Galgenmännchen
+function hangmanMalen() {
+    // TODO
+}</code></pre>
+<p>Wenn du die Seite hangman.html jetzt öffnest, wirst du nach einem Wort gefragt. Dann passiert allerdings nichts mehr, da die Funktionen noch alle leer sind.
+Als erstes implementieren wir die Funktion wortAzeigen.</p>
+<pre><code>// zeige das Wort mit * für noch nicht erratene Buchstaben an
+function wortAnzeigen() {
+    var verdecktesWort = wort;
+
+    // prüfe für jeden Buchstaben im Wort, ob er sich bereits in den geratenen Buchstaben befindet
+    for (var i = 0; i &lt; verdecktesWort.length; i++) {
+        if (gerateneBuchstaben.indexOf(verdecktesWort[i]) &lt; 0) {
+            verdecktesWort = verdecktesWort.replace(verdecktesWort[i], &#34;*&#34;);
+        }
+    }
+
+    // zeige das verdeckte Wort an
+    document.getElementById(&#34;wort&#34;).innerText = verdecktesWort;
+
+    // wenn kein * im verdeckten Wort mehr vorkommt, dann wurde das ganze Wort erraten
+    if (verdecktesWort.indexOf(&#34;*&#34;) &lt; 0) {
+        document.getElementById(&#34;info&#34;).innerText = &#34;Gratuliere, du hast das Wort erraten!&#34;;
+        gameFinished = true;
+    }
+}</code></pre>
+<p>Wenn du die Seite nun aufrufst, wird du zuerst nach einem Wort gefragt, dann wird für jeden Buchstaben im Wort ein Sternchen angezeigt.</p>
+
+<p><img src="hangman/images/wort-anzeigen.png" alt="Hangman Wort anzeigen" /></p>
+
+<p>Als nächstes müssen wir dem zweiten Spieler erlauben, Buchstaben einzugeben. Dazu reagieren wir auf das Event <code>document.onkeyup</code>. Solange das Spiel noch nicht vorbei ist,
+prüfen wir den eingegebenen Buchstaben. In der Funktion <code>buchstabePruefen</code> unterscheiden wir dazu drei verschiedene Fälle:</p>
+
+<ul>
+<li>der Buchstabe wurde bereits geraten</li>
+<li>der Buchstabe wurde noch nicht geraten, kommt aber nicht im Wort vor</li>
+<li>der Buchstabe wurde noch nicht geraten und kommt im Wort vor</li>
+</ul>
+
+<p>Wenn die Anzahl der Fehlerversuche 10 ist, dann ist das Spiel zu Ende.</p>
+<pre><code>// reagiere, wenn ein Buchstabe gedrückt wird
+document.onkeyup = function(event) {
+    if (!gameFinished) {
+        buchstabePruefen(event.key);
+    }
+};
+
+// prüfe, ob ein Buchstabe bereits geraten wurde oder gar nicht im Wort vorkommt
+function buchstabePruefen(key) {
+    if (gerateneBuchstaben.indexOf(key) &gt;= 0) {
+        // der Buchstabe wurde bereits gedrückt
+        document.getElementById(&#34;info&#34;).innerText = &#34;Du hast den Buchstaben &#34; + key + &#34; bereits geraten.&#34;;
+        anzahlFehlversuche++;
+        hangmanMalen();
+    } else if (wort.indexOf(key) &lt; 0) {
+        // der Buchstabe kommt nicht im Wort vor
+        document.getElementById(&#34;info&#34;).innerText = &#34;Der Buchstabe &#34; + key + &#34; kommt im Wort nicht vor.&#34;;
+        gerateneBuchstaben.push(key);
+        anzahlFehlversuche++;
+        hangmanMalen();
+    } else {
+        // es wurde ein Buchstabe erraten
+        document.getElementById(&#34;info&#34;).innerText = &#34;Super, du hast einen Buchstaben erraten&#34;;
+        gerateneBuchstaben.push(key);
+        wortAnzeigen();
+    }
+
+    // nach 10 Fehlversuchen ist das Spiel zu Ende
+    if (anzahlFehlversuche &gt;= 10) {
+        document.getElementById(&#34;info&#34;).innerText = &#34;Game over!&#34;;
+        gameFinished = true;
+    }
+}</code></pre>
+<p>Du kannst das Spiel jetzt schon spielen. Die richtig erratenen Buchstaben werden angezeigt. Nach 10 Fehlversuchen ist das Spiel zu Ende.</p>
+
+<p><img src="hangman/images/buchstaben-raten.png" alt="Hangman Wort anzeigen" /></p>
+
+<h2 id="galgen-malen">Galgen malen</h2>
+
+<p>Jetzt fehlt nur noch der Galgen, damit man auch weiß, wieviele Fehlversuche man schon hatte.</p>
+
+<p>Zum Zeichnen verwenden wir die Bibliothek <a href="http://snapsvg.io/docs/" target="_blank">snap.svg</a>. Du kannst damit ganz einfach Linien, Kreise, Ellipsen, Rechtecke und ähnliches malen.</p>
+<pre><code>// Beispiele
+svg.circle(x, y, r);
+svg.ellipse(x, y, rx, ry);
+svg.rect(x, y, width, height);
+svg.line(x1, y1, x2, y2);
+svg.text(x, y, &#34;Ich male mit snap.svg!&#34;);
+svg.path(&#34;M200,250L300,300L400,250&#34;);</code></pre>
+<p>Für das Galgenmännchen in der Funktion <code>hangmanMalen</code> brauchen wir die Befehle <code>line</code> und <code>circle</code>.</p>
+
+<p><img src="hangman/images/hangman-svg.png" alt="Hangman SVG" /></p>
+
+<p>Bei jedem Fehlversuch malen wir eine weitere Line oder einen Kreis dazu. Die erste Linie ist der Sockel des Galgen. Die Linie beginnt an der Position x=50, y=450 und endet
+an der Position x=150, y=450. Ersetze die Platzhalter <code>// TODO</code> durch die Linien bzw. den Kreis für die weiteren Fehlversuche.</p>
+<pre><code>// male das Galgenmännchen
+function hangmanMalen() {
+    switch (anzahlFehlversuche) {
+        case 1:
+            svg.line(50, 450, 150, 450);
+            break;
+        case 2:
+            // TODO
+            break;
+        case 3:
+            // TODO
+            break;
+        case 4:
+            // TODO
+            break;
+        case 5:
+            // TODO
+            break;
+        case 6:
+            // TODO
+            break;
+        case 7:
+            // TODO
+            break;
+        case 8:
+            // TODO
+            break;
+        case 9:
+            // TODO
+            break;
+        case 10:
+            // TODO
+            break;
+    }
+}</code></pre>
+<p>Wenn du Hilfe beim Malen des Galgenmännchen brauchst, findest du den gesamten Code unter <a href="hangman/hangman.html" target="_blank">hangman.html</a>. Du kannst das Spiel dort direkt ausprobieren,
+oder du siehst der den Source Code mit Hilfe der Developer Tools (F12) an.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

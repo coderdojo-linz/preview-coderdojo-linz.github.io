@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Fraktal Baum mit snap.svg </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/svg-fraktalbaum/">Fraktal Baum mit snap.svg</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="zeichne-einen-fraktal-baum-mit-snap-svg">Zeichne einen Fraktal Baum mit snap.svg</h1>
+
+<h2 id="ziel-der-übung">Ziel der Übung</h2>
+
+<p>Zeichne einen Baum in SVG. Starte dazu mit einer vertikalen Linie als Stamm.</p>
+
+<p>Am oberen Ende der Linie zeichne zwei weitere Linien - eine etwas nach links und eine etwas nach rechts geneigt.
+Die neuen beiden Linien sind etwas kürzer als die erste Linie für den Stamm. In dieser zweiten Ebene erhältst du so zwei Zweige.</p>
+
+<p>Am jeweils oberen Ende der beiden neuen Linie zweichne wieder jeweils zwei neue nach links und rechts geneigte Linien die etwas kürzer als die vorige Linie sind.
+In dieser dritten Ebene erhältst du so jetzt vier Zweige.</p>
+
+<p>Fahre nach diesem Muster fort, bis der Baum viele kleine Zweige hat.</p>
+
+<p><img src="svg-fraktalbaum/images/fraktal-baum.png" alt="Fraktal Baum" /></p>
+
+<h2 id="grundgerüst-der-html-seite">Grundgerüst der HTML Seite</h2>
+
+<p>Erstelle als erstes eine neue HTML Seite mit dem Namen fraktal-baum.html.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Fraktalbaum&lt;/title&gt;
+    &lt;meta charset=&#34;utf-8&#34; /&gt;
+
+    &lt;style&gt;
+        line, circle, ellipse, rect, text, path {
+            stroke: black;
+            fill: none;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Fraktalbaum&lt;/h1&gt;
+    &lt;div&gt;
+        &lt;svg id=&#34;baum&#34; width=&#34;600&#34; height=&#34;500&#34;&gt;&lt;/svg&gt;
+    &lt;/div&gt;
+
+    &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js&#34;&gt;&lt;/script&gt;
+
+    &lt;script type=&#34;text/javascript&#34;&gt;
+        var svg = Snap(&#34;#baum&#34;);
+
+        // Hier kannst du zeichnen
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>Zum Zeichnen verwenden wir die Bibliothek <a href="http://snapsvg.io/docs/" target="_blank">snap.svg</a>. Du kannst damit ganz einfach Linien, Kreise, Ellipsen, Rechtecke und ähnliches malen.</p>
+
+<p>Versuche es, indem du unter den Kommentar <code>// Hier kannst du zeichnen</code> folgenden Code einfügst:</p>
+<pre><code>// Hier kannst du zeichnen
+svg.circle(300, 250, 200);
+svg.ellipse(300, 250, 200, 100);
+svg.rect(100, 50, 400, 400);
+svg.line(100, 250, 500, 250);
+svg.text(230, 240, &#34;Ich male mit snap.svg!&#34;);
+svg.path(&#34;M200,250L300,300L400,250&#34;);</code></pre>
+<p>Du zeichnest damit folgende Figur:</p>
+
+<p><img src="svg-fraktalbaum/images/snap-svg-figur.png" alt="Figur mit snap.svg" /></p>
+
+<h2 id="baum-malen">Baum malen</h2>
+
+<p>Lösche die Figur unter den Kommentar <code>// Hier kannst du zeichnen</code> und ersetzte sie durch folgenden Code:</p>
+<pre><code>// Hier kannst du zeichnen
+var ebene = 0;
+var winkel = -90;
+var astLaenge = 100;
+astZeichnen(300, 500, winkel, astLaenge, ebene);
+
+function astZeichnen(x1, y1, winkel, astLaenge, ebene) {
+    if (ebene &lt; 11) {
+        // Endkoordinaten berechnen
+        var x2 = x1 + (Math.cos(winkel * Math.PI / 180) * astLaenge);
+        var y2 = y1 + (Math.sin(winkel * Math.PI / 180) * astLaenge);
+
+        // Linie zeichnen
+        svg.line(x1, y1, x2, y2);
+
+        // zwei weitere Äste mit verändertem Winkel malen
+        astZeichnen(x2, y2, winkel - 20, astLaenge * 0.8, ebene + 1);
+        astZeichnen(x2, y2, winkel + 20, astLaenge * 0.8, ebene + 1);
+    }
+}</code></pre>
+<p>Hier arbeiten wir mit einer Funktion <code>astZeichnen</code>, die rekursiv durch sich selbst wieder aufgerufen wird. Beim ersten Aufruf von <code>astZeichnen</code>
+werden die Startkoordinaten x=300 und y=500 übergeben. Der Winkel des Stammes beträgt -90°, d.h. die Linie für den Stamm geht nach oben.
+Die Länge des ersten Astes (=Stamm) wird mit 100 festgelegt und als Ebene 0 bezeichnet.</p>
+
+<p>In der Funktion <code>astZeichnen</code> berechnen wir ausgehenden von den Startkoordinaten und dem Winkel die Endkoordinaten der ersten Linie. Dann zeichnen wir diese Linie.</p>
+
+<p>Danach zeichnen wir zwei weitere Äste, für die wir den Winkel einmal um 20° reduzieren und einmal um 20° erhöhen. Die Startkoordinaten der beiden neuen Äste sind die Endkoordinaten des
+ersten Astes. Die Ebene erhöhen wir um 1, damit wir wissen, wie viele Ebenen wir schon gezeichnet haben. Nach 10 Ebenen zeichnen wir keine weiteren Äste mehr.</p>
+
+<p>Der Aufruf der Funktion <code>astZeichnen</code> innerhalb der Funktion <code>astZeichnen</code> selbst wird als rekursiver Aufruf der Funktion bezeichnet. Es ist wichtig, hier immer eine Abbruchsbedingung
+zu haben, da der Code sonst ewig weiterläuft. In unserem Beispiel ist das die Bedingung <code>if (ebene &lt; 11)</code> zu Beginn der Funktion.</p>
+
+<p>Wenn du die Seite jetzt aufrufst, erhältst du folgenden Baum:</p>
+
+<p><img src="svg-fraktalbaum/images/fraktal-baum-1.png" alt="Fraktal Baum 1" /></p>
+
+<h2 id="winkel-und-astlänge-variieren">Winkel und Astlänge variieren</h2>
+
+<p>Damit du das Aussehen des Baums einfach ändern kannst, fügen wir im HTML jetzt zwei Eingabefelder hinzu, mit denen du den Winkel und die Länge der Äste bestimmen kannst. Füge dazu zwischen
+der Überschrift <code>&lt;h1&gt;</code> und dem <code>&lt;div&gt;</code> mit dem <code>&lt;svg&gt;</code> folgenden Code ein:</p>
+<pre><code>&lt;h1&gt;Fraktalbaum&lt;/h1&gt;
+&lt;p&gt;
+    Winkel: &lt;input type=&#34;number&#34; id=&#34;aenderungsWinkel&#34; value=&#34;20&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Änderung Astlänge [%]: &lt;input type=&#34;number&#34; id=&#34;aenderungAstlaenge&#34; value=&#34;80&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;button onclick=&#34;baumZeichnen()&#34;&gt;Baum zeichnen&lt;/button&gt;
+&lt;/p&gt;
+&lt;div&gt;
+    &lt;svg id=&#34;baum&#34; width=&#34;600&#34; height=&#34;500&#34;&gt;&lt;/svg&gt;
+&lt;/div&gt;</code></pre>
+<p>Den Code zum Malen des Baums musst du folgendermaßen ändern:</p>
+<pre><code>// Hier kannst du zeichnen
+// globale Variablen
+var aenderungswinkel;
+var aenderungAstlaenge;
+baumZeichnen();
+
+function baumZeichnen() {
+    var ebene = 0;
+    var winkel = -90;
+    var astLaenge = 100;
+
+    // Benutzereingaben auslesen
+    aenderungswinkel = parseInt(document.getElementById(&#34;aenderungsWinkel&#34;).value);
+    aenderungAstlaenge = parseInt(document.getElementById(&#34;aenderungAstlaenge&#34;).value) / 100;
+
+    svg.clear();
+    astZeichnen(300, 500, winkel, astLaenge, ebene);
+}
+
+function astZeichnen(x1, y1, winkel, astLaenge, ebene) {
+    if (ebene &lt; 11) {
+        // Endkoordinaten berrechnen
+        var x2 = x1 + (Math.cos(winkel * Math.PI / 180) * astLaenge);
+        var y2 = y1 + (Math.sin(winkel * Math.PI / 180) * astLaenge);
+
+        // Linie zeichnen
+        svg.line(x1, y1, x2, y2);
+
+        // zwei weitere Äste mit verändertem Winkel malen
+        astZeichnen(x2, y2, winkel - aenderungswinkel, astLaenge * aenderungAstlaenge, ebene + 1);
+        astZeichnen(x2, y2, winkel + aenderungswinkel, astLaenge * aenderungAstlaenge, ebene + 1);
+    }
+}</code></pre>
+<p>Wir legen dazu gleich zu Beginn des Scripts zwei globale Variablen <code>aenderungswinkel</code> und <code>aenderungAstlaenge</code> an. Dann fügen wir eine neue Funktion <code>baumZeichnen</code> ein,
+die das Auslesen der Benutzereingaben übernimmt. Diese Funktion <code>baumZeichnen</code> kann durch Klick auf den Button immer wieder aufgerufen werden.</p>
+
+<p>Du kannst jetzt direkt in der HTML Seite einen Winkel und die Änderung der Astlänge für jede Ebene eingeben. Probier verschiedene Zahlen aus und sieh dir an, wie sich der Baum verändert.</p>
+
+<p><img src="svg-fraktalbaum/images/fraktal-baum-2.png" alt="Fraktal Baum 2" /></p>
+
+<h2 id="variation-durch-zufallszahlen">Variation durch Zufallszahlen</h2>
+
+<p>Damit der Baum etwas natürlicher aussieht, müssen wir die Änderung der Astlänge und den Winkel etwas varieren. Das erreichen wir, indem wir die von uns vorgegebenen Zahlen durch
+Multiplikation mit einer Zufallszahl leicht verändern.</p>
+
+<p>Ergänze dazu die globalen Variablen durch die beiden neuen Variablen <code>zufallAenderungswinkel</code> und <code>zufallAstlaenge</code>. Diesen weisen wir gleich Werte zu.</p>
+<pre><code>// globale Variablen
+var aenderungswinkel;
+var aenderungAstlaenge;
+var zufallAenderungswinkel = 15;
+var zufallAstlaenge = 10;
+baumZeichnen()</code></pre>
+<p>Zusätzlich müssen wir noch die Aufrufe <code>astZeichnen</code> innerhalb der Funktion <code>astZeichnen</code> verändern, so dass beim Winkel und bei der Astlänge eine Zufallszahl eingebaut wird.
+Die Funktion <code>Math.random()</code> liefert eine Gleitkommazahl zwischen 0 (inklusive) und 1 (exklusive). Wir subtrahieren 0.5 von dieser generierten Zufallszahl damit wir positive und negative
+Änderungen erhalten und multiplizieren diese dann mit unserer Variable <code>zufallAenderungswinkel</code> bzw. <code>zufallAstlaenge</code>.</p>
+<pre><code>// zwei weitere Äste mit verändertem Winkel malen
+astZeichnen(
+    x2,
+    y2,
+    winkel - aenderungswinkel + (Math.random() - 0.5) * zufallAenderungswinkel,
+    astLaenge * aenderungAstlaenge + (Math.random() - 0.5) * zufallAstlaenge, ebene + 1);
+astZeichnen(
+    x2,
+    y2,
+    winkel + aenderungswinkel + (Math.random() - 0.5) * zufallAenderungswinkel,
+    astLaenge * aenderungAstlaenge + (Math.random() - 0.5) * zufallAstlaenge, ebene + 1);</code></pre>
+<p>Der Baum sieht jetzt etwas natürlicher aus. Probiere auch andere Werte für die beiden Variablen <code>zufallAenderungswinkel</code> und <code>zufallAstlaenge</code> aus.</p>
+
+<p><img src="svg-fraktalbaum/images/fraktal-baum-3.png" alt="Fraktal Baum 3" /></p>
+
+<h2 id="farbe-und-liniendicke-ändern">Farbe und Liniendicke ändern</h2>
+
+<p>Um den Baum in Farbe zeichnen zu können, brauchen wir als erstes eine Bibliothek, die uns ermöglicht, Farbänderungen berechnen zu können. Wir verwenden dazu <a href="https://bgrins.github.io/TinyColor/" target="_blank">TinyColor</a>{:target=_blank}.
+Füge einen Verweis darauf unter den Verweis auf snap.svg ein:</p>
+<pre><code>&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js&#34;&gt;&lt;/script&gt;</code></pre>
+<p>Als nächstes fügen wir eine weitere globale Variable <code>maxEbene</code> hinzu:</p>
+<pre><code>// globale Variablen
+var aenderungswinkel;
+var aenderungAstlaenge;
+var zufallAenderungswinkel = 15;
+var zufallAstlaenge = 10;
+var maxEbene = 11;
+baumZeichnen()</code></pre>
+<p>Ändere in der Funktion <code>astZeichnen</code> die Bedingung in der ersten Zeile auf <code>if (ebene &lt; maxEbene)</code>.</p>
+<pre><code>function astZeichnen(x1, y1, winkel, astLaenge, ebene) {
+    if (ebene &lt; maxEbene) {</code></pre>
+<p>Nun müssen wir noch das Zeichnen der Linie anpassen. Wir weisen dazu das Ergebnis des Funktionsaufrufes <code>svg.line</code> der Variable ast zu. Mit <code>ast.attr</code> können wir dann die
+Attribute der Linie wie z.B. die Linienfarbe oder Liniendicke ändern. Als Ausgangsfarbe wählen wir ein sehr dunkles Grün für den Stamm (#001100), das für jede Ebene heller gemacht wird.</p>
+<pre><code>// Linie zeichnen
+var ast = svg.line(x1, y1, x2, y2);
+var color = tinycolor(&#34;#001100&#34;);
+ast.attr({
+    stroke: color.lighten(ebene * 3).toString(),
+    strokeWidth: maxEbene - ebene
+});</code></pre>
+<p>Damit die Farbe auch sichtbar wird müssen wir noch <code>stroke: black;</code> aus dem <code>&lt;style&gt;</code>-Block von oben entfernen. Es bleibt also nur das <code>fill: none;</code> übrig.</p>
+<pre><code>    &lt;style&gt;
+        line, circle, ellipse, rect, text, path {
+            fill: none;
+        }
+    &lt;/style&gt;</code></pre>
+<p><img src="svg-fraktalbaum/images/fraktal-baum-4.png" alt="Fraktal Baum 4" /></p>
+
+<p>Damit der Baum noch besser aussieht, kannst du mehr Ebenen malen lassen. Erhöhe dazu die Variable <code>maxEbene</code>. Sei aber vorsichtig beim Auswählen des Wertes, denn in jeder Ebene
+verdoppelt sich die Anzahl der Linien. Das Zeichnen kann damit sehr schnell ziemlich lange dauern. Bei 15 Ebenen kann das Zeichnen des Baums schon 10 - 15 Sekunden dauern.</p>
+
+<p><img src="svg-fraktalbaum/images/fraktal-baum-4-1.png" alt="Fraktal Baum 4.1" /></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

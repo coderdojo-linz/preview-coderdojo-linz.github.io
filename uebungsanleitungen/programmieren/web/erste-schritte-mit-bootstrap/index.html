@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Erste Schritte mit Bootstrap </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/">Web</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/">Erste Schritte mit Bootstrap</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="erste-schritte-mit-bootstrap">Erste Schritte mit Bootstrap</h1>
+
+<p>Für diese Übung starten wir mit einer existierenden Webseite, die nur HTML enthält, aber noch gar keine Styles.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;Scratch - Fang mich&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&#34;content&#34;&gt;
+        &lt;h1&gt;Scratch Fang-Mich &lt;span class=&#34;version&#34;&gt;Scratch 3.0&lt;/span&gt;&lt;/h1&gt;
+
+        &lt;div class=&#34;intro&#34;&gt;
+            &lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;
+            &lt;p&gt;In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?&lt;/p&gt;
+        &lt;/div&gt;
+        ...</code></pre>
+<p>Ihr könnt das initiale Projekt mit allen Bildern aber ohne Styles hier herunterladen: <a href="erste-schritte-mit-bootstrap/initial-project.zip" target="_blank">Startprojekt</a></p>
+
+<p>Wenn ihr die Webseite index.html darin öffnet, sieht das dann so aus:</p>
+
+<p><img src="erste-schritte-mit-bootstrap/website-without-styles.png" alt="Website without styles" /></p>
+
+<h2 id="bootstrap-hinzufügen">Bootstrap hinzufügen</h2>
+
+<p>In der Übung <a href="css-advanced-styles.html" target="_blank">CSS Advanced Styles</a> haben wir gelernt, wie wir selbst CSS Styles schreiben, um das HTML hübscher zu gestalten.</p>
+
+<p>In dieser Übung schreiben wir die Styles nicht selbst, sondern verwenden dazu das <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> Framework in der Version 4.4. Unter <strong>Get started</strong> findet ihr alle Anweisungen, wie ihr Bootstrap in eure Webseite einbauen könnt.</p>
+
+<ul>
+<li><p>Kopiert dazu die Zeile aus dem CSS Block in den <code>&lt;head&gt;</code> Bereich eures HTMLs:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+
+&lt;head&gt;
+&lt;meta charset=&#34;UTF-8&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+&lt;title&gt;Scratch - Fang mich&lt;/title&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css&#34;
+    integrity=&#34;sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh&#34; crossorigin=&#34;anonymous&#34;&gt;
+&lt;/head&gt;
+
+...</code></pre></li>
+
+<li><p>Die Zeilen aus dem JS (JavaScript) Block kommen ans Ende des HTMLs direkt vor das schließende <code>&lt;/body&gt;</code>Tag:</p>
+<pre><code>...
+
+&lt;script src=&#34;https://code.jquery.com/jquery-3.4.1.slim.min.js&#34;
+    integrity=&#34;sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n&#34;
+    crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js&#34;
+    integrity=&#34;sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo&#34;
+    crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js&#34;
+    integrity=&#34;sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6&#34;
+    crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre></li>
+</ul>
+
+<p>Wenn du das Ergebnis mit vorher vergleichst siehst du, dass sich die Schriftart, die Schriftgrößen und Abstände geändert haben. Sonst sieht alles noch wie vorher aus.</p>
+
+<h2 id="content">Content</h2>
+
+<p>Im ersten Schritt kümmern wir uns darum, dass der Inhalt nicht mehr am Rand klebt. Bootstrap stellt dafür die <a href="https://getbootstrap.com/docs/4.4/layout/overview/#containers" target="_blank">Container</a> zur Verfügung. Probiere verschiedene Container in deinem HTML aus. Füge folgenden Code dazu direkt unter das öffnende <code>&lt;body&gt;</code> Tag ein:</p>
+<pre><code>&lt;div class=&#34;container&#34; style=&#34;background-color: red; height: 20px;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;container-sm&#34; style=&#34;background-color: green; height: 20px;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;container-md&#34; style=&#34;background-color: blue; height: 20px;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;container-lg&#34; style=&#34;background-color: yellow; height: 20px;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;container-xl&#34; style=&#34;background-color: orange; height: 20px;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;container-fluid&#34; style=&#34;background-color: violet; height: 20px;&#34;&gt;&lt;/div&gt;</code></pre>
+<p>Wenn du dir das Ergebnis im Browser ansiehst und das Browserfenster vergrößerst und verkleinerst, wirst du sehen, dass manche Container je nach Größe des Fensters über die gesamte Breite gehen oder zentriert dargestellt werden:</p>
+
+<p><img src="erste-schritte-mit-bootstrap/containers.png" alt="Containers" /></p>
+
+<p>Wir wollen in unserem Projekt den <code>container-md</code> verwenden. Lösche dazu die Test-Zeilen von vorher wieder und füge stattdessen unter <code>&lt;div class=&quot;content&quot;&gt;</code> den Container ein:</p>
+<pre><code>&lt;body&gt;
+    &lt;div class=&#34;content&#34;&gt;
+        &lt;div class=&#34;container-md&#34;&gt;
+        ...
+        &lt;/div&gt;
+    &lt;/div&gt;
+    ...
+&lt;/body&gt;</code></pre>
+<p>Jetzt wird der Inhalt in der Mitte dargestellt, nur wenn das Fenster kleiner ist, wird die gesamte Breite genutzt:</p>
+
+<p><img src="erste-schritte-mit-bootstrap/website-with-container.png" alt="Containers" /></p>
+
+<h2 id="jumbotron">Jumbotron</h2>
+
+<p>Als nächstes wollen wir den Einleitungsbereich hervorheben. In Bootstrap gibt&rsquo;s dafür den <a href="https://getbootstrap.com/docs/4.4/components/jumbotron/" target="_blank">Jumbotron</a>. Wir nehmen dazu die Elemente <code>&lt;h1&gt;</code> und <code>&lt;div class=&quot;intro&quot;&gt;</code> aus dem vorher angelegten Container raus und fügen stattdessen darüber einen Jumbotron mit den beiden Elementen ein:</p>
+<pre><code>&lt;body&gt;
+    &lt;div class=&#34;content&#34;&gt;
+        &lt;div class=&#34;jumbotron&#34;&gt;
+            &lt;h1&gt;Scratch Fang-Mich &lt;span class=&#34;version&#34;&gt;Scratch 3.0&lt;/span&gt;&lt;/h1&gt;
+
+            &lt;div class=&#34;intro&#34;&gt;
+                &lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;
+                &lt;p&gt;In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;container-md&#34;&gt;
+            ...</code></pre>
+<p>Das funktionert schon gut, dieser Bereich wird jetzt grau hinterlegt. Allerdings wird der Inhalt nicht wie im Container zentriert. Dazu können wir auch in den Jumbotron wieder einen Container einfügen:</p>
+<pre><code>&lt;body&gt;
+    &lt;div class=&#34;content&#34;&gt;
+        &lt;div class=&#34;jumbotron&#34;&gt;
+            &lt;div class=&#34;container-md&#34;&gt;
+                &lt;h1&gt;Scratch Fang-Mich &lt;span class=&#34;version&#34;&gt;Scratch 3.0&lt;/span&gt;&lt;/h1&gt;
+
+                &lt;div class=&#34;intro&#34;&gt;
+                    &lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;
+                    &lt;p&gt;In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;container-md&#34;&gt;</code></pre>
+<p>Um das Ergebnis noch weiter zu verbessern, fügen wir noch weitere Bootstrap Klassen hinzu:</p>
+
+<ul>
+<li>Wir zentrieren den Text im Jumbotron. Bootstrap bietet uns dafür die Klasse <code>text-center</code>. Diese fügen wir zum Container hinzu (Zeile 4).</li>
+<li>Die Version in der Überschrift soll kleiner und heller dargestellt werden. Wir ändern dazu das <code>&lt;span class=&quot;version&quot;&gt;</code> auf <code>&lt;small class=&quot;version text-muted&quot;&gt;</code>. Das Element <code>&lt;small&gt;</code> Tag steht in HTML generell zur Verfügung um Texte kleiner zu machen. Die Klasse <code>text-muted</code> kommt wieder von Bootstrap.</li>
+
+<li><p>Im <code>&lt;p&gt;</code> Tag fügen wir noch die Klasse <code>lead</code> von Bootstrap hinzu, um den Text hervorzuheben.</p>
+<pre><code>&lt;body&gt;
+&lt;div class=&#34;content&#34;&gt;
+    &lt;div class=&#34;jumbotron&#34;&gt;
+        &lt;div class=&#34;container-md text-center&#34;&gt;
+            &lt;h1&gt;Scratch Fang-Mich &lt;small class=&#34;version text-muted&#34;&gt;Scratch 3.0&lt;/small&gt;&lt;/h1&gt;
+
+            &lt;div class=&#34;intro&#34;&gt;
+                &lt;img src=&#34;images/endgame.png&#34; alt=&#34;Endgame&#34;&gt;
+                &lt;p class=&#34;lead&#34;&gt;In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre></li>
+</ul>
+
+<p>Hier unser Ergebnis mit Jumbotron:</p>
+
+<p><img src="erste-schritte-mit-bootstrap/website-with-jumbotron.png" alt="Containers" /></p>
+
+<h2 id="eigene-styles-hinzufügen">Eigene Styles hinzufügen</h2>
+
+<p>Auch wenn wir Bootstrap verwenden, können wir eigene Styles zu unserem Projekt hinzufügen. Damit wir die Styles für die Webseite in einem eigenen File verwalten können, legen wir zuerst einen Ordner <em>styles</em> in unserem Projekt an, und in diesem Ordner brauchen wir ein neues File <em>style.css</em>.</p>
+
+<p>Im <code>head</code> unsere Webseite müssen wir einen Verweis auf das File einfügen. Wichtig ist, dass unsere eigenen Styles nach den Bootstrap Styles eingefügt werden. Nur so können wir die Bootstrap Styles gegebenenfalls überschreiben.</p>
+<pre><code>&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;Scratch - Fang mich&lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css&#34;
+        integrity=&#34;sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh&#34; crossorigin=&#34;anonymous&#34;&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;styles/style.css&#34;&gt;
+&lt;/head&gt;</code></pre>
+<p>Legen wir gleich noch ein paar eigene Styles im File style.css an:</p>
+<pre><code>h1,
+h2 {
+    text-transform: uppercase;
+    margin-block-start: 2rem;
+    margin-block-end: 1rem;
+    color: #0081e4;
+}
+
+img {
+    max-width: 100%;
+}</code></pre>
+<p>Die Überschriften <code>&lt;h1&gt;</code> und <code>&lt;h2&gt;</code> werden dadurch in blauen Großbuchstaben mit etwas mehr Abstand als in Bootstrap dargestellt. Die <code>max-width</code> bei Bildern verhindert, dass diese bei kleineren Fenstern über den rechten Rand hinausgehen. Man könnte das in Bootstrap zwar auch mit der Klasse <code>img-fluid</code> lösen, diese müsste man aber zu jedem einzelnen Bild hinzufügen.</p>
+
+<h2 id="grid-layout">Grid Layout</h2>
+
+<p>Als nächstes sehen wir uns das <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Grid Layout</a> von Bootstrap an. Um das Grid zu verwenden brauchen wir ein <code>&lt;div class=&quot;row&quot;&gt;</code>. Innerhalt der Row können mit <code>&lt;div class=&quot;col&quot;&gt;</code> Spalten angelegt werden. Der Inhalt wird gleichmäßig auf alle Spalten in einer Zeile aufgeteilt.</p>
+
+<p>Bei sehr kleinen Browserfenstern macht die Darstellung von Spalten aber oft keinen Sinn. Man kann daher angeben, wann in Spalten aufgeteilt werden soll. Mit <code>&lt;div class=&quot;col-md&quot;&gt;</code> gibt man an, dass man nur bei Fenstern &gt;= medium (768px) Spalten haben möchte. Sonst werden die Inhalte untereinander dargestellt.</p>
+
+<p>Wenn die Inhalte nicht gleichmäßig aufgeteilt werden sollen, kann auch angegeben werden, wie breit ein <code>&lt;div class=&quot;col&quot;&gt;</code> sein soll. Bootstrap geht von 12 Spalten je Zeile aus. Mit <code>&lt;div class=&quot;col-1&quot;&gt;</code> wird <sup>1</sup>&frasl;<sub>12</sub> der Breite verwendet, <code>&lt;div class=&quot;col-6&quot;&gt;</code> braucht die Hälfte der Breite und <code>&lt;div class=&quot;col-8&quot;&gt;</code> braucht <sup>2</sup>&frasl;<sub>3</sub> der Breite. Wenn in Summe 12 überschritten wird, dann wird eine neue Zeile begonnen.</p>
+
+<p>Man kann die Angabe der Breite auch mit der Angabe des Displays kombinieren: <code>&lt;div class=&quot;col-md-8&quot;&gt;</code> = <sup>2</sup>&frasl;<sub>3</sub> der Breite aber nur nur bei Fenstern &gt;= medium (768px). Und es ist auch möglich mehrere dieser Angaben zu kombinieren: <code>&lt;div class=&quot;col-sm-8 col-md-6&quot;&gt;</code> = <sup>2</sup>&frasl;<sub>3</sub> der Breite bei Fenstern &gt;= small (576px) aber nur <sup>1</sup>&frasl;<sub>2</sub> der Breite bei Fenstern &gt;= medium (768px).</p>
+
+<p>Füge zum Testen folgenden Container am Beginn deines HTMLs ein:</p>
+<pre><code>&lt;body&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                eine von drei Spalten
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                eine von drei Spalten
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                eine von drei Spalten
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr/&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md&#34;&gt;
+                eine von drei Spalten wenn &gt;= medium
+            &lt;/div&gt;
+            &lt;div class=&#34;col-md&#34;&gt;
+                eine von drei Spalten wenn &gt;= medium
+            &lt;/div&gt;
+            &lt;div class=&#34;col-md&#34;&gt;
+                eine von drei Spalten wenn &gt;= medium
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr/&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-8&#34;&gt;
+                große Spalte
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                kleine Spalte
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr/&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-8&#34;&gt;
+                große Spalte wenn &gt;= medium
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                kleine Spalte wenn &gt;= medium
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr/&gt;
+    &lt;/div&gt;
+
+    ...</code></pre>
+<p>Je nach Größe des Fensters werden die Inhalte der zweiten und vierten Zeile entweder nebeneinander oder untereinander dargestellt:</p>
+
+<p><img src="erste-schritte-mit-bootstrap/grid-system.png" alt="Grid System" /></p>
+
+<p>Versuche selbst, das Spaltenlayout zu verändern.</p>
+
+<p>Wenn du fertig bist, lösche den Testcontainer wieder aus deinem HTML.</p>
+
+<h3 id="grid-layout-anwenden">Grid Layout anwenden</h3>
+
+<p>In unserem Beispiel wenden wir das Grid Layout jetzt für die Überschriften <strong>Fisch bewegen</strong>, <strong>Haifisch bewegen</strong> und <strong>Fisch fangen</strong> an. Wir beginnen damit, nach der Überschrift eine Zeile einzufügen. In diese Zeile kommen zwei Spalten: eine für den gesamten Text und eine für das Bild. Bei Fenstergrößen von small und kleiner soll der Inhalt wie bisher untereinander dargestellt werden. Bei medium wollen wir 6 von 12 Spalten für den Text und bei large und größer nehmen wir 8 Spalten. Die restlichen der 12 Spalten werden für das Bild verwendet.</p>
+<pre><code>&lt;h2 id=&#34;fisch-bewegen&#34;&gt;Fisch bewegen&lt;/h2&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-6 col-lg-8&#34;&gt;
+        &lt;p&gt;Damit du den Fisch bewegen kannst, musst er nach links und rechts sowie oben und unten bewegt
+            werden
+            können.&lt;/p&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;Wähle zuerst den Fisch aus, damit er blau umrandet ist.&lt;/li&gt;
+            &lt;li&gt;Im Tab &lt;em&gt;Code&lt;/em&gt; kannst du deinen Fisch nun bewegen. Verwende das Ereignis &lt;em&gt;Wenn
+                    Taste …
+                    gedrückt&lt;/em&gt; unter &lt;em&gt;Ereignisse&lt;/em&gt;.&lt;/li&gt;
+            &lt;li&gt;Verknüpfe es jeweils mit einer Drehung &lt;em&gt;setze Richtung auf …&lt;/em&gt; unter
+                &lt;em&gt;Bewegung&lt;/em&gt;, damit
+                der
+                Fisch in die richtige Richtung schaut.&lt;/li&gt;
+            &lt;li&gt;Außerdem brauchen wir &lt;em&gt;gehe …er Schritt&lt;/em&gt;, um den Fisch zu bewegen.
+                &lt;ul&gt;
+                    &lt;li&gt;Für &lt;em&gt;Pfeil nach oben&lt;/em&gt; gedrückt: Richtung 0 Grad, gehe 10er-Schritte.&lt;/li&gt;
+                    &lt;li&gt;Für &lt;em&gt;Pfeil nach unten&lt;/em&gt; gedrückt: Richtung 180 Grad, gehe 10er-Schritte.&lt;/li&gt;
+                    &lt;li&gt;Für &lt;em&gt;Pfeil nach rechts&lt;/em&gt; gedrückt: Richtung 90 Grad, gehe 10er-Schritte.&lt;/li&gt;
+                    &lt;li&gt;Für &lt;em&gt;Pfeil nach links&lt;/em&gt; gedrückt: Richtung -90 Grad, gehe 10er-Schritte.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+        &lt;p&gt;Je größer die Schrittanzahl, desto schneller ist dein Fisch.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;img src=&#34;images/08-move-fish.png&#34; alt=&#34;Fisch bewegen&#34;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Das ist das Ergebnis:</p>
+
+<p><img src="erste-schritte-mit-bootstrap/website-with-grid.png" alt="Grid System" /></p>
+
+<p>Füge auch im Bereich <strong>Haifisch bewegen</strong> eine Row mit zwei Spalten ein.</p>
+<pre><code>&lt;h2 id=&#34;haifisch-bewegen&#34;&gt;Haifisch bewegen&lt;/h2&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-6 col-lg-8&#34;&gt;
+        &lt;p&gt;Jetzt soll der Haifisch im Aquarium herumschwimmen.&lt;/p&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;Wähle dazu den Haifisch aus, damit er blau umrandet ist.&lt;/li&gt;
+            &lt;li&gt;Im Tab &lt;em&gt;Code&lt;/em&gt; kannst du den Haifisch nun bewegen.&lt;/li&gt;
+            &lt;li&gt;Unter &lt;em&gt;Ereignisse&lt;/em&gt; wähle &lt;em&gt;Wenn … angeklickt&lt;/em&gt;.&lt;/li&gt;
+            &lt;li&gt;Anschließend wähle &lt;em&gt;wiederhole fortlaufend&lt;/em&gt; bei &lt;em&gt;Steuerung&lt;/em&gt; aus.&lt;/li&gt;
+            &lt;li&gt;Bewege den Haifisch mit &lt;em&gt;gehe 10er-Schritt&lt;/em&gt;, &lt;em&gt;warte 0.1 Sek.” *Hinweis: Scratch
+                    akzeptiert
+                    nur
+                    einen Punkt als Kommazeichen&lt;/em&gt;, &lt;em&gt;pralle vom Rand ab&lt;/em&gt; und &lt;em&gt;drehe dich um …
+                    Grad&lt;/em&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Um etwas mehr Zufall reinzubringen, nimm im Menü &lt;em&gt;Operatoren&lt;/em&gt; den Block
+                &lt;em&gt;Zufallszahl
+                    von 1
+                    bis
+                    10&lt;/em&gt; und ziehe ihn an die Stelle der 15 Grad.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;img src=&#34;images/09-move-shark.png&#34; alt=&#34;Haifisch bewegen&#34;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Bei <strong>Fisch fangen</strong> brauchst du sogar zwei Rows, da es hier zwei beschreibende Texte mit jeweils einem Bild gibt. Um etwas Abstand zwischen den beiden Bereichen zu bekommen, kannst du noch <code>&lt;div class=&quot;my-4&quot;&gt;&lt;/div&gt;</code> einfügen. <code>my-4</code> steht für margin in y Richung, 4 ist die Größe (0 - 5 ist möglich).</p>
+<pre><code>&lt;h2 id=&#34;fisch-fangen&#34;&gt;Fisch fangen&lt;/h2&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-8&#34;&gt;
+        &lt;p&gt;
+            Wenn der Haifisch den Fisch berührt, soll der Fisch ausgeblendet und wieder ins linke obere Eck
+            gesetzt
+            werden.
+        &lt;/p&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;Wähle dazu den Fisch aus, damit er blau umrandet ist.&lt;/li&gt;
+            &lt;li&gt;Im Tab &lt;em&gt;Code&lt;/em&gt; kannst du den Fisch verschwinden lassen, sobald er den Haifisch
+                berührt.
+            &lt;/li&gt;
+            &lt;li&gt;Unter &lt;em&gt;Ereignisse&lt;/em&gt; wähle &lt;em&gt;Wenn … angeklickt&lt;/em&gt;.&lt;/li&gt;
+            &lt;li&gt;Setze den Fisch an Position -230 und 170 mittels &lt;em&gt;gehe zu x: -230, y: 170&lt;/em&gt;, um den
+                Fisch
+                ins
+                linke obere Eck zu setzen, und &lt;em&gt;zeige dich&lt;/em&gt;.&lt;/li&gt;
+            &lt;li&gt;Falls jetzt der Hai berührt wird (&lt;em&gt;Steuerung&lt;/em&gt; &lt;em&gt;falls … dann&lt;/em&gt;), dann &lt;em&gt;sende
+                    “berührt” an
+                    alle&lt;/em&gt;, &lt;em&gt;verstecke dich&lt;/em&gt;, &lt;em&gt;warte 5 Sekunden&lt;/em&gt;, &lt;em&gt;zeige dich&lt;/em&gt;, und
+                gehe wieder ins linke obere Eck mit &lt;em&gt;gehe zu x: -230, y: 170&lt;/em&gt;. Anschließend sage
+                &lt;em&gt;Willkommen
+                    zurück&lt;/em&gt; für 2 Sekunden.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;img src=&#34;images/10-touch-fish.png&#34; alt=&#34;Fisch wird berührt&#34;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;my-4&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-6&#34;&gt;
+        &lt;p&gt;Wenn der Haifisch den Fisch berüht, soll er zwei mal schnappen und das Spiel “Game Over” sein.
+        &lt;/p&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;Wähle dazu den Haifisch aus, damit er blau umrandet ist.&lt;/li&gt;
+            &lt;li&gt;Im Tab &lt;em&gt;Code&lt;/em&gt; kannst du den Haifisch “Game Over” sagen lassen.&lt;/li&gt;
+            &lt;li&gt;Unter &lt;em&gt;Ereignisse&lt;/em&gt; wähle &lt;em&gt;Wenn ich … empfange&lt;/em&gt;, der Hai reagiert somit auf die
+                vom
+                Fisch ausgelöste Nachricht.&lt;/li&gt;
+            &lt;li&gt;Anschließend wähle &lt;em&gt;wiederhole 2 mal&lt;/em&gt; bei &lt;em&gt;Steuerung&lt;/em&gt; aus.&lt;/li&gt;
+            &lt;li&gt;Um den Haifisch schnappen zu lassen, gibt es unter &lt;em&gt;Aussehen&lt;/em&gt; verschiedene Varianten
+                des
+                Hais. Füge folgende Blöcke in den Wiederhol-Block: &lt;em&gt;wechsle zu Kostüm b&lt;/em&gt;, &lt;em&gt;warte
+                    0,3
+                    Sek.&lt;/em&gt;, &lt;em&gt;wechsel zu Kostüm a&lt;/em&gt;, &lt;em&gt;warte 0,3 Sek.&lt;/em&gt;&lt;/li&gt;
+            &lt;li&gt;Und um den Haifisch “Game over” sagen zu lassen, füge einen neuen &lt;em&gt;Wenn ich …
+                    empfange&lt;/em&gt;
+                Block
+                hinzu und &lt;em&gt;sage “Game Over!” für 4.5 Sekunden&lt;/em&gt;.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;img src=&#34;images/11-touch-shark.png&#34; alt=&#34;Hai wird berührt&#34;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Probiere selbst aus, in welcher Größe die Bilder bei welcher Fenstergöße am besten aussehen.</p>
+
+<h3 id="grid-layout-in-aufzählungen">Grid Layout in Aufzählungen</h3>
+
+<p>Du kannst rows und cols genauso innerhalb von Aufzählungen anwenden. Beginne dazu die row innerhalb von <code>li</code>.</p>
+<pre><code>&lt;h2 id=&#34;buehne-und-figuren-anlegen&#34;&gt;Bühne und Figuren anlegen&lt;/h2&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-6 col-xl-8&#34;&gt;
+                Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das
+                Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter
+                &lt;em&gt;Bühnenbild wählen&lt;/em&gt; ein
+                Bühnenbild aus, zum Beispiel ein Aquarium.
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                &lt;img src=&#34;images/01-background.png&#34; alt=&#34;Bühnenbild auswählen&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;my-4&#34;&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-6 col-xl-8&#34;&gt;
+                Als nächstes lösche die Figur Scratchy mit dem Namen &lt;em&gt;Sprite 1&lt;/em&gt; indem du
+                mit der rechten
+                Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;&lt;img src=&#34;images/02-delete-scratchy.png&#34; alt=&#34;Figur löschen&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;my-4&#34;&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-6 col-xl-8&#34;&gt;
+                Jetzt brauchen wir einen Haifisch sowie einen Fisch, mit dem wir dem Haifisch
+                entkommen wollen. Klicke dazu auf &lt;em&gt;Figur wählen&lt;/em&gt; und füge einen Fisch
+                sowie einen Haifisch dazu.
+                Natürlich können es auch andere Figuren sein, zum Beispiel ein Käfer, der dem
+                Vogel davonfliegt oder eine Person, die dem
+                Löwen davonläuft.
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                &lt;img src=&#34;images/03-fish.png&#34; alt=&#34;Figuren hinzufügen&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;my-4&#34;&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div class=&#34;row&#34;&gt;
+            &lt;div class=&#34;col-md-6 col-xl-8&#34;&gt;
+                Damit du später die Figuren leichter verwenden kannst, gib ihnen Namen wie
+                &lt;em&gt;Hai&lt;/em&gt; und &lt;em&gt;Fisch&lt;/em&gt;. Du kannst den Namen von Figuren ändern, indem
+                du unter der weißen Leinwand rechts neben dem Wort Figur auf das Namensfeld
+                klickst und den neuen Namen eingibst.
+            &lt;/div&gt;
+            &lt;div class=&#34;col&#34;&gt;
+                &lt;img src=&#34;images/07-rename.png&#34; alt=&#34;Figuren benennen&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+<h2 id="carousel">Carousel</h2>
+
+<p>Das <a href="https://getbootstrap.com/docs/4.4/components/carousel/" target="_blank">Carousel</a> in Bootstrap kann Bilder in einer Slideshow darstellen. Wir ersetzten jetzt das Bild im Jumbotron durch drei Bilder, die automatisch abwechselnd angezeigt werden. In der einfachsten Form ersetzt du die Zeile <code>&lt;img src=&quot;images/endgame.png&quot; alt=&quot;Endgame&quot;&gt;</code> durch die folgenden:</p>
+<pre><code>&lt;div id=&#34;introCarousel&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+    &lt;div class=&#34;carousel-inner&#34;&gt;
+        &lt;div class=&#34;carousel-item active&#34;&gt;
+            &lt;img src=&#34;images/carousel-1.png&#34; class=&#34;d-block w-100&#34; alt=&#34;Start&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;img src=&#34;images/carousel-2.png&#34; class=&#34;d-block w-100&#34; alt=&#34;Game over&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;img src=&#34;images/carousel-3.png&#34; class=&#34;d-block w-100&#34; alt=&#34;Restart&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Bei der <code>id</code> in der ersten Zeile verwenden wir <code>introCarousel</code>. Das brauchen wir später noch.</p>
+
+<p>Das Carousel funktioniert damit schon, aber die Bilder werden über den gesamten Bereich ausgedehnt. Um auch hier wieder die Größe je nach Fenstergröße angeben zu können, packen wir den gesamten <code>&lt;div class=&quot;intro&quot;&gt;</code> Bereich noch in eine row und col:</p>
+<pre><code>&lt;div class=&#34;row justify-content-lg-center&#34;&gt;
+    &lt;div class=&#34;col-lg-6&#34;&gt;
+        &lt;div id=&#34;introCarousel&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+            ...
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Bei Fenstergröße large und größer wird jetzt nur die Hälfte des Platzes verwendet. Durch <code>justify-content-lg-center</code> wird angegeben, dass nicht die ersten 6 Spalten verwendet werden, sonder dass der Inhalt in der Mitte platziert wird.</p>
+
+<h3 id="buttons-zum-vor-und-zurückblättern">Buttons zum Vor- und Zurückblättern</h3>
+
+<p>Füge im Carousel am Ende die folgenden beiden Buttons ein:</p>
+<pre><code>&lt;div id=&#34;introCarousel&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+    ...
+
+    &lt;a class=&#34;carousel-control-prev&#34; href=&#34;#introCarousel&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+        &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class=&#34;carousel-control-next&#34; href=&#34;#introCarousel&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+        &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</code></pre>
+<p>Unter <code>href</code> muss hier der Name, den wir vorher unter <code>id</code> vergeben haben, angegeben werden.</p>
+
+<p>Wir können auch unten im Carousel für jedes Bild eine Schaltfläche zum Umschalten einblenden. Füge dazu am Anfang des Carousels folgendes ein:</p>
+<pre><code>&lt;div id=&#34;introCarousel&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+    &lt;ol class=&#34;carousel-indicators&#34;&gt;
+        &lt;li data-target=&#34;#introCarousel&#34; data-slide-to=&#34;0&#34; class=&#34;active&#34;&gt;&lt;/li&gt;
+        &lt;li data-target=&#34;#introCarousel&#34; data-slide-to=&#34;1&#34;&gt;&lt;/li&gt;
+        &lt;li data-target=&#34;#introCarousel&#34; data-slide-to=&#34;2&#34;&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    
+    ...
+&lt;/div&gt;</code></pre>
+<p>Auch hier muss bei <code>data-target</code> wieder die richtige <code>id</code> angegeben werden.</p>
+
+<p>Nun können wir auch noch eine Beschriftung zu den Bildern geben:</p>
+<pre><code>&lt;div id=&#34;introCarousel&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+    ...
+
+    &lt;div class=&#34;carousel-inner&#34;&gt;
+        &lt;div class=&#34;carousel-item active&#34;&gt;
+            &lt;img src=&#34;images/carousel-1.png&#34; class=&#34;d-block w-100&#34; alt=&#34;Start&#34;&gt;
+            &lt;div class=&#34;carousel-caption d-none d-md-block&#34;&gt;
+                &lt;h5&gt;Mein erstes Scratch Spiel&lt;/h5&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;img src=&#34;images/carousel-2.png&#34; class=&#34;d-block w-100&#34; alt=&#34;Game over&#34;&gt;
+            &lt;div class=&#34;carousel-caption d-none d-md-block&#34;&gt;
+                &lt;h5&gt;Game Over&lt;/h5&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;img src=&#34;images/carousel-3.png&#34; class=&#34;d-block w-100&#34; alt=&#34;Restart&#34;&gt;
+            &lt;div class=&#34;carousel-caption d-none d-md-block&#34;&gt;
+                &lt;h5&gt;Spiel beginnt neu&lt;/h5&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    ...
+&lt;/div&gt;</code></pre>
+<p><img src="erste-schritte-mit-bootstrap/website-with-carousel.png" alt="Grid System" /></p>
+
+<h2 id="scrollspy">Scrollspy</h2>
+
+<p>Als letzes fügen wir noch ein Menü zu Navigation ein. Wir verwenden dafür den <a href="https://getbootstrap.com/docs/4.4/components/scrollspy/" target="_blank">Scrollspy</a>. Wenn wir durch den Inhalten scrollen, werden automatisch die gerade aktiven Menüelemente hervorgehoben.</p>
+
+<p>Wir brauchen auf unserer Seite dafür zwei Bereich:</p>
+
+<ul>
+<li>links wird das Menü dargestellt</li>
+
+<li><p>rechts wird der bisherige Inhalt dargestellt</p>
+<pre><code>&lt;body&gt;
+&lt;div class=&#34;row no-gutters&#34;&gt;
+    &lt;div class=&#34;d-none d-md-block col-md-4 col-lg-3&#34;&gt;
+        &lt;div class=&#34;navigation&#34;&gt;
+            &lt;!-- Navigation --&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;
+            ...
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- scripts --&gt;
+...
+&lt;/body&gt;</code></pre></li>
+</ul>
+
+<p>Für die beiden neuen Bereiche <code>navigation</code> brauchen wir folgendes Styles:</p>
+<pre><code>.navigation {
+    height: 100vh;
+    background-color: #343a40;
+    padding: 20px;
+    overflow: auto;
+}
+
+.content {
+    height: 100vh;
+    overflow: auto;
+}</code></pre>
+<p>Wir legen dadurch die Höhe jeweils auf die Fensterhöhe fest. Durch <code>overflow: auto</code> erscheinen Scrollbalken, wenn der Inhalt zu lang wird. Im Unterscheid zu vorher kann jetzt aber in den beiden Bereichen getrennt gescrollt werden.</p>
+
+<p>Nun müssen wir noch die den Navigationsbereich befüllen:</p>
+<pre><code> &lt;div class=&#34;navigation&#34;&gt;
+    &lt;nav id=&#34;fische-navbar&#34; class=&#34;navbar navbar-dark bg-dark&#34;&gt;
+        &lt;a class=&#34;navbar-brand&#34; href=&#34;#top&#34;&gt;Fische fangen&lt;/a&gt;
+        &lt;ul class=&#34;navbar-nav mr-auto mt-2 mt-lg-0&#34;&gt;
+            &lt;li class=&#34;nav-item&#34;&gt;
+                &lt;a class=&#34;nav-link&#34; href=&#34;#buehne-und-figuren-anlegen&#34;&gt;Bühne und Figuren&lt;/span&gt;&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&#34;nav-item&#34;&gt;
+                &lt;a class=&#34;nav-link&#34; href=&#34;#fisch-bewegen&#34;&gt;Fisch bewegen&lt;/span&gt;&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&#34;nav-item&#34;&gt;
+                &lt;a class=&#34;nav-link&#34; href=&#34;#haifisch-bewegen&#34;&gt;Haifisch bewegen&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&#34;nav-item&#34;&gt;
+                &lt;a class=&#34;nav-link&#34; href=&#34;#fisch-fangen&#34;&gt;Fisch fangen&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&#34;nav-item&#34;&gt;
+                &lt;a class=&#34;nav-link&#34; href=&#34;#weitere-ideen&#34;&gt;Weitere Ideen&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/div&gt;</code></pre>
+<p>Damit das Menü verschwindet, wenn das Fenster zu klein wird, müssen wir zum <code>&lt;div class=&quot;navigation&quot;&gt;</code> noch folgende Klassen hinzufügen: <code>d-none d-md-block</code>. <code>d</code> steht für display. <code>d-none</code> heißt, ein Element wird nicht dargestellt. <code>d-md-block</code> heißt, wenn das Fenster &gt;= medium ist, soll das Element dargestellt werden.</p>
+
+<p>Der erste Link verweist auf <code>href=&quot;#top&quot;</code>, es gibt aber noch kein Element mit <code>id=&quot;top&quot;</code>. Wir fügen daher direkt über dem Jumbotron folgendes ein:</p>
+<pre><code>&lt;a id=&#34;top&#34;&gt;&lt;/a&gt;</code></pre>
+<p>Damit beim Scrollen die Menüelemente hervorgehoben werden, müssen wir jetzt noch unserem <code>&lt;div class=&quot;content&quot;&gt;</code> beibringen, dass es mit der <code>fische-navbar</code> verbunden ist:</p>
+<pre><code>&lt;div class=&#34;content&#34; data-spy=&#34;scroll&#34; data-target=&#34;#fische-navbar&#34; data-offset=&#34;0&#34;&gt;</code></pre>
+<p><img src="erste-schritte-mit-bootstrap/website-with-scrollspy.png" alt="Grid System" /></p>
+
+<h2 id="fertiges-beispiel">Fertiges Beispiel</h2>
+
+<p>Das fertige Beispiel findet ihr auf GitHub unter <a href="https://github.com/coderdojo-linz/coderdojo-linz.github.io/tree/master/trainingsanleitungen/web/erste-schritte-mit-bootstrap/project" target="_blank">https://github.com/coderdojo-linz/coderdojo-linz.github.io/tree/master/trainingsanleitungen/web/erste-schritte-mit-bootstrap/project</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

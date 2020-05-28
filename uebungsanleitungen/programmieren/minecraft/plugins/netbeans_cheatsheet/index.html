@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> NetBeans Projektsetup </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/vendor.min.0333747b3befa5b94134ff44f8faaa1f7cf970af0c6db42443c186eaf3c65490.css">
+    <link rel="stylesheet" href="https://linz.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz.coderdojo.net/style.min.074f5318c0be1ccca88a7eb2753db5e7a7aae600720f72e50844a9f3ab7fe2b6.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/minecraft/">Minecraft</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans_cheatsheet/">NetBeans Projektsetup</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+                
+                
+
+<h1 id="netbeans-projektsetup">NetBeans Projektsetup</h1>
+
+<p>Kurzanleitung, wie das Projekt in NetBeans aufgesetzt werden muss, um für deine Minecraft Plugins vorbereitet zu sein.</p>
+
+<h2 id="projekt-erstellen">Projekt erstellen</h2>
+
+<ol>
+<li>NetBeans starten</li>
+<li>Menü <strong>File</strong> &gt; Menüpunkt <strong>New Project &hellip;</strong></li>
+<li>Auswahl: Categories <strong>Java</strong>, Projects <strong>Java Class Library</strong> &gt; Klick auf <strong>Next</strong></li>
+<li>Vergabe des Projektnamens unter <strong>Project Name</strong> (z.B. FirstPlugin) &gt; Klick auf <strong>Finish</strong></li>
+</ol>
+
+<h2 id="craftbukkit-bibliothek-hinzufügen">Craftbukkit Bibliothek hinzufügen</h2>
+
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Libraries</strong> mit der rechten Maustaste klicken &gt; <strong>Add JAR/Folder</strong> auswählen.</li>
+<li>Die Datei <strong>craftbukkit.jar</strong> auswählen &gt; Klick auf <strong>Open</strong></li>
+</ol>
+
+<h2 id="package-hinzufügen">Package hinzufügen</h2>
+
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Source Packages</strong> mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>Java Package</strong> auswählen.</li>
+<li>Als <strong>Package Name</strong> folgendes vergeben: io.coderdojo.<deinName>.minecraft.<pluginName> (wobei <deinName> sowie <pluginName> in Kleinschreibung ersetzt wird, z.B. durch &ldquo;lisi&rdquo; und &ldquo;firstplugin&rdquo;) &gt; Klick auf <strong>Finish</strong></li>
+</ol>
+
+<h2 id="hauptklasse-hinzufügen">Hauptklasse hinzufügen</h2>
+
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) in <strong>Source Packages</strong> auf dein neu erstelltes Package mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>Java Class</strong> auswählen.</li>
+<li>Als <strong>Class Name</strong> dein Plugin benennen, z.B. FirstPlugin &gt; Klick auf <strong>Finish</strong></li>
+<li>Sicherstellen dass nach dem Klassennamen <code>extends JavaPlugin</code> steht.</li>
+</ol>
+
+<h2 id="plugin-yml-hinzufügen">plugin.yml hinzufügen</h2>
+
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Source Packages</strong> mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>YAML File</strong> auswählen.</li>
+<li>Als <strong>File Name</strong> den Namen <code>plugin</code> eingeben &gt; Klick auf <strong>Finish</strong></li>
+</ol>
+
+<h2 id="resultat">Resultat</h2>
+
+<p>Dein Projektsetup sollte jetzt so aussehen:
+<img src="netbeans_cheatsheet/netbeans_structure.jpg" alt="Netbeans screenshot" /></p>
+
+<h2 id="projekt-bauen-und-deployen">Projekt bauen und deployen</h2>
+
+<ol>
+<li>In der Icon Leiste oben auf den Hammer <strong>Build Project (F11)</strong> klicken.</li>
+<li>Im Fenster <strong>Output</strong> (wenn nicht vorhanden, über Menüpunkt <strong>Window</strong> &gt; <strong>Output (Strg+4)</strong> anzeigen lassen) den Pfad zum *.jar kopieren (endet auf <code>dist/</code>).</li>
+<li>Im Explorer die <code>*.jar</code> Datei aus <code>dist/</code> in den Server Plugins Ordner (<code>craftbukkit/plugins/</code>) kopieren.</li>
+<li>In der Server Konsole das Kommando <code>reload</code> eingeben.</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>
