@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assembler on CoderDojo Linz</title>
-    <link>https://linz.coderdojo.net/uebungsanleitungen/programmieren/assembler/</link>
+    <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/assembler/</link>
     <description>Recent content in Assembler on CoderDojo Linz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-AT</language>
     <lastBuildDate>Sun, 17 May 2020 08:12:48 +0200</lastBuildDate>
     
-	<atom:link href="https://linz.coderdojo.net/uebungsanleitungen/programmieren/assembler/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/assembler/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Back to Basics - Assembler Hello World</title>
-      <link>https://linz.coderdojo.net/uebungsanleitungen/programmieren/assembler/assembler-hello-world/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/assembler/assembler-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz.coderdojo.net/uebungsanleitungen/programmieren/assembler/assembler-hello-world/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/assembler/assembler-hello-world/</guid>
       <description>Erste Schritte mit Assembler-Programmierung Ziel der Übung Normalerweise programmieren wir im CoderDojo mit sogenannten höheren Programmiersprachen wie C#, Java, Python oder JavaScript. Auf unterster Ebene versteht ein Computer diese Sprachen aber nicht. Er kann nur mit Maschinensprache umgehen. Diese Befehle kann der Prozessor deines Computers direkt ausführen.
 In dieser Übung probieren wir, ein Programm direkt in Maschinensprache zu programmieren. Dazu verwenden wir eine Assemblersprache. Auch wenn du später selten Assembler programmieren wirst, hilft dir diese Übung, besser zu verstehen, was im Hintergrund passiert.</description>
     </item>
