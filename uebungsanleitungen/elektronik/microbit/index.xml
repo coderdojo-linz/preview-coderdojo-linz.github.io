@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microbit on CoderDojo Linz</title>
+    <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</link>
+    <description>Recent content in Microbit on CoderDojo Linz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    <lastBuildDate>Sun, 17 May 2020 08:04:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deine ersten Schritte mit micro:bit - Blockprogrammierung</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_ersteschritte_block/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_ersteschritte_block/</guid>
+      <description>Deine ersten Schritte mit micro:bit - Blockprogrammierung Der BBC micro:bit ist ein kleiner anprogrammierbarer Computer mit Bewegungssensoren und Kompass. Weitere Informationen und einer ausführerlichen Anleitung zu den ersten Schritten gibt es hier.
+Ausstattung In der Mitte befinden sich 25 LED-Lämpchen in einem 5x5 Raster. Links hast du den A-Knopf (Button) und rechts den B-Knopf. Auf der Rückseite befinden sich die Anschlüsse für das Batteriefach und ein Micro-USB-Kabel.
+Verbinde den micro:bit Um zu Beginnen verbinde deinen micro:bit mit dem zusätzlichen Batteriefach oder mit einem USB-Kabel mit deinem Laptop.</description>
+    </item>
+    
+    <item>
+      <title>micro:bit Moonhack 2018</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_moonhack_2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_moonhack_2018/</guid>
+      <description>micro:bit Moonhack 2018 Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond, aber das Raumschiff am richtigen Ort zu landen war nicht einfach. Der Pilot, Neil Armstrong, musste das Raumschiff präzise zu dem Landepunkt steuern um dort landen zu können und in diesem Spiel werden wir versuchen die Landeansteuerung nachzubauen.
+Wenn du keinen physischen micro:bit hast kannst du das Spiel in dem Online-Editor coden.</description>
+    </item>
+    
+  </channel>
+</rss>
