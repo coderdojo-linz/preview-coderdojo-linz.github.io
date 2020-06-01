@@ -95,6 +95,8 @@
 
 
 
+
+
 <li class="breadcrumb-item">
     <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
 </li>
@@ -119,6 +121,14 @@
 
 
 
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/">EN</a>
+</li>
+
+
+
+
+
 <li class="breadcrumb-item active ">
     <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/">Scratch Catch Me</a>
 </li>
@@ -136,32 +146,32 @@
 
 <p>In this game you are a little fish and you try to escape the big dangerous shark. Can you do it?</p>
 
-<h2 id="creating-stage-and-sprites">creating Stage and Sprites</h2>
+<h2 id="creating-stage-and-sprites">Creating Stage and Sprites</h2>
 
 <ol>
-<li><p><img src="scratch-catch-me/01-background.png" alt="select the stage" />{: .right}
+<li><p><img src="01-background.png" alt="select the stage" />{: .right}
 You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on <em>Select backdrop from library</em> on the bottom left and choose your background image, for example the underwater1.</p></li>
 
-<li><p><img src="scratch-catch-me/02-delete-scratchy.png" alt="delete sprite" />{: .right}
+<li><p><img src="02-delete-scratchy.png" alt="delete sprite" />{: .right}
 The next step is to delete the Scratchy sprite with the name <em>Sprite1</em>, by right-clicking on it and selecting <em>delete</em>.</p></li>
 
-<li><p><img src="scratch-catch-me/03-fish.png" alt="add sprites" />{: .right}
+<li><p><img src="03-fish.png" alt="add sprites" />{: .right}
 Now we need to add the fish as well as the shark we are trying to escape from to our scene. To do so, click on <em>Choose sprite form Library</em> and add the fish and shark sprite. Of course you could choose different characters, for example a bug escaping a bird or a person escaping a lion. It&rsquo;s all up to your creativity.</p></li>
 
-<li><p><img src="scratch-catch-me/04-resize.png" alt="resize the fish" />{: .right}
+<li><p><img src="04-resize.png" alt="resize the fish" />{: .right}
 Currently the fish sprite is the same size as the shark sprite. To make the little fish actually smaller than the big shark, we have to resize the fish sprite. To do so, select the fish sprite, so it is highlighted with a blue border. Now click on the <em>Costumes</em> tab, select the fish and resize it.</p></li>
 
-<li><p><img src="scratch-catch-me/05-fish-center.png" alt="set center point" />{: .right}
+<li><p><img src="05-fish-center.png" alt="set center point" />{: .right}
 To make the fish rotate at the correct point when he&rsquo;s turning around, you have to define the rotation point by selecting the <em>center pint</em> tool on the top right corner and click at the center of your fish sprite.</p></li>
 
-<li><p><img src="scratch-catch-me/06-rename.png" alt="rename sprites" />{: .right}
+<li><p><img src="06-rename.png" alt="rename sprites" />{: .right}
 To make it easier for you to use the sprites later on, just give them custom names like <em>Bad Shark</em> and <em>Me</em> by clicking on the blue <em>i</em> on the top left corner of the selected sprite.</p></li>
 </ol>
 
-<h2 id="move-the-fish">move the fish</h2>
+<h2 id="move-the-fish">Move the Fish</h2>
 
 <ol>
-<li><img src="scratch-catch-me/07-move-fish.png" alt="move the fish" />{: .right}
+<li><img src="07-move-fish.png" alt="move the fish" />{: .right}
 To make the fish move up, down, left and right you need to build the scripts that controls the fish<br/><br/>
 • First, select the fish sprite.<br/>
 • Select the <em>Script</em> tab and use the <em>when &hellip; key pressed</em> action from the <em>Events</em> category.<br/>
@@ -174,10 +184,10 @@ For <em>right arrow</em>: direction 90 degrees, 10 steps.<br/>
 the more steps you choose the faster does your character move.</li>
 </ol>
 
-<h2 id="move-the-shark">move the shark</h2>
+<h2 id="move-the-shark">Move the Shark</h2>
 
 <ol>
-<li><img src="scratch-catch-me/08-move-shark.png" alt="move the shark" />{: .right}
+<li><img src="08-move-shark.png" alt="move the shark" />{: .right}
 Now it&rsquo;s time to move the shark around the scene.<br/><br/>
 • Select the shark sprite, so it is highlighted with a blue border.<br/>
 • Switch to the <em>Scripts</em> tab.<br/>
@@ -188,10 +198,10 @@ Now it&rsquo;s time to move the shark around the scene.<br/><br/>
 <br /></li>
 </ol>
 
-<h2 id="catch-the-fish">catch the fish</h2>
+<h2 id="catch-the-fish">Catch the Fish</h2>
 
 <ol>
-<li><p><img src="scratch-catch-me/09-touch-fish.png" alt="touching the fish" />{: .right}
+<li><p><img src="09-touch-fish.png" alt="touching the fish" />{: .right}
 When the shark touches the fish, the fish should be hidden and repositioned to the left top corner.<br/><br/>
 • Select the fish sprite.<br/>
 • Within the <em>Scripts</em> tab we now add the repositioning logic.<br/>
@@ -199,7 +209,7 @@ When the shark touches the fish, the fish should be hidden and repositioned to t
 • Use the <em>go to x: &hellip; , y: &hellip;</em> action from the <em>Motion</em> category to set the initial position on the top left corner x: -230 y: 170, and add the <em>show</em> action from the <em>Looks</em> category.<br/>
 • If the fish touches the shark sprite (<em>Control</em> <em>if &hellip; then</em> - <em>Sensing</em> <em>touching &hellip;</em>), then send a message (<em>Events</em> <em>broadcast &hellip;</em>), <em>hide</em>, <em>wait 5 secs</em>, <em>show</em> ans set the initial position <em>go to x: -230, y: 170</em>. Finally show the player a message with the <em>say &hellip; for &hellip; secs</em> from the <em>Looks</em> category.</p></li>
 
-<li><p><img src="scratch-catch-me/10-touch-shark.png" alt="touching the shark" />{: .right}
+<li><p><img src="10-touch-shark.png" alt="touching the shark" />{: .right}
 When the shark catches the fish, he should snap twice and the game is over.<br/><br/>
 • Select the shark sprite.<br/>
 • Switch to the <em>Script</em> Tab and tell the player that he is &ldquo;game over!&rdquo;.<br/>
@@ -208,7 +218,7 @@ When the shark catches the fish, he should snap twice and the game is over.<br/>
 • To make the shark snap, a couple of different versions of the shark are available under the <em>Costumes</em> tab. Add the following actions within the repeat loop: <em>switch cosume to shark-b</em>, <em>wait 0.3 secs</em>, <em>switch cosume to shark-a</em>, <em>wait 0.3 secs</em><br/></p></li>
 </ol>
 
-<h2 id="some-ideas">some ideas</h2>
+<h2 id="some-ideas">Some Ideas</h2>
 
 <ul>
 <li>Make the game more difficult by adding another, slower, shark.</li>
@@ -216,9 +226,9 @@ When the shark catches the fish, he should snap twice and the game is over.<br/>
 <li>Control the fish by mouse instead of the keyboard.</li>
 </ul>
 
-<h2 id="try-it">try it</h2>
+<h2 id="try-it">Try It</h2>
 
-<p>You can download and try an already completed version of this game <a href="scratch-catch-me/scratch-catch-me.sb2" target="_blank">here</a>.</p>
+<p>You can download and try an already completed version of this game <a href="scratch-catch-me.sb2" target="_blank">here</a>.</p>
 
                 </div>
             </div>

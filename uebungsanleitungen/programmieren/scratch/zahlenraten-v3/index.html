@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Zahlenraten </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/vendor.min.e379f836cab18e6ea8d09786ef9ff3d7a04bf181d8b2aa661c33635390b6ae98.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.e1bc955fdead84f59d7d5392726733a3d0452b5af3f732d62901a13984247d6e.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section id="sushi">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/">Zahlenraten</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+
+                <div class="sushi-content">
+                    
+
+<h1 id="die-zahlenraten-span-class-badge-badge-scratch3-scratch-2-0-span-a-href-scratch-zahlenraten-v3-html-class-change-scratch-version-scratch-3-0-a">Die Zahlenraten <span class="badge badge-scratch3">Scratch 2.0</span> <a href="scratch-zahlenraten-v3.html" class="change-scratch-version">Scratch 3.0</a></h1>
+
+<p>In diesem Spiel musst du eine Zahl erraten, die sich der Computer ausgedacht hat. Schaffst du es in weniger als 9 Versuchen?</p>
+
+<h2 id="variablen-anlegen">Variablen anlegen</h2>
+
+<ol>
+<li><p><img src="01-variable.PNG" alt="Variable anlegen" />{: .right}
+Wir Menschen merken uns Dinge im Gehirn. Wenn sich der Computer etwas merken soll, dann braucht er dafür Variablen. In unserem Spiel soll sich der Computer eine Zufallszahl ausdenken, sie uns aber nicht verraten.<br/>
+Wir legen dafür unter &ldquo;Daten&rdquo; eine &ldquo;Neue Variable&rdquo; an und nennen sie &ldquo;zufallszahl&rdquo;.</p></li>
+
+<li><p><img src="03-versuche-uebrig.PNG" alt="Variablen belegen" />{: .right}
+Sobald das Programm gestartet wird, soll sich der Computer die Zufallszahl ausdenken und das Ergebnis in unserer neuen Variable speichern. Wir wählen einen Zahlenraum von 1 bis 100 - du kannst das Spiel aber natürlich einfacher oder schwieriger machen.
+Zusätzlich möchten wir mitzählen, wie viele Versuche noch übrig sind. Dafür erstellen wir eine weitere Variable &ldquo;versuche übrig&rdquo; und setzen sie am Beginn auf den Wert 9.</p></li>
+
+<li><p><img src="04-versuche-uebrig.PNG" alt="Variablen anzeigen" />{: .right}
+Im Punkt &ldquo;Daten&rdquo; siehst du alle angelegten Variablen, mit dem Kästchen daneben kannst du einstellen, ob die Variable auf der Bühne zu sehen sein soll. Wir wollen die Anzahl der möglichen Versuche sehen, die Zufallszahl soll natürlich nicht angezeigt werden.</p></li>
+</ol>
+
+<h2 id="zahlen-raten-und-vergleichen">Zahlen raten und vergleichen</h2>
+
+<ol>
+<li><p><img src="07-falls.PNG" alt="Zahlen vergleichen" />{: .right}
+Jetzt wirds etwas komplizierter: wir möchten den Spieler um seinen Tipp fragen, dafür wählen wir aus dem Punkt &ldquo;Fühlen&rdquo; die Frage aus. An dieser Stelle wartet der Computer dann auf eine Eingabe - und speichert diese in einer&hellip; - Variable! Sie heißt &ldquo;Antwort&rdquo;.<br/>
+Daher können wir nach der Frage überprüfen, ob die Antwort korrekt war: falls die Antwort gleich unserer Zufallszahl ist, dann hat der Spieler die Zahl erraten!</p></li>
+
+<li><p><img src="08-falls.PNG" alt="Schleife" />{: .right}
+Im Moment hätten wir dann genau einen Versuch - wahrscheinlich ist das zu wenig. Wir brauchen eine Schleife, und müssen so oft fragen, bis der Spieler die richtige Antwort erraten hat (oder zu viele Versuche benötigt hat).<br/><br/>Dafür legen wir uns eine neue Variable an, wir nennen sie &ldquo;erraten&rdquo;. Solange die Variable den Wert 0 hat, bitten wir den Spieler um einen weiteren Tipp. Sobald der Tipp richtig war, setzen wir die Variable auf 1 - und hören auf zu fragen.<br/><br/>Achte genau auf die Unterschiede zum vorherigen Skript!</p></li>
+
+<li><p><img src="09-kleiner.PNG" alt="Tipps geben" />{: .right}
+Damit man schneller zum Ziel kommt, geben wir noch Tipps, ob die gesuchte Zahl kleiner oder größer als die Eingabe ist.</p></li>
+</ol>
+
+<h2 id="alle-tipps-anzeigen">Alle Tipps anzeigen</h2>
+
+<ol>
+<li><p><img src="10-liste.PNG" alt="Liste hinzufügen" />{: .right}
+Damit man sehen kann, welche Tipps bereits abgegeben wurden, fügen wir eine neue Liste zu unserem Programm hinzu. Listen findest du im Menüpunkt &ldquo;Daten&rdquo;, sie funktionieren so ähnlich wie Variablen.<br/><br/>
+Durch Anklicken der kleinen Box erscheint die Liste auch auf der Bühne.</p></li>
+
+<li><p><img src="11-liste.PNG" alt="Einträge einfügen" />{: .right}
+Lösche am Beginn alle Einträge aus der Liste und füge neue Einträge ein, sobald ein Tipp abgegeben wurde. Achte wieder auf die Änderungen im Skript.</p></li>
+</ol>
+
+<h2 id="fertig">Fertig!</h2>
+
+<p>Los geht´s - wie viele Tipps benötigst du?</p>
+
+<h2 id="weitere-ideen">Weitere Ideen</h2>
+
+<ul>
+<li>Im Moment bricht das Spiel noch nicht ab, wenn keine Versuche mehr übrig sind - schaffst du das?</li>
+<li>Statt &ldquo;größer&rdquo; und &ldquo;kleiner&rdquo; könntest du auch versuchen, andere Angaben zu machen - zB &ldquo;weit daneben&rdquo;, &ldquo;nicht schlecht&rdquo;, &ldquo;ganz knapp&rdquo;!</li>
+<li>Du könntest am Beginn fragen, wie groß der Zahlenraum sein soll!</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz-preview.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz-preview.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

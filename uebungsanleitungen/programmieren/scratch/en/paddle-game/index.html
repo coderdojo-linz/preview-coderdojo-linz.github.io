@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Scratch Paddle Game </title>
+    <title> Paddle Game </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.71.1" />
@@ -95,6 +95,8 @@
 
 
 
+
+
 <li class="breadcrumb-item">
     <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
 </li>
@@ -119,8 +121,16 @@
 
 
 
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/">EN</a>
+</li>
+
+
+
+
+
 <li class="breadcrumb-item active ">
-    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/">Scratch Paddle Game</a>
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/">Paddle Game</a>
 </li>
 
 
@@ -132,42 +142,42 @@
                 <div class="sushi-content">
                     
 
-<h1 id="scratch-paddle-game">Scratch Paddle Game</h1>
+<h1 id="paddle-game">Paddle Game</h1>
 
 <p>In this exercise you build a little game where you try to prevent a ball from falling down with a paddle you can move from left to right.</p>
 
-<h2 id="creating-stage-and-sprites">creating Stage and Sprites</h2>
+<h2 id="creating-stage-and-sprites">Creating Stage and Sprites</h2>
 
 <ol>
-<li><p><img src="scratch-paddle-game/buehne-und-figuren.png" alt="creating stage and sprites" />{: .right}
+<li><p><img src="buehne-und-figuren.png" alt="creating stage and sprites" />{: .right}
 You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the <em>out</em> area.<br/><br/>
 Select the backdrop from the library with the button on the bottom left.
-<img src="scratch-paddle-game/buehnenbild-auswaehlen.png" alt="select backdrop" /></p></li>
+<img src="buehnenbild-auswaehlen.png" alt="select backdrop" /></p></li>
 
-<li><p><img src="scratch-paddle-game/figur-loeschen.png" alt="delete sprite" />{: .right}
+<li><p><img src="figur-loeschen.png" alt="delete sprite" />{: .right}
 The next step is to delete the Scratchy sprite with the name <em>Sprite1</em>, by right-clicking on it and selecting <em>delete</em>.</p></li>
 
-<li><p><img src="scratch-paddle-game/figur-hinzufuegen.png" alt="add ball sprite" />{: .right}
+<li><p><img src="figur-hinzufuegen.png" alt="add ball sprite" />{: .right}
 Now we need to add the ball sprite. To do so, click on <em>Choose sprite form Library</em> and add choose a ball sprite to use.</p></li>
 
-<li><p><img src="scratch-paddle-game/figur-zeichnen.png" alt="paint sprite" />{: .right}
+<li><p><img src="figur-zeichnen.png" alt="paint sprite" />{: .right}
 The paddle sprite has to be panted manually. For this we use the <em>paint new sprite</em> button.</p></li>
 
 <li><p>At the drawing area we have to paint a simple rectangle. Therefore we need the <em>rectangle</em> and the <em>fill with color</em> tool from the toolbox.<br/><br/>
 When your have finished drawing the paddle you can move it by clicking and dragging the sprite in the top left scene design area. Drag the paddle to the bottom part of your scene but not at the very bottom, because we need some extra space for the <em>out</em> area down there.
-<img src="scratch-paddle-game/paddle-malen.png" alt="paint paddle" /></p></li>
+<img src="paddle-malen.png" alt="paint paddle" /></p></li>
 
-<li><p><img src="scratch-paddle-game/out.png" alt="Out" />{: .right}
+<li><p><img src="out.png" alt="Out" />{: .right}
 Finally we have to paint another sprite using the same tools to create the <em>out</em> area. Only this time, paint the rectangle in another color and use the whole drawing area. When done move the sprite to the very bottom of your scene.</p></li>
 
-<li><p><img src="scratch-paddle-game/figuren-benennen.png" alt="rename the figures" />{: .right}
+<li><p><img src="figuren-benennen.png" alt="rename the figures" />{: .right}
 To make it easier for you to use the sprites later on, just give them custom names like <em>paddle</em> and <em>out</em> instead of <em>Sprite 1</em> and <em>Sprite 2</em>, by clicking on the blue <em>i</em> on the top left corner of the selected sprite..</p></li>
 </ol>
 
-<h2 id="move-the-paddle-from-left-to-right">move the paddle from left to right.</h2>
+<h2 id="move-the-paddle-from-left-to-right">Move the Paddle From Left to Right.</h2>
 
 <ol>
-<li><img src="scratch-paddle-game/schlaeger-bewegen.png" alt="move the paddle" />{: .right}
+<li><img src="schlaeger-bewegen.png" alt="move the paddle" />{: .right}
 In order to be able to keep the ball in the air, you must be able to move the paddle to the left and right.
 To do so use the <em>when &hellip; key pressed</em> event. You can choose the <em>left arrow</em> and the <em>right arrow</em>.
 In case of <em>left arrow</em>, set the direction to -90 degrees, which means that the paddle will move to the left. Then move the paddle 15 steps.
@@ -177,27 +187,27 @@ When you press either the left or right arrow now, the paddle will move. <br/><b
 At the start of the game the paddle should be placed in the center of the screen. To do so use the <em>when flag clicked</em> action and set the current x-position of the paddle to 0.</li>
 </ol>
 
-<h2 id="let-the-ball-bounce">let the ball bounce</h2>
+<h2 id="let-the-ball-bounce">Let the Ball Bounce</h2>
 
 <ol>
-<li><p><img src="scratch-paddle-game/ball-bewegen.png" alt="move ball" />{: .right}
+<li><p><img src="ball-bewegen.png" alt="move ball" />{: .right}
 Now it&rsquo;s time to move the ball. When the game is started the ball should be placed in the middle of the screen. To do so set the current x- and y-position to 0. Moreover set the direction to zero, which means that the ball will move upwards. <br/><br/>
 Now the movement can start. Repeat the following three actions: <em>move 10 steps</em>, <em>if on edge, bounce</em> and <em>wait 0.05 secs</em>.
 By changing this value you can control the balls speed. <br/><br/>
 If you run this script now, the ball will bounce between top and bottom edge, but the paddle will be ignored.</p></li>
 
-<li><p><img src="scratch-paddle-game/schlaeger-beruehren.png" alt="touching paddle" />{: .right}
+<li><p><img src="schlaeger-beruehren.png" alt="touching paddle" />{: .right}
 To change the direction of the ball, as soon as he touches the paddle, we need some more actions when the game starts.
 Here we have to check infinitely whether the ball touches the paddle or not. If it does, the direction is set to a random value between -40 and 40. <br/><br/>
 Direction 0 degrees means straight upwards. A value between -40 and 40 means that the ball will move upwards but spreads slightly to the left or right. <br/><br/>
 Then wait until the ball no longer touches the paddle before continuing the script.</p></li>
 
-<li><p><img src="scratch-paddle-game/out-erkennen.png" alt="recognize out" />{: .right}
+<li><p><img src="out-erkennen.png" alt="recognize out" />{: .right}
 Last but not least you have to detect the ball touching the out area. In that case the game is over.
-<img src="scratch-paddle-game/game-over.png" alt="Game over" /></p></li>
+<img src="game-over.png" alt="Game over" /></p></li>
 </ol>
 
-<h2 id="some-ideas">some ideas</h2>
+<h2 id="some-ideas">Some Ideas</h2>
 
 <ul>
 <li>Instead of letting the ball move constant 10 steps a time you could increase the step count over time to make the game more difficult.</li>
@@ -206,9 +216,9 @@ Last but not least you have to detect the ball touching the out area. In that ca
 <li>Add another ball to the game after some time.</li>
 </ul>
 
-<h2 id="try-it">try it</h2>
+<h2 id="try-it">Try It</h2>
 
-<p>You can download and try an already completed version of this game <a href="scratch-paddle-game/scratch-paddle-game.sb2" target="_blank">here</a>.</p>
+<p>You can download and try an already completed version of this game <a href="scratch-paddle-game.sb2" target="_blank">here</a>.</p>
 
                 </div>
             </div>

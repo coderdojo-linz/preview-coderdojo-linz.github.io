@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/</loc>
+    <lastmod>2020-05-17T07:59:43+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/</loc>
     <lastmod>2020-05-17T07:59:43+02:00</lastmod>
   </url>
@@ -118,11 +123,15 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/slingshot-v3/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/mentoren/rosemann-alexander/</loc>
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-animated-postcard/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/animated-postcard/</loc>
   </url>
   
   <url>
@@ -131,6 +140,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/assembler/assembler-hello-world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/breakout-v3/</loc>
   </url>
   
   <url>
@@ -143,6 +156,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/chess-v3/</loc>
   </url>
   
   <url>
@@ -167,6 +184,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/dragons-realm-v3/</loc>
   </url>
   
   <url>
@@ -302,7 +323,11 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-labyrinth-v3/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/labyrinth-v3/</loc>
   </url>
   
   <url>
@@ -318,6 +343,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/memory-v3/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/mentoren/</loc>
   </url>
   
@@ -330,6 +359,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/minesweeper-v3/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/geschichte-katze-und-ente/</loc>
   </url>
   
@@ -338,11 +371,27 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/n-ecke-malen/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans_cheatsheet/</loc>
   </url>
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pac-man-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/paddle-game-v3/</loc>
   </url>
   
   <url>
@@ -378,14 +427,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-slingshot-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-breakout-v3/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</loc>
   </url>
   
@@ -394,75 +435,11 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-chess-v3/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/</loc>
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-dragons-realm-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-konto-anlegen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-memory-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-minesweeper-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-n-ecke-malen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-pac-man-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-paddle-game-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-sierpinski-dreieck/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-snake-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-space-shooter-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-space-shooter-2-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-sterne-fangen-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-the-game-of-life-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-weihnachten-2016/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-whack-a-gopher/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-zahlenraten-v3/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/snake-v3/</loc>
   </url>
   
   <url>
@@ -474,11 +451,23 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/space-shooter-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/space-shooter-2-v3/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/space-shooter/</loc>
   </url>
   
   <url>
     <loc>https://linz-preview.coderdojo.net/sponsoring/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/sterne-fangen-v3/</loc>
   </url>
   
   <url>
@@ -498,6 +487,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/the-game-of-life-v3/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/towers-of-hanoi/</loc>
   </url>
   
@@ -514,7 +507,15 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten-2016/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/05_welcome-listener/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/whack-a-gopher/</loc>
   </url>
   
   <url>
@@ -523,6 +524,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</loc>
   </url>
   
 </urlset>

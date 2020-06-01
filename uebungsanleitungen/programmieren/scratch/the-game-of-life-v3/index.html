@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de-AT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> The Game of Life </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.71.1" />
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    
+    
+    
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/vendor.min.e379f836cab18e6ea8d09786ef9ff3d7a04bf181d8b2aa661c33635390b6ae98.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/css/animate.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.e1bc955fdead84f59d7d5392726733a3d0452b5af3f732d62901a13984247d6e.css">
+</head>
+
+<body id="body">
+    <!-- NAVIGATION -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/termine">Termine</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Infos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/info/kinder-und-jugendliche">Für Kinder und Jugendliche</a>
+                        <a class="dropdown-item" href="/info/eltern">Für Eltern</a>
+                        <a class="dropdown-item" href="/info/mentoren">Für Mentoren</a>
+                        <a class="dropdown-item" href="/info/schulen">Für Schulen</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/mentoren">Mentoren</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/sponsoring">Sponsoring</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/uebungsanleitungen">Übungsanleitungen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+    
+
+<section id="sushi">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="breadcrumb-nav" aria-label="breadcrumb">
+<ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+</li>
+
+
+
+
+
+<li class="breadcrumb-item active ">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/the-game-of-life-v3/">The Game of Life</a>
+</li>
+
+
+</ol>
+
+
+</nav>
+
+                <div class="sushi-content">
+                    
+
+<h1 id="the-game-of-life-span-class-badge-badge-scratch3-scratch-3-0-span-a-href-scratch-the-game-of-life-html-class-change-scratch-version-scratch-2-0-a">The Game of Life <span class="badge badge-scratch3">Scratch 3.0</span> <a href="scratch-the-game-of-life.html" class="change-scratch-version">Scratch 2.0</a></h1>
+
+<p>Die Idee zu „The Game Of Life“ geht auf den Mathematiker John Conway zurück. Das Spielfeld besteht aus einem großen Raster von Zellen, die zwei Zustände haben können: „tot“ (weiß) oder „lebendig“ (farbig). Basierend auf dem Zustand des Rasters wird die nächste Generation von Zellen berechnet, und zwar nach folgenden Regeln:</p>
+
+<ul>
+<li>Eine tote Zelle mit genau drei lebenden Nachbarn wird neu geboren</li>
+<li>Lebende Zellen mit weniger als zwei lebenden Nachbarn sterben an Einsamkeit</li>
+<li>Lebende Zellen mit zwei oder drei lebenden Nachbarn bleiben am Leben</li>
+<li>Lebende Zellen mit mehr als drei lebenden Nachbarn sterben an Überbevölkerung</li>
+</ul>
+
+<p><img src="the-game-of-life.png" alt="The game of life" /></p>
+
+<p>Durch diese einfachen Regeln können aus bestimmten Anfangsmustern komplexe Strukturen entstehen. Es gibt stabile Muster, oszillierende Objekte wie Pulsare oder sogar Raumschiffe. Wer weiß, vielleicht entsteht auf deinem Raster irgendwann eine neue künstliche Lebensform? Durch Klick in das Grid wird das vorausgewählte Muster angelegt.</p>
+
+<p>Du kannst das fertige Spiel unter <a href="https://scratch.mit.edu/projects/303836690/" target="_blank">https://scratch.mit.edu/projects/303836690/</a> auch gleich ausprobieren.</p>
+
+<p>Das Spiel besteht aus 2 Figuren und 21 Skripten.</p>
+
+<h2 id="die-figuren-und-skripte">Die Figuren und Skripte</h2>
+
+<p>Wir benötigen nur zwei Figuren namens „Selection“ und „Grid“. Selection dient der Anzeige eines einfachen Befehlsmenüs im unteren Bereich. Grid ist unser Spielfeld, das sich fortlaufend selbst neu zeichnet.</p>
+
+<p><img src="figuren.png" alt="Figuren" /></p>
+
+<h2 id="die-figur-selection">Die Figur Selection</h2>
+
+<p><img src="kostueme-selection.png" alt="Kostüme Selection" /></p>
+
+<p>Für die Figur Selection benötigen wir sechs Kostüme für die sechs Kommandos, die man via Mausklick ausführen kann. Verwende dazu das Textwerkzeug, und schreibe die Namen der Kommandos wie oben angegeben in das Zeichenfeld. Setze den Drehpunkt der Kostüme jeweils in das linke untere Eck des Textbereichs. Wähle den Textbereich nicht zu groß, damit die Befehle nebeneinander Platz haben. Eine Höhe von etwa 20 Pixeln geht sich gut aus. Alternativ kannst du die Figur ohne Skripte auch hier herunterladen und in dein Projekt importieren:</p>
+
+<p><a href="Selection.sprite2" target="_blank">Selection.sprite2</a></p>
+
+<p>Die Skripte von Selection sind relativ einfach. Sie dienen dazu die Menükommandos zu zeichnen, und bei Mausklick entsprechende Nachrichten an das Grid zu senden:</p>
+
+<p><img src="skripte-selection.png" alt="Skripte Selection" /></p>
+
+<h2 id="die-figur-grid">Die Figur Grid</h2>
+
+<p>Hier ist das eigentliche Spiel implementiert. Das Grid zeichnet sich mit dem Malstift selbst, daher hat es nur ein leeres Kostüm:
+Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur für diese Figur“, also für die Figur Grid:</p>
+
+<p><img src="daten-grid.png" alt="Daten Grid" /></p>
+
+<p>Jetzt müssen wir das Grid noch programmieren. Wir beginnen mit Funktionsblöcken, die wir später im Hauptprogramm benötigen werden.</p>
+
+<p>InsertPattern dient dem Einfügen von Mustern in das Grid. Wichtig: Selektiere bei allen Blöcken „Ohne Bildschirmaktualisierung laufen lassen“, sonst ist das Programm zu langsam.</p>
+
+<p><img src="neue-funktion.png" alt="Neue Funktion anelgen" /></p>
+
+<p><img src="funktion-insert-pattern.png" alt="Funktion InsertPattern" /></p>
+
+<p>In CalcNextGeneration wird die nächste Generation von Zellen berechnet:</p>
+
+<p><img src="funktion-calculate-next-generation.png" alt="Funktion CalcNextGeneration" /></p>
+
+<p>Paint dient dem Zeichnen des Grids mit dem Malstift. In InitGrid wird das Grid leer befüllt:</p>
+
+<p><img src="funktion-paint-and-init-grid.png" alt="Funktionen Paint und InitGrid" /></p>
+
+<p>Nun folgt das Hauptprogramm, das zuerst alle Variablen initialisiert, und dann in einer Hauptschleife die Neuberechnung und das Zeichnen des Grids aufruft. Außerdem wird abgefragt, ob neue Muster einzufügen sind.</p>
+
+<p><img src="skripte-grid-1.png" alt="Skripte Grid" /></p>
+
+<p>Zuguterletzt benötigen wir noch einige Funktionen zur Nachrichtenbehandlung:</p>
+
+<p><img src="skripte-grid-2.png" alt="Skripte Grid" /></p>
+
+<p>Wie du siehst definieren wir hier die beiden großen Muster GliderGun und Pulsar. Wie das Grid selbst bestehen sie aus einer langen Zeichenkette von 0en und 1en – so lange, dass man sie gar nicht in einer Zeile drucken kann. Daher hier nochmal zum Abtippen oder Kopieren aus dem Internet:</p>
+
+<p>GliderGun:<br/>
+000000000000000000000000100000000000<br/>
+000000000000000000000010100000000000<br/>
+000000000000110000001100000000000000<br/>
+000000000001000100001100000000000011<br/>
+110000000010000010001100000000000011<br/>
+110000000010001011000010100000000000<br/>
+000000000010000010000000100000000000<br/>
+000000000001000100000000000000000000<br/>
+000000000000110000000000000000000000</p>
+
+<p>Pulsar:<br/>
+0011100011100<br/>
+0000000000000<br/>
+1000010100001<br/>
+1000010100001<br/>
+1000010100001<br/>
+0011100011100<br/>
+0000000000000<br/>
+0011100011100<br/>
+1000010100001<br/>
+1000010100001<br/>
+1000010100001<br/>
+0000000000000<br/>
+0011100011100<br/></p>
+
+<h2 id="ausprobieren">Ausprobieren</h2>
+
+<p>Du kannst das fertige Projekt unter <a href="https://scratch.mit.edu/projects/303836690/" target="_blank">https://scratch.mit.edu/projects/303836690/</a> ausprobieren.</p>
+
+<p>Eine andere Variante unter <a href="https://scratch.mit.edu/projects/96326891" target="_blank">https://scratch.mit.edu/projects/96326891</a> wurde weiter verbessert, und berechnet bzw. zeichnet ein Grid mit hundertfacher Zellenanzahl in zehnfacher Geschwindigkeit (Gesamt-Speedup = 1000). Das wird erreicht, indem das Programm sich merkt welche Zellen zuletzt verändert wurden, und welche Nachbarzellen neu berechnet werden müssen. Weiters werden 65536 Zellengruppen-Veränderungen zu Beginn einmal vorberechnet, und müssen dann nicht jedesmal neu kalkuliert werden. Und das Grid wird nicht als Zeichenkette gespeichert, sondern als Liste von Zahlen, wobei eine Zahl gleich mehrere Zellen beinhaltet.</p>
+
+<p>Die Skripte werden dadurch allerdings auch etwas komplizierter. Solche Geschwindigkeitsverbesserungen sind eine wichtige Aufgabe in der Software-Entwicklung.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Coding Club Linz,
+                        Birkenweg 16,
+                        4060 Leonding
+                        <br />
+                        <a href="mailto:info@linz.coderdojo.net">info@linz.coderdojo.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://linz-preview.coderdojo.net/js/wow.min.js"></script>
+    <script src="https://linz-preview.coderdojo.net/js/main.js"></script>
+
+</body>
+
+</html>

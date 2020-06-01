@@ -95,6 +95,8 @@
 
 
 
+
+
 <li class="breadcrumb-item">
     <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
 </li>
@@ -119,6 +121,14 @@
 
 
 
+<li class="breadcrumb-item">
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/">EN</a>
+</li>
+
+
+
+
+
 <li class="breadcrumb-item active ">
     <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/scratch-chess-v3/">Scratch Chess</a>
 </li>
@@ -135,7 +145,7 @@
 <h1 id="scratch-chess">Scratch Chess</h1>
 
 <div class="row sushi-intro">
-    <div class="col-sm-6"><img alt="Chess" src="scratch-chess-v3/chess-game.png" /></div>
+    <div class="col-sm-6"><img alt="Chess" src="chess-game.png" /></div>
     <div class="col-sm-6">
         <p></p>
         <p>In this example, we want to build a chess engine, and above all, the two most important functions - the calculation and application of different move combinations, and the evaluation of resulting boards.</p>
@@ -167,7 +177,7 @@
 
 <p>We would like to implement these two missing function blocks. You can find them in the upper left corner of the &ldquo;Board&rdquo; sprite&rsquo;s script:</p>
 
-<p><img src="scratch-chess-v3/chess-blocks-en.png" class="max-full" /></p>
+<p><img src="chess-blocks-en.png" class="max-full" /></p>
 
 <p>Our program will play with the black pieces, the user plays white.</p>
 
@@ -183,7 +193,7 @@
 
 <p>In order to automatically evaluate piece positions, there are lists like &ldquo;KingPieceSquare&rdquo;, &ldquo;QueenPieceSquare&rdquo;, etc. Those contain 64 entries, representing the additional value a certain piece has on a certain square. Because our program play black, white piece position values must be negated. For the black pieces we have to mirror the position on the board. This is done by accessing list index &ldquo;65 - Idx&rdquo;. The entire custom block looks like this:</p>
 
-<p><img src="scratch-chess-v3/chess-eval-code-en.png" class="max-full" /></p>
+<p><img src="chess-eval-code-en.png" class="max-full" /></p>
 
 <h2 id="move-selection-alphabetaminmaximpl">Move Selection - AlphaBetaMinMaxImpl()</h2>
 
@@ -193,7 +203,7 @@
 
 <p>The runtime performance of Scratch only allows to look a few moves ahead. Thereafter, the resulting board is evaluated and compared with previous boards. This results in a decision tree as depicted below, with nodes representing the board states and their evaluation, and  arrows representing the respective moves to transition from one board state to another. The best guaranteed evaluation in this example is 5. Even if a board with an evaluation of 10 seems possible, the opponent can prevent this by a skillful countermove, which then results in a worse rating (namely 2). We therefore choose the move that ensures an evaluation of 5, no matter which move the opponent will play.</p>
 
-<p><img src="scratch-chess-v3/chess-minimax.png" class="max-full" /></p>
+<p><img src="chess-minimax.png" class="max-full" /></p>
 
 <p>In this decision tree example, there are only a few moves per round. For chess, there are a lot more. With 4 consecutive moves and 30 moves for each turn, there are 30^4 = 810,000 resulting boards, each of which must be evaluated, resulting in 51,840,000 assignments (unless we provide a smarter, incremental approach by working with evaluation deltas per move). Java or C++ programs might still handle that in time (although it would be better to use computing power for greater search depth). But in Scratch this would simply be much too slow.</p>
 
@@ -203,7 +213,7 @@
 
 <p>Our intermediate values (Min, Max, Alpha, Beta, Moves) are all stored in lists. This is necessary for recursions because there are no local variables in Scratch (and function parameters cannot be changed). Scratch variables are not sufficient for this, otherwise we would overwrite them in cascaded AlphaBetaMinMaxImpl() calls. These lists contain an entry for every possible call depth. An alternative would be to label the variables from 1 to N and to duplicate the whole custom block for each draft depth. But we really do not want to go that path (the full project would require 15 duplicate variables and custom blocks). The resulting MiniMax / Alpha-Beta Pruning implementation looks like this</p>
 
-<p><img src="scratch-chess-v3/chess-minimax-code-en.png" class="max-full" /></p>
+<p><img src="chess-minimax-code-en.png" class="max-full" /></p>
 
 <p>Great, you&rsquo;re done! Please go ahead and start the program now. Once you have made your move, the engine starts to calculate, running the two custom blocks you just programmed.</p>
 
