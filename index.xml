@@ -203,10 +203,10 @@ Dazu müssen wir die Creeper und/oder Zombies einfach in einen Gang locken. Eign
     
     <item>
       <title>Die Zauberlehrlinge</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-zauberlehrlinge-v3/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge-v3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-zauberlehrlinge-v3/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge-v3/</guid>
       <description>Die Zauberlehrlinge Scratch 3.0 Scratch 2.0 Die Zauberlehrlinge Tim und Melley haben wieder mal gestritten und versuchen sich jetzt gegenseitig in Frösche zu verwandeln. Dieses Spiel kannst du später gemeinsam mit einem Freund oder einer Freundin spielen. Ihr seid dabei immer abwechselnd an der Reihe einen Zauberspruch zu verschießen. Doch es ist gar nicht so leicht, den anderen zu treffen, man muss genau in die richtige Richtung zielen!
 {: .</description>
     </item>
@@ -236,12 +236,12 @@ In ihrer Freizeit ist sie außerdem Mitglied des Organisationsteams des Technolo
     
     <item>
       <title>Erste Schritte in Scratch</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-erste-schritte/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-erste-schritte/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</guid>
       <description>Erste Schritte mit Scratch In dieser Übung legst du ein neues Projekt an und lässt Scratchy, die Katze, am Bildschirm herumlaufen.
-Neues Projekt erstellen  {: .right} Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.  Die Katze Scratchy läuft herum  Du findest alle Figuren des Projekts im linken unteren Bereich.</description>
+Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.   Die Katze Scratchy läuft herum  Du findest alle Figuren des Projekts im linken unteren Bereich.</description>
     </item>
     
     <item>
@@ -312,6 +312,40 @@ Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der 
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/</guid>
       <description>Unity Racing Game Ganz ehrlich – wer gerne Programmiert hat fast immer schon einmal davon geträumt ein eigenes Computerspiel auf die Beine zu stellen. Kein Wunder, immerhin faszinieren Computerspiele den Menschen schon fast 50 Jahre und sie haben einen großen Anteil an der vormals rasanten Entwicklung im Hardwarebereich. Während die älteren Semester hierbei oft an komplizierte Matrizenberechnungen und native OpenGL Programmierung denken fällt das Entwickeln von Spielen heute so leicht wie nie zu vor.</description>
+    </item>
+    
+    <item>
+      <title>Fang die Äpfel</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</guid>
+      <description>Fang die Äpfel In diesem Spiel fallen Äpfel vom Himmel, die du mit deiner Schüssel fangen solltest. Jeder gefangene Apfel bringt dir einen Punkt, jeder zu Boden gefallener Apfel kostet dir ein Leben. Versuch möglichst viele Äpfel mit den 10 Leben zu fangen.
+Schritt 1: Die drei Bühnenbilder anlegen Dieses Spiel verwendet drei verschiedene Hintergundbilder (Bühnenbilder). Eines vor Spielstart, eines während des Spiels und ein drittes sobald das Spiel zu Ende ist.</description>
+    </item>
+    
+    <item>
+      <title>Fang-Mich</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</guid>
+      <description>Scratch Fang-Mich In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?
+Bühne und Figuren anlegen  Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter Bühnenbild wählen ein Bühnenbild aus, zum Beispiel ein Aquarium.  Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst.</description>
+    </item>
+    
+    <item>
+      <title>Fledermaus-Spiel</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus-v3/</guid>
+      <description>Scratch Fledermaus-Spiel Scratch 3.0 (nach einer Idee von Verena Straßer)
+Hier erstellst du ein Quiz zum Thema Fledermaus. Wenn du viele Fragen richtig beantworten kannst, erhältst du einen Pokal.
+Bühnenbild auswählen Als erstes legst du fest, wie dein Hintergrund aussehen sollte. Wähle für dieses Quiz das Bühnenbild Mountain aus.
+Figuren anlegen Das Spiel besteht aus zwei Figuren: der Fledermaus und dem Pokal.
+ Lösche die Figur Scratchy (Figur1)
+ Füge die Figur Bat hinzu und ändere den Namen auf Fledermaus</description>
     </item>
     
     <item>
@@ -578,12 +612,23 @@ Einleitung Ziel dieser Anleitung ist das Betreiben eines Minecraft Servers auf B
     
     <item>
       <title>Mit Scratch eine Geschichte erzählen</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-geschichte-katze-und-ente/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/geschichte-katze-und-ente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-geschichte-katze-und-ente/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/geschichte-katze-und-ente/</guid>
       <description>Mit Scratch eine Geschichte erzählen Mit Scratch kannst du Geschichten erzählen. Du kannst Figuren erscheinen lassen, sie bewegen, den Hintergrund austauschen und vieles mehr.
-Neues Projekt erstellen  {: .right} Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.  Scratchy auftreten lassen  Schiebe Scratchy ganz nach links. Man darf nur ein kleines Stück von ihr sehen.</description>
+Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.   Scratchy auftreten lassen  Schiebe Scratchy ganz nach links. Man darf nur ein kleines Stück von ihr sehen.</description>
+    </item>
+    
+    <item>
+      <title>Moonhack</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/moonhack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/moonhack/</guid>
+      <description>Scratch Moonhack  In diesem Spiel musst du mit dem Lunar Module auf dem Mond landen. Aber Vorsicht, die Landung muss sanft sein und du hast nur eine begrenzte Menge an Raktentreibstoff.
+Du kannst das fertige Spiel unter https://scratch.mit.edu/projects/236734138/ auch gleich ausprobieren.
+  Figuren 1   Skripte 8   Daten 2 Variablen      Downloads Figur    Hintergrund Hintergrund downloaden   Lunar Module Figur downloaden   Einleitung Am 20.</description>
     </item>
     
     <item>
@@ -608,10 +653,10 @@ Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Program
     
     <item>
       <title>Pakete Fangen</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-pakete-fangen/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pakete-fangen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-pakete-fangen/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pakete-fangen/</guid>
       <description>Weihnachtspakete fangen Leider ist das Förderband in der Werkstatt des Weihnachtsmanns kaputt. Kannst du die Pakete auffangen, bevor sie auf den Boden fallen und kaputt gehen.
 {: .right}
 Vorbereitung Lade dir zuerst die Zip Datei herunter.
@@ -760,41 +805,6 @@ Du kannst das fertige Project auch gleich einmal unter https://scratch.mit.edu/p
     </item>
     
     <item>
-      <title>Scratch Fang die Äpfel</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fang-die-aepfel-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fang-die-aepfel-v3/</guid>
-      <description>Fang die Äpfel Scratch 3.0 In diesem Spiel fallen Äpfel vom Himmel, die du mit deiner Schüssel fangen solltest. Jeder gefangene Apfel bringt dir einen Punkt, jeder zu Boden gefallener Apfel kostet dir ein Leben. Versuch möglichst viele Äpfel mit den 10 Leben zu fangen.
-Schritt 1: Die drei Bühnenbilder anlegen Dieses Spiel verwendet drei verschiedene Hintergundbilder (Bühnenbilder). Eines vor Spielstart, eines während des Spiels und ein drittes sobald das Spiel zu Ende ist.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Fang-Mich</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fang-mich-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fang-mich-v3/</guid>
-      <description>Scratch Fang-Mich Scratch 3.0 Scratch 2.0 In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?
-Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter Bühnenbild wählen ein Bühnenbild aus, zum Beispiel ein Aquarium.
- {: .right} Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Fledermaus-Spiel</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fledermaus-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fledermaus-v3/</guid>
-      <description>Scratch Fledermaus-Spiel Scratch 3.0 (nach einer Idee von Verena Straßer)
-Hier erstellst du ein Quiz zum Thema Fledermaus. Wenn du viele Fragen richtig beantworten kannst, erhältst du einen Pokal.
-Bühnenbild auswählen Als erstes legst du fest, wie dein Hintergrund aussehen sollte. Wähle für dieses Quiz das Bühnenbild Mountain aus.
-Figuren anlegen Das Spiel besteht aus zwei Figuren: der Fledermaus und dem Pokal.
- Lösche die Figur Scratchy (Figur1)
- Füge die Figur Bat hinzu und ändere den Namen auf Fledermaus</description>
-    </item>
-    
-    <item>
       <title>Scratch Konto anlegen und starten</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-konto-anlegen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -825,17 +835,6 @@ Figuren anlegen Das Spiel besteht aus nur zwei Figuren: der Karte mit einer Vord
 {: .right}
 Das Spiel besteht aus 2 Figuren und 15 Codeblöcken.
 Figuren anlegen Das Spiel besteht aus nur zwei Figuren: einer Zelle für das Spielfeld und verschiedenen Nachrichten, die dem Spieler angezeigt werden können.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Moonhack</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-moonhack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-moonhack/</guid>
-      <description>Scratch Moonhack  In diesem Spiel musst du mit dem Lunar Module auf dem Mond landen. Aber Vorsicht, die Landung muss sanft sein und du hast nur eine begrenzte Menge an Raktentreibstoff.
-Du kannst das fertige Spiel unter https://scratch.mit.edu/projects/236734138/ auch gleich ausprobieren.
-  Figuren 1   Skripte 8   Daten 2 Variablen      Downloads Figur    Hintergrund Hintergrund downloaden   Lunar Module Figur downloaden   Einleitung Am 20.</description>
     </item>
     
     <item>
@@ -941,18 +940,6 @@ Figuren anlegen  {: .right} Lösche als erstes die Figur Scratchy mit dem Namen 
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-the-game-of-life-v3/</guid>
       <description>The Game of Life Scratch 3.0 Scratch 2.0 Die Idee zu „The Game Of Life“ geht auf den Mathematiker John Conway zurück. Das Spielfeld besteht aus einem großen Raster von Zellen, die zwei Zustände haben können: „tot“ (weiß) oder „lebendig“ (farbig). Basierend auf dem Zustand des Rasters wird die nächste Generation von Zellen berechnet, und zwar nach folgenden Regeln:
  Eine tote Zelle mit genau drei lebenden Nachbarn wird neu geboren Lebende Zellen mit weniger als zwei lebenden Nachbarn sterben an Einsamkeit Lebende Zellen mit zwei oder drei lebenden Nachbarn bleiben am Leben Lebende Zellen mit mehr als drei lebenden Nachbarn sterben an Überbevölkerung  Durch diese einfachen Regeln können aus bestimmten Anfangsmustern komplexe Strukturen entstehen.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Weihnachtsspiel</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-weihnachten/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-weihnachten/</guid>
-      <description>Scratch Weihnachtsspiel Bald ist Weihnachten - und der Weihnachtsmann hat alle Hände voll zu tun, um die Geschenke rechtzeitig in die Häuser zu bringen. Wie viel schaffst du in einer Minute?
-Das Spiel besteht aus 4 Figuren und 9 Skripten!
-Bilder downloaden Wir haben einige Bilder vorbereitet, die du für dieses Spiel benötigst. Lade dir die folgende Datei herunter: weihnachtsspiel.zip
-Winterlandschaft Es soll so aussehen, dass der Weihnachtsmann sich von links nach rechts bewegt.</description>
     </item>
     
     <item>
@@ -1085,6 +1072,18 @@ Technisch lernst du einige Dinge über JavaScript und Node.js:
       <description>Wechselblinker Einleitung In dieser Übung baust du eine Schaltung, die zwei LEDs abwechselnd blinken lässt (Wechselblinker). In der Fachsprache bezeichnet man diese Schaltung als Multivibrator.
 In dieser Anleitung lernst du, wie du die Schaltung auf einem experimentier-Steckboard ohne Löten zusammenstellst. Im CoderDojo machen wir Löt-Workshops, in denen du die Schaltung dann löten kannst.
 So eine Schaltung kann man natürlich auch berechnen. Wir gehen aber in dieser Übung nicht auf die technischen Details und die Mathematik dahinter ein.</description>
+    </item>
+    
+    <item>
+      <title>Weihnachtsspiel</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten/</guid>
+      <description>Scratch Weihnachtsspiel Bald ist Weihnachten - und der Weihnachtsmann hat alle Hände voll zu tun, um die Geschenke rechtzeitig in die Häuser zu bringen. Wie viel schaffst du in einer Minute?
+Das Spiel besteht aus 4 Figuren und 9 Skripten!
+Bilder downloaden Wir haben einige Bilder vorbereitet, die du für dieses Spiel benötigst. Lade dir die folgende Datei herunter: weihnachtsspiel.zip
+Winterlandschaft Es soll so aussehen, dass der Weihnachtsmann sich von links nach rechts bewegt.</description>
     </item>
     
     <item>

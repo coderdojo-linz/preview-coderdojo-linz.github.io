@@ -166,7 +166,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-zauberlehrlinge-v3/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge-v3/</loc>
   </url>
   
   <url>
@@ -178,7 +178,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-erste-schritte/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</loc>
   </url>
   
   <url>
@@ -207,6 +207,18 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus-v3/</loc>
   </url>
   
   <url>
@@ -318,7 +330,11 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-geschichte-katze-und-ente/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/geschichte-katze-und-ente/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/moonhack/</loc>
   </url>
   
   <url>
@@ -330,7 +346,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-pakete-fangen/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pakete-fangen/</loc>
   </url>
   
   <url>
@@ -386,18 +402,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fang-die-aepfel-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fang-mich-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-fledermaus-v3/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-konto-anlegen/</loc>
   </url>
   
@@ -407,10 +411,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-minesweeper-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-moonhack/</loc>
   </url>
   
   <url>
@@ -451,10 +451,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-the-game-of-life-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/scratch-weihnachten/</loc>
   </url>
   
   <url>
@@ -511,6 +507,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten/</loc>
   </url>
   
   <url>
