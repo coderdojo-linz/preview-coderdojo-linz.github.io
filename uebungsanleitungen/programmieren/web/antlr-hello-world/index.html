@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>  </title>
+    <title> ANTLR Hello World </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.71.1" />
@@ -23,7 +23,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.e1bc955fdead84f59d7d5392726733a3d0452b5af3f732d62901a13984247d6e.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.465acd75604a91d6a6e1af006ce0c2ff5be1fd5c80a6a095736413cf04ecd334.css">
 </head>
 
 <body id="body">
@@ -120,7 +120,7 @@
 
 
 <li class="breadcrumb-item active ">
-    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/"></a>
+    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/">ANTLR Hello World</a>
 </li>
 
 
@@ -144,7 +144,7 @@
 <li><p>Ein neues Projekt mit <em>New Project</em> - <em>Empty Project</em> starten. In dieser Anleitung gehen wir davon aus, dass das Projekt <em>antlr-hello-world</em> heißt.</p></li>
 
 <li><p><em>Settings</em>-Dialog mit <em>Strg+Alt+S</em> öffnen, nach dem <em>antlr</em> Plugin suchen und installieren<br/>
-<img src="antlr-hello-world/install-antlr.png" alt="ANTLR Plugin" /></p></li>
+<img src="install-antlr.png" alt="ANTLR Plugin" /></p></li>
 
 <li><p>IntelliJ neu starten und das zuvor angelegte Projekt wieder laden</p></li>
 </ul>
@@ -153,7 +153,7 @@
 
 <ul>
 <li><p>Neue Datei <em>Hello.g4</em> anlegen<br/>
-<img src="antlr-hello-world/new-file.png" alt="Neue Datei" /></p></li>
+<img src="new-file.png" alt="Neue Datei" /></p></li>
 
 <li><p>Folgende Grammatik in die neue Datei einfügen:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">grammar Hello;
@@ -162,10 +162,10 @@ ID        : [a-z]+ ;             // Identifier in Kleinbuchstaben
 WS        : [ \t\r\n]+ -&gt; skip ; // Leerzeichen, Tab, Leerzeilen ignorieren</code></pre></div></li>
 
 <li><p>Rechte Maustaste auf die Regel <code>greet</code> und <em>Test Rule greet</em> anklicken<br/>
-<img src="antlr-hello-world/test-rule.png" alt="Regel testen" /></p></li>
+<img src="test-rule.png" alt="Regel testen" /></p></li>
 
 <li><p><em>hello world</em> eingeben und ansehen, wie ANTLR den Text nach der angegebenen Grammatik zerlegt<br/>
-<img src="antlr-hello-world/test-rule-2.png" alt="Regel testen" /></p></li>
+<img src="test-rule-2.png" alt="Regel testen" /></p></li>
 
 <li><p>Experimentiere mit folgenden Eingaben (beachte die Fehler, die angezeigt werden)</p>
 
@@ -234,12 +234,12 @@ mention             : &#39;@&#39; WORD ;</code></pre></div></li>
 </ul></li>
 
 <li><p>Antlr Generator konfigurieren<br/>
-<img src="antlr-hello-world/configure-antlr.png" alt="Konfigurieren" /><br/>
-<img src="antlr-hello-world/configure-antlr-2.png" alt="Konfigurieren" /></p></li>
+<img src="configure-antlr.png" alt="Konfigurieren" /><br/>
+<img src="configure-antlr-2.png" alt="Konfigurieren" /></p></li>
 
 <li><p>Lexer/Parser generieren<br/>
-<img src="antlr-hello-world/lexer-parser-generate.png" alt="Generieren" /><br/>
-<img src="antlr-hello-world/lexer-parser-generate-2.png" alt="Generieren" /></p></li>
+<img src="lexer-parser-generate.png" alt="Generieren" /><br/>
+<img src="lexer-parser-generate-2.png" alt="Generieren" /></p></li>
 </ul>
 
 <h2 id="compiler">Compiler</h2>
