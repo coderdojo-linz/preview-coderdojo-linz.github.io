@@ -23,7 +23,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.465acd75604a91d6a6e1af006ce0c2ff5be1fd5c80a6a095736413cf04ecd334.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.65883b94fafb4344289026f6e01773b394949545d0b27900fce4c461d7837c81.css">
 </head>
 
 <body id="body">
@@ -71,93 +71,103 @@
     
     
 
-    
-
-<section id="sushi">
+     <section id="sushi">
+    <div class="container-fluid breadcrumb-container">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <nav class="breadcrumb-nav" aria-label="breadcrumb">
-<ol class="breadcrumb">
-    
+        <nav class="breadcrumb-nav" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
+        
+        
+        
 
+        
+        <li class="breadcrumb-item">
+            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
+        </li>
+        
+        
+        
 
+        
+        <li class="breadcrumb-item">
+            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
+        </li>
+        
+        
+        
 
+        
+        <li class="breadcrumb-item">
+            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
+        </li>
+        
+        
+        
 
+        
+        <li class="breadcrumb-item active ">
+            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/chess-v3/">Chess</a>
+        </li>
+        
+        
+        </ol>
 
-
-
-
-
-
-
-
-
-
-<li class="breadcrumb-item">
-    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/">Übungsanleitungen</a>
-</li>
-
-
-
-
-
-<li class="breadcrumb-item">
-    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/">Programmieren</a>
-</li>
-
-
-
-
-
-<li class="breadcrumb-item">
-    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/">Scratch</a>
-</li>
-
-
-
-
-
-<li class="breadcrumb-item active ">
-    <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/chess-v3/">Chess</a>
-</li>
-
-
-</ol>
-
-
-</nav>
-
-                <div class="sushi-content">
-                    
-
-<h1 id="scratch-chess">Scratch Chess</h1>
-
-<div class="row sushi-intro">
-    <div class="col-sm-6"><img alt="Chess" src="chess-game.png" /></div>
-    <div class="col-sm-6">
-        <p></p>
-        <p>In diesem Beispiel wollen wir ein Schachspiel bauen, und dabei vor allem die beiden wichtigsten Funktionen - das Ausführen von verschiedenen Zugkombinationen, und die Bewertung des daraus resultierenden Brettbilds.</p>
-        <p>Du kannst das fertige Project auch gleich einmal unter <a href="https://scratch.mit.edu/projects/148769358/" target="_blank">https://scratch.mit.edu/projects/148769358/</a> ausprobieren.</p>
-        <table class="table sushi-stats">
-            <tbody>
-                <tr>
-                    <td>Figuren</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>Skripte</td>
-                    <td>35</td>
-                </tr>
-                <tr>
-                    <td>Daten</td>
-                    <td>70</td>
-                </tr>
-            </tbody>
-        </table>
+        
+        </nav>
     </div>
 </div>
+
+    <div class="container-fluid hero-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Chess</h1>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                    
+                    <img src="/uebungsanleitungen/programmieren/scratch/chess-v3/chess-game.png" alt="Chess">
+                    
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                    <p class="mb-4">In diesem Beispiel wollen wir ein Schachspiel bauen, und dabei vor allem die beiden wichtigsten Funktionen - das Ausführen von verschiedenen Zugkombinationen, und die Bewertung des daraus resultierenden Brettbilds.</p>
+                    <table class="table">
+                        <tr>
+                            <td>Figuren</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Skripte</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>Variablen</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="sushi-content"> 
+
+<p>Du kannst das fertige Project unter <a href="https://scratch.mit.edu/projects/148769358/" target="_blank"><a href="https://scratch.mit.edu/projects/148769358/" target="_blank">https://scratch.mit.edu/projects/148769358/</a></a> ausprobieren.</p>
 
 <p>Schachprogramme versuchen den jeweils besten Zug zu finden, und müssen dabei möglichst viele Züge im Voraus berechnen. Die Anzahl der zu untersuchenden Brettbilder wächst dadurch enorm an (exponentielles Wachstum), sodass sogar moderne Computer an ihre Rechengrenzen stoßen. Unser Schachprogramm muss daher schnell und schlau sein. Schlau heißt, dass nicht jede Zugkombination nachverfolgt wird, sondern schlechte Züge gleich wieder verworfen werden. Wenn das Programm einige Züge hintereinander berechnet hat, bewertet es das entstandene Brettbild.</p>
 
@@ -214,14 +224,10 @@ Die einfachste MiniMax/Alpha-Beta Implementierung ergibt sich daraus wie folgt:<
 <p>Weiterführende Informationen zu unserem Schachprojekt gibt es im Scratch Diskussionsforum unter <a href="https://scratch.mit.edu/discuss/post/2967632/" target="_blank">https://scratch.mit.edu/discuss/post/2967632/</a>. Schachprogrammierung im Allgemeinen wird in dieser Präsentation näher behandelt: <a href="https://www.slideshare.net/ArnoHuetter/chess-engine-programming" target="_blank">https://www.slideshare.net/ArnoHuetter/chess-engine-programming</a></p>
 
 <p>Viel Spaß beim Spielen – gewinnst du gegen den Computer? Wie könnte man ihn noch besser machen – vielleicht indem man bei einigen ausgewählten Zügen doch bis zu einer höheren Zugtiefe vorberechnet, auch wenn es dann etwas länger dauert? Das Original-Programm unter <a href="https://scratch.mit.edu/projects/148769358/" target="_blank">https://scratch.mit.edu/projects/148769358/</a> schafft dank vieler  Optimierungen bis zu Zugtiefe 8 plus 7 Folge-Schlagmöglichkeiten bei Schwierigkeitsgrad &ldquo;Difficult&rdquo;, und ist damit das spielstärkste Schachprogramm auf Scratch. Die besten Schachprogramme der Welt können einzelne Sub-Bäume sogar bis zu Zugtiefe 35 berechnen.</p>
-
-                </div>
-            </div>
+ </div>
         </div>
     </div>
-</section>
-
-
+</section> 
 
     <footer>
         <div class="container">

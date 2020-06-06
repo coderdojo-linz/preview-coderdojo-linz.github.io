@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/</loc>
     <lastmod>2020-06-01T05:28:34+02:00</lastmod>
   </url>
@@ -146,6 +162,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/categories/</loc>
   </url>
   
@@ -155,6 +175,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/chess-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</loc>
   </url>
   
   <url>
@@ -194,10 +218,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/</loc>
   </url>
   
@@ -227,10 +247,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</loc>
   </url>
   
   <url>
@@ -315,10 +331,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/mentoren/huber-karin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</loc>
   </url>
   
   <url>
@@ -422,14 +434,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/</loc>
   </url>
   
@@ -519,10 +523,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten-2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</loc>
   </url>
   
 </urlset>

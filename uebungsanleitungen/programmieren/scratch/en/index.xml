@@ -12,35 +12,32 @@
     
     
     <item>
+      <title>Catch Me</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</guid>
+      <description>Creating Stage and Sprites  {: .right} You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on Select backdrop from library on the bottom left and choose your background image, for example the underwater1.
+ {: .right} The next step is to delete the Scratchy sprite with the name Sprite1, by right-clicking on it and selecting delete.</description>
+    </item>
+    
+    <item>
+      <title>Chess</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</guid>
+      <description>You can try the finished project at https://scratch.mit.edu/projects/148769358/
+Chess programs try to find the optimal move by calculating as many moves in advance as possible. The number of resulting boards grows exponentially with each additional move, so that even modern computers reach their computing limits. Our chess program must therefore be quick and smart. Smart means that not every move combination is calculated, which can be achieved by discarding bad moves immediately.</description>
+    </item>
+    
+    <item>
       <title>Paddle Game</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/</guid>
-      <description>Paddle Game In this exercise you build a little game where you try to prevent a ball from falling down with a paddle you can move from left to right.
-Creating Stage and Sprites  {: .right} You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the out area. Select the backdrop from the library with the button on the bottom left.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Catch Me</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</guid>
-      <description>Scratch Catch Me In this game you are a little fish and you try to escape the big dangerous shark. Can you do it?
-Creating Stage and Sprites  {: .right} You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on Select backdrop from library on the bottom left and choose your background image, for example the underwater1.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Chess</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</guid>
-      <description>Scratch Chess  
-In this example, we want to build a chess engine, and above all, the two most important functions - the calculation and application of different move combinations, and the evaluation of resulting boards.
-You can also try the finished project at https://scratch.mit.edu/projects/148769358/
-  Figuren 4   Skripte 35   Daten 70      Chess programs try to find the optimal move by calculating as many moves in advance as possible.</description>
+      <description>Creating Stage and Sprites  {: .right} You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the out area. Select the backdrop from the library with the button on the bottom left.  {: .right} The next step is to delete the Scratchy sprite with the name Sprite1, by right-clicking on it and selecting delete.</description>
     </item>
     
   </channel>

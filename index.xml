@@ -12,6 +12,44 @@
     
     
     <item>
+      <title>Erste Schritte in Scratch</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</guid>
+      <description>Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.   Die Katze Scratchy läuft herum  Du findest alle Figuren des Projekts im linken unteren Bereich. Im Moment gibt es hier nur Scratchy, die Katze. Wenn du sie auswählst, kannst du bestimmen, was sie machen soll.</description>
+    </item>
+    
+    <item>
+      <title>Konto anlegen</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</guid>
+      <description>Um deine Projekte in Scratch speichern und teilen zu können, brauchst du ein Konto. Die folgenden Schritte zeigen dir, wie du ein neues Konto anlegst. Anschließend starten wir Scratch zum ersten Mal.
+Scratch Webseite öffnen  {: .right} Öffne einen Webbrowser, gib in der Adresszeile die Adresse scratch.mit.edu ein und drücke Enter. Das https:// vor der Scratch-Adresse musst du nicht unbedingt eingeben. Es wird automatisch erscheinen, nachdem du auf Enter gedrückt hast.</description>
+    </item>
+    
+    <item>
+      <title>Zahlenraten</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</guid>
+      <description>Variablen anlegen  {: .right} Wir Menschen merken uns Dinge im Gehirn. Wenn sich der Computer etwas merken soll, dann braucht er dafür Variablen. In unserem Spiel soll sich der Computer eine Zufallszahl ausdenken, sie uns aber nicht verraten. Wir legen dafür unter &amp;ldquo;Daten&amp;rdquo; eine &amp;ldquo;Neue Variable&amp;rdquo; an und nennen sie &amp;ldquo;zufallszahl&amp;rdquo;.
+ {: .right} Sobald das Programm gestartet wird, soll sich der Computer die Zufallszahl ausdenken und das Ergebnis in unserer neuen Variable speichern.</description>
+    </item>
+    
+    <item>
+      <title>Fang Mich</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</guid>
+      <description>Bühne und Figuren anlegen  Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter Bühnenbild wählen ein Bühnenbild aus, zum Beispiel ein Aquarium.  Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.  Jetzt brauchen wir einen Haifisch sowie einen Fisch, mit dem wir dem Haifisch entkommen wollen.</description>
+    </item>
+    
+    <item>
       <title>Hour of Code</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/hour-of-code/hour-of-code/</link>
       <pubDate>Mon, 01 Jun 2020 05:28:34 +0200</pubDate>
@@ -77,10 +115,8 @@ Startprojekt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/slingshot-v3/</guid>
-      <description>Scratch Affe füttern Scratch 3.0 Scratch 2.0 Drücke die Leertaste, um die Steinschleuder zu laden. Je länger du drückst, desto mehr wird die Steinschleuder gespannt und desto weiter wirfst du.
-{: .right}
-Das Spiel besteht aus 4 Figuren und 7 Codeblöcken.
-Figuren anlegen  {: .right} Lösche als erstes die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</description>
+      <description>Figuren anlegen  {: .right} Lösche als erstes die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.
+ {: .right} Lege oder male ein Bühnenbild und die Figuren für die Steinschleuder, die Bananen, den Affen und das Gummiband an. Lege das Gummiband mit dem Pinsel an. Wir brauchen hier keine Figur auszuwählen, da wir das Gummiband später mit Hilfe eines Codeblockes zeichnen werden.</description>
     </item>
     
     <item>
@@ -100,9 +136,8 @@ Als Mitbegründer des Technologieplauscherls ist er als Organisator und Moderato
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/animated-postcard/</guid>
-      <description>Animierte Ansichtskarte Die gute alte Ansichtskarte mit Briefmarke war Gestern - heute bauen wir uns unsere eigene animierte Karte und verschicken sie an unsere Freunde.
-Eine solche Karte kannst du zum Beispiel verwenden: * als Ansichtskarte vom Urlaub * als Grußkarte zum Geburtstag
-Schritt 1: Scratcher werden Damit du deinen Freunden die Ansichtskarte schicken kannst, musst du dich bei Scratch registrieren. Die Registrierung ist kostenlos und du benötigst dafür nur einen Benutzernamen und eine E-Mail-Adresse.</description>
+      <description>Eine solche Karte kannst du zum Beispiel verwenden:
+ als Ansichtskarte vom Urlaub als Grußkarte zum Geburtstag  Schritt 1: Scratcher werden Damit du deinen Freunden die Ansichtskarte schicken kannst, musst du dich bei Scratch registrieren. Die Registrierung ist kostenlos und du benötigst dafür nur einen Benutzernamen und eine E-Mail-Adresse. Wenn du dich in Zukunft vor dem Arbeiten mit Scratch anmeldest, dann werden deine Projekte automatisch gespeichert und du kannst von überall auf sie zugreifen, egal von welchem Computer!</description>
     </item>
     
     <item>
@@ -145,10 +180,9 @@ In dieser Übung probieren wir, ein Programm direkt in Maschinensprache zu progr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/breakout-v3/</guid>
-      <description>Scratch Breakout Scratch 3.0 Scratch 2.0 {: .right}
-In diesem Spiel pulverisierst du bunte Mauersteine, indem du mit deinem Schläger einen Ball darauf schleuderst. Wenn alle Mauersteine zerstört sind, kommst du in den nächsten Level, wo dein Ball dann noch schneller fliegt.
+      <description>In diesem Spiel pulverisierst du bunte Mauersteine, indem du mit deinem Schläger einen Ball darauf schleuderst. Wenn alle Mauersteine zerstört sind, kommst du in den nächsten Level, wo dein Ball dann noch schneller fliegt.
 Downloads Ball Figur downloaden Block Figur downloaden Schläger Figur downloaden
-Bühne und Figuren anlegen  {: .right} Zuerst suchen wir uns ein cooles Bühnenbild aus. Klicke auf Bühnenbild wählen.</description>
+Bühne und Figuren anlegen  {: .right} Zuerst suchen wir uns ein cooles Bühnenbild aus. Klicke auf Bühnenbild wählen. Das Bild Stars passt recht gut, aber du kannst dir aussuchen, was du möchtest.</description>
     </item>
     
     <item>
@@ -159,6 +193,16 @@ Bühne und Figuren anlegen  {: .right} Zuerst suchen wir uns ein cooles Bühnenb
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/ant-me/</guid>
       <description>AntMe! Wie schlau ist deine Ameise? Ziel der Übung C# (Englisch &amp;ldquo;C Sharp&amp;rdquo;) ist eine der meist verwendeten Programmiersprachen der Welt. Sie ist Open Source und plattformunabhängig. Mit C# werden verschiedenste Programme geschrieben: Spiele, wirtschaftliche Software, Webseiten und vieles mehr.
 Ein Ziel dieser Übung ist es, dass du C# auf eine Weise kennenlernst, die Spaß macht. Dein Ziel wird es sein, in C# einen Computerspieler zu programmieren, der die Ameisen einer Ameisenkolonie steuert.</description>
+    </item>
+    
+    <item>
+      <title>Catch Me</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</guid>
+      <description>Creating Stage and Sprites  {: .right} You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on Select backdrop from library on the bottom left and choose your background image, for example the underwater1.
+ {: .right} The next step is to delete the Scratchy sprite with the name Sprite1, by right-clicking on it and selecting delete.</description>
     </item>
     
     <item>
@@ -177,10 +221,18 @@ Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/chess-v3/</guid>
-      <description>Scratch Chess  
-In diesem Beispiel wollen wir ein Schachspiel bauen, und dabei vor allem die beiden wichtigsten Funktionen - das Ausführen von verschiedenen Zugkombinationen, und die Bewertung des daraus resultierenden Brettbilds.
-Du kannst das fertige Project auch gleich einmal unter https://scratch.mit.edu/projects/148769358/ ausprobieren.
-  Figuren 4   Skripte 35   Daten 70      Schachprogramme versuchen den jeweils besten Zug zu finden, und müssen dabei möglichst viele Züge im Voraus berechnen.</description>
+      <description>Du kannst das fertige Project unter https://scratch.mit.edu/projects/148769358/ ausprobieren.
+Schachprogramme versuchen den jeweils besten Zug zu finden, und müssen dabei möglichst viele Züge im Voraus berechnen. Die Anzahl der zu untersuchenden Brettbilder wächst dadurch enorm an (exponentielles Wachstum), sodass sogar moderne Computer an ihre Rechengrenzen stoßen. Unser Schachprogramm muss daher schnell und schlau sein. Schlau heißt, dass nicht jede Zugkombination nachverfolgt wird, sondern schlechte Züge gleich wieder verworfen werden. Wenn das Programm einige Züge hintereinander berechnet hat, bewertet es das entstandene Brettbild.</description>
+    </item>
+    
+    <item>
+      <title>Chess</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</guid>
+      <description>You can try the finished project at https://scratch.mit.edu/projects/148769358/
+Chess programs try to find the optimal move by calculating as many moves in advance as possible. The number of resulting boards grows exponentially with each additional move, so that even modern computers reach their computing limits. Our chess program must therefore be quick and smart. Smart means that not every move combination is calculated, which can be achieved by discarding bad moves immediately.</description>
     </item>
     
     <item>
@@ -243,8 +295,8 @@ Dazu müssen wir die Creeper und/oder Zombies einfach in einen Gang locken. Eign
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge-v3/</guid>
-      <description>Die Zauberlehrlinge Scratch 3.0 Scratch 2.0 Die Zauberlehrlinge Tim und Melley haben wieder mal gestritten und versuchen sich jetzt gegenseitig in Frösche zu verwandeln. Dieses Spiel kannst du später gemeinsam mit einem Freund oder einer Freundin spielen. Ihr seid dabei immer abwechselnd an der Reihe einen Zauberspruch zu verschießen. Doch es ist gar nicht so leicht, den anderen zu treffen, man muss genau in die richtige Richtung zielen!
-{: .</description>
+      <description>Die Zauberlehrlinge Tim und Melley haben wieder mal gestritten und versuchen sich jetzt gegenseitig in Frösche zu verwandeln. Dieses Spiel kannst du später gemeinsam mit einem Freund oder einer Freundin spielen. Ihr seid dabei immer abwechselnd an der Reihe einen Zauberspruch zu verschießen. Doch es ist gar nicht so leicht, den anderen zu treffen, man muss genau in die richtige Richtung zielen!
+Damit es nicht langweilig wird, wollen wir die Landschaft im Hintergrund jedes mal ein bisschen anders zeichnen.</description>
     </item>
     
     <item>
@@ -253,7 +305,7 @@ Dazu müssen wir die Creeper und/oder Zombies einfach in einen Gang locken. Eign
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/dragons-realm-v3/</guid>
-      <description>Dragons Realm Scratch 3.0 Scratch 2.0 Bei Dragons Realm steuerst du einen Drachen, der sein Territorium gegen eindringende Raubritter verteidigt. Mit den Pfeiltasten lenkst du den Drachen um den Pfeilen der Ritter auszuweichen (du kannst auch zwei Tasten gleichzeitig drücken; mit ↑ und → fliegt man zum Beispiel nach rechts oben). Mit der Leertaste spuckt der Drache Feuer, und kann Ritter zu Stein erstarren lassen. Damit das Spiel auch auf Tablets und Handys funktioniert, wurde nachträglich eine Maus/Touch-Steuerung eingebaut.</description>
+      <description>Bei Dragons Realm steuerst du einen Drachen, der sein Territorium gegen eindringende Raubritter verteidigt. Mit den Pfeiltasten lenkst du den Drachen um den Pfeilen der Ritter auszuweichen (du kannst auch zwei Tasten gleichzeitig drücken; mit ↑ und → fliegt man zum Beispiel nach rechts oben). Mit der Leertaste spuckt der Drache Feuer, und kann Ritter zu Stein erstarren lassen. Damit das Spiel auch auf Tablets und Handys funktioniert, wurde nachträglich eine Maus/Touch-Steuerung eingebaut.</description>
     </item>
     
     <item>
@@ -277,16 +329,6 @@ Danach könnt ihr mit &amp;ldquo;Browse repositories&amp;rdquo; und dem Suchfeld
       <description>In der Java Enterprise Entwicklung tätig, spezialisiert Elisabeth sich auf die Verarbeitung von unstrukturierten Daten mit Apache Solr und Lucene. Dabei ist sie zusätzlich zur Software Entwicklung auch als Projektmanagerin und Beraterin für Java Webanwendungen tätig.
 Ihre Interessen reichen von Prototyping mit Python bis hin zu statistischen Analysen großer Datenbestände mit R.
 In ihrer Freizeit ist sie außerdem Mitglied des Organisationsteams des Technologieplauscherls Linz.</description>
-    </item>
-    
-    <item>
-      <title>Erste Schritte in Scratch</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</guid>
-      <description>Erste Schritte mit Scratch In dieser Übung legst du ein neues Projekt an und lässt Scratchy, die Katze, am Bildschirm herumlaufen.
-Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.   Die Katze Scratchy läuft herum  Du findest alle Figuren des Projekts im linken unteren Bereich.</description>
     </item>
     
     <item>
@@ -365,18 +407,8 @@ Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</guid>
-      <description>Fang die Äpfel In diesem Spiel fallen Äpfel vom Himmel, die du mit deiner Schüssel fangen solltest. Jeder gefangene Apfel bringt dir einen Punkt, jeder zu Boden gefallener Apfel kostet dir ein Leben. Versuch möglichst viele Äpfel mit den 10 Leben zu fangen.
+      <description>In diesem Spiel fallen Äpfel vom Himmel, die du mit deiner Schüssel fangen solltest. Jeder gefangene Apfel bringt dir einen Punkt, jeder zu Boden gefallener Apfel kostet dir ein Leben. Versuch möglichst viele Äpfel mit den 10 Leben zu fangen.
 Schritt 1: Die drei Bühnenbilder anlegen Dieses Spiel verwendet drei verschiedene Hintergundbilder (Bühnenbilder). Eines vor Spielstart, eines während des Spiels und ein drittes sobald das Spiel zu Ende ist.</description>
-    </item>
-    
-    <item>
-      <title>Fang Mich</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</guid>
-      <description>Scratch Fang-Mich In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?
-Bühne und Figuren anlegen  Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter Bühnenbild wählen ein Bühnenbild aus, zum Beispiel ein Aquarium.  Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst.</description>
     </item>
     
     <item>
@@ -385,8 +417,7 @@ Bühne und Figuren anlegen  Als erstes legst du fest, wie dein Spielfeld aussehe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus-v3/</guid>
-      <description>Scratch Fledermaus-Spiel Scratch 3.0 (nach einer Idee von Verena Straßer)
-Hier erstellst du ein Quiz zum Thema Fledermaus. Wenn du viele Fragen richtig beantworten kannst, erhältst du einen Pokal.
+      <description>Hier erstellst du ein Quiz zum Thema Fledermaus. Wenn du viele Fragen richtig beantworten kannst, erhältst du einen Pokal.
 Bühnenbild auswählen Als erstes legst du fest, wie dein Hintergrund aussehen sollte. Wähle für dieses Quiz das Bühnenbild Mountain aus.
 Figuren anlegen Das Spiel besteht aus zwei Figuren: der Fledermaus und dem Pokal.
  Lösche die Figur Scratchy (Figur1)
@@ -592,24 +623,14 @@ Ihre Schwerpunkte liegen im Bereich WPF und Silverlight, sowie in der Webentwick
     </item>
     
     <item>
-      <title>Konto anlegen</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</guid>
-      <description>Scratch Konto anlegen und starten Um deine Projekte in Scratch speichern und teilen zu können, brauchst du ein Konto. Die folgenden Schritte zeigen dir, wie du ein neues Konto anlegst. Anschließend starten wir Scratch zum ersten Mal.
-Scratch Webseite öffnen  {: .right} Öffne einen Webbrowser, gib in der Adresszeile die Adresse scratch.mit.edu ein und drücke Enter. Das https:// vor der Scratch-Adresse musst du nicht unbedingt eingeben. Es wird automatisch erscheinen, nachdem du auf Enter gedrückt hast.</description>
-    </item>
-    
-    <item>
       <title>Labyrinth-Spiel mit Scratch und JavaScript</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/labyrinth-v3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/labyrinth-v3/</guid>
-      <description>Labyrinth-Spiel mit Scratch und JavaScript Scratch 3.0 Scratch 2.0 Ziel der Übung In dieser Übung programmierst du ein Labyrinth-Spiel erst mit Scratch und danach mit JavaScript. So lernst du, das, was du in Scratch über Programmieren gelernt hast, in einer textbasierten Programmiersprache anzuwenden.
+      <description>Ziel der Übung In dieser Übung programmierst du ein Labyrinth-Spiel erst mit Scratch und danach mit JavaScript. So lernst du, das, was du in Scratch über Programmieren gelernt hast, in einer textbasierten Programmiersprache anzuwenden.
 Spielbeschreibung {: .right}
-Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein Ziel ist es, das mit X markierte Ziel zu erreichen. Die schwarzen und roten Felder sind Hindernisse.</description>
+Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein Ziel ist es, das mit X markierte Ziel zu erreichen. Die schwarzen und roten Felder sind Hindernisse. Schwarze Felder kannst du zerstören, indem du Anlauf nimmst.</description>
     </item>
     
     <item>
@@ -651,9 +672,8 @@ Wenn er nicht vorm Computer sitzt, kocht und liest er gerne, und er hat nach jah
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/memory-v3/</guid>
-      <description>Scratch Memory Scratch 3.0 Scratch 2.0 In diesem Spiel musst du zusammenpassende Paare finden. Du darfst immer nur zwei Karten gleichzeitig umdrehen. Wie viele Versuche brauchst du, bis du alle Paare gefunden hast?
-Das Spiel besteht aus 2 Figuren und 10 Skripten.
-Figuren anlegen Das Spiel besteht aus nur zwei Figuren: der Karte mit einer Vorder- und einer Rückseite und der Bilder, die auf den Karten angezeigt werden sollen. Alle Bilder werden als Kostüme in einer Figur zusammengefasst.</description>
+      <description>Figuren anlegen Das Spiel besteht aus nur zwei Figuren: der Karte mit einer Vorder- und einer Rückseite und der Bilder, die auf den Karten angezeigt werden sollen. Alle Bilder werden als Kostüme in einer Figur zusammengefasst.
+ {: .right} Lösche als erstes die Figur Scratchy mit dem Namen Sprite1 indem du auf das blaue X klickst oder mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</description>
     </item>
     
     <item>
@@ -682,10 +702,9 @@ Einleitung Ziel dieser Anleitung ist das Betreiben eines Minecraft Servers auf B
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/minesweeper-v3/</guid>
-      <description>Scratch Minesweeper Scratch 3.0 Scratch 2.0 In diesem Spiel musst du die Bomben im Spielfeld finden. Klicke auf eine Zelle um sie umzudrehen. Wenn du gleichzeitig die Leertaste drückst, markierst du eine Zelle als Bombe.
-{: .right}
-Das Spiel besteht aus 2 Figuren und 15 Codeblöcken.
-Figuren anlegen Das Spiel besteht aus nur zwei Figuren: einer Zelle für das Spielfeld und verschiedenen Nachrichten, die dem Spieler angezeigt werden können.</description>
+      <description>Figuren anlegen Das Spiel besteht aus nur zwei Figuren: einer Zelle für das Spielfeld und verschiedenen Nachrichten, die dem Spieler angezeigt werden können.
+ {: .right} Lösche als erstes die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.
+ {: .right} Die Figur Zelle besteht aus mehreren Kostümen; einer nicht aufgedeckten Zelle, einer Bombe, einer leeren Zelle, einer Fahne und den Ziffern 1 bis 8.</description>
     </item>
     
     <item>
@@ -694,7 +713,7 @@ Figuren anlegen Das Spiel besteht aus nur zwei Figuren: einer Zelle für das Spi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/geschichte-katze-und-ente/</guid>
-      <description>Mit Scratch eine Geschichte erzählen Mit Scratch kannst du Geschichten erzählen. Du kannst Figuren erscheinen lassen, sie bewegen, den Hintergrund austauschen und vieles mehr.
+      <description>Mit Scratch kannst du Geschichten erzählen. Du kannst Figuren erscheinen lassen, sie bewegen, den Hintergrund austauschen und vieles mehr.
 Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.   Scratchy auftreten lassen  Schiebe Scratchy ganz nach links. Man darf nur ein kleines Stück von ihr sehen.</description>
     </item>
     
@@ -704,9 +723,9 @@ Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/moonhack/</guid>
-      <description>Scratch Moonhack  In diesem Spiel musst du mit dem Lunar Module auf dem Mond landen. Aber Vorsicht, die Landung muss sanft sein und du hast nur eine begrenzte Menge an Raktentreibstoff.
+      <description>In diesem Spiel musst du mit dem Lunar Module auf dem Mond landen. Aber Vorsicht, die Landung muss sanft sein und du hast nur eine begrenzte Menge an Raktentreibstoff.
 Du kannst das fertige Spiel unter https://scratch.mit.edu/projects/236734138/ auch gleich ausprobieren.
-  Figuren 1   Skripte 8   Daten 2 Variablen      Downloads Figur    Hintergrund Hintergrund downloaden   Lunar Module Figur downloaden   Einleitung Am 20.</description>
+Downloads Figur    Hintergrund Hintergrund downloaden   Lunar Module Figur downloaden   Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond.</description>
     </item>
     
     <item>
@@ -715,8 +734,7 @@ Du kannst das fertige Spiel unter https://scratch.mit.edu/projects/236734138/ au
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/n-ecke-malen/</guid>
-      <description>n-Ecke malen In dieser Übung lässt du Scratchy Figuren mit beliebig vielen Ecken malen, wie zum Beispiel ein Dreieck oder ein Viereck.
-Lösche vorhandene Malspuren und schalte den Stift ein  {: .right} Wische alle bereits vorhandenen Malspuren weg, schalte den Stift ein und wähle eine Farbe und Dicke für den Stift.  Lass Scratchy fragen, wie viele Ecken sie malen soll  {: .right} Lass Scratchy fragen Wie viel Ecken soll die Figur haben, die ich malen soll?</description>
+      <description>Lösche vorhandene Malspuren und schalte den Stift ein  {: .right} Wische alle bereits vorhandenen Malspuren weg, schalte den Stift ein und wähle eine Farbe und Dicke für den Stift.  Lass Scratchy fragen, wie viele Ecken sie malen soll  {: .right} Lass Scratchy fragen Wie viel Ecken soll die Figur haben, die ich malen soll? Du bekommst unten ein Eingabefeld, indem du angeben musst, wieviel Ecken die Figur haben soll.</description>
     </item>
     
     <item>
@@ -745,7 +763,8 @@ Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Program
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pac-man-v3/</guid>
-      <description>Scratch Pac Man Scratch 3.0 Scratch 2.0 Pac-Man ist ein klassisches Computerspiel. Es erschien erstmals 1980 in Japan. Pac-Man muss alle bunten Pillen einsammeln, ohne den Geistern in die Arme zu laufen. Die blauen Pillen verleihen ihm für kurze Zeit Superkräfte, und er kann Geister einfrieren.
+      <description>Pac-Man ist ein klassisches Computerspiel. Es erschien erstmals 1980 in Japan.
+Pac-Man muss alle bunten Pillen einsammeln, ohne den Geistern in die Arme zu laufen. Die blauen Pillen verleihen ihm für kurze Zeit Superkräfte, und er kann Geister einfrieren.
 Vorbereitungen Grafiken und Musik stellen dir deine Mentoren gerne via Memorystick zur Verfügung, bzw. kannst du sie auch unter pac-man.zip herunterladen. Für das Spiel benötigen wir ein Bühnenbild, und insgesamt drei Figuren: PacMan, Ghost und Pill.</description>
     </item>
     
@@ -755,8 +774,7 @@ Vorbereitungen Grafiken und Musik stellen dir deine Mentoren gerne via Memorysti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/paddle-game/</guid>
-      <description>Paddle Game In this exercise you build a little game where you try to prevent a ball from falling down with a paddle you can move from left to right.
-Creating Stage and Sprites  {: .right} You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the out area. Select the backdrop from the library with the button on the bottom left.</description>
+      <description>Creating Stage and Sprites  {: .right} You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the out area. Select the backdrop from the library with the button on the bottom left.  {: .right} The next step is to delete the Scratchy sprite with the name Sprite1, by right-clicking on it and selecting delete.</description>
     </item>
     
     <item>
@@ -765,8 +783,7 @@ Creating Stage and Sprites  {: .right} You begin by defining what your stage sho
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/paddle-game-v3/</guid>
-      <description>Scratch Paddle Game In dieser Übung baust du ein kleines Spiel, indem du versuchst, einen Ball mit einem Schläger in der Luft zu halten.
-Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen die Bühne, hier der Strand, einen Ball, einen Schläger und einen Bereich, der markiert, wo der Ball im Out ist. Wenn du ein neues Projekt startest, siehst du eine weiße Bühne mit Scratchy, der Katze.</description>
+      <description>Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen die Bühne, hier der Strand, einen Ball, einen Schläger und einen Bereich, der markiert, wo der Ball im Out ist. Wenn du ein neues Projekt startest, siehst du eine weiße Bühne mit Scratchy, der Katze. Wähle als erstes rechts unten ein Bühnenbild aus.   {: .right} Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst.</description>
     </item>
     
     <item>
@@ -775,10 +792,9 @@ Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie dein Spielf
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pakete-fangen/</guid>
-      <description>Weihnachtspakete fangen Leider ist das Förderband in der Werkstatt des Weihnachtsmanns kaputt. Kannst du die Pakete auffangen, bevor sie auf den Boden fallen und kaputt gehen.
-{: .right}
-Vorbereitung Lade dir zuerst die Zip Datei herunter.
-Du brauchst als erstes 4 Figuren: * die Geschenkspakete (aus der Scratch Bibliothek) * das Förderband (du findest es in der ZIP-Datei) * den Weihnachtssack (du findest ihn in der ZIP-Datei) * die Mitteilung, dass du zu viele Pakete fallen gelassen hast (bitte selbst erstellen)</description>
+      <description>Vorbereitung Lade dir zuerst die Zip Datei herunter.
+Du brauchst als erstes 4 Figuren: * die Geschenkspakete (aus der Scratch Bibliothek) * das Förderband (du findest es in der ZIP-Datei) * den Weihnachtssack (du findest ihn in der ZIP-Datei) * die Mitteilung, dass du zu viele Pakete fallen gelassen hast (bitte selbst erstellen)
+In der Figur &amp;ldquo;Paket&amp;rdquo; müssen wir zuerst noch 2 Kostüme hinzufügen, die anzeigen, ob das Paket am Boden zerbrochen ist, oder erfolgreich gefangen wurde.</description>
     </item>
     
     <item>
@@ -856,36 +872,13 @@ Sein Kernaufgabengebiet liegt in der Architekturberatung und im Coaching von gr�
     </item>
     
     <item>
-      <title>Scratch Catch Me</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/catch-me/</guid>
-      <description>Scratch Catch Me In this game you are a little fish and you try to escape the big dangerous shark. Can you do it?
-Creating Stage and Sprites  {: .right} You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on Select backdrop from library on the bottom left and choose your background image, for example the underwater1.</description>
-    </item>
-    
-    <item>
-      <title>Scratch Chess</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/en/chess-v3/</guid>
-      <description>Scratch Chess  
-In this example, we want to build a chess engine, and above all, the two most important functions - the calculation and application of different move combinations, and the evaluation of resulting boards.
-You can also try the finished project at https://scratch.mit.edu/projects/148769358/
-  Figuren 4   Skripte 35   Daten 70      Chess programs try to find the optimal move by calculating as many moves in advance as possible.</description>
-    </item>
-    
-    <item>
       <title>Sierpinski Dreieck</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/</guid>
-      <description>Scratch Sierpinski Dreieck Ein Fraktal ist ein Objekt, dass oft aus mehreren verkleinerten Kopien seiner selbst besteht. Hier siehst du ein großes Dreieck, das aus mehreren kleineren Dreiecken zusammengesetzt ist, die wiederum aus noch kleineren Dreiecken bestehen. Man nennt dieses Fraktal Sierpinski Dreieck.
-Die Übung besteht aus 1 Figur und 2 Skripten.
-Figuren anlegen  {: .right} Um im Scratch zu malen, brauchen wir zwar eine Figur, es muss am Bildschirm aber nichts angezeigt werden.</description>
+      <description>Ein Fraktal ist ein Objekt, dass oft aus mehreren verkleinerten Kopien seiner selbst besteht. Hier siehst du ein großes Dreieck, das aus mehreren kleineren Dreiecken zusammengesetzt ist, die wiederum aus noch kleineren Dreiecken bestehen. Man nennt dieses Fraktal Sierpinski Dreieck.
+Figuren anlegen  {: .right} Um im Scratch zu malen, brauchen wir zwar eine Figur, es muss am Bildschirm aber nichts angezeigt werden. Du kannst also eine Figur mit einem leeren Kostüm anlegen.</description>
     </item>
     
     <item>
@@ -894,8 +887,8 @@ Figuren anlegen  {: .right} Um im Scratch zu malen, brauchen wir zwar eine Figur
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/snake-v3/</guid>
-      <description>Scratch Snake Scratch 3.0 Scratch 2.0 {: .right} Steuere die Schlange, um die Äpfel aufzusammeln. Aber pass auf, dass du nicht den Rand berührst und auch keinen Knoten in die Schlange machst, wenn sie länger wird. Das Spiel besteht aus 3 Figuren und 14 Skripten.
-Bühne &amp;amp; Figuren Das Spiel besteht aus drei Figuren: der Schlange, dem Apfel und einer Nachricht, wenn das Spiel zu Ende ist. Für dieses Spiel brauchen wir kein Bühnenbild.</description>
+      <description>Steuere die Schlange, um die Äpfel aufzusammeln. Aber pass auf, dass du nicht den Rand berührst und auch keinen Knoten in die Schlange machst, wenn sie länger wird.
+Bühne &amp;amp; Figuren Das Spiel besteht aus drei Figuren: der Schlange, dem Apfel und einer Nachricht, wenn das Spiel zu Ende ist. Für dieses Spiel brauchen wir kein Bühnenbild. Du kannst es einfach weiß lassen. Die Schlange besteht aus zwei Kostümen: Kopf und Körper.</description>
     </item>
     
     <item>
@@ -916,9 +909,8 @@ Du kannst das Beispiel unter Windows, Linux oder MacOS bauen.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/space-shooter-v3/</guid>
-      <description>Scratch Space Shooter Scratch 3.0 Scratch 2.0 In dieser Übung schießt du mit deinem Raumschiff herabfallende Meteoriten ab bevor sie dein Raumschiff zerstören.
-Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie deine Bühne aussehen soll. Für dieses Spiel brauchst du das Weltall als Hintergrund. Wähle ein passendes Bild aus oder male selbst eines.
- {: .right} Als erste Figur brauchst du das Raumschiff. Es besteht aus zwei Kostümen: dem Raumschiff selbst und einem weiteren Kostüm das angezeigt wird, wenn das Spiel vorbei ist.</description>
+      <description>Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie deine Bühne aussehen soll. Für dieses Spiel brauchst du das Weltall als Hintergrund. Wähle ein passendes Bild aus oder male selbst eines.
+ {: .right} Als erste Figur brauchst du das Raumschiff. Es besteht aus zwei Kostümen: dem Raumschiff selbst und einem weiteren Kostüm das angezeigt wird, wenn das Spiel vorbei ist. Zeige den Text &amp;ldquo;Game Over&amp;rdquo; an oder male ein passendes Bild</description>
     </item>
     
     <item>
@@ -927,9 +919,10 @@ Bühne und Figuren anlegen  {: .right} Als erstes legst du fest, wie deine Bühn
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/space-shooter-2-v3/</guid>
-      <description>Scratch Space Shooter II Scratch 3.0 Scratch 2.0  Hast du die Space Shooter Scratch Übung schon geschafft? Dann bist du genau richtig hier. Deine Aufgabe ist es, einen modifizierten Space Shooter zu bauen - diesmal aber ohne kompletter Anleitung.
+      <description>Hast du die Space Shooter Scratch Übung schon geschafft? Dann bist du genau richtig hier. Deine Aufgabe ist es, einen modifizierten Space Shooter zu bauen - diesmal aber ohne kompletter Anleitung.
 Falls du Hilfe brauchst, kannst du dir Anregungen beim fertigen Spiel unter https://scratch.mit.edu/projects/236866631/ holen.
-  Figuren 4   Skripte 6   Daten 2 Variablen      Bühne und Figuren anlegen  Verwende einen Sternenhimmel als Bühnenbild für dein Spiel.</description>
+Bühne und Figuren anlegen  Verwende einen Sternenhimmel als Bühnenbild für dein Spiel.
+ Füge das Raumschiff als Figur hinzu. Mache es so groß oder klein wie du möchtest.</description>
     </item>
     
     <item>
@@ -968,10 +961,10 @@ Hier in Linz sind wir ein gemeinnütziger Verein, an dessen oberster Stelle das 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/sterne-fangen-v3/</guid>
-      <description>Scratch Sterne fangen Scratch 3.0 Scratch 2.0 Verwende die Pfeiltasten nach links und rechts um am Boden zu laufen und die Pfeiltaste nach oben um hochzuspringen. Fange so viele Sterne wie möglich.
-{: .right}
-Das Spiel besteht aus 3 Figuren und 7 Skripten. Es basiert auf dem Spiel Gravity!! von gilnz21.
-Figuren anlegen  {: .right} Lösche als erstes die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst.</description>
+      <description>Verwende die Pfeiltasten nach links und rechts um am Boden zu laufen und die Pfeiltaste nach oben um hochzuspringen. Fange so viele Sterne wie möglich.
+Das Spiel basiert auf dem Spiel Gravity!! von gilnz21.
+Figuren anlegen  {: .right} Lösche als erstes die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.
+ {: .right} Suche dir ein Bühnenbild für dein Spiel aus.</description>
     </item>
     
     <item>
@@ -1003,7 +996,7 @@ Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Nam
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/the-game-of-life-v3/</guid>
-      <description>The Game of Life Scratch 3.0 Scratch 2.0 Die Idee zu „The Game Of Life“ geht auf den Mathematiker John Conway zurück. Das Spielfeld besteht aus einem großen Raster von Zellen, die zwei Zustände haben können: „tot“ (weiß) oder „lebendig“ (farbig). Basierend auf dem Zustand des Rasters wird die nächste Generation von Zellen berechnet, und zwar nach folgenden Regeln:
+      <description>Die Idee zu „The Game Of Life“ geht auf den Mathematiker John Conway zurück. Das Spielfeld besteht aus einem großen Raster von Zellen, die zwei Zustände haben können: „tot“ (weiß) oder „lebendig“ (farbig). Basierend auf dem Zustand des Rasters wird die nächste Generation von Zellen berechnet, und zwar nach folgenden Regeln:
  Eine tote Zelle mit genau drei lebenden Nachbarn wird neu geboren Lebende Zellen mit weniger als zwei lebenden Nachbarn sterben an Einsamkeit Lebende Zellen mit zwei oder drei lebenden Nachbarn bleiben am Leben Lebende Zellen mit mehr als drei lebenden Nachbarn sterben an Überbevölkerung  Durch diese einfachen Regeln können aus bestimmten Anfangsmustern komplexe Strukturen entstehen.</description>
     </item>
     
@@ -1045,10 +1038,8 @@ So eine Schaltung kann man natürlich auch berechnen. Wir gehen aber in dieser �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten/</guid>
-      <description>Scratch Weihnachtsspiel Bald ist Weihnachten - und der Weihnachtsmann hat alle Hände voll zu tun, um die Geschenke rechtzeitig in die Häuser zu bringen. Wie viel schaffst du in einer Minute?
-Das Spiel besteht aus 4 Figuren und 9 Skripten!
-Bilder downloaden Wir haben einige Bilder vorbereitet, die du für dieses Spiel benötigst. Lade dir die folgende Datei herunter: weihnachtsspiel.zip
-Winterlandschaft Es soll so aussehen, dass der Weihnachtsmann sich von links nach rechts bewegt.</description>
+      <description>Bilder downloaden Wir haben einige Bilder vorbereitet, die du für dieses Spiel benötigst. Lade dir die folgende Datei herunter: weihnachtsspiel.zip
+Winterlandschaft Es soll so aussehen, dass der Weihnachtsmann sich von links nach rechts bewegt. Dabei darf er aber natürlich nicht aus dem Bild rausfliegen. Deshalb verwenden wir einen Trick: Wir bewegen nicht den Weihnachtsmann nach rechts, sondern den Hintergrund nach links. Der Weihnachtsmann bleibt immer an der gleichen Position – wie wenn du ihn mit einer Kamera filmen würdest.</description>
     </item>
     
     <item>
@@ -1057,11 +1048,11 @@ Winterlandschaft Es soll so aussehen, dass der Weihnachtsmann sich von links nac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten-2016/</guid>
-      <description>Scratch Weihnachtsspiel 2016 In diesem Spiel musst du möglichst viele, bunte Kugeln an den Weihnachtsbaum hängen. Wie viele Punkte schaffst du?
-Spielregeln  Die Kugeln fallen von oben nach unten und bleiben mit der schwarzen Befestigung an den grünen Zweigen des Baums hängen.
+      <description>Spielregeln  Die Kugeln fallen von oben nach unten und bleiben mit der schwarzen Befestigung an den grünen Zweigen des Baums hängen.
  Die Geschwindigkeit der Kugeln steigert sich alle 10 Sekunden.
  Für jede erfolgreich an den Baum gehängte Kugel gibt es einen Punkt.
- Wenn eine Kugel eine andere berührt oder auf den Boden fällt, zerspringt die berührte Kugel.</description>
+ Wenn eine Kugel eine andere berührt oder auf den Boden fällt, zerspringt die berührte Kugel. Ein Punkt wird abgezogen.
+ Das Spiel ist vorbei, wenn du 10 Kugeln kaputt gemacht hast.</description>
     </item>
     
     <item>
@@ -1081,10 +1072,8 @@ Spielregeln  Die Kugeln fallen von oben nach unten und bleiben mit der schwarzen
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/whack-a-gopher/</guid>
-      <description>Scratch Whack a Gopher In diesem Spiel musst du möglichst viele Gopher mit dem Besen verjagen. Wie viele Punkte schaffst du?
-{: .max-full}
-Die Katze brauchen wir in diesem Spiel nicht. Wir können sie löschen in dem wir die Katze wählen und auf das kleine blaue X drücken.
-Löcher erstellen Wir beginnen mit der Figur, welche die Löcher im Boden darstellen sollte aus denen unsere Figuren erscheinen können. Wir erstellen die Figur mit dem Pinsel und malen einen schwarzes ovales Loch.</description>
+      <description>Die Katze brauchen wir in diesem Spiel nicht. Wir können sie löschen in dem wir die Katze wählen und auf das kleine blaue X drücken.
+Löcher erstellen Wir beginnen mit der Figur, welche die Löcher im Boden darstellen sollte aus denen unsere Figuren erscheinen können. Wir erstellen die Figur mit dem Pinsel und malen einen schwarzes ovales Loch. Wichtig ist dabei, dass die Figur im Kostüm-Tab zentriert ist. Du kannst der Figur und dem Kostüm einen sprechenderen Namen geben und ganz einfach die Größe ändern:</description>
     </item>
     
     <item>
@@ -1104,16 +1093,6 @@ Allgemeines zur Programmiersprache Python Wir verwenden für die Programmierung 
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten-2/</guid>
       <description>Zahlen raten mit Python Teil 2 Kennst du den ersten Teil, wo wir ein Programm entwickelt haben, das sich eine Zahl ausdenkt und den Spieler erraten lässt? Jetzt wollen wir die Rollen tauschen und den Computer eine vom Menschen gedachte Zahl erraten lassen. Der Computer fragt zuerst, wie groß die gedachte Zahl höchstens sein kann, und beginnt dann mit dem Raten. Der Spieler gibt nach jedem Versuch an, ob die vom Computer ausgespuckte Zahl zu klein, zu groß oder richtig war.</description>
-    </item>
-    
-    <item>
-      <title>Zahlenraten</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</guid>
-      <description>Die Zahlenraten Scratch 2.0 Scratch 3.0 In diesem Spiel musst du eine Zahl erraten, die sich der Computer ausgedacht hat. Schaffst du es in weniger als 9 Versuchen?
-Variablen anlegen  {: .right} Wir Menschen merken uns Dinge im Gehirn. Wenn sich der Computer etwas merken soll, dann braucht er dafür Variablen. In unserem Spiel soll sich der Computer eine Zufallszahl ausdenken, sie uns aber nicht verraten. Wir legen dafür unter &amp;ldquo;Daten&amp;rdquo; eine &amp;ldquo;Neue Variable&amp;rdquo; an und nennen sie &amp;ldquo;zufallszahl&amp;rdquo;.</description>
     </item>
     
   </channel>
