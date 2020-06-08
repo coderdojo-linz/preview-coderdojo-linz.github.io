@@ -23,11 +23,12 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.ca222ab70ba7d069711ccf1defa980631923528ffb53ba7a796e61c5647e986c.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.3d9ab242dd3d2bdf8a6b57350cf7e3977cc665fa75f0e0c7fdee817f28ba9728.css">
 </head>
 
 <body id="body">
     <!-- NAVIGATION -->
+
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light hero-navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
@@ -37,7 +38,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
+                <li class="nav-item active">
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item ">
@@ -70,20 +71,46 @@
 
     
 
-<!-- Hero Area Section --> <section id="home" class="hero-area">
-    <div class="hero">
-        <div class="container-fluid">
-            <div class="row align-items-end">
-                <div class="col hero-description">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-md-8 offset-md-2 text-center">
-                                <div class="header">
-                                    <p>Möchtest du Computerspiele nicht nur spielen sondern selbst programmieren? Oder möchtest du deine eigene Webseite
-                                        bauen?<br />Dann bist du richtig beim CoderDojo!</p>
-                                </div>
-                            </div>
-                        </div>
+    
+
+<!-- Hero Area Section --> <section id="home" class="hero-area-home">
+    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#heroCarousel" data-slide-to="1"></li>
+            <li data-target="#heroCarousel" data-slide-to="2"></li>
+            <li data-target="#heroCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption d-none d-md-block">
+                    <div>
+                        <h5>Zu Gast auf der Uni Linz</h5>
+                        <p>In den Ferien durften wir das CoderDojo im Science Park der Uni Linz abhalten.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <div>
+                        <h5>Löten & Elektronik</h5>
+                        <p>In der Werkstatt des Wissensturms wird gelötet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <div>
+                        <h5>Robotik-Workshop</h5>
+                        <p>Die HTL Leonding war zu Gast mit ihren programmierbaren Robotern.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <div>
+                        <h5>Ars Electronica Festival</h5>
+                        <p>Beim Ars Electronica Festival wird am CoderDojo Stand im U19 Bereich programmiert und gelötet.</p>
                     </div>
                 </div>
             </div>
@@ -105,16 +132,21 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4">
-                <p>Das CoderDojo ist ein Club für Kinder und Jugendliche, die programmieren lernen und Spaß haben wollen. In regelmäßigen Treffen wird gelernt
-                    wie man Code schreibt, Webseiten entwickelt oder Apps und Spiele programmiert. Mehr Infos ...</p>
+                <p>Das CoderDojo ist ein Club für Kinder und Jugendliche, die programmieren lernen und Spaß haben wollen.</p>
+                <p>In regelmäßigen Treffen wird gelernt wie man Code schreibt, Webseiten entwickelt oder Apps und Spiele programmiert.Mehr Infos ...</p>
+                <p class="text-center"><a href="/info/kinder">Mehr Infos</a></p>
             </div>
             <div class="col-12 col-md-4">
                 <p>Teilnehmen können Kinder und Jugendliche im Alter von 8 bis 17 Jahren. Es sind keine Vorkenntnisse notwendig und die Teilnahme ist
-                    kostenfrei. Kinder unter 13 Jahren müssen von einem Erwachsenen begleitet werden. Mehr Infos ...</p>
+                    kostenfrei.</p>
+                <p>Kinder unter 13 Jahren müssen von einem Erwachsenen begleitet werden.</p>
+                <p class="text-center"><a href="/info/eltern">Mehr Infos</a></p>
             </div>
             <div class="col-12 col-md-4">
-                <p>Wir treffen uns jeden zweiten Freitag von 16:00 bis 18:00. Für den ersten Besuch ist eine Anmeldung notwendig. Zu allen weiteren Terminen
-                    kannst du dann ohne Anmeldung kommen, wann immer du Zeit und Lust hast. Nächste Termine ...</p>
+                <p>Wir treffen uns jeden zweiten Freitag von 16:00 bis 18:00.</p>
+                <p>Für den ersten Besuch ist eine Anmeldung notwendig. Zu allen weiteren Terminen kannst du dann ohne Anmeldung kommen, wann immer du Zeit und
+                    Lust hast.</p>
+                <p class="text-center"><a href="/termine">Nächste Termine</a></p>
             </div>
         </div>
     </div>
@@ -157,34 +189,6 @@
 </section>
 
 
-<!-- Contact Section -->
-<section id="newsletter">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2>Newsletter abonnieren</h2>
-                <p class="text-center">Im Newsletter informieren wir euch über alle neuen CoderDojo Veranstaltungen.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 offset-md-3">
-                <div class="form-group">
-                    <form action="#" method="POST">
-                        <div class="input-field">
-                            <input type="email" class="form-control" placeholder="Emailadresse" name="email">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Newsletter abonnieren</button>
-                    </form>
-
-                    <div id="success">
-                        <p></p>
-                    </div>
-                    <div id="error">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
