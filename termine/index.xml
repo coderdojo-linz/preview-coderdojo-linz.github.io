@@ -11,30 +11,24 @@
     
     
     <item>
-      <title></title>
-      <link>https://linz-preview.coderdojo.net/termine/2020-05-01/</link>
+      <title>CoderDojo Playground</title>
+      <link>https://linz-preview.coderdojo.net/termine/playgrounds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/termine/2020-05-01/</guid>
-      <description>13:45 - 15:45Scratch Hacking mit Node.js und TypeScript Die letzten Wochen haben wir uns Details rund um TypeScript angesehen. Diesmal wenden wir das gelernte an, um Scratch zu hacken. Wir wollen mit Node.js und TypeScript computergenerierte Scratch-Spiele erzeugen und dabei etwas über den Umgang mit Dateien, JSON, Serialisierung von Daten etc. zu lernen. Scratch ist eine hervorragende, in TypeScript geschriebene Anwendung und wir möchten durch den Blick hinter die Kulissen von den Profis lernen, die Scratch entwickelt haben.</description>
+      <guid>https://linz-preview.coderdojo.net/termine/playgrounds/</guid>
+      <description>CoderDojo Playground Was ist CoderDojo Playground? Beim CoderDojo Playground treffen wir uns, um zu üben. Wer beim normalen CoderDojo schon etwas Erfahrung gesammelt hat und mit Freunden an seinen Projekten arbeiten möchte, hat hier Gelegenheit dazu.
+Was ist der Unterschied zum normalen CoderDojo?  Es sind nur wenige Mentorinnen und Mentoren anwesend. Ihr arbeitet eigenständig oder mit anderen, jungen Codern. Wir können beim CoderDojo Playground weniger Leihgeräte zur Verfügung stellen.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://linz-preview.coderdojo.net/termine/2020-05-08/</link>
+      <title>Tipps für Online CoderDojos</title>
+      <link>https://linz-preview.coderdojo.net/termine/online-coderdojo-tipps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/termine/2020-05-08/</guid>
-      <description>Details werden noch bekanntgegeben</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linz-preview.coderdojo.net/termine/2020-05-15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/termine/2020-05-15/</guid>
-      <description>Details werden noch bekanntgegeben</description>
+      <guid>https://linz-preview.coderdojo.net/termine/online-coderdojo-tipps/</guid>
+      <description>Tipps für Online CoderDojos Hier bekommt ihr hilfreiche Tipps zur Teilnahme bei Online CoderDojos.
+Dieser Artikel ist für Kinder und Jugendliche, die schon etwas Erfahrung mit dem Umgang mit dem Computer haben, oder für erwachsene Begleitpersonen von jüngeren Kindern, die noch nicht so viel mit dem Computer gemacht haben.
+Notwendige Software Wir verwenden für Online CoderDojos die Webmeeting-Plattform Zoom. Installiere dir den Zoom Client auf allen Geräten, mit denen du am Online CoderDojo teilnehmen willst.</description>
     </item>
     
   </channel>
