@@ -11,17 +11,7 @@
     
     
     <item>
-      <title>Für Eltern</title>
-      <link>https://linz-preview.coderdojo.net/info/eltern/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/info/eltern/</guid>
-      <description>Informationen für Eltern Was ist ein CoderDojo? In der weltweiten CoderDojo Gemeinschaft bieten Freiwillige Programmierclubs für Kinder und Jugendliche an. Dort wird spielerisch Technologie entdeckt und gelernt wie man Code schreibt, Webseiten entwickelt, Apps und Spiele programmiert und vieles mehr. Technologieinteressierte Kinder treffen Gleichgesinnte und können sich über ihre Projekte austauschen.
-Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen und Experimentieren stehen im CoderDojo im Vordergrund. Offenheit, gegenseitiges Helfen und das Weitergeben von erworbenem Wissen sind wichtige Grundprinzipien.</description>
-    </item>
-    
-    <item>
-      <title>Informationen für Kinder und Jugendliche</title>
+      <title>Infos für Kinder und Jugendliche</title>
       <link>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -32,7 +22,17 @@ Was sind CoderDojos? In Japan trifft man sich in einem Dojo, um Kampfsportarten 
     </item>
     
     <item>
-      <title>Informationen für Mentoren</title>
+      <title>Infos für Eltern</title>
+      <link>https://linz-preview.coderdojo.net/info/eltern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/info/eltern/</guid>
+      <description>Informationen für Eltern Was ist ein CoderDojo? In der weltweiten CoderDojo Gemeinschaft bieten Freiwillige Programmierclubs für Kinder und Jugendliche an. Dort wird spielerisch Technologie entdeckt und gelernt wie man Code schreibt, Webseiten entwickelt, Apps und Spiele programmiert und vieles mehr. Technologieinteressierte Kinder treffen Gleichgesinnte und können sich über ihre Projekte austauschen.
+Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen und Experimentieren stehen im CoderDojo im Vordergrund. Offenheit, gegenseitiges Helfen und das Weitergeben von erworbenem Wissen sind wichtige Grundprinzipien.</description>
+    </item>
+    
+    <item>
+      <title>Infos für Mentoren</title>
       <link>https://linz-preview.coderdojo.net/info/mentoren/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

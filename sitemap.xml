@@ -7,7 +7,19 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/info/eltern/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/info/mentoren/</loc>
   </url>
   
   <url>
@@ -16,6 +28,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/info/schulen/</loc>
   </url>
   
   <url>
@@ -250,10 +266,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/info/eltern/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/geisterspiel/</loc>
   </url>
   
@@ -294,19 +306,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/info/mentoren/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/info/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/info/schulen/</loc>
   </url>
   
   <url>
