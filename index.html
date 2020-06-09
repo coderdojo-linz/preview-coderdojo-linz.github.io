@@ -23,7 +23,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.8694dd96329c1c20485275936f892fa263e1fca5e1e67d3a6703de29f324c9c6.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.095d313c05c8a4f2e279a43d392750896a59341fead08d69a5986340db107f53.css">
 </head>
 
 <body id="body">
@@ -150,7 +150,7 @@
         <div class="row">
             <div class="col-12">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+            <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
                 <h2>Nächste Termine</h2>
                 <p class="text-center">Hast du Lust bekommen, beim CoderDojo mitzumachen? Hier findest du die nächsten Termine.</p>
                 <table class="table"> 
@@ -163,11 +163,10 @@
                     <tr>
                         <td>
                             <span class="badge badge-primary event-type event-type-coderdojo-virtual">CoderDojo Virtual</span>
+                            <span class="d-block d-sm-none">12.06.2020</span>
                         </td>
-                        <td> 12.06.2020 </td>
-                        <td>
-                            Online Event
-                        </td>
+                        <td class="d-none d-sm-table-cell">12.06.2020</td>
+                        <td class="d-none d-sm-table-cell">Online Event</td>
                         <td>
                             <a href="/termine#20200612">mehr Infos</a>
                         </td>
@@ -181,11 +180,10 @@
                     <tr>
                         <td>
                             <span class="badge badge-primary event-type event-type-coderdojo-virtual">CoderDojo Virtual</span>
+                            <span class="d-block d-sm-none">19.06.2020</span>
                         </td>
-                        <td> 19.06.2020 </td>
-                        <td>
-                            Online Event
-                        </td>
+                        <td class="d-none d-sm-table-cell">19.06.2020</td>
+                        <td class="d-none d-sm-table-cell">Online Event</td>
                         <td>
                             <a href="/termine#20200619">mehr Infos</a>
                         </td>
@@ -199,11 +197,10 @@
                     <tr>
                         <td>
                             <span class="badge badge-primary event-type event-type-coderdojo-virtual">CoderDojo Virtual</span>
+                            <span class="d-block d-sm-none">26.06.2020</span>
                         </td>
-                        <td> 26.06.2020 </td>
-                        <td>
-                            Online Event
-                        </td>
+                        <td class="d-none d-sm-table-cell">26.06.2020</td>
+                        <td class="d-none d-sm-table-cell">Online Event</td>
                         <td>
                             <a href="/termine#20200626">mehr Infos</a>
                         </td>
@@ -216,35 +213,32 @@
 </section>
 
 
-<!-- Contact Section -->
-<section id="contact">
+<!-- Contact Section --> <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <h2>Kontakt</h2>
                 <p class="text-center">Hast du Fragen oder Anregungen?</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 offset-md-3">
-                <div class="form-group">
-                    <form action="#" method="POST">
-                        <div class="input-field">
-                            <input type="text" class="form-control" placeholder="Name" name="name">
-                        </div>
-                        <div class="input-field">
-                            <input type="email" class="form-control" placeholder="Emailadresse" name="email">
-                        </div>
-                        <div class="input-field">
-                            <textarea class="form-control" placeholder="Nachricht" rows="3" name="message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-light">Nachricht senden</button>
-                    </form>
-
-                    <div id="success">
-                        <p></p>
+            <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Emailadresse" name="email" required>
+                        <div class="invalid-feedback">Gib bitte eine gültige Emailadresse an, damit wir dich kontaktieren können.</div>
                     </div>
-                    <div id="error">
-                        <p></p>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Nachricht" rows="5" name="message" required></textarea>
+                        <div class="invalid-feedback">Gib bitte eine Nachricht ein.</div>
                     </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" onclick="sendContactForm(); return false;">Nachricht senden</button>
+                    </div>
+                </form>
+                <div id="success">
+                    <p></p>
+                </div>
+                <div id="error">
+                    <p></p>
                 </div>
             </div>
         </div>
