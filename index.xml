@@ -17,7 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</guid>
-      <description>Neues Projekt erstellen  Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.   Die Katze Scratchy läuft herum  Du findest alle Figuren des Projekts im linken unteren Bereich. Im Moment gibt es hier nur Scratchy, die Katze. Wenn du sie auswählst, kannst du bestimmen, was sie machen soll.</description>
+      <description>Neues Projekt erstellen Öffne Scratch und klicke links oben im Menü auf Entwickeln. Im neuen Projekt siehst du Scratchy, die Katze. Noch macht Scratchy nichts, da sie noch kein Programm hat.
+   Die Katze Scratchy läuft herum   Du findest alle Figuren des Projekts im linken unteren Bereich. Im Moment gibt es hier nur Scratchy, die Katze. Wenn du sie auswählst, kannst du bestimmen, was sie machen soll.</description>
     </item>
     
     <item>
@@ -48,7 +49,7 @@ Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen un
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</guid>
       <description>Um deine Projekte in Scratch speichern und teilen zu können, brauchst du ein Konto. Die folgenden Schritte zeigen dir, wie du ein neues Konto anlegst. Anschließend starten wir Scratch zum ersten Mal.
-Scratch Webseite öffnen  {: .right} Öffne einen Webbrowser, gib in der Adresszeile die Adresse scratch.mit.edu ein und drücke Enter. Das https:// vor der Scratch-Adresse musst du nicht unbedingt eingeben. Es wird automatisch erscheinen, nachdem du auf Enter gedrückt hast.</description>
+Scratch Webseite öffnen   Öffne einen Webbrowser, gib in der Adresszeile die Adresse scratch.mit.edu ein und drücke Enter. Das https:// vor der Scratch-Adresse musst du nicht unbedingt eingeben. Es wird automatisch erscheinen, nachdem du auf Enter gedrückt hast.</description>
     </item>
     
     <item>
@@ -64,21 +65,22 @@ Als Mentoren begleiten wir in CoderDojos Kinder beim spielerischen Entdecken ihr
     
     <item>
       <title>Zahlenraten</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlen-raten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlenraten-v3/</guid>
-      <description>Variablen anlegen  {: .right} Wir Menschen merken uns Dinge im Gehirn. Wenn sich der Computer etwas merken soll, dann braucht er dafür Variablen. In unserem Spiel soll sich der Computer eine Zufallszahl ausdenken, sie uns aber nicht verraten. Wir legen dafür unter &amp;ldquo;Daten&amp;rdquo; eine &amp;ldquo;Neue Variable&amp;rdquo; an und nennen sie &amp;ldquo;zufallszahl&amp;rdquo;.
- {: .right} Sobald das Programm gestartet wird, soll sich der Computer die Zufallszahl ausdenken und das Ergebnis in unserer neuen Variable speichern.</description>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlen-raten/</guid>
+      <description>Variablen anlegen   Wir Menschen merken uns Dinge im Gehirn. Wenn sich der Computer etwas merken soll, dann braucht er dafür Variablen. In unserem Spiel soll sich der Computer eine Zufallszahl ausdenken, sie uns aber nicht verraten. Wir legen dafür unter &amp;ldquo;Daten&amp;rdquo; eine &amp;ldquo;Neue Variable&amp;rdquo; an und nennen sie &amp;ldquo;zufallszahl&amp;rdquo;.
+     Sobald das Programm gestartet wird, soll sich der Computer die Zufallszahl ausdenken und das Ergebnis in unserer neuen Variable speichern.</description>
     </item>
     
     <item>
       <title>Fang Mich</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich-v3/</guid>
-      <description>Bühne und Figuren anlegen  Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter Bühnenbild wählen ein Bühnenbild aus, zum Beispiel ein Aquarium.  Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.  Jetzt brauchen wir einen Haifisch sowie einen Fisch, mit dem wir dem Haifisch entkommen wollen.</description>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich/</guid>
+      <description>Bühne und Figuren anlegen   Als erstes legst du fest, wie dein Spielfeld aussehen soll. Wir brauchen zuerst das Aquarium, in dem die Fische schwimmen. Wähle als erstes rechts unten unter Bühnenbild wählen ein Bühnenbild aus, zum Beispiel ein Aquarium.
+     Als nächstes lösche die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</description>
     </item>
     
     <item>
@@ -418,20 +420,20 @@ Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der 
     
     <item>
       <title>Fang die Äpfel</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel-v3/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel/</guid>
       <description>In diesem Spiel fallen Äpfel vom Himmel, die du mit deiner Schüssel fangen solltest. Jeder gefangene Apfel bringt dir einen Punkt, jeder zu Boden gefallener Apfel kostet dir ein Leben. Versuch möglichst viele Äpfel mit den 10 Leben zu fangen.
 Schritt 1: Die drei Bühnenbilder anlegen Dieses Spiel verwendet drei verschiedene Hintergundbilder (Bühnenbilder). Eines vor Spielstart, eines während des Spiels und ein drittes sobald das Spiel zu Ende ist.</description>
     </item>
     
     <item>
       <title>Fledermaus-Spiel</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus-v3/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus-v3/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fledermaus/</guid>
       <description>Hier erstellst du ein Quiz zum Thema Fledermaus. Wenn du viele Fragen richtig beantworten kannst, erhältst du einen Pokal.
 Bühnenbild auswählen Als erstes legst du fest, wie dein Hintergrund aussehen sollte. Wähle für dieses Quiz das Bühnenbild Mountain aus.
 Figuren anlegen Das Spiel besteht aus zwei Figuren: der Fledermaus und dem Pokal.
