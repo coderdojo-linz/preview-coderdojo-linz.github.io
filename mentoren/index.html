@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js" lang="de-AT">
 
+
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +25,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.095d313c05c8a4f2e279a43d392750896a59341fead08d69a5986340db107f53.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.5325932e0a5cfe85719a4984860e07191311ee5a9d2a522d2558cade5769e373.css">
 </head>
 
 <body id="body">
@@ -62,26 +64,29 @@
 </nav>
 
     
+        
+        
 
-    
-    
-    <section class="hero-area">
-        <div class="hero" style="background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.5)), url('/img/hero/mentoren.jpg'); background-position: 50% 50%;">
-            <div class="container-fluid">
-                <div class="row align-items-end">
-                    <div class="col hero-description">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 col-md-8 offset-md-2 text-center">
-                                    <p>Weihnachtsfeier der Mentoren im NIU</p>
+        
+        
+        <section class="hero-area">
+            <div class="hero" style="background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(0, 0, 0, 0.5)), url('/images/mentoren_hu4a67743e0aaff8077774b692dbdc7799_3888008_1920x1200_fit_q75_box.jpg'); background-position: 50% 50%;">
+                <div class="container-fluid">
+                    <div class="row align-items-end">
+                        <div class="col hero-description">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                                        <p>Weihnachtsfeier der Mentoren im NIU</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
     
 
     
@@ -338,20 +343,54 @@ Seither war er in Produkt- und Projektentwicklung tätig. Unter anderem für ein
         </div> 
     </div>
 </section>
-<section id="mentors-contact" class="primary">
+
+<section id="mentors-call-to-action" class="dark">
     <div class="container">
         <div class="row">
             <div class="col"> 
 
 <h2 id="möchtest-du-mentor-werden">Möchtest du Mentor werden?</h2>
 
-<p>Wir haben dir einige Informationen für Mentoren zusammengestellt.</p>
-
-<p>Wenn du mitmachen möchtest, nimm bitte <a href="mailto:info@linz.coderdojo.net" target="_blank">per Email</a> Kontakt mit uns auf.</p>
+<p>Wenn du technikbegeistert bist und dein Wissen gerne weitergibst, solltest du es probieren! Schreib uns, bei welchem der <a href="/termine">nächsten CoderDojos</a> zum Schnuppern vorbeikommen willst. Wir freuen uns auf dich!</p>
  </div>
         </div>
     </div>
 </section> 
+
+<!-- Contact Section --> <section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Schnuppertermin</h2>
+                <p class="text-center">Schreib uns, wann du zum Schnuppern vorbeikommen willst.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Emailadresse" name="email" required>
+                        <div class="invalid-feedback">Gib bitte eine gültige Emailadresse an, damit wir dich kontaktieren können.</div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Nachricht" rows="5" name="message" required></textarea>
+                        <div class="invalid-feedback">Gib bitte eine Nachricht ein.</div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" onclick="sendContactForm(); return false;">Nachricht senden</button>
+                    </div>
+                </form>
+                <div id="success">
+                    <p></p>
+                </div>
+                <div id="error">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
     <footer>
         <div class="container">

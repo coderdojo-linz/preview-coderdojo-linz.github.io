@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Images on CoderDojo Linz</title>
+    <link>https://linz-preview.coderdojo.net/images/</link>
+    <description>Recent content in Images on CoderDojo Linz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    
+	<atom:link href="https://linz-preview.coderdojo.net/images/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sponsoring</title>
+      <link>https://linz-preview.coderdojo.net/images/sponsoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/images/sponsoring/</guid>
+      <description>Sponsoring Wer sind wir? In der weltweiten CoderDojo Gemeinschaft bieten Freiwillige Programmierclubs für Kinder und Jugendliche an. Dort wird spielerisch Technologie entdeckt und gelernt wie man Code schreibt, Webseiten entwickelt, Apps und Spiele programmiert und vieles mehr. Technologieinteressierte Kinder treffen Gleichgesinnte und können sich über ihre Projekte austauschen.
+Hier in Linz sind wir ein gemeinnütziger Verein, an dessen oberster Stelle das gemeinsame Entdecken, Teamarbeit und Mentoring zur Vermittlung von Technologien und Programmierung an Kinder steht.</description>
+    </item>
+    
+  </channel>
+</rss>
