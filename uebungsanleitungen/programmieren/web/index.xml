@@ -12,15 +12,43 @@
     
     
     <item>
-      <title>HTML &amp; CSS Hands On</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</link>
-      <pubDate>Wed, 27 May 2020 13:11:02 +0200</pubDate>
+      <title>HTML Meine erste Webseite</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</guid>
-      <description>HTML &amp;amp; CSS Hands On Die folgenden Übungen kannst du direkt online in JSFiddle machen. Du brauchst dafür kein installiertes Tool. Für jede Übung wird das gewünschte Ergebnis dargestellt und du findest jeweils einen Link zur Ausgangsbasis für das Beispiel.
-HTML Basic Tags Im ersten Beispiel werden die am häufigsten verwendeten HTML Element verwendet.
-Startprojekt
- Formatierung mit Tags In diesem Beispiel geht es um die verschiedenen Optionen, um Text direkt durch HTML Elemente zu formatieren.</description>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</guid>
+      <description>Meine erste Webseite In dieser Übung lernst du die Hypertext Markup Language (kurz HTML) kennen. Unser Ziel ist es, Schritt für Schritt eine HTML-Seite zu erstellen und dabei die wichtigsten Grundbegriffe von HTML zu entdecken. Wenn du nach dieser Übung mehr über HTML lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die HTML Einführung auf w3schools.com werfen.
+Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</description>
+    </item>
+    
+    <item>
+      <title>Erste Schritte mit CSS</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</guid>
+      <description>Erste Schritte mit CSS Ziel der Übung In dieser Übung lernst du Cascading Style Sheets (kurz CSS) kennen. Unser Ziel ist es, eine HTML-Seite mit CSS zu formatieren und hübsch zu gestalten. Wenn du nach dieser Übung mehr über CSS lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die CSS Einführung auf w3schools.com werfen.
+Falls du noch überhaupt keine Erfahrung mit HTML hast, wende dich an eine CoderDojo Mentorin oder einen Mentor.</description>
+    </item>
+    
+    <item>
+      <title>Deine erste Webseite veröffentlichen</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/dreamspark-azure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/dreamspark-azure/</guid>
+      <description>Deine erste Webseite veröffentlichen Ziel der Übung Auf der CoderDojo Linz Webseite findest du viele Beispiele, die dir zeigen, wie du deine erste Webseite baust. So richtig Spaß macht das aber erst, wenn man das Ergebnis auch tatsächlich ins Internet stellen kann, oder? Genau das machen wir in dieser Übung.
+Microsoft DreamSpark und Azure Für eine Webseite im Internet braucht man einen Server. Einen Server selbst zu betreiben ist aufwendig und teuer.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Zahlen raten</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</guid>
+      <description>Zahlen raten Ziel der Übung In dieser Übung programmierst du ein einfaches &amp;ldquo;Zahlen raten&amp;rdquo; Spiel und siehst, wie man mit JavaScript Ein- und Ausgaben machen kann.
+Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl zwischen 0 und 100 aus und der Spieler muss versuchen, diese Zahl mit möglichst wenigen Versuchen zu erraten. Dazu kann er einen Tipp eingeben. Der Computer sagt dann Niedriger oder Höher, und der Spieler kann einen neuen Tipp eingeben, bis er die richtige Zahl erraten hat.</description>
     </item>
     
     <item>
@@ -57,16 +85,6 @@ Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver
     </item>
     
     <item>
-      <title>Deine erste Webseite veröffentlichen</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/dreamspark-azure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/dreamspark-azure/</guid>
-      <description>Deine erste Webseite veröffentlichen Ziel der Übung Auf der CoderDojo Linz Webseite findest du viele Beispiele, die dir zeigen, wie du deine erste Webseite baust. So richtig Spaß macht das aber erst, wenn man das Ergebnis auch tatsächlich ins Internet stellen kann, oder? Genau das machen wir in dieser Übung.
-Microsoft DreamSpark und Azure Für eine Webseite im Internet braucht man einen Server. Einen Server selbst zu betreiben ist aufwendig und teuer.</description>
-    </item>
-    
-    <item>
       <title>Erste Schritte mit Bootstrap</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -74,16 +92,6 @@ Microsoft DreamSpark und Azure Für eine Webseite im Internet braucht man einen 
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/</guid>
       <description>Erste Schritte mit Bootstrap Für diese Übung starten wir mit einer existierenden Webseite, die nur HTML enthält, aber noch gar keine Styles.
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Scratch - Fang mich&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;content&amp;#34;&amp;gt; &amp;lt;h1&amp;gt;Scratch Fang-Mich &amp;lt;span class=&amp;#34;version&amp;#34;&amp;gt;Scratch 3.0&amp;lt;/span&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;div class=&amp;#34;intro&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;images/endgame.png&amp;#34; alt=&amp;#34;Endgame&amp;#34;&amp;gt; &amp;lt;p&amp;gt;In diesem Spiel bist du ein Fisch, der dem großen Haifisch entkommen muss. Schaffst du es?&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; ... Ihr könnt das initiale Projekt mit allen Bildern aber ohne Styles hier herunterladen: Startprojekt</description>
-    </item>
-    
-    <item>
-      <title>Erste Schritte mit CSS</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</guid>
-      <description>Erste Schritte mit CSS Ziel der Übung In dieser Übung lernst du Cascading Style Sheets (kurz CSS) kennen. Unser Ziel ist es, eine HTML-Seite mit CSS zu formatieren und hübsch zu gestalten. Wenn du nach dieser Übung mehr über CSS lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die CSS Einführung auf w3schools.com werfen.
-Falls du noch überhaupt keine Erfahrung mit HTML hast, wende dich an eine CoderDojo Mentorin oder einen Mentor.</description>
     </item>
     
     <item>
@@ -129,23 +137,15 @@ Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Nam
     </item>
     
     <item>
-      <title>HTML Meine erste Webseite</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</link>
+      <title>HTML &amp; CSS Hands On</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</guid>
-      <description>Meine erste Webseite In dieser Übung lernst du die Hypertext Markup Language (kurz HTML) kennen. Unser Ziel ist es, Schritt für Schritt eine HTML-Seite zu erstellen und dabei die wichtigsten Grundbegriffe von HTML zu entdecken. Wenn du nach dieser Übung mehr über HTML lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die HTML Einführung auf w3schools.com werfen.
-Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Zahlen raten</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</guid>
-      <description>Zahlen raten Ziel der Übung In dieser Übung programmierst du ein einfaches &amp;ldquo;Zahlen raten&amp;rdquo; Spiel und siehst, wie man mit JavaScript Ein- und Ausgaben machen kann.
-Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl zwischen 0 und 100 aus und der Spieler muss versuchen, diese Zahl mit möglichst wenigen Versuchen zu erraten. Dazu kann er einen Tipp eingeben. Der Computer sagt dann Niedriger oder Höher, und der Spieler kann einen neuen Tipp eingeben, bis er die richtige Zahl erraten hat.</description>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</guid>
+      <description>HTML &amp;amp; CSS Hands On Die folgenden Übungen kannst du direkt online in JSFiddle machen. Du brauchst dafür kein installiertes Tool. Für jede Übung wird das gewünschte Ergebnis dargestellt und du findest jeweils einen Link zur Ausgangsbasis für das Beispiel.
+HTML Basic Tags Im ersten Beispiel werden die am häufigsten verwendeten HTML Element verwendet.
+Startprojekt
+ Formatierung mit Tags In diesem Beispiel geht es um die verschiedenen Optionen, um Text direkt durch HTML Elemente zu formatieren.</description>
     </item>
     
     <item>
@@ -208,7 +208,7 @@ Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls HTML,
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/svg-schreibtrainer/</guid>
       <description>SVG Schreibtrainer Ziel der Übung Du baust ein Spiel das dir hilft, deine Tipp-Geschwindigkeit zu verbessern.
-Ám oberen Spielfeldrand erscheinen Kreise mit Buchstaben, die nach unten fallen. Tippe den Buchstaben, bevor er den unteren Rand des Spielfelds berührt.
+Am oberen Spielfeldrand erscheinen Kreise mit Buchstaben, die nach unten fallen. Tippe den Buchstaben, bevor er den unteren Rand des Spielfelds berührt.
 Auf Wikipedia findest du eine Grafik zum Zehnfingersystem, die erklärt, welche Taste mit welchem Finger gedrückt werden soll.
 Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Namen schreibtrainer.</description>
     </item>

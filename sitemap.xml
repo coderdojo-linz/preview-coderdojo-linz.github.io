@@ -12,6 +12,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</loc>
   </url>
   
@@ -21,11 +25,19 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/info/eltern/</loc>
   </url>
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/dreamspark-azure/</loc>
   </url>
   
   <url>
@@ -45,6 +57,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/</loc>
     <lastmod>2020-06-01T05:28:34+02:00</lastmod>
   </url>
@@ -57,11 +73,6 @@
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/</loc>
     <lastmod>2020-06-01T05:28:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</loc>
-    <lastmod>2020-05-27T13:11:02+02:00</lastmod>
   </url>
   
   <url>
@@ -198,10 +209,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/dreamspark-azure/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_ersteschritte_block/</loc>
   </url>
   
@@ -227,10 +234,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</loc>
   </url>
   
   <url>
@@ -302,7 +305,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</loc>
   </url>
   
   <url>
@@ -319,10 +322,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/01_installationen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</loc>
   </url>
   
   <url>
