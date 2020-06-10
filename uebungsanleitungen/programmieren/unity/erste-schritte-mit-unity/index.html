@@ -25,7 +25,8 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.15889101d25a1fa33c529cf01255a15ed9967c6c81689a824ce15f4762d0465a.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.240561665e5db97690f0e6e8a9aa0bc5ea090d9e5daeafad56659e6c3c85ecce.css">
+    <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="body">
@@ -153,7 +154,28 @@ Beim Start nach der Installation müsst ihr euch registrieren und ein Unity Kont
 
 <p>In der Mitte des Fensters befindet sich der <em>3D Editor</em>, auf der linken Seite die Elemente in der aktuellen Szene, rechts können die Eigenschaften der aktuellen Auswahl eingesehen werden und unten erlangt ihr Zugriff auf verfügbare Assets sowie dem Asset Store und die Console auf welcher Debug Ausgaben ausgegeben werden können. Schon jetzt könnt Ihr mit einem Klick auf den Play Button oben in der Mitte das Spiel sofort starten. Außer einem Horizont am Hintergrund gibt es jedoch nichts zu sehen, daher stoppen wir die Ausführung wieder. Bevor wir richtig mit der Programmierung starten noch ein paar Details zum 3D Editor.</p>
 
-<p><img src="erste-schritte-mit-unity/bildschirmaufbau-unity.png" alt="Bildschirmaufbau bei Unity" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/img/bildschirmaufbau-unity.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <h2 id="der-3d-editor">Der 3D Editor</h2>
 
@@ -196,49 +218,94 @@ Nun können wir endlich zu Programmieren beginnen.</p>
 
 <p>Um Visual Studio zu verwenden, geht auf <em>Edit =&gt; Preferences =&gt; External Tools</em>. Die Einstellung <em>external Script Editor</em> befindet sich ganz oben, Mono Develop ist hier ausgewählt. Wechselt einfach zu <em>Microsoft Visual Studio 2013</em> und schließt dieses Fenster wieder.</p>
 
-<p><img src="erste-schritte-mit-unity/unity-mit-visual-studio-verbinden.png" alt="Unity mit Visual Studio verbinden" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/img/unity-mit-visual-studio-verbinden.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <p>Wählt als nächstes wieder den Würfel aus, dem wir zuvor das Script hinzugefügt haben. Klickt das Script mit der rechten Maustaste an und wählt <em>Edit Script</em>. Nun wird der Code Editor gestartet (dies kann eine Weile dauern).
 Wenn der Ladevorgang fertig ist, befinden wir uns in Visual Studio und können das Script sofort bearbeiten. Zu Beginn sieht es noch folgendermaßen aus:</p>
 
-<p><img src="erste-schritte-mit-unity/script-in-visual-studio.png" alt="Script in Visual Studio" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/img/script-in-visual-studio.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <p>Das Script enthält zu Beginn nur 2 Methoden: <em>Start</em> und <em>Update</em>. Diese verhalten sich natürlich auch ganz ihrem Namen nach: Die Start-Methode wird hinzugefügt, sobald das Spiel gestartet wird (bzw. wenn ein GameObject initialisiert wird, das erst im späteren Spielverlauf hinzukommt). Die Update-Methode wird jedoch für jeden <a href="https://de.wikipedia.org/wiki/Einzelbild_(Film)" target="_blank">Frame</a> (sprich um ein flüssiges Spiel zu erhalten mindestens 25x pro Sekunde) aufgerufen. Wenn wir komplexe Vorgänge in unsere Scripts einbauen, müssen wir natürlich auch darauf achten, in der Update Methode nicht zu viel Zeit zu verlieren.</p>
 
 <p>Wir wollen nun die Update Methode so anpassen, dass sich der Würfel ein wenig wie ein Fahrzeug verhält, also fügen wir unserer Scriptklasse ein paar Variablen hinzu um dies zu ermöglichen:</p>
-<pre><code>    private readonly Vector3 _direction = Vector3.forward;
-    private float _speed = 0f;
-    private const float Velocity = 1f;
-    private float _wheelangle = 0;</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">readonly</span> Vector3 _direction = Vector3.forward;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">float</span> _speed = <span style="color:#ae81ff">0f</span>;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">float</span> Velocity = <span style="color:#ae81ff">1f</span>;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">float</span> _wheelangle = <span style="color:#ae81ff">0</span>;
+</code></pre></div>
 <p>Zuerst einen <a href="https://de.wikipedia.org/wiki/Vektor" target="_blank">Vektor</a> für die Richtung, in welche sich unser Würfel bewegt (mit dem Wert <em>Vector3.forward</em>, damit sich der Würfel in die von ihm aus gesehen Richtung gerade nach vorne bewegt). Bewegungen im 3dimensionalen Raum werden mit Vektoren beschrieben. Um hierbei fit zu sein, empfiehlt es sich, gut im Mathematikunterricht aufzupassen und/oder sich die Grundlagen durch Recherche in Büchern oder im Internet zu ereignen (z.B. <a href="http://www.frustfrei-lernen.de/mathematik/vektor-vektorrechnung-mathematik.html" target="_blank">http://www.frustfrei-lernen.de/mathematik/vektor-vektorrechnung-mathematik.html</a>).</p>
 
 <p>Zusätzlich zur Bewegungsrichtung legen wir auch Variablen für die Geschwindigkeit (<em>_speed</em>), die Beschleunigung (<em>Velocity</em>) und den Lenkradwinkel (<em>_wheelangle</em>) an.</p>
 
 <p>Dem Inhalt der Update Methode fügen wir nun folgenden Code hinzu:</p>
-<pre><code>    if (Input.GetKey(KeyCode.UpArrow))
-    {
-        _speed += Velocity;
-    }
-    if (Input.GetKey(KeyCode.DownArrow))
-    {
-        _speed -= Velocity;
-    }
-    if (Input.GetKey(KeyCode.LeftArrow))
-    {
-        _wheelangle -= 2f;
-    }
-    if (Input.GetKey(KeyCode.RightArrow))
-    {
-        _wheelangle += 2f;
-    }</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">if</span> (Input.GetKey(KeyCode.UpArrow))
+{
+    _speed += Velocity;
+}
+<span style="color:#66d9ef">if</span> (Input.GetKey(KeyCode.DownArrow))
+{
+    _speed -= Velocity;
+}
+<span style="color:#66d9ef">if</span> (Input.GetKey(KeyCode.LeftArrow))
+{
+    _wheelangle -= <span style="color:#ae81ff">2f</span>;
+}
+<span style="color:#66d9ef">if</span> (Input.GetKey(KeyCode.RightArrow))
+{
+    _wheelangle += <span style="color:#ae81ff">2f</span>;
+}
+</code></pre></div>
 <p>Wir benutzen für unsere Steuerung die Pfeiltasten. Mit <em>Input.GetKey(KeyCode c)</em> können wir abfragen, ob eine bestimmte Taste gerade gedrückt ist. Wenn dem so ist, verändern wir einfach die Werte unserer Variablen je nach gedrückter Taste.</p>
 
 <p>Zu guter Letzt müssen wir die Änderungen auf das Objekt anwenden:</p>
-<pre><code>    _wheelangle /= 2;
-    Debug.Log(_speed);
-       this.transform.Translate(_direction*_speed * Time.deltaTime);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">_wheelangle /= <span style="color:#ae81ff">2</span>;
+Debug.Log(_speed);
+    <span style="color:#66d9ef">this</span>.transform.Translate(_direction*_speed * Time.deltaTime);
 
-    this.transform.Rotate(Vector3.up, _wheelangle);</code></pre>
+<span style="color:#66d9ef">this</span>.transform.Rotate(Vector3.up, _wheelangle);
+</code></pre></div>
 <p>Wir teilen in jedem Durchlauf den Lenkrad Winkel durch 2 um zu simulieren, dass sich das Lenkrad nach Loslassen der Taste langsam wieder in die Mittelposition bewegt. Anschließend geben wir (auch um die Console zu zeigen) die aktuelle Geschwindigkeit aus.</p>
 
 <p>Um den Würfel auch fahren zu lassen, müssen wir ihn nun noch bewegen (<em>transform.Translate</em>) sowie rotieren (<em>transform.Rotate</em>) lassen.</p>
@@ -265,7 +332,28 @@ Wenn der Ladevorgang fertig ist, befinden wir uns in Visual Studio und können d
 
 <p>Zu guter Letzt wollen wir das Spiel natürlich auch noch ohne Unity spielen, und dazu müssen wir es bauen: <em>File =&gt; Build &amp; Run</em>. Wir können nun die Plattform für den Build wählen. Da wir auf unserem lokalen Rechner spielen wollen, nehmen wir <em>Windows (x86)</em>. Nach erfolgreichem Build können wir uns noch die Grafikeigenschaften für das Spiel auswählen und los geht’s!</p>
 
-<p><img src="erste-schritte-mit-unity/fertiges-spiel.png" alt="Unser fertiges Spiel" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/img/fertiges-spiel.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <p>Viel Spaß!</p>
  </div>

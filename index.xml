@@ -99,9 +99,8 @@ CoderDojo ist ein von ehrenamtlichen Mentorinnen und Mentoren getragener Program
       <pubDate>Mon, 01 Jun 2020 05:28:34 +0200</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/hour-of-code/hour-of-code/</guid>
-      <description>Programmieren lernen mit Hour of Code https://hourofcode.com/de/learn
-Anfänger: Programmieren mit Blöcken  {: .right} Kennst du das Spiel Angry Birds von Smartphone oder Tablet? In Hour of Code kannst du die ersten Schritte des Programmierens mit den Angry Birds erlernen. Programmierspiel unter https://studio.code.org/hoc/1 starten&amp;hellip;
- {: .right} Bist du ein Fan von Anna und Elsa? In Hour of Code kannst du ihre Bewegungen programmieren und damit schöne Muster aufs Eis zeichnen.</description>
+      <description>Programmieren lernen mit Hour of Code Anfänger: Programmieren mit Blöcken   Kennst du das Spiel Angry Birds von Smartphone oder Tablet? In Hour of Code kannst du die ersten Schritte des Programmierens mit den Angry Birds erlernen. Programmierspiel unter https://studio.code.org/hoc/1 starten&amp;hellip;
+     Bist du ein Fan von Anna und Elsa? In Hour of Code kannst du ihre Bewegungen programmieren und damit schöne Muster aufs Eis zeichnen.</description>
     </item>
     
     <item>
@@ -380,12 +379,13 @@ Installation  Lade als erstes unter https://github.com/spf13/hugo/releases die a
     
     <item>
       <title>Erste Schritte mit Python</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-erste-schritte/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/erste-schritte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-erste-schritte/</guid>
-      <description>Erste Schritte mit Python Diese Übung gibt eine erste Einführung in das Programmieren mit Python. Die Inhalte sind zum größten Teil aus dem Buch Programmieren supereasy
-Was ist Python? Python ist eine Programmiersprache, die mit englischen Textbefehlen arbeitet. Sie ist etwas schwieriger als Scratch, dafür gibt es allerdings viel mehr Verwendungsmöglichkeiten. Zur Vorbereitung werden wir nun zuerst Python installieren und uns dann mit der Oberfläche vertraut machen.
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/erste-schritte/</guid>
+      <description>Erste Schritte mit Python Diese Übung gibt eine erste Einführung in das Programmieren mit Python. Die Inhalte sind zum größten Teil aus dem Buch Programmieren supereasy.
+Was ist Python? Python ist eine Programmiersprache, die mit englischen Textbefehlen arbeitet. Sie ist etwas schwieriger als Scratch, dafür gibt es allerdings viel mehr Verwendungsmöglichkeiten.
+Zur Vorbereitung werden wir nun zuerst Python installieren und uns dann mit der Oberfläche vertraut machen.
 Python installieren Lade Python nun herunter und installiere es auf deinem Computer.</description>
     </item>
     
@@ -464,10 +464,10 @@ Die Aufgabe Der Geist versteckt sich zufällig hinter einer von 3 Türen. Du ent
     
     <item>
       <title>Geisterspiel mit Python</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-geisterspiel/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/geisterspiel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-geisterspiel/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/geisterspiel/</guid>
       <description>Geisterspiel In dieser Übung erstellen wir ein erstes, einfaches Computerspiel mit Python. Es wird nur ein text-basiertes UI (= User Interface; deutsch: Benutzerschnittstelle) haben, d.h. wir werden Text auf dem Bildschirm lesen und Zeichen mit der Tastatur eingeben, um das Spiel zu steuern.
 Die Aufgabe Der Geist versteckt sich zufällig hinter einer von 3 Türen. Du entscheidest, welche Türe du öffnen möchtest. Tippe dazu 1, 2 oder 3 und drücke die ENTER-Taste.</description>
     </item>
@@ -806,10 +806,10 @@ Das muss aber nicht sein. Als Coder mit HTML- und CSS-Kenntnissen kann man beein
     
     <item>
       <title>Python baut unsinnige Sätze</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-unsinnige-saetze/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/unsinnige-saetze/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-unsinnige-saetze/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/unsinnige-saetze/</guid>
       <description>Unsinnige Sätze In dieser Übunge erstellen wir ein kleines Python-Programm, das unsinnige Sätze zusammenbaut.
 Die Aufgabe Unser Programm soll aus drei verschiedenen Wortgruppen (Subjekt, Verb, Objekt) willkürlich Sätze zusammenstellen. Es wählt zufällig je ein Wort aus einer Gruppe aus und dabei können natürlich auch lustige und unsinnige Sätze herauskommen.
 Ein möglicher Ablauf könnte dann im Shell-Fenster so aussehen:
@@ -838,10 +838,10 @@ Sein Kernaufgabengebiet liegt in der Architekturberatung und im Coaching von gr�
     
     <item>
       <title>Schriftlich Multiplizieren mit Python</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-schriftlich-multiplizieren/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-schriftlich-multiplizieren/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/</guid>
       <description>Schriftlich Multiplizieren mit Python Es wäre doch nett, wenn ein Programm das schriftliche Multiplizieren mit allen Zwischenschritten vorführen könnte? Für die Faktoen 345 und 789 soll das Programm z.B. folgendes ausgeben:
 345 x 789 --------- 2415 2760 3105 ------ 272205 Allgemeines zur Programmiersprache Python Wir verwenden für die Programmierung die Programmiersprache Python (siehe die Python Homepage www.python.org), genauer gesagt Python 3, also eine Version von Python, deren Bezeichnung mit 3 beginnt, z.</description>
     </item>
@@ -1073,21 +1073,21 @@ Löcher erstellen Wir beginnen mit der Figur, welche die Löcher im Boden darste
     </item>
     
     <item>
-      <title>Zahlen raten mit Python</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten/</link>
+      <title>Zahlen raten mit Python - Teil 1</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/zahlenraten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/zahlenraten/</guid>
       <description>Zahlen raten mit Python Wollen wir ein Programm für das Spiel &amp;ldquo;Zahlen raten&amp;rdquo; schreiben? Der Computer denkt sich eine Zahl im Bereich von 1 - 100 und der Spieler soll diese erraten. Nach jedem Versuch gibt das Programm aus, ob die eingegebene Zahl zu klein, zu groß oder richtig war.
 Allgemeines zur Programmiersprache Python Wir verwenden für die Programmierung die Programmiersprache Python (siehe die Python Homepage www.python.org), genauer gesagt Python 3, also eine Version von Python, deren Bezeichnung mit 3 beginnt, z.</description>
     </item>
     
     <item>
       <title>Zahlen raten mit Python - Teil 2</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten-2/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/zahlenraten-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/python-zahlenraten-2/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/zahlenraten-2/</guid>
       <description>Zahlen raten mit Python Teil 2 Kennst du den ersten Teil, wo wir ein Programm entwickelt haben, das sich eine Zahl ausdenkt und den Spieler erraten lässt? Jetzt wollen wir die Rollen tauschen und den Computer eine vom Menschen gedachte Zahl erraten lassen. Der Computer fragt zuerst, wie groß die gedachte Zahl höchstens sein kann, und beginnt dann mit dem Raten. Der Spieler gibt nach jedem Versuch an, ob die vom Computer ausgespuckte Zahl zu klein, zu groß oder richtig war.</description>
     </item>
     
