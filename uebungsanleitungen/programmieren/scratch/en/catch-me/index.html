@@ -150,22 +150,22 @@
                 <div class="col-12">
                     <h1>Catch Me</h1>
                 </div>
-                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/endgame.png" alt="Catch Me"> 
+                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/endgame.png" alt="Catch Me"> 
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">In this game you are a little fish and you try to escape the big dangerous shark. Can you do it?</p>
                     <table class="table">
                         <tr>
                             <td><i class="fas fa-dragon"></i>Figuren</td>
-                            <td></td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td><i class="fas fa-code"></i>Skripte</td>
-                            <td></td>
+                            <td>8</td>
                         </tr>
                         <tr>
                             <td><i class="fas fa-clipboard-list"></i>Variablen</td>
-                            <td></td>
+                            <td>0</td>
                         </tr>
                     </table>
                 </div>
@@ -182,73 +182,253 @@
 <h2 id="creating-stage-and-sprites">Creating Stage and Sprites</h2>
 
 <ol>
-<li><p><img src="01-background.png" alt="select the stage" />{: .right}
-You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on <em>Select backdrop from library</em> on the bottom left and choose your background image, for example the underwater1.</p></li>
+<li>
 
-<li><p><img src="02-delete-scratchy.png" alt="delete sprite" />{: .right}
-The next step is to delete the Scratchy sprite with the name <em>Sprite1</em>, by right-clicking on it and selecting <em>delete</em>.</p></li>
 
-<li><p><img src="03-fish.png" alt="add sprites" />{: .right}
-Now we need to add the fish as well as the shark we are trying to escape from to our scene. To do so, click on <em>Choose sprite form Library</em> and add the fish and shark sprite. Of course you could choose different characters, for example a bug escaping a bird or a person escaping a lion. It&rsquo;s all up to your creativity.</p></li>
+     
+    
 
-<li><p><img src="04-resize.png" alt="resize the fish" />{: .right}
-Currently the fish sprite is the same size as the shark sprite. To make the little fish actually smaller than the big shark, we have to resize the fish sprite. To do so, select the fish sprite, so it is highlighted with a blue border. Now click on the <em>Costumes</em> tab, select the fish and resize it.</p></li>
 
-<li><p><img src="05-fish-center.png" alt="set center point" />{: .right}
-To make the fish rotate at the correct point when he&rsquo;s turning around, you have to define the rotation point by selecting the <em>center pint</em> tool on the top right corner and click at the center of your fish sprite.</p></li>
 
-<li><p><img src="06-rename.png" alt="rename sprites" />{: .right}
-To make it easier for you to use the sprites later on, just give them custom names like <em>Bad Shark</em> and <em>Me</em> by clicking on the blue <em>i</em> on the top left corner of the selected sprite.</p></li>
+
+
+
+<div class="row">
+    <div class="col">
+        <p>You need to decide what your stage should look like. First of all we need to build our underwater world where our fishes live. Click on <em>Select backdrop from library</em> on the bottom left and choose your background image, for example the underwater1.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/01-background.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>The next step is to delete the Scratchy sprite with the name <em>Sprite1</em>, by right-clicking on it and selecting <em>delete</em>.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/02-delete-scratchy.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Now we need to add the fish as well as the shark we are trying to escape from to our scene. To do so, click on <em>Choose sprite form Library</em> and add the fish and shark sprite. Of course you could choose different characters, for example a bug escaping a bird or a person escaping a lion. It&rsquo;s all up to your creativity.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/03-fish.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Currently the fish sprite is the same size as the shark sprite. To make the little fish actually smaller than the big shark, we have to resize the fish sprite. To do so, select the fish sprite, so it is highlighted with a blue border. Now click on the <em>Costumes</em> tab, select the fish and resize it.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/04-resize.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>To make the fish rotate at the correct point when he&rsquo;s turning around, you have to define the rotation point by selecting the <em>center pint</em> tool on the top right corner and click at the center of your fish sprite.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/05-fish-center.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>To make it easier for you to use the sprites later on, just give them custom names like <em>Bad Shark</em> and <em>Me</em> by clicking on the blue <em>i</em> on the top left corner of the selected sprite.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/06-rename.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="move-the-fish">Move the Fish</h2>
 
 <ol>
-<li><img src="07-move-fish.png" alt="move the fish" />{: .right}
-To make the fish move up, down, left and right you need to build the scripts that controls the fish<br/><br/>
-• First, select the fish sprite.<br/>
-• Select the <em>Script</em> tab and use the <em>when &hellip; key pressed</em> action from the <em>Events</em> category.<br/>
-• Then add the <em>point in direction &hellip;</em> action from the <em>Motion</em> category to turn the fish into the right direction.<br/>
-• Afterwards use the <em>move &hellip;steps</em> to move the Sprite.<br/><br/>
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>To make the fish move up, down, left and right you need to build the scripts that controls the fish<br/><br/>
+  • First, select the fish sprite.<br/>
+  • Select the <em>Script</em> tab and use the <em>when &hellip; key pressed</em> action from the <em>Events</em> category.<br/>
+  • Then add the <em>point in direction &hellip;</em> action from the <em>Motion</em> category to turn the fish into the right direction.<br/>
+  • Afterwards use the <em>move &hellip;steps</em> to move the Sprite.<br/><br/>
 For <em>up arrow</em>: direction 0 degrees, 10 steps.<br/>
 For <em>down arrow</em>: direction 180 degrees, 10 steps.<br/>
 For <em>left arrow</em>: direction -90 degrees, 10 steps.<br/>
 For <em>right arrow</em>: direction 90 degrees, 10 steps.<br/>
-the more steps you choose the faster does your character move.</li>
+the more steps you choose the faster does your character move.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/07-move-fish.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="move-the-shark">Move the Shark</h2>
 
 <ol>
-<li><img src="08-move-shark.png" alt="move the shark" />{: .right}
-Now it&rsquo;s time to move the shark around the scene.<br/><br/>
-• Select the shark sprite, so it is highlighted with a blue border.<br/>
-• Switch to the <em>Scripts</em> tab.<br/>
-• Here we use the <em>when &hellip; clicked</em> event.<br/>
-• Add the <em>forever</em> action from the <em>Control</em> category.<br/>
-• Move the shark with the <em>move 10 steps</em>, <em>wait 0.1 secs</em>, <em>if on edge, bounce</em> und <em>turn &hellip; degrees</em><br/>
-• To make the game more exciting we will use a random number to define how many degrees the shark should turn. In this case we use the <em>pick random 1 to 10</em> action from the <em>Operators</em> category. Drag the action directly over the number 10 from the <em>turn &hellip; degrees</em> action.
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Now it&rsquo;s time to move the shark around the scene.<br/><br/>
+  • Select the shark sprite, so it is highlighted with a blue border.<br/>
+  • Switch to the <em>Scripts</em> tab.<br/>
+  • Here we use the <em>when &hellip; clicked</em> event.<br/>
+  • Add the <em>forever</em> action from the <em>Control</em> category.<br/>
+  • Move the shark with the <em>move 10 steps</em>, <em>wait 0.1 secs</em>, <em>if on edge, bounce</em> und <em>turn &hellip; degrees</em><br/>
+  • To make the game more exciting we will use a random number to define how many degrees the shark should turn. In this case we use the <em>pick random 1 to 10</em> action from the <em>Operators</em> category. Drag the action directly over the number 10 from the <em>turn &hellip; degrees</em> action.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/08-move-shark.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 <br /></li>
 </ol>
 
 <h2 id="catch-the-fish">Catch the Fish</h2>
 
 <ol>
-<li><p><img src="09-touch-fish.png" alt="touching the fish" />{: .right}
-When the shark touches the fish, the fish should be hidden and repositioned to the left top corner.<br/><br/>
-• Select the fish sprite.<br/>
-• Within the <em>Scripts</em> tab we now add the repositioning logic.<br/>
-• Again drag the <em>when &hellip; clicked</em> action from the <em>Events</em> category onto your scripts area.<br/>
-• Use the <em>go to x: &hellip; , y: &hellip;</em> action from the <em>Motion</em> category to set the initial position on the top left corner x: -230 y: 170, and add the <em>show</em> action from the <em>Looks</em> category.<br/>
-• If the fish touches the shark sprite (<em>Control</em> <em>if &hellip; then</em> - <em>Sensing</em> <em>touching &hellip;</em>), then send a message (<em>Events</em> <em>broadcast &hellip;</em>), <em>hide</em>, <em>wait 5 secs</em>, <em>show</em> ans set the initial position <em>go to x: -230, y: 170</em>. Finally show the player a message with the <em>say &hellip; for &hellip; secs</em> from the <em>Looks</em> category.</p></li>
+<li>
 
-<li><p><img src="10-touch-shark.png" alt="touching the shark" />{: .right}
-When the shark catches the fish, he should snap twice and the game is over.<br/><br/>
-• Select the shark sprite.<br/>
-• Switch to the <em>Script</em> Tab and tell the player that he is &ldquo;game over!&rdquo;.<br/>
-• <em>Events</em> - <em>when i receive &hellip;</em> and <em>Looks</em> - <em>say &ldquo;game over!&rdquo; for 4.5 secs</em>.
-• Drag in the <em>when i receive &hellip;</em> event a second time and add the <em>Control</em> - <em>repeat &hellip;</em> action.<br/>
-• To make the shark snap, a couple of different versions of the shark are available under the <em>Costumes</em> tab. Add the following actions within the repeat loop: <em>switch cosume to shark-b</em>, <em>wait 0.3 secs</em>, <em>switch cosume to shark-a</em>, <em>wait 0.3 secs</em><br/></p></li>
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>When the shark touches the fish, the fish should be hidden and repositioned to the left top corner.<br/><br/>
+  • Select the fish sprite.<br/>
+  • Within the <em>Scripts</em> tab we now add the repositioning logic.<br/>
+  • Again drag the <em>when &hellip; clicked</em> action from the <em>Events</em> category onto your scripts area.<br/>
+  • Use the <em>go to x: &hellip; , y: &hellip;</em> action from the <em>Motion</em> category to set the initial position on the top left corner x: -230 y: 170, and add the <em>show</em> action from the <em>Looks</em> category.<br/>
+  • If the fish touches the shark sprite (<em>Control</em> <em>if &hellip; then</em> - <em>Sensing</em> <em>touching &hellip;</em>), then send a message (<em>Events</em> <em>broadcast &hellip;</em>), <em>hide</em>, <em>wait 5 secs</em>, <em>show</em> ans set the initial position <em>go to x: -230, y: 170</em>. Finally show the player a message with the <em>say &hellip; for &hellip; secs</em> from the <em>Looks</em> category.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/09-touch-fish.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>When the shark catches the fish, he should snap twice and the game is over.<br/><br/>
+  • Select the shark sprite.<br/>
+  • Switch to the <em>Script</em> Tab and tell the player that he is &ldquo;game over!&rdquo;.<br/>
+  • <em>Events</em> - <em>when i receive &hellip;</em> and <em>Looks</em> - <em>say &ldquo;game over!&rdquo; for 4.5 secs</em>.
+  • Drag in the <em>when i receive &hellip;</em> event a second time and add the <em>Control</em> - <em>repeat &hellip;</em> action.<br/>
+  • To make the shark snap, a couple of different versions of the shark are available under the <em>Costumes</em> tab. Add the following actions within the repeat loop: <em>switch cosume to shark-b</em>, <em>wait 0.3 secs</em>, <em>switch cosume to shark-a</em>, <em>wait 0.3 secs</em><br/></p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/catch-me/img/10-touch-shark.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="some-ideas">Some Ideas</h2>

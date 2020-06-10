@@ -150,22 +150,22 @@
                 <div class="col-12">
                     <h1>Paddle Game</h1>
                 </div>
-                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/buehne-und-figuren.png" alt="Paddle Game"> 
+                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/buehne-und-figuren.png" alt="Paddle Game"> 
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">In this exercise you build a little game where you try to prevent a ball from falling down with a paddle you can move from left to right.</p>
                     <table class="table">
                         <tr>
                             <td><i class="fas fa-dragon"></i>Figuren</td>
-                            <td></td>
+                            <td>3</td>
                         </tr>
                         <tr>
                             <td><i class="fas fa-code"></i>Skripte</td>
-                            <td></td>
+                            <td>9</td>
                         </tr>
                         <tr>
                             <td><i class="fas fa-clipboard-list"></i>Variablen</td>
-                            <td></td>
+                            <td>2</td>
                         </tr>
                     </table>
                 </div>
@@ -182,63 +182,303 @@
 <h2 id="creating-stage-and-sprites">Creating Stage and Sprites</h2>
 
 <ol>
-<li><p><img src="buehne-und-figuren.png" alt="creating stage and sprites" />{: .right}
-You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the <em>out</em> area.<br/><br/>
-Select the backdrop from the library with the button on the bottom left.
-<img src="buehnenbild-auswaehlen.png" alt="select backdrop" /></p></li>
+<li>
 
-<li><p><img src="figur-loeschen.png" alt="delete sprite" />{: .right}
-The next step is to delete the Scratchy sprite with the name <em>Sprite1</em>, by right-clicking on it and selecting <em>delete</em>.</p></li>
 
-<li><p><img src="figur-hinzufuegen.png" alt="add ball sprite" />{: .right}
-Now we need to add the ball sprite. To do so, click on <em>Choose sprite form Library</em> and add choose a ball sprite to use.</p></li>
+     
+    
 
-<li><p><img src="figur-zeichnen.png" alt="paint sprite" />{: .right}
-The paddle sprite has to be panted manually. For this we use the <em>paint new sprite</em> button.</p></li>
 
-<li><p>At the drawing area we have to paint a simple rectangle. Therefore we need the <em>rectangle</em> and the <em>fill with color</em> tool from the toolbox.<br/><br/>
-When your have finished drawing the paddle you can move it by clicking and dragging the sprite in the top left scene design area. Drag the paddle to the bottom part of your scene but not at the very bottom, because we need some extra space for the <em>out</em> area down there.
-<img src="paddle-malen.png" alt="paint paddle" /></p></li>
 
-<li><p><img src="out.png" alt="Out" />{: .right}
-Finally we have to paint another sprite using the same tools to create the <em>out</em> area. Only this time, paint the rectangle in another color and use the whole drawing area. When done move the sprite to the very bottom of your scene.</p></li>
 
-<li><p><img src="figuren-benennen.png" alt="rename the figures" />{: .right}
-To make it easier for you to use the sprites later on, just give them custom names like <em>paddle</em> and <em>out</em> instead of <em>Sprite 1</em> and <em>Sprite 2</em>, by clicking on the blue <em>i</em> on the top left corner of the selected sprite..</p></li>
+
+
+<div class="row">
+    <div class="col">
+        <p>You begin by defining what your stage should look like. For this Game we need the beach backdrop, a ball, a paddle a sprite that defines the <em>out</em> area.<br/><br/>
+Select the backdrop from the library with the button on the bottom left.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/buehne-und-figuren.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+</ol>
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/buehnenbild-auswaehlen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<ol>
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>The next step is to delete the Scratchy sprite with the name <em>Sprite1</em>, by right-clicking on it and selecting <em>delete</em>.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/figur-loeschen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Now we need to add the ball sprite. To do so, click on <em>Choose sprite form Library</em> and add choose a ball sprite to use.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/figur-hinzufuegen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>The paddle sprite has to be panted manually. For this we use the <em>paint new sprite</em> button.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/figur-zeichnen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>At the drawing area we have to paint a simple rectangle. Therefore we need the <em>rectangle</em> and the <em>fill with color</em> tool from the toolbox.<br/><br/>
+When your have finished drawing the paddle you can move it by clicking and dragging the sprite in the top left scene design area. Drag the paddle to the bottom part of your scene but not at the very bottom, because we need some extra space for the <em>out</em> area down there.</p>
+    </div>
+    <div class="col-12 col-md-8">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/paddle-malen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Finally we have to paint another sprite using the same tools to create the <em>out</em> area. Only this time, paint the rectangle in another color and use the whole drawing area. When done move the sprite to the very bottom of your scene.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/out.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>To make it easier for you to use the sprites later on, just give them custom names like <em>paddle</em> and <em>out</em> instead of <em>Sprite 1</em> and <em>Sprite 2</em>, by clicking on the blue <em>i</em> on the top left corner of the selected sprite..</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/figuren-benennen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="move-the-paddle-from-left-to-right">Move the Paddle From Left to Right.</h2>
 
 <ol>
-<li><img src="schlaeger-bewegen.png" alt="move the paddle" />{: .right}
-In order to be able to keep the ball in the air, you must be able to move the paddle to the left and right.
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>In order to be able to keep the ball in the air, you must be able to move the paddle to the left and right.
 To do so use the <em>when &hellip; key pressed</em> event. You can choose the <em>left arrow</em> and the <em>right arrow</em>.
 In case of <em>left arrow</em>, set the direction to -90 degrees, which means that the paddle will move to the left. Then move the paddle 15 steps.
 For <em>right arrow</em> set the direction to 90 degrees, which means that the paddle will move to the right. <br/><br/>
 To prevent the paddle from moving out of the screen, check if the current <em>x-position</em> of the paddle is in a valid range. <br/><br/>
 When you press either the left or right arrow now, the paddle will move. <br/><br/>
-At the start of the game the paddle should be placed in the center of the screen. To do so use the <em>when flag clicked</em> action and set the current x-position of the paddle to 0.</li>
+At the start of the game the paddle should be placed in the center of the screen. To do so use the <em>when flag clicked</em> action and set the current x-position of the paddle to 0.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/schlaeger-bewegen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="let-the-ball-bounce">Let the Ball Bounce</h2>
 
 <ol>
-<li><p><img src="ball-bewegen.png" alt="move ball" />{: .right}
-Now it&rsquo;s time to move the ball. When the game is started the ball should be placed in the middle of the screen. To do so set the current x- and y-position to 0. Moreover set the direction to zero, which means that the ball will move upwards. <br/><br/>
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Now it&rsquo;s time to move the ball. When the game is started the ball should be placed in the middle of the screen. To do so set the current x- and y-position to 0. Moreover set the direction to zero, which means that the ball will move upwards. <br/><br/>
 Now the movement can start. Repeat the following three actions: <em>move 10 steps</em>, <em>if on edge, bounce</em> and <em>wait 0.05 secs</em>.
 By changing this value you can control the balls speed. <br/><br/>
-If you run this script now, the ball will bounce between top and bottom edge, but the paddle will be ignored.</p></li>
+If you run this script now, the ball will bounce between top and bottom edge, but the paddle will be ignored.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/ball-bewegen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 
-<li><p><img src="schlaeger-beruehren.png" alt="touching paddle" />{: .right}
-To change the direction of the ball, as soon as he touches the paddle, we need some more actions when the game starts.
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>To change the direction of the ball, as soon as he touches the paddle, we need some more actions when the game starts.
 Here we have to check infinitely whether the ball touches the paddle or not. If it does, the direction is set to a random value between -40 and 40. <br/><br/>
 Direction 0 degrees means straight upwards. A value between -40 and 40 means that the ball will move upwards but spreads slightly to the left or right. <br/><br/>
-Then wait until the ball no longer touches the paddle before continuing the script.</p></li>
+Then wait until the ball no longer touches the paddle before continuing the script.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/schlaeger-beruehren.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 
-<li><p><img src="out-erkennen.png" alt="recognize out" />{: .right}
-Last but not least you have to detect the ball touching the out area. In that case the game is over.
-<img src="game-over.png" alt="Game over" /></p></li>
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Last but not least you have to detect the ball touching the out area. In that case the game is over.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/out-erkennen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/en/paddle-game/img/game-over.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <h2 id="some-ideas">Some Ideas</h2>
 

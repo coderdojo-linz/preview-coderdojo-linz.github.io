@@ -138,7 +138,7 @@
                 <div class="col-12">
                     <h1>Pakete Fangen</h1>
                 </div>
-                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/endgame.png" alt="Pakete Fangen"> 
+                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/endgame.png" alt="Pakete Fangen"> 
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">Leider ist das Förderband in der Werkstatt des Weihnachtsmanns kaputt. Kannst du die Pakete auffangen, bevor sie auf den Boden fallen und kaputt gehen.</p>
@@ -171,65 +171,274 @@
 
 <p>Lade dir zuerst die <a href="figuren.zip" target="_blank">Zip Datei</a> herunter.</p>
 
-<p>Du brauchst als erstes 4 Figuren:
-* die Geschenkspakete (aus der Scratch Bibliothek)
-* das Förderband (du findest es in der ZIP-Datei)
-* den Weihnachtssack (du findest ihn in der ZIP-Datei)
-* die Mitteilung, dass du zu viele Pakete fallen gelassen hast (bitte selbst erstellen)</p>
+<p>Du brauchst als erstes 4 Figuren:</p>
 
-<p>In der Figur &ldquo;Paket&rdquo; müssen wir zuerst noch 2 Kostüme hinzufügen, die anzeigen, ob das Paket am Boden zerbrochen ist, oder erfolgreich gefangen wurde.</p>
+<ul>
+<li>die Geschenkspakete (aus der Scratch Bibliothek)</li>
+<li>das Förderband (du findest es in der ZIP-Datei)</li>
+<li>den Weihnachtssack (du findest ihn in der ZIP-Datei)</li>
+<li>die Mitteilung, dass du zu viele Pakete fallen gelassen hast (bitte selbst erstellen)</li>
+</ul>
 
-<p><img src="kostueme_1.png" alt="Kostüme" />{:style=&ldquo;float:left;&ldquo;}</p>
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p><p>In der Figur &ldquo;Paket&rdquo; müssen wir zuerst noch 2 Kostüme hinzufügen, die anzeigen, ob das Paket am Boden zerbrochen ist, oder erfolgreich gefangen wurde.</p>
 
 <p>Ich habe ein rotes X und einen Stern dafür genommen. Du findest sie auch in der Scratch Bibliothek und kannst sie einfach in der Kostümauswahl hinzufügen.</p>
 
 <p>Danach können wir auch schon mit den Skripten beginnen.</p>
+</p>
+    </div>
+    <div class="col-12 col-md-2">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/kostueme_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <h2 id="steuerung-der-pakete">Steuerung der Pakete</h2>
 
-<p><img src="daten_1.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Wir benötigen ein paar Variablen, um
-* zu zählen, wie viele Pakete wir schon gefangen haben
-* uns zu merken, wie viele Pakete bereits zerbrochen sind
-* eine Möglichkeit zu haben, die Geschwindigkeit und damit die Schwierigkeit einzustellen.</p>
 
-<p><img src="script_1_1.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Als erstes stellen wir die Basiseinstellungen ein. Dann wird alle 0,5 - 3 Sekunden ein neues Paket erzeugt. Dieses Paket wird auf dem Förderband entlang gleiten.</p>
 
-<p>Wir benötigen auch noch ein paar Funktionsblöcke (&ldquo;Weitere Blöcke&rdquo;). Damit werden wir das Haupt-Skript ein wenig aufteilen.
-<img src="script_1_2.png" alt="" />{:style=&ldquo;float:right;&ldquo;}</p>
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p><p>Wir benötigen ein paar Variablen, um</p>
+
+<ul>
+<li>zu zählen, wie viele Pakete wir schon gefangen haben</li>
+<li>uns zu merken, wie viele Pakete bereits zerbrochen sind</li>
+<li>eine Möglichkeit zu haben, die Geschwindigkeit und damit die Schwierigkeit einzustellen.</li>
+</ul>
+</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/daten_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Als erstes stellen wir die Basiseinstellungen ein. Dann wird alle 0,5 - 3 Sekunden ein neues Paket erzeugt. Dieses Paket wird auf dem Förderband entlang gleiten.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_1_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Wir benötigen auch noch ein paar Funktionsblöcke (&ldquo;Weitere Blöcke&rdquo;). Damit werden wir das Haupt-Skript ein wenig aufteilen.</p>
+    </div>
+    <div class="col-12 col-md-8">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_1_2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <p>Dann geht es auch schon los. Wir werden das neue Paket zuerst bis zu einer von 4 zufälligen Positionen fahren lassen. Dort soll das Paket dann runterfallen.
-<img src="script_1_3.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Das kann auf eine von 2 Arten ausgehen:
-* Der Rand wird berührt (Geschenk ist kaputt).
-* Der Sack wird getroffen (Geschenk wurde eingesammelt).</p>
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p><p>Das kann auf eine von 2 Arten ausgehen:</p>
+
+<ul>
+<li>Der Rand wird berührt (Geschenk ist kaputt).</li>
+<li>Der Sack wird getroffen (Geschenk wurde eingesammelt).</li>
+</ul>
 
 <p>Als nächstes möchten wir natürlich auch den Geschenk-Sack steuern.</p>
+</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_1_3.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p>
 
 <h2 id="steuerung-des-geschenk-sacks">Steuerung des Geschenk-Sacks</h2>
 
-<p><img src="script_3_1.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Auch der Geschenk-Sack möchte am Anfang an die richtige Position gestellt werden.</p>
 
-<p><img src="script_3_2.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Hier definieren wir einen Funktionsblock (&ldquo;Weitere Blöcke&rdquo;), damit wir die Positionsformel nicht jedes mal eingeben müssen.</p>
 
-<p><img src="script_3_3.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Weiters soll sich der Sack mit den Pfeiltasten nach rechts und links bewegen lassen. Dafür verwenden wir natürlich den Funktionsblock, den wir vorhin definiert haben.</p>
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Auch der Geschenk-Sack möchte am Anfang an die richtige Position gestellt werden.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_3_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Hier definieren wir einen Funktionsblock (&ldquo;Weitere Blöcke&rdquo;), damit wir die Positionsformel nicht jedes mal eingeben müssen.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_3_2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Weiters soll sich der Sack mit den Pfeiltasten nach rechts und links bewegen lassen. Dafür verwenden wir natürlich den Funktionsblock, den wir vorhin definiert haben.</p>
+    </div>
+    <div class="col-12 col-md-8">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_3_3.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <h2 id="das-förderband">Das Förderband</h2>
 
-<p><img src="script_2_1.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Die Förderband-Figur befindet sich in der ZIP-Datei und kann einfach hinzugefügt werden. Die Skripte dafür sind sehr einfach und sollen nur die Position festlegen.</p>
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Die Förderband-Figur befindet sich in der ZIP-Datei und kann einfach hinzugefügt werden. Die Skripte dafür sind sehr einfach und sollen nur die Position festlegen.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_2_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <h2 id="die-abschiedsmeldung">Die Abschiedsmeldung</h2>
 
-<p><img src="figur_3.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Diese Figur solltest du selbst entwerfen. Lass dir etwas Lustiges oder Tröstendes einfallen.</p>
 
-<p><img src="script_4_1.png" alt="" />{:style=&ldquo;float:right;&ldquo;}
-Auch dafür sind die Skripte sehr einfach und legen nur die Position fest. Ausserdem soll die Abschiedsnachricht angezeigt werden, wenn das Spiel beendet wurde.</p>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Diese Figur solltest du selbst entwerfen. Lass dir etwas Lustiges oder Tröstendes einfallen.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/figur_3.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Auch dafür sind die Skripte sehr einfach und legen nur die Position fest. Ausserdem soll die Abschiedsnachricht angezeigt werden, wenn das Spiel beendet wurde.</p>
+    </div>
+    <div class="col-12 col-md-4">
+        <img src="/uebungsanleitungen/programmieren/scratch/pakete-fangen/img/script_4_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <p><strong>Viel Spass beim Pakete sammeln!</strong></p>
  </div>

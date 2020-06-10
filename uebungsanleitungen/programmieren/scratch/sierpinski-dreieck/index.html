@@ -138,7 +138,7 @@
                 <div class="col-12">
                     <h1>Sierpinski Dreieck</h1>
                 </div>
-                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/endgame.png" alt="Sierpinski Dreieck"> 
+                <div class="col-12 col-md-6">  <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/endgame.png" alt="Sierpinski Dreieck"> 
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">Male mit Scratch ein Sierpinski Dreieick.</p>
@@ -172,16 +172,52 @@
 <h2 id="figuren-anlegen">Figuren anlegen</h2>
 
 <ol>
-<li><img src="figur.png" alt="Figur löschen" />{: .right}
-Um im Scratch zu malen, brauchen wir zwar eine Figur, es muss am Bildschirm aber nichts angezeigt werden. Du kannst also eine Figur mit einem leeren Kostüm anlegen.
-Die Skripte werden für diese leere Figur erstellt.</li>
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Um im Scratch zu malen, brauchen wir zwar eine Figur, es muss am Bildschirm aber nichts angezeigt werden. Du kannst also eine Figur mit einem leeren Kostüm anlegen.
+Die Skripte werden für diese leere Figur erstellt.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/figur.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="daten">Daten</h2>
 
 <ol>
-<li><img src="daten.png" alt="Daten" />{: .right}
-Für das Sierpinski Dreieck zeichnen wir Dreiecke mit verschiedenen Seitenlängen. Wir legen daher eine Variable &ldquo;Seitenlaenge&rdquo; an. Wir werden später mit Klonen arbeiten, um Dreiecke mit verschiedenen Seitenlängen zu arbeiten, darum darf die Variable nur für eine Figur gelten.</li>
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Für das Sierpinski Dreieck zeichnen wir Dreiecke mit verschiedenen Seitenlängen. Wir legen daher eine Variable &ldquo;Seitenlaenge&rdquo; an. Wir werden später mit Klonen arbeiten, um Dreiecke mit verschiedenen Seitenlängen zu arbeiten, darum darf die Variable nur für eine Figur gelten.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/daten.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <p><strong>ACHTUNG: Achte darauf, dass die Variable &ldquo;Nur für diese Figur&rdquo; gilt.</strong></p>
@@ -189,45 +225,108 @@ Für das Sierpinski Dreieck zeichnen wir Dreiecke mit verschiedenen Seitenlänge
 <h2 id="skripte-zum-malen-der-dreiecke">Skripte zum Malen der Dreiecke</h2>
 
 <ol>
-<li><p><img src="start-position.png" alt="Malfäche initialisieren" />{: .right}
-Lege als erstes für die leere Figur ein Skript an, dass beim Klick auf die grüne Flagge die Malfläche initialisiert. Dazu gehören folgende Schritte:</p>
+<li>
 
-<ul>
-<li>Starte das Skript mit der grünen Flagge</li>
-<li>Wische alle Malspuren weg</li>
-<li>Wähle eine Stiftfarbe</li>
-<li>Setzte die Variable &ldquo;Seitenlaenge&rdquo; auf 200 - wir malen als erstes das größte Dreieck in der Mitte, das eine Seitenlänge von 200 Schritten haben soll</li>
-<li>Gehe zur Position x: 0, y: -170 - das grüne Sternchen im Bild kennzeichnet diese Startposition</li>
-<li>Erzeuge einen Klon deiner Figur</li>
-</ul></li>
 
-<li><p><img src="erstes-dreieck.png" alt="Male das erste Dreieck" />{: .right}
-Male das größte Dreick in der Mitte. Dazu sind folgende Schritte notwendig:</p>
+     
+    
 
-<ul>
-<li>Starte das zweite Skript wenn ein Klon entsteht</li>
-<li>Setze als erstes die Richtung auf 30°</li>
-<li>Schalte den Stift ein</li>
-<li>Wiederhole die folgenden beiden Anweisungen dreimal: 1) Gehe &ldquo;Seitenlaenge&rdquo; Schritte 2) Drehe dich um 120° nach links</li>
-<li>Schalte den Stift wieder aus - das erste Dreieck ist fertig und wir sind wieder am Ausgangspunkt x: 0, y: -170 angelangt</li>
-</ul></li>
 
-<li><p><img src="zweite-ebene.png" alt="Zweite Runde" />{: .right}
-Nun müssen wir die zweite Runde an Dreiecken malen. Dazu müssen wir die Ausgangspunkte der drei umliegenden Dreiecke finden.
-Dann können wir einfach einen Klon der Figur erstellen und das Malen startet von vorne. Folgende Schritte brauchen wir dazu (am zweiten Skript anschließend):</p>
 
-<ul>
-<li>Setze die Variable &ldquo;Seitenlaenge&rdquo; auf &ldquo;Seitenlaenge&rdquo; / 2 - die neuen Dreiecke haben nur halb so lange Kanten</li>
-<li>Wenn die Seitenlänge noch größer als 5 ist, führe die nachfolgenden Schritte aus</li>
-<li>Drehe dich 60° nach rechts - die Figur schaut jetzt genau nach rechts (90°)</li>
-<li>Gehe &ldquo;Seitenlaenge&rdquo; Schritte - damit kommen wir zum grünen Dreieck rechts unten</li>
-<li>Wiederhole jetzt noch folgende Schritte dreimal: 1) Erzeuge einen Klon der Figur 2) Drehe dich um 120° nach links 3) Gehe &ldquo;Seitenlaenge&rdquo; * 2 Schritte -
-damit erreichst du alle drei grünen Dreiecke und erzeugst an jeder Position einen Klon</li>
-<li>Lösche ganz am Ende des Skripts den Klon - auch wenn die Seitenlänge schon kleiner oder gleich 5 ist</li>
-</ul></li>
 
-<li><p><img src="dreieck-mit-farben.png" alt="Sierpinski Dreieck in Farbe" />{: .right}
-Gratuliere - dein Sierpinski Dreieck ist nun fertig! Du kannst die Farben für jeden Klon veränden - dann sieht dein Dreieck noch interessanter aus.</p></li>
+
+
+<div class="row">
+    <div class="col">
+        <p>Lege als erstes für die leere Figur ein Skript an, dass beim Klick auf die grüne Flagge die Malfläche initialisiert. Dazu gehören folgende Schritte:
+ * Starte das Skript mit der grünen Flagge
+ * Wische alle Malspuren weg
+ * Wähle eine Stiftfarbe
+ * Setzte die Variable &ldquo;Seitenlaenge&rdquo; auf 200 - wir malen als erstes das größte Dreieck in der Mitte, das eine Seitenlänge von 200 Schritten haben soll
+ * Gehe zur Position x: 0, y: -170 - das grüne Sternchen im Bild kennzeichnet diese Startposition
+ * Erzeuge einen Klon deiner Figur</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/start-position.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Male das größte Dreick in der Mitte. Dazu sind folgende Schritte notwendig:
+ * Starte das zweite Skript wenn ein Klon entsteht
+ * Setze als erstes die Richtung auf 30°
+ * Schalte den Stift ein
+ * Wiederhole die folgenden beiden Anweisungen dreimal: 1) Gehe &ldquo;Seitenlaenge&rdquo; Schritte 2) Drehe dich um 120° nach links
+ * Schalte den Stift wieder aus - das erste Dreieck ist fertig und wir sind wieder am Ausgangspunkt x: 0, y: -170 angelangt</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/erstes-dreieck.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Nun müssen wir die zweite Runde an Dreiecken malen. Dazu müssen wir die Ausgangspunkte der drei umliegenden Dreiecke finden.
+Dann können wir einfach einen Klon der Figur erstellen und das Malen startet von vorne. Folgende Schritte brauchen wir dazu (am zweiten Skript anschließend):
+ * Setze die Variable &ldquo;Seitenlaenge&rdquo; auf &ldquo;Seitenlaenge&rdquo; / 2 - die neuen Dreiecke haben nur halb so lange Kanten
+ * Wenn die Seitenlänge noch größer als 5 ist, führe die nachfolgenden Schritte aus
+ * Drehe dich 60° nach rechts - die Figur schaut jetzt genau nach rechts (90°)
+ * Gehe &ldquo;Seitenlaenge&rdquo; Schritte - damit kommen wir zum grünen Dreieck rechts unten
+ * Wiederhole jetzt noch folgende Schritte dreimal: 1) Erzeuge einen Klon der Figur 2) Drehe dich um 120° nach links 3) Gehe &ldquo;Seitenlaenge&rdquo; * 2 Schritte -
+damit erreichst du alle drei grünen Dreiecke und erzeugst an jeder Position einen Klon
+ * Lösche ganz am Ende des Skripts den Klon - auch wenn die Seitenlänge schon kleiner oder gleich 5 ist</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/zweite-ebene.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Gratuliere - dein Sierpinski Dreieck ist nun fertig! Du kannst die Farben für jeden Klon veränden - dann sieht dein Dreieck noch interessanter aus.</p>
+    </div>
+    <div class="col-12 col-md-6">
+        <img src="/uebungsanleitungen/programmieren/scratch/sierpinski-dreieck/img/dreieck-mit-farben.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
 </ol>
 
 <h2 id="ausprobieren">Ausprobieren</h2>
