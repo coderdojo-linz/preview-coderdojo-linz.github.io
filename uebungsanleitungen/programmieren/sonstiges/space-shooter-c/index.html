@@ -144,7 +144,22 @@
 
 <h2 id="spielablauf">Spielablauf</h2>
 
-<p><img src="https://i.imgur.com/KmkZkqf.png" alt="Screenshot während des pausierten Spiels" /></p>
+ 
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/sonstiges/space-shooter-c/img/spaceshooter.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
 
 <p>Gegner, hier 4x4 Rechtecke, fliegen von oben nach unten und müssen vom Spieler abgeschossen werden. Wie im Luftkampf zwischen kleineren Fliegern üblich, reicht ein einziger Treffer um die feindlichen Rechtecke auszuschalten. Das Spiel läuft endlos, bis eines der gegnerischen Objekte das untere Ende des Bildschirms erreicht, wobei jeder Abschuss einen Punkt bringt &ndash; das Ziel ist die Anhäufung möglichst vieler Punkte.</p>
 
@@ -697,24 +712,24 @@
 <p>Bis <code>num_projectiles</code> einmal <code>PROJECTILES_MAX</code> erreicht hat, passiert hier nichts &ndash; es gibt ja auch keinen Handlungsbedarf, genug Platz ist vorhanden. Erreicht <code>num_projectiles</code> nun aber <code>PROJECTILES_MAX</code> (oder überschreitet es gar), werden die ältesten (niedrigsten) Projektile entfernt, um Platz für das nächste zu machen.</p>
 
 <p>Das könnte man so verdeutlichen:</p>
-<pre><code>...
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">...
 
-num_projectiles = 15
--&gt; Schleife läuft nicht, `i` (welches bei null anfängt) ist nicht kleiner oder gleich 15 - 16, also -1
-
-&lt;projectil wird hinzugefügt, num_projectiles wird um eins erhöht&gt;
-
-num_projectiles = 16
--&gt; Schleife läuft einmal da `16 - 16 == 0`, und `0 &lt;= 0`
---&gt; Projektil an der Stelle null (also das Älteste) wird entfernt, num_projectiles ist nun wieder 15
+num_projectiles <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>
+-&gt; Schleife läuft nicht, <span style="color:#e6db74">`</span>i<span style="color:#e6db74">`</span> <span style="color:#f92672">(</span>welches bei null anfängt<span style="color:#f92672">)</span> ist nicht kleiner oder gleich <span style="color:#ae81ff">15</span> - 16, also -1
 
 &lt;projectil wird hinzugefügt, num_projectiles wird um eins erhöht&gt;
 
-num_projectiles = 16
+num_projectiles <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
+-&gt; Schleife läuft einmal da <span style="color:#e6db74">`</span><span style="color:#ae81ff">16</span> - 16 <span style="color:#f92672">==</span> 0<span style="color:#e6db74">`</span>, und <span style="color:#e6db74">`</span><span style="color:#ae81ff">0</span> &lt;<span style="color:#f92672">=</span> 0<span style="color:#e6db74">`</span>
+--&gt; Projektil an der Stelle null <span style="color:#f92672">(</span>also das Älteste<span style="color:#f92672">)</span> wird entfernt, num_projectiles ist nun wieder <span style="color:#ae81ff">15</span>
+
+&lt;projectil wird hinzugefügt, num_projectiles wird um eins erhöht&gt;
+
+num_projectiles <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
 -&gt; Schleife läuft einmal da...
 --&gt; ...
 
-...</code></pre>
+...</code></pre></div>
 <p>Man könnte die obenstehende <code>for</code> Schleife als</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C"><span style="color:#66d9ef">if</span> (num_projectiles <span style="color:#f92672">==</span> PROJECTILES_MAX)
 	remove_projectile(num_projectiles <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);</code></pre></div>
