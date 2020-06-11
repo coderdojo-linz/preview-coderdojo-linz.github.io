@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>CoderDojo Bastel Programm</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coder-dojo-bastel-programm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coder-dojo-bastel-programm/</guid>
+      <description>Ein Überblick über das CoderDojo Löten &amp;amp; Elektronik Programm.</description>
+    </item>
+    
+    <item>
       <title>Erste Schritte in Scratch</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,6 +59,15 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</guid>
       <description>Erste Schritte mit CSS Ziel der Übung In dieser Übung lernst du Cascading Style Sheets (kurz CSS) kennen. Unser Ziel ist es, eine HTML-Seite mit CSS zu formatieren und hübsch zu gestalten. Wenn du nach dieser Übung mehr über CSS lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die CSS Einführung auf w3schools.com werfen.
 Falls du noch überhaupt keine Erfahrung mit HTML hast, wende dich an eine CoderDojo Mentorin oder einen Mentor.</description>
+    </item>
+    
+    <item>
+      <title>Grundlagen Löten</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/grundlagen-loeten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/grundlagen-loeten/</guid>
+      <description>Kurz und kompakt wird das Löten theoretisch beschrieben. Vor dem praktischen Einsatz diese Beschreibung bitte lesen.</description>
     </item>
     
     <item>
@@ -94,6 +112,15 @@ Als Mentoren begleiten wir in CoderDojos Kinder beim spielerischen Entdecken ihr
     </item>
     
     <item>
+      <title>Löten ist einfach</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/loeten-ist-einfach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/loeten-ist-einfach/</guid>
+      <description>Diese Lötanleitung ist in einzelne Bilder aufgeteilt und zeigt das Löten aus einem anderen Blickwinkel.</description>
+    </item>
+    
+    <item>
       <title>Zahlenraten</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zahlen-raten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -131,6 +158,60 @@ CoderDojo ist ein von ehrenamtlichen Mentorinnen und Mentoren getragener Program
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/</guid>
       <description>Zahlen raten Ziel der Übung In dieser Übung programmierst du ein einfaches &amp;ldquo;Zahlen raten&amp;rdquo; Spiel und siehst, wie man mit JavaScript Ein- und Ausgaben machen kann.
 Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl zwischen 0 und 100 aus und der Spieler muss versuchen, diese Zahl mit möglichst wenigen Versuchen zu erraten. Dazu kann er einen Tipp eingeben. Der Computer sagt dann Niedriger oder Höher, und der Spieler kann einen neuen Tipp eingeben, bis er die richtige Zahl erraten hat.</description>
+    </item>
+    
+    <item>
+      <title>Kurzanleitung Kartonbausatz</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/kurzanleitung-kartonbausatz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/kurzanleitung-kartonbausatz/</guid>
+      <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung CoderDojo Logo</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</guid>
+      <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Clown</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</guid>
+      <description>Hier ist die größte Herausforderung Deine eigene Kreativität. Erstelle Deine eigene LED-Schaltung nach den Grundregeln der Elektronik.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Konstantstromquelle für LED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</guid>
+      <description>Ein Bausatz mit Transistoren. Die Konstantstromquelle stellt wie ein regelbarer Widerstand einen konstanten Strom für die Leuchtdiode ein.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Solar LED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</guid>
+      <description>Mit Solarzelle und Akku leuchtet eine LED in der Nacht und am Tag wird der Akku wieder geladen.</description>
+    </item>
+    
+    <item>
+      <title>Conrad Beschreibungen</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</guid>
+      <description>Du findest Internet Links auf der Conrad Homepage zu informativen Unterlagen und Beschreibungen welche Du Dir als pdf downloaden kannst.</description>
     </item>
     
     <item>
@@ -1019,17 +1100,6 @@ Notwendige Software Wir verwenden für Online CoderDojos die Webmeeting-Plattfor
       <description>Verschlüsseln mit JavaScript Ziel der Übung In dieser Übung lernst du ein einfaches Verschlüsselungsverfahren kennen.
 Technisch lernst du einige Dinge über JavaScript und Node.js:
  Wie programmiert man ein Kommandozeilenprogramm mit JavaScript? Was sind ASCII Codes? Wie arbeitet man in JavaScript mit Zeichenketten?  Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
-    </item>
-    
-    <item>
-      <title>Wechselblinker löten</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</guid>
-      <description>Wechselblinker Einleitung In dieser Übung baust du eine Schaltung, die zwei LEDs abwechselnd blinken lässt (Wechselblinker). In der Fachsprache bezeichnet man diese Schaltung als Multivibrator.
-In dieser Anleitung lernst du, wie du die Schaltung auf einem experimentier-Steckboard ohne Löten zusammenstellst. Im CoderDojo machen wir Löt-Workshops, in denen du die Schaltung dann löten kannst.
-So eine Schaltung kann man natürlich auch berechnen. Wir gehen aber in dieser Übung nicht auf die technischen Details und die Mathematik dahinter ein.</description>
     </item>
     
     <item>

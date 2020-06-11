@@ -140,19 +140,237 @@
             
 
             
-            
+
             <div class="col mb-5">
+                
                 <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/python\/erste-schritte\/'">
-                    
+                
                     
                     
                     <div class="card-body">
+                        
                         <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
                             Level 
                         </span>
+                        
                         <h5 class="card-title">Erste Schritte mit Python</h5>
-                        
-                        <p class="card-text mt-4">Diese Übung gibt eine erste Einführung in das Programmieren mit Python.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">Diese Übung gibt eine erste Einführung in das Programmieren mit Python.</h6>
+                        <p class="card-text mt-4">
+
+<h1 id="erste-schritte-mit-python">Erste Schritte mit Python</h1>
+
+<p>Diese Übung gibt eine erste Einführung in das Programmieren mit Python.
+Die Inhalte sind zum größten Teil aus dem Buch <a href="http://www.amazon.de/Programmieren-supereasy-Einfacher-Einstieg-SCRATCH/dp/3831027005/ref=sr_1_1?ie=UTF8&amp;qid=1452990098&amp;sr=8-1&amp;keywords=programmieren+f%C3%BCr+kinder" target="_blank">Programmieren super<em>easy</em></a>.</p>
+
+<h2 id="was-ist-python">Was ist Python?</h2>
+
+<p>Python ist eine Programmiersprache, die mit englischen Textbefehlen arbeitet. Sie ist etwas schwieriger als Scratch, dafür gibt es allerdings viel mehr Verwendungsmöglichkeiten.</p>
+
+<p>Zur Vorbereitung werden wir nun zuerst Python installieren und uns dann mit der Oberfläche vertraut machen.</p>
+
+<h2 id="python-installieren">Python installieren</h2>
+
+<p>Lade Python nun herunter und installiere es auf deinem Computer. Python 3 ist kostenlos, einfach zu installieren und funktioniert mit den Betriebssystemen Windows, Mac-OS und mit Linux-Systemen wie Ubuntu.</p>
+
+<ol>
+<li>Gehe zur Python-Webseite <a href="http://www.python.org" target="_blank">www.python.org</a>.</li>
+<li>Unter <em>Downloads</em> wähle die entsprechende Version (z.B. Python 3.5.1 für Windows (64-bit)).</li>
+<li>Nach dem Herunterladen der Installationsdatei (z.B. python-3.5.1.exe), führe die Installation aus.</li>
+<li>Starte nun die Programmierumgebung <strong>IDLE</strong> (<strong>I</strong>ntegrated <strong>D</strong>eve<strong>L</strong>opment <strong>E</strong>nvironment).</li>
+<li>Nun sollest du (unter Windows) folgendes Fenster sehen:</li>
+</ol>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/python/erste-schritte/img/IDLE-Windows.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<h2 id="das-shell-fenster">Das Shell-Fenster</h2>
+
+<p>Dieses Fenster nennt man das &ldquo;Shell-Fenster&rdquo;. Wenn du hinter den 3 spitzen Klammern (&gt; &gt; &gt;) Code einfügst und mit der ENTER-Taste bestätigtst, wird dieser Code sofort ausgeführt.</p>
+
+<ol>
+<li>Lass uns das gleich ausprobieren. Gib nun folendes ein:<br />
+<code>print('Hello Python!')</code> und drücke die ENTER-Taste
+<br /></li>
+</ol>
+
+<p>In der nächsten Zeile wird nun &ldquo;<strong>Hello Python!</strong>&rdquo; ausgegeben und darunter erscheinen sofort wieder die 3 spitzen Klammern und warten auf deine nächste Eingabe.</p>
+
+<ol>
+<li>Als nächstes wollen wir testen, ob Python auch rechnen kann. Gibt dazu eine Rechnung ein, z.B. <code>3 + 2</code> und drücke ENTER.</li>
+</ol>
+
+<p>Tatsächlich denkt Python mit und liefert sofort das Ergebnis &ldquo;<strong>5</strong>&rdquo;. Das funktioniert natürlich auch mit allen anderen Grundrechnungsarten (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>) und den Klammern(<code>(</code>, <code>)</code>). Probier es aus.</p>
+
+<ol>
+<li>Wie Scratch, kann sich Python auch Werte in Variablen merken und dann mit diesen arbeiten. Gib folendes ein:
+
+<ol>
+<li><code>a = 4</code> ENTER</li>
+<li><code>b = 2</code> ENTER</li>
+<li><code>a * b</code> ENTER</li>
+<li><code>a + a - b</code> ENTER</li>
+</ol></li>
+</ol>
+
+<p>Nun sollte Python zuerst &ldquo;8&rdquo; ausgeben, weil es 4 * 2 gerechnet hat, und anschließend &ldquo;6&rdquo; (für 4 + 4 - 2).</p>
+
+<ol>
+<li>Du kannst den Inhalt einer Variablen auch ändern. Gib foldendes ein:
+
+<ol>
+<li><code>b = 10</code> ENTER</li>
+<li><code>a + b</code> ENTER</li>
+</ol></li>
+</ol>
+
+<p>Nun sollte die Ausgabe &ldquo;14&rdquo; lauten (4 + 10).</p>
+
+<h2 id="zeichnen-mit-der-schildkröte">Zeichnen mit der Schildkröte</h2>
+
+<p>Zum Abschluss noch ein kleiner Vorgeschmack darauf, was Python alles kann, zum Beispiel <strong>Zeichnen</strong>. Dazu benutzt Python eine Schildkröte (engl. <em>turtle</em>). Gib foldendes ein:</p>
+
+<ol>
+<li><code>from turtle import *</code> ENTER</li>
+<li><code>forward(100)</code> ENTER<br />
+Jetzt erscheint ein neues Fenster in dem die <em>Turtle</em> eine gerade, schwarze Linie von links nach rechts zieht.</li>
+<li><code>right(120)</code> ENTER</li>
+<li><code>forward(200)</code> ENTER</li>
+<li><code>left(120)</code> ENTER</li>
+<li><code>forward(100)</code> ENTER</li>
+<li><code>penup()</code> ENTER</li>
+<li><code>left(90)</code> ENTER</li>
+<li><code>forward(80)</code> ENTER</li>
+<li><code>right(90)</code> ENTER</li>
+<li><code>backward(20)</code> ENTER</li>
+<li><code>pendown()</code> ENTER</li>
+<li><code>backward(60)</code> ENTER</li>
+<li><code>penup()</code> ENTER</li>
+<li><code>forward(200)</code> ENTER</li>
+</ol>
+
+<p>Nun haben wir ein schönes Z gezeichnet und die <em>Turtle</em> steht rechts daneben.</p>
+
+<p>Mit <code>clear()</code> können wir unsere Zeichnung wieder löschen.</p>
+
+<p>Das ist schon ein richtiges kleines Programm und es ist schade, dass wir daran keine Änderungen mehr vornehmen können, weil es sofort ausgeführt wurde und wir es nicht in einer Datei gespeichert haben. Aber keine Angst, genau das können wir mit Python natürlich auch machen.</p>
+
+<h2 id="das-code-fenster">Das Code-Fenster</h2>
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Dazu öffnen wir nun ein neues Fenster, das sogenannte <em>Code-Fenster</em>. Klicke dazu mit der Maus im &ldquo;Shell-Fenster&rdquo; auf das Menü <code>File</code> und dort wiederum auf <code>New File</code>.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/python/erste-schritte/img/IDLE-NewFile.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<ol>
+<li><p>Schreibe nun die Befehle von vorhin noch einmal in das neue Fenster:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> turtle <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+
+clear()
+forward(<span style="color:#ae81ff">100</span>)
+right(<span style="color:#ae81ff">120</span>) 
+forward(<span style="color:#ae81ff">200</span>)
+left(<span style="color:#ae81ff">120</span>)
+forward(<span style="color:#ae81ff">100</span>)
+penup()  
+left(<span style="color:#ae81ff">90</span>)
+forward(<span style="color:#ae81ff">80</span>)
+right(<span style="color:#ae81ff">90</span>)
+backward(<span style="color:#ae81ff">20</span>)
+pendown()
+backward(<span style="color:#ae81ff">60</span>)
+penup()
+forward(<span style="color:#ae81ff">200</span>)</code></pre></div></li>
+
+<li>
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Jetzt speichern wir unser erstes Python-Programm aber sofort ab. Klicke dazu im Menü <code>File</code> auf <code>Save</code> (oder drücke STRG+S).</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/python/erste-schritte/img/IDLE-Save.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</li>
+
+<li><p>Starten können wir unser Programm, indem wir einfach F5 drücken (oder Menü <code>Run</code> und dort <code>Run Module</code> im Code-Fenster).
+Nun wir unser Z ganz von alleine in einem Zug gezeichnet. Cool!</p></li>
+
+<li><p>Jetzt können wir unser Programm auch noch verändern, indem wir z.B. folgende Zeilen zwischen <code>clear()</code> und <code>forward(100)</code> (im Code-Fenster) einfügen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">speed(<span style="color:#ae81ff">1</span>)
+pencolor(<span style="color:#e6db74">&#39;blue&#39;</span>)
+pensize(<span style="color:#ae81ff">8</span>)</code></pre></div>
+<p>Im Code-Fenster speichern wir wieder mit STRG-S und starten das Programm mit F5.</p></li>
+</ol>
+
+<h2 id="welches-fenster-verwendest-du-wofür">Welches Fenster verwendest du wofür?</h2>
+
+<ul>
+<li><p><strong>Code-Fenster</strong>:
+Das Code-Fenster eigent sich gut für längere Programme, weil du sie speichern und bearbeiten kannst. Das ist leichter als immer wieder von vorne anzufangen, sobald du Abschnitte wiederholen oder ändern willst.</p></li>
+
+<li><p><strong>Shell-Fenster</strong>:
+Das Shell-Fenster eignet sich gut für schnelle Experimente, wen du z.B. wissen willst, was ein Befehl bewirkt. Außerdem ist es ein praktischer &ldquo;Taschenrechner&rdquo;.<br />
+Die Befehle werde aber nicht gespeichert, sodass du Dinge, die du öfter brauchst, doch lieber im Code-Fenster bearbeiten solltest.</p></li>
+</ul>
+
+<h2 id="hilfe">Hilfe</h2>
+
+<p>Zum Abschluss noch ein Tipp: Falls du mal nicht weiter weißt, bietet die IDLE schon eine direkt integrierte Hilfe-Funktion (drücke F1 oder Menü <code>Help</code> und <code>Python Docs</code>). Dort findest du viele hilfreiche Informationen, z.B. alle Befehle, die die <em>Turtle</em> versteht. Die Hilfe ist (natürlich) auf Englisch, wie so vieles gerade im IT-Bereich.
+Wer trotzdem lieben auf Deutsch über Python nachschlagen will, der kann z.B. folgende Links versuchen:</p>
+
+<ul>
+<li><a href="https://py-tutorial-de.readthedocs.org/de/python-3.3/" target="_blank">Das Python-Tutorial</a></li>
+<li><a href="http://www.python-kurs.eu/python3_kurs.php" target="_blank">Python 3 Tutorial</a></li>
+</ul>
+
+<p>Viel Spaß beim Ausprobieren!</p>
+</p>
                     </div>
                     
                 </div>
@@ -170,19 +388,186 @@
             
 
             
-            
+
             <div class="col mb-5">
+                
                 <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/python\/geisterspiel\/'">
-                    
+                
                     
                     
                     <div class="card-body">
+                        
                         <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
                             Level 
                         </span>
+                        
                         <h5 class="card-title">Geisterspiel mit Python</h5>
-                        
-                        <p class="card-text mt-4">In dieser Übung erstellen wir ein erstes, einfaches Computerspiel mit Python.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">In dieser Übung erstellen wir ein erstes, einfaches Computerspiel mit Python.</h6>
+                        <p class="card-text mt-4">
+
+<h1 id="geisterspiel">Geisterspiel</h1>
+
+<p>In dieser Übung erstellen wir ein erstes, einfaches Computerspiel mit Python.
+Es wird nur ein text-basiertes UI (= <strong>U</strong>ser <strong>I</strong>nterface; deutsch: Benutzerschnittstelle) haben, d.h. wir werden Text auf dem Bildschirm lesen und Zeichen mit der Tastatur eingeben, um das Spiel zu steuern.</p>
+
+<h2 id="die-aufgabe">Die Aufgabe</h2>
+
+<p>Der Geist versteckt sich zufällig hinter einer von 3 Türen.
+Du entscheidest, welche Türe du öffnen möchtest.
+Tippe dazu 1, 2 oder 3 und drücke die ENTER-Taste.</p>
+
+<p>Unser Programm soll nun prüfen, ob der Geist sich hinter der Tür befindet und eine entsprechende Meldung ausgeben; also entweder &lsquo;Geist gefunden&rsquo; und damit das Spiel verloren oder &lsquo;Kein Geist&rsquo; und der Spieler darf zur nächsten Station mit wieder 3 Türen und einem zufällig versteckten Geist weitergehen.
+Das Programm soll also auch mitzählen, wie oft der Spieler durch eine Tür geht, ohne dabei auf den Geist zu stoßen.</p>
+
+<p>Ein möglicher Spielablauf könnte dann im Shell-Fenster so aussehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Geisterspiel
+<span style="color:#f92672">============</span>
+
+Vor dir sind drei Türen.
+Hinter einer ist ein Geist.
+Welche Tür öffnest du?
+1, <span style="color:#ae81ff">2</span> oder 3? <span style="color:#ae81ff">2</span>
+Kein Geist!
+Du bis ein Zimmer weiter.
+
+Vor dir sind drei Türen.
+Hinter einer ist ein Geist.
+Welche Tür öffnest du?
+1, <span style="color:#ae81ff">2</span> oder 3? <span style="color:#ae81ff">2</span>
+GEIST!
+Lauf schnell weg!
+
+Game over! Deine Punkte:  <span style="color:#ae81ff">1</span></code></pre></div>
+<h2 id="bestandteile-des-programms">Bestandteile des Programms</h2>
+
+<p>Zunächst öffnen wir ein neues Code-Fenster, wie wir es am Ende der Ersten-Schritte-Übung für das Zeichnprogramm gemacht haben.
+Dort werden wir nun unser Geisterspiel-Programm schreiben und es unter dem Namen &ldquo;geisterspiel.py&rdquo; speichern.</p>
+
+<p>Von der ersten Übung her kennen wir auch schon ein paar Dinge, die wir hier wieder benötigen:</p>
+
+<ul>
+<li><p>Textausgabe auf dem Bildschirm mit der Funktion <code>print(...)</code></p></li>
+
+<li><p>Variablen und Zuweisungen von Werten, z.B. <code>a = 1</code></p></li>
+
+<li><p>Rechenoperation (auch mit Variablen), z.B. <code>a = a * 2</code></p></li>
+</ul>
+
+<p>Zusätzlich können wir noch folgende Dinge brauchen:</p>
+
+<h3 id="zufallszahlen">Zufallszahlen</h3>
+
+<p>Um eine Zufallszahl zwischen 1 und 3 erzeugen zu können, muss man die Funktion <code>randint</code> aus der Bibliothek <code>random</code> importieren:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint</code></pre></div>
+<p>und damit dann eine Tür für den Geist auswählen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">tuer <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>)</code></pre></div>
+<h3 id="wertetypen-für-variablen">Wertetypen für Variablen</h3>
+
+<p>Wir können in Variablen aber nicht nur Zahlen, sondern auch Text oder Wahrheitswerte speichern.</p>
+
+<ul>
+<li><p>Text:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">begruessung <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Hallo&#39;</span>
+name <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Wie heißt du? &#39;</span>)
+begruessung <span style="color:#f92672">=</span> begruessung <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;!&#39;</span>
+<span style="color:#66d9ef">print</span>(begruessung)</code></pre></div>
+<p>Wie du siehst, kann man mit Text auch &ldquo;rechnen&rdquo; (Zeile 3) und Werte von Variablen ausgeben (Zeile 4).
+Außerdem zeigt die Zeile 2, wie man dem Benutzer Fragen stellt und die Antwort gleich in einer Variablen speichert.</p></li>
+
+<li><p>Wahrheitswerte:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">geist_gefunden <span style="color:#f92672">=</span> False
+du_bist_mutig <span style="color:#f92672">=</span> True</code></pre></div></li>
+
+<li><p>Wertetyp ändern:</p>
+
+<p>Es ist auch möglich, den Typ einer Variablen zu andern. Zum Beispiel wollen wir für unser Spiel, die Eingabe der Türnummer für das Programm als Zahl und nicht als Text haben.
+Dazu können wir mit <code>int('3')</code> den Text &ldquo;3&rdquo; in die Zahl 3 umwandeln (<em>int</em> steht für das englische <em>integer</em>, was auf Deutsch &ldquo;ganze Zahl&rdquo; bedeutet).</p></li>
+</ul>
+
+<h3 id="steuerung-des-programmablaufs">Steuerung des Programmablaufs</h3>
+
+<h4 id="bedingungen">Bedingungen</h4>
+
+<p>Um eine Bedingung zu prüfen, gibt es den Befehl <code>if</code>, gefolgt von der Bedingung, die geprüft werden soll, und einem Doppelpunkt am Ende.</p>
+
+<ul>
+<li><p>Was passieren soll, wenn die Bedingung erfüllt ist, müssen wir in die nächste Zeile schreiben und - in Python ganz streng - auch noch eine Einrückung machen. Am besten mit der Tabulator-Taste (TAB).</p>
+
+<p><em>Hinweis</em>: Die IDLE hilft uns aber dabei und kümmert sich automatisch um die Einrückung, nachdem wir nach dem Doppelpunkt ENTER gedrückt haben.</p></li>
+
+<li><p>Um auch festzulegen, was passieren soll, wenn die Bedingung nicht erfüllt ist, können wir anschließend, wieder in eine neue Zeile und jetzt wieder ohne die Einrückung <code>else:</code> schreiben.
+In die nächste Zeile und wieder eingerückt kommen dann die Anweisungen dazu.</p></li>
+
+<li><p><strong>Logische Operatoren</strong>: Um eine Bedingung formulieren zu können, brauchen wir sogenannte logische Operatoren, die 2 Werte vergleichen und als Ergebnis den Wahrheitswert <em>WAHR</em> oder <em>FALSCH</em> liefern.
+In Python gibt es die folgenden logischen Operatoren:</p>
+
+<p><code>a == b</code> &hellip; a ist gleich b<br />
+<code>a != b</code> &hellip; a is ungleich b<br />
+<code>a &lt; b</code> &hellip; a ist kleiner als b<br />
+<code>a &gt; b</code> &hellip; a ist größer als b<br />
+<code>a &lt;= b</code> &hellip; a ist kleiner als oder gleich b<br />
+<code>a &gt;= b</code> &hellip; a ist größer als oder gleich b</p></li>
+
+<li><p>Ein Beispiel für eine if-Anweisung:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">tuer <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">if</span> tuer <span style="color:#f92672">==</span> <span style="color:#ae81ff">3</span>:
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Gefunden.&#39;</span>)
+<span style="color:#66d9ef">else</span>:
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Leider nicht.&#39;</span>)</code></pre></div></li>
+</ul>
+
+<h4 id="schleifen">Schleifen</h4>
+
+<ul>
+<li><p>Um Dinge zu beschreiben, die sich immer auf die gleich Art wiederholen sollen, solange eine Bedingung erfüllt ist, gibt es sogenannte Schleifen, z.B. die <strong>while</strong>-Schleife.
+Sie beginnt mit dem Befehl <code>while</code> gefolgt - wie bei der if-Anweisung - mit der Bedingung und abgeschlossen wird die Zeile auch wieder mit einem Doppelpunkt.
+Dann geht es in der nächsten Zeile, eingerückt mit den Anweisungen weiter, die nun wiederholt werden sollen.</p></li>
+
+<li><p>Ein Beispiel für eine while-Schleife:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">punkte <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">while</span> punkte <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>:
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Gehe weiter.&#39;</span>)
+	punkte <span style="color:#f92672">=</span> punkte <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span></code></pre></div></li>
+</ul>
+
+<h2 id="eine-lösung">Eine Lösung</h2>
+
+
+<div class="alert alert-primary">
+Versuche zuerst selbst eine Lösung zu erstellen, bevor du weiterliest!
+</div>
+
+
+<p>Eine mögliche Lösung für das Geisterspiel könnte dann so aussehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># CoderDojo Linz - Geisterspiel</span>
+
+<span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Geisterspiel&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;============&#39;</span>)
+
+du_bist_mutig <span style="color:#f92672">=</span> True
+score <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+
+<span style="color:#66d9ef">while</span> du_bist_mutig:
+	geistertuer <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>)
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39; &#39;</span>)
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Vor dir sind drei Türen.&#39;</span>)
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hinter einer ist ein Geist.&#39;</span>)
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Welche Tür öffnest du?&#39;</span>)
+	tuer <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;1, 2 oder 3? &#39;</span>)
+	tuer_nummer <span style="color:#f92672">=</span> int(tuer)
+	<span style="color:#66d9ef">if</span> tuer_nummer <span style="color:#f92672">==</span> geistertuer:
+		<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;GEIST!&#39;</span>)
+		<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Lauf schnell weg!&#39;</span>)
+		du_bist_mutig <span style="color:#f92672">=</span> False
+	<span style="color:#66d9ef">else</span>:
+		<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Kein Geist!&#39;</span>)
+		<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Du bis ein Zimmer weiter.&#39;</span>)
+		score <span style="color:#f92672">=</span> score <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39; &#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Game over! Deine Punkte: &#39;</span>, score)</code></pre></div></p>
                     </div>
                     
                 </div>
@@ -200,19 +585,144 @@
             
 
             
-            
+
             <div class="col mb-5">
+                
                 <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/python\/unsinnige-saetze\/'">
-                    
+                
                     
                     
                     <div class="card-body">
+                        
                         <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
                             Level 
                         </span>
+                        
                         <h5 class="card-title">Python baut unsinnige Sätze</h5>
-                        
-                        <p class="card-text mt-4">In dieser Übunge erstellen wir ein kleines Python-Programm, das unsinnige Sätze zusammenbaut.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">In dieser Übunge erstellen wir ein kleines Python-Programm, das unsinnige Sätze zusammenbaut.</h6>
+                        <p class="card-text mt-4">
+
+<h1 id="unsinnige-sätze">Unsinnige Sätze</h1>
+
+<p>In dieser Übunge erstellen wir ein kleines Python-Programm, das unsinnige Sätze zusammenbaut.</p>
+
+<h2 id="die-aufgabe">Die Aufgabe</h2>
+
+<p>Unser Programm soll aus drei verschiedenen Wortgruppen (Subjekt, Verb, Objekt) willkürlich Sätze zusammenstellen.
+Es wählt zufällig je ein Wort aus einer Gruppe aus und dabei können natürlich auch lustige und unsinnige Sätze herauskommen.</p>
+
+<p>Ein möglicher Ablauf könnte dann im Shell-Fenster so aussehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Unsinnige Sätze
+<span style="color:#f92672">===============</span>
+
+Drücke einfach ENTER, um einen neuen Satz zu erzeugen.
+Oder <span style="color:#e6db74">&#34;n&#34;</span> und dann ENTER, um das Programm zu beenden.
+
+Die Katze träumt im Feld.
+
+Die Katze springt im Meer.
+
+Das Känguru schwimmt im Zirkus.
+
+Tom fährt im Bett.
+
+Die Katze fährt im Zirkus.
+
+Lena tanzt im Feld.
+
+Die Katze fährt im Garten.
+
+Servus!</code></pre></div>
+<h2 id="bestandteile-des-programms">Bestandteile des Programms</h2>
+
+<p>Zunächst öffnen wir ein neues Code-Fenster, wie wir es am Ende der Ersten-Schritte-Übung und beim Geisterspiel schon gemacht haben.
+Dort werden wir nun unser Unsinnige-Sätze-Programm schreiben und es unter dem Namen &ldquo;unsinnige-saetze.py&rdquo; speichern.</p>
+
+<p>Von den ersten beiden Übungen her kennen wir auch schon ein paar Dinge, die wir hier wieder benötigen:</p>
+
+<ul>
+<li><p>Zufallszahlen: <code>randint(0, n)</code></p></li>
+
+<li><p>Textausgabe in Shell-Fenster <code>print</code> und Eingabe von der Tastatur <code>input</code></p></li>
+
+<li><p>while-Schleife</p></li>
+</ul>
+
+<p>Zusätzlich können wir noch folgende Dinge brauchen:</p>
+
+<h3 id="listen">Listen</h3>
+
+<p>In Python können wir Listen von gleichartigen Werte so definieren und in Variablen speichern.<br />
+Außerdem können wir, wie jede Variable auch Variablen, die Listen enthalten mit <code>print</code> ausgeben.<br />
+Gib dazu folendes im Shell-Fenster ein:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt;&gt;&gt; listeA <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>1, 2, 3<span style="color:#f92672">]</span>
+&gt;&gt;&gt; print<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;listeA =&#39;</span>, listeA<span style="color:#f92672">)</span>
+listeA <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>1, 2, 3<span style="color:#f92672">]</span></code></pre></div>
+<p>Wir können dann auch direkt, über einen sogenannten Index, auf jedes Element der Liste zugreifen und es so auslesen oder auf einen neuen Wert setzen.<br />
+Bei Listen hat das erste Element übrigens den Index 0.<br />
+Beispiel im Shell-Fenster:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt;&gt;&gt; listeA<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>
+&gt;&gt;&gt; print<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;listeA =&#39;</span>, listeA, <span style="color:#e6db74">&#39; 3. Element =&#39;</span>, listeA<span style="color:#f92672">[</span>2<span style="color:#f92672">])</span>
+listeA <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>1, 1000, 3<span style="color:#f92672">]</span>  3. Element <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span></code></pre></div>
+<p>Wir können auch die Länge einer Liste mit der Funktion <code>len</code> ermitteln:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt;&gt;&gt; len<span style="color:#f92672">(</span>listeA<span style="color:#f92672">)</span>
+<span style="color:#ae81ff">3</span></code></pre></div>
+<h3 id="funktionen">Funktionen</h3>
+
+<p>So wie die Funktionen <code>print</code> und <code>input</code>, die wir schon kennen, können wir natürlich auch selbst Funktionen definieren.<br />
+Wieder ein Beispiel im Shell-Fenster:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt;&gt;&gt; def add<span style="color:#f92672">(</span>a, b<span style="color:#f92672">)</span>:
+	<span style="color:#66d9ef">return</span> a + b</code></pre></div>
+<p>Hier haben wir die Funktion <code>add</code> definiert, die 2 sogenannte Parameter <code>a</code> und <code>b</code> erhält, mit denen sie dann, wie mit lokalen Variablen arbeiten kann.<br />
+Nun rufen wir die Funktion ein paarmal auf:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt;&gt;&gt; add<span style="color:#f92672">(</span>1, 2<span style="color:#f92672">)</span>
+<span style="color:#ae81ff">3</span>
+&gt;&gt;&gt; add<span style="color:#f92672">(</span>3, -4<span style="color:#f92672">)</span>
+-1</code></pre></div>
+<h2 id="eine-lösung">Eine Lösung</h2>
+
+
+<div class="alert alert-primary">
+Versuche zuerst selbst eine Lösung zu erstellen, bevor du weiterliest!
+</div>
+
+
+<p>Eine mögliche Lösung für das Unsinnige-Sätze-Programm könnte dann so aussehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># CoderDojo Linz - Unsinnige Sätze</span>
+
+<span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+
+subject <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Lena&#39;</span>, <span style="color:#e6db74">&#39;Tom&#39;</span>, <span style="color:#e6db74">&#39;Die Katze&#39;</span>, <span style="color:#e6db74">&#39;Das Auto&#39;</span>, <span style="color:#e6db74">&#39;Das Känguru&#39;</span> ]
+verb <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;träumt&#39;</span>, <span style="color:#e6db74">&#39;schwimmt&#39;</span>, <span style="color:#e6db74">&#39;springt&#39;</span>, <span style="color:#e6db74">&#39;fährt&#39;</span>, <span style="color:#e6db74">&#39;tanzt&#39;</span> ]
+object <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Meer&#39;</span>, <span style="color:#e6db74">&#39;Feld&#39;</span>, <span style="color:#e6db74">&#39;Weltraum&#39;</span>, <span style="color:#e6db74">&#39;Bett&#39;</span>, <span style="color:#e6db74">&#39;Garten&#39;</span>, <span style="color:#e6db74">&#39;Zirkus&#39;</span> ]
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">pick</span>(words):
+	num_words <span style="color:#f92672">=</span> len(words)
+	num_picked <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">0</span>, num_words <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+	word_picked <span style="color:#f92672">=</span> words[num_picked]
+	<span style="color:#66d9ef">return</span> word_picked
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">printSentence</span>():
+	<span style="color:#66d9ef">print</span>(pick(subject), pick(verb), <span style="color:#e6db74">&#39;im&#39;</span>, pick(object), end<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;.&#39;</span>)
+	<span style="color:#66d9ef">print</span>()
+
+<span style="color:#66d9ef">print</span>()
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Unsinnige Sätze&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;===============&#39;</span>)
+<span style="color:#66d9ef">print</span>()
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Drücke einfach ENTER, um einen neuen Satz zu erzeugen.&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Oder &#34;n&#34; und dann ENTER, um das Programm zu beenden.&#39;</span>)
+<span style="color:#66d9ef">print</span>()
+
+printSentence()
+again <span style="color:#f92672">=</span> input()
+<span style="color:#66d9ef">while</span> again <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;n&#39;</span>:
+	printSentence()
+	again <span style="color:#f92672">=</span> input()
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Servus!&#39;</span>)</code></pre></div></p>
                     </div>
                     
                 </div>
@@ -230,19 +740,257 @@
             
 
             
-            
+
             <div class="col mb-5">
+                
                 <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/python\/schriftlich-multiplizieren\/'">
-                    
+                
                     
                     
                     <div class="card-body">
+                        
                         <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
                             Level 
                         </span>
+                        
                         <h5 class="card-title">Schriftlich Multiplizieren mit Python</h5>
-                        
-                        <p class="card-text mt-4">Formattierte Textausgabe mit Python</p>
+                        <h6 class="card-subtitle mb-2 text-muted">Formattierte Textausgabe mit Python</h6>
+                        <p class="card-text mt-4">
+
+<h1 id="schriftlich-multiplizieren-mit-python">Schriftlich Multiplizieren mit Python</h1>
+
+<p>Es wäre doch nett, wenn ein Programm das schriftliche Multiplizieren
+mit allen Zwischenschritten vorführen könnte?
+Für die Faktoen <code>345</code> und <code>789</code> soll das Programm z.B. folgendes ausgeben:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"> <span style="color:#ae81ff">345</span> x <span style="color:#ae81ff">789</span>
+ ---------
+<span style="color:#ae81ff">2415</span>
+ <span style="color:#ae81ff">2760</span>
+  <span style="color:#ae81ff">3105</span>
+------
+<span style="color:#ae81ff">272205</span></code></pre></div>
+<h1 id="allgemeines-zur-programmiersprache-python">Allgemeines zur Programmiersprache Python</h1>
+
+<p>Wir verwenden für die Programmierung die Programmiersprache Python (siehe die Python Homepage <a href="https://www.python.org/" target="_blank">www.python.org</a>),
+genauer gesagt Python 3, also eine Version von Python, deren Bezeichnung mit 3 beginnt, z.B. Python 3.7.1.
+Zu Beginn ist es am einfachsten, wenn du Python-Programme online im Browser (z.B. auf <a href="https://www.onlinegdb.com/online_python_interpreter" target="_blank">www.onlinegdb.com/online_python_interpreter</a>)
+entwickelst und ausführst.</p>
+
+<p>Wenn du Python-Programme lokal auf einem Rechner entwickeln und laufen lassen möchtest, muss Python installiert sein.
+Hilfe dazu findest du auf der <a href="https://www.python.org/about/gettingstarted/" target="_blank">Python Homepage</a> und im Python Wiki (siehe <a href="https://wiki.python.org/moin/BeginnersGuide/Download" target="_blank">wiki.python.org</a>).</p>
+
+<h1 id="einfaches-hantieren-mit-zeichenketten">Einfaches Hantieren mit Zeichenketten</h1>
+
+<p>Um Zahlen und Text formattiert ausgeben zu können, müssen wir uns zuerst mit Zeichenketten (englisch: &ldquo;strings&rdquo;) beschäftigen.
+Starte eine interaktive Python-Umgebung (z.B. IDLE oder online unter <a href="http://brython.info/tests/console.html" target="_blank">http://brython.info/tests/console.html</a>), um die folgenden Beispiele gleich ausprobieren zu können.</p>
+
+<p>Der Datentyp für Zeichenketten wird in Python mit <code>str</code> bezeichnet. Eine konkrete Zeichenkette wird unter Hochkommas geschrieben:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#34;Das ist ein Text.&#34;</span></code></pre></div>
+<p>Man kann doppelte, aber auch einfache Hochkommas verwenden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;Schon wieder ein Text.&#39;</span></code></pre></div>
+<p>Will man eine Zahl in eine Zeichenkette umwandeln, gibt es mehrere Möglichkeiten.
+Standardmäßig verwendet man in Python zum Umwandeln in den Typ <code>str</code> eine Funktion mit eben diesem Namen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">str(<span style="color:#ae81ff">3</span>)</code></pre></div>
+<p>Mit Zeichenketten kann man in Python auch &ldquo;rechnen&rdquo;. Versuche einmal folgende Ausdrücke:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#34;Hallo!&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;Hallo!&#34;</span>
+ <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#e6db74">&#34;Hallo!&#34;</span></code></pre></div>
+<p>Damit haben wir alles zusammen, was wir für das Zusammenbauen der Ausgabe des schriftlichen Rechnens brauchen.</p>
+
+<h1 id="ausgabe-der-aufgabe">Ausgabe der Aufgabe</h1>
+
+<p>Jetzt wollen wir mit der Erstellung des Programms beginnen.
+Die erste Zeile einer schriftlichen Multiplikation zeigt die beiden Faktoren mit <code>x</code> getrennt.
+Das können wir in Python so zusammenbauen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">faktor1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">345</span>
+faktor2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">789</span>
+aufgabe <span style="color:#f92672">=</span> str(faktor1) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; x &#39;</span> <span style="color:#f92672">+</span> str(faktor2)</code></pre></div>
+<p>Zur besseren Lesbarkeit haben wir das Multiplikationszeichen <code>x</code> noch mit Leerzeichen umgeben.</p>
+
+<p>Zum Unterstreichen bzw. Trennen von den nachfolgenden Zwischenprodukten wollen in der nächsten Zeile soviele Minuszeichen (<code>-</code>) aneinanderhängen,
+wie es Zeichen in der ersten Zeile gibt. Für die gerade angegebenen Faktoren sind das neun Zeichen, also brauchen wir den String</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;---------&#39;</span></code></pre></div>
+<p>Da sich die Länge mit verschiedenen Faktoren ändern kann, wollen wir das nicht fix in das Programm schreiben,
+sondern passend zur Länge des Strings in der Variable <code>aufgabe</code> bestimmen.
+Die Länge einer Zeichenkette kann man in Python mit der Funktion <code>len</code> auslesen.
+Und mit dem Multiplikationsoperator <code>*</code> kann man Strings vervielfältigen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zeileTrennen1 <span style="color:#f92672">=</span> len(aufgabe) <span style="color:#f92672">*</span> <span style="color:#e6db74">&#39;-&#39;</span></code></pre></div>
+<p>Der String in der Variable <code>zeileTrennen1</code> enthält nun genau so viele Zeichen wie der String in <code>aufgabe</code>.</p>
+
+<h1 id="einfaches-hantieren-mit-listen">Einfaches Hantieren mit Listen</h1>
+
+<p>Zum Verwalten der Zwischenprodukte brauchen wir noch einen neuen Datentyp: die Liste.
+In Python können Listen ganz einfach angelegt werden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zahlenListe <span style="color:#f92672">=</span> [<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">11</span>]
+wortListe <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;Wasser&#39;</span>, <span style="color:#e6db74">&#39;Fisch&#39;</span>, <span style="color:#e6db74">&#39;Sonne&#39;</span>]
+gemischteListe <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;zwei&#39;</span>, <span style="color:#ae81ff">3</span>, <span style="color:#e6db74">&#39;vier&#39;</span>]</code></pre></div>
+<p>Die leere Liste wird mit <code>[]</code> angegeben.</p>
+
+<p>Die Elemente einer Liste können über ihren Index angesprochen werden, wobei hier bei <strong>Null</strong> (<code>0</code>) zu zählen begonnen wird.
+Das erste Element einer Liste erhält man daher z.B. so: <code>zahlenListe[0]</code>.</p>
+
+<p>Mit Listen kann man ganz ähnlich &ldquo;rechnen&rdquo; wie mit Zeichenketten. Experimentiere mit diesen Ausdrücken:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>] <span style="color:#f92672">+</span> [<span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>]
+<span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> [<span style="color:#e6db74">&#39;eins&#39;</span>, <span style="color:#e6db74">&#39;zwo&#39;</span>]</code></pre></div>
+<p>Um ein Element an eine Liste anzuhängen, kann man die Listenmethode <code>append</code> verwenden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zahlenListe<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">13</span>)
+wortListe<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#39;Strand&#39;</span>)</code></pre></div>
+<h1 id="die-zwischenprodukte">Die Zwischenprodukte</h1>
+
+<p>Beim schriftlichen Multiplizieren wird der erste Faktor mit jeder Ziffer des zweiten Faktors multipliziert.
+Dazu müssen wir den zweiten Faktor in seine Ziffern zerlegen. Das geht am einfachsten, indem wir ihn
+in einen String umwandeln und dann die einzelnen Zeichen auslesen und wieder in eine Zahl zurückwandeln.
+Um die Zeichen in einer Schleife nacheinander abhandeln zu können, lernen wir noch die <code>for</code>-Schleife von Python kennen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">ziffern2 <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> zifferZeichen <span style="color:#f92672">in</span> str(faktor2):
+  ziffer <span style="color:#f92672">=</span> int(zifferZeichen)
+  ziffern2<span style="color:#f92672">.</span>append(ziffer)</code></pre></div>
+<p>Wenn <code>faktor2</code> den Wert <code>789</code> hat, dann durchläuft die Variable <code>zifferZeichen</code> nacheinander die
+Zeichen <code>'7'</code>, <code>'8'</code> und <code>'9'</code>. Zurück in eine Zahl verwandelt und nacheinander an die vorerst leere
+Liste in <code>ziffern2</code> angehängt, erhält man zuletzt in der Variable <code>ziffern2</code> die Liste <code>[7, 8, 9]</code>.</p>
+
+<p>Python erlaubt außerdem eine sehr kompakte Schreibweise, um aus den (verarbeiteten) Elementen einer Liste eine neue Liste
+zu generieren. Obige 4 Zeilen lassen sich damit in einer Zeile ausdrücken:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">ziffern2 <span style="color:#f92672">=</span> [int(zifferZeichen) <span style="color:#66d9ef">for</span> zifferZeichen <span style="color:#f92672">in</span> str(faktor2)]</code></pre></div>
+<p>Die Zwischenprodukte kann man jetzt ähnlich kompakt erzeugen. Da wir mit den Zwischenprodukten nicht weiterrechnen werden,
+sondern sie nur noch für die Ausgabe brauchen, wollen wir sie gleich auch in Zeichenketten umwandeln:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zwischenProdukte_str <span style="color:#f92672">=</span> [str(faktor1<span style="color:#f92672">*</span>ziffer) <span style="color:#66d9ef">for</span> ziffer <span style="color:#f92672">in</span> ziffern2]</code></pre></div>
+<p>Für die oben angegebenen Faktoren <code>345</code> und <code>789</code> würde die Variable <code>zwischenProdukte_str</code> jetzt diese Liste enthalten:
+<code>[str(345*7), str(345*8), str(345*9)]</code>, ausgewertet also <code>['2415', '2760', '3105']</code>.</p>
+
+<h1 id="das-ausrichten-der-zeilen">Das Ausrichten der Zeilen</h1>
+
+<p>Bevor wir die ganzen Zeilen ausgeben und vorher noch ausrichten, müssen wir sie noch um das Ergebnis und eine Trennlinie
+davor ergänzen. Die Ausgabezeile für das endgültige Produkt lässt sich sehr einfach bestimmen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">produkt_str <span style="color:#f92672">=</span> str(faktor1<span style="color:#f92672">*</span>faktor2)</code></pre></div>
+<p>Die Trennzeile davor soll genauso lang sein, also wieder aus entsprechend vielen Minuszeichen bestehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zeileTrennen2 <span style="color:#f92672">=</span> len(produkt_str) <span style="color:#f92672">*</span> <span style="color:#e6db74">&#39;-&#39;</span></code></pre></div>
+<p>Jetzt haben wir alle notwendigen Zeichenketten beisammen. Würden wir sie aber in der jetzigen Form nacheinander ausgeben,
+würden wir folgendes erhalten:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#ae81ff">345</span> x <span style="color:#ae81ff">789</span>
+---------
+<span style="color:#ae81ff">2415</span>
+<span style="color:#ae81ff">2760</span>
+<span style="color:#ae81ff">3105</span>
+------
+<span style="color:#ae81ff">272205</span></code></pre></div>
+<p>Wir müssen die Zeilen also durch Einfügen von Leerzeichen jeweils am Anfang noch ausrichten. Dazu wollen wir von unten beginnen.
+Das endgültige Produkt und die Trennzeile davor passen schon. Das letzte Zwischenprodukt muss rechts am Ergebnis ausgerichtet werden,
+die zughörige Spalte berechnet sich daher ganz einfach über die Anzahl der Zeichen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">produktAnschlagRechts <span style="color:#f92672">=</span> len(produkt_str)</code></pre></div>
+<p>Siehe dazu auch diese Grafik zur Veranschaulichung der Anschläge an der rechten Seite und der Einrückungen:</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/img/SchriftlichMultiplizieren_Anschl%C3%A4geRechts_80p.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<p>Jedes Zwischenprodukt davor muss rechts um ein Zeichen weiter links ausgerichtet werden. Für das erste Zwischenprodukt
+erhalten wir daher diese Anschlagsspalte:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zwischen1AnschlagRechts <span style="color:#f92672">=</span> produktAnschlagRechts <span style="color:#f92672">-</span> len(ziffern2) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span></code></pre></div>
+<p>Der erste Faktor muss rechts an derselben Spalte angeschlagen werden. Seine Einrückung ergibt sich
+nun aus den von seiner Länge noch fehlenden Zeichen, was auch gleichzeitig die Einrückung der ersten Zeile und ihrer Unterstreichung ergibt:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">einrueckenFaktor1 <span style="color:#f92672">=</span> zwischen1AnschlagRechts <span style="color:#f92672">-</span> len(str(faktor1))
+zeileAufgabe  <span style="color:#f92672">=</span> einrueckenFaktor1<span style="color:#f92672">*</span><span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> aufgabe
+zeileTrennen1 <span style="color:#f92672">=</span> einrueckenFaktor1<span style="color:#f92672">*</span><span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> len(aufgabe)<span style="color:#f92672">*</span><span style="color:#e6db74">&#39;-&#39;</span></code></pre></div>
+<p>Die Zwischenzeilen müssen nun aus den Zwischenprodukten in ähnlicher Weise durch Einrücken erstellt werden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zwischenZeilen <span style="color:#f92672">=</span> []
+zwischenAnschlagRechts <span style="color:#f92672">=</span> zwischen1AnschlagRechts
+<span style="color:#66d9ef">for</span> prod_str <span style="color:#f92672">in</span> zwischenProdukte_str:
+    einruecken <span style="color:#f92672">=</span> zwischenAnschlagRechts <span style="color:#f92672">-</span> len(prod_str)
+    prodZeile <span style="color:#f92672">=</span> einruecken<span style="color:#f92672">*</span><span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> prod_str
+    zwischenZeilen<span style="color:#f92672">.</span>append(prodZeile)
+    zwischenAnschlagRechts <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span></code></pre></div>
+<h1 id="das-gesamte-programm">Das gesamte Programm</h1>
+
+<p>Das Erzeugen der Ausgabezeilen wollen wir noch in eine Funktion auslagern.
+Wenn wir die obigen Programmteile in eine passende Reihenfolge bringen und eine Schleife zum Anzeigen der Ausgabezeilen hinzufügen, dann sieht unser Code so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">schriftlichMultiplizieren</span>(faktor1, faktor2):
+    ziffern2 <span style="color:#f92672">=</span> [int(z) <span style="color:#66d9ef">for</span> z <span style="color:#f92672">in</span> str(faktor2)]
+    zwischenProdukte_str <span style="color:#f92672">=</span> [str(faktor1<span style="color:#f92672">*</span>ziffer) <span style="color:#66d9ef">for</span> ziffer <span style="color:#f92672">in</span> ziffern2]
+    produkt_str <span style="color:#f92672">=</span> str(faktor1<span style="color:#f92672">*</span>faktor2)
+    
+    produktAnschlagRechts <span style="color:#f92672">=</span> len(produkt_str)
+    zwischen1AnschlagRechts <span style="color:#f92672">=</span> produktAnschlagRechts <span style="color:#f92672">-</span> len(ziffern2) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+    
+    aufgabe <span style="color:#f92672">=</span> str(faktor1) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; x &#39;</span> <span style="color:#f92672">+</span> str(faktor2)
+    einrueckenFaktor1 <span style="color:#f92672">=</span> zwischen1AnschlagRechts <span style="color:#f92672">-</span> len(str(faktor1))
+    zeileAufgabe  <span style="color:#f92672">=</span> einrueckenFaktor1<span style="color:#f92672">*</span><span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> aufgabe
+    zeileTrennen1 <span style="color:#f92672">=</span> einrueckenFaktor1<span style="color:#f92672">*</span><span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> len(aufgabe)<span style="color:#f92672">*</span><span style="color:#e6db74">&#39;-&#39;</span>
+    zwischenZeilen <span style="color:#f92672">=</span> []
+    zwischenAnschlagRechts <span style="color:#f92672">=</span> zwischen1AnschlagRechts
+    <span style="color:#66d9ef">for</span> prod_str <span style="color:#f92672">in</span> zwischenProdukte_str:
+        einruecken <span style="color:#f92672">=</span> zwischenAnschlagRechts <span style="color:#f92672">-</span> len(prod_str)
+        prodZeile <span style="color:#f92672">=</span> einruecken<span style="color:#f92672">*</span><span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> prod_str
+        zwischenZeilen<span style="color:#f92672">.</span>append(prodZeile)
+        zwischenAnschlagRechts <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    zeileTrennen2 <span style="color:#f92672">=</span> len(produkt_str)<span style="color:#f92672">*</span><span style="color:#e6db74">&#39;-&#39;</span>
+    zeileProdukt <span style="color:#f92672">=</span> produkt_str
+
+    zeilenOben  <span style="color:#f92672">=</span> [zeileAufgabe, zeileTrennen1]
+  zeilenUnten <span style="color:#f92672">=</span> [zeileTrennen2, zeileProdukt]
+    <span style="color:#66d9ef">return</span> zeilenOben <span style="color:#f92672">+</span> zwischenZeilen <span style="color:#f92672">+</span> zeilenUnten
+
+faktor1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">345</span>
+faktor2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">789</span>
+zeilen <span style="color:#f92672">=</span> schriftlichMultiplizieren(faktor1, faktor2)
+<span style="color:#66d9ef">for</span> zeile <span style="color:#f92672">in</span> zeilen:
+    <span style="color:#66d9ef">print</span>(zeile)</code></pre></div>
+<p>Verschiedene Multiplikationen (lose zusammengestellt) würden dann so aussehen:</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/img/SchriftlichMultiplizieren.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<h1 id="erweiterungsmöglichkeiten">Erweiterungsmöglichkeiten</h1>
+
+<p>Willst du das Programm noch ausbauen? Folgende Ideen dazu:</p>
+
+<ul>
+<li>Wenn der zweite Faktor nur eine Stelle hat, gibt es nur ein Zwischenprodukt, das auch gleich als Ergebnis verwendet werden kann.
+Die zweite Trennzeile und das endgültige Ergebnis kann man also weglassen.</li>
+<li>Wenn der zweite Faktor eine Ziffer <code>0</code> enthält, dann ist auch das entsprechende Zwischenprodukt gleich <code>0</code>.
+Dafür braucht man aber keine eigene Zeile. Man kann diese <code>0</code> an das vorige Zwischenergebnis anhängen.</li>
+</ul>
+
+<p><strong>Aufgabe für Fortgeschrittene :</strong> Schreibe ein Programm für die schriftliche Division!</p>
+</p>
                     </div>
                     
                 </div>
@@ -260,19 +1008,169 @@
             
 
             
-            
+
             <div class="col mb-5">
+                
                 <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/python\/zahlenraten\/'">
-                    
+                
                     
                     
                     <div class="card-body">
+                        
                         <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
                             Level 
                         </span>
-                        <h5 class="card-title">Zahlen raten mit Python - Teil 1</h5>
                         
-                        <p class="card-text mt-4">Wollen wir ein Programm für das Spiel &#34;Zahlen raten&#34; schreiben?</p>
+                        <h5 class="card-title">Zahlen raten mit Python - Teil 1</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Wollen wir ein Programm für das Spiel &#34;Zahlen raten&#34; schreiben?</h6>
+                        <p class="card-text mt-4">
+
+<h1 id="zahlen-raten-mit-python">Zahlen raten mit Python</h1>
+
+<p>Wollen wir ein Programm für das Spiel &ldquo;Zahlen raten&rdquo; schreiben?
+Der Computer denkt sich eine Zahl im Bereich von 1 - 100 und der Spieler soll diese erraten.
+Nach jedem Versuch gibt das Programm aus, ob die eingegebene Zahl zu klein, zu groß
+oder richtig war.</p>
+
+<h1 id="allgemeines-zur-programmiersprache-python">Allgemeines zur Programmiersprache Python</h1>
+
+<p>Wir verwenden für die Programmierung die Programmiersprache Python (siehe die Python Homepage <a href="https://www.python.org/" target="_blank">www.python.org</a>),
+genauer gesagt Python 3, also eine Version von Python, deren Bezeichnung mit 3 beginnt, z.B. Python 3.7.1.
+Zu Beginn ist es am einfachsten, wenn du Python-Programme online im Browser (z.B. auf <a href="https://www.onlinegdb.com/online_python_interpreter" target="_blank">www.onlinegdb.com/online_python_interpreter</a>)
+entwickelst und ausführst.</p>
+
+<p>Wenn du Python-Programme lokal auf einem Rechner entwickeln und laufen lassen möchtest, muss Python installiert sein.
+Hilfe dazu findest du auf der <a href="https://www.python.org/about/gettingstarted/" target="_blank">Python Homepage</a> und im Python Wiki (siehe <a href="https://wiki.python.org/moin/BeginnersGuide/Download" target="_blank">wiki.python.org</a>).</p>
+
+<p>Achtung: Nicht alle Computersysteme und Programme können automatisch mit deutschen Sonderzeichen
+umgehen, oder verarbeiten sie unterschiedlich.
+Da wir hier z.B. den Buchstaben &lsquo;ß&rsquo; verwenden wollen, kann es zu Fehlermeldungen
+kommen, die z.B. so aussehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">SyntaxError: Non-UTF-8 code ...</code></pre></div>
+<p>In diesem Fall kann man versuchen, sicher zu stellen, dass die Programmdatei mit
+UTF-8 Codierung abgespeichert wird. Oder man vermeidet die Sonderzeichen durch Umschreibung (z.B. &lsquo;ss&rsquo; statt &lsquo;ß&rsquo;).</p>
+
+<h1 id="eine-zahl-ausdenken">Eine Zahl ausdenken</h1>
+
+<p>Wie kann sich ein Computerprogramm eine Zahl ausdenken?
+Wir könnten einfach einer Variable, sagen wir <code>n</code>,
+eine Zahl zuweisen, die erraten werden soll:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">n <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span></code></pre></div>
+<p>Wenn das Programm für unser Spiel läuft, ist diese Zahl nicht sichtbar
+und der Spieler muss sie wirklich erraten.
+Allerdings wird der Spieler schnell herausfinden, dass immer die Zahl
+42 zu erraten ist, und das Interesse an unserem Spielprogramm verlieren.</p>
+
+<p>Wie kann man für jedes Spiel eine neue Zahl erzeugen?
+Am einfachsten ist die Verwendung eines (Pseudo-)Zufallsgenerators:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+n <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">100</span>)</code></pre></div>
+<p>Die Variable <code>n</code> hat jetzt einen zufälligen Wert im Bereich von 1 - 100.
+(Wobei &ldquo;zufällig&rdquo; nicht ganz stimmt: die erste Zufallszahl nach dem Programmstart wird basierend auf
+der aktuellen Zeit bestimmt. Jede weitere Zufallszahl innerhalb
+eines Programmlaufs wird mit einer komplizierten Formel aus der vorhergehenden berechnet.)</p>
+
+<p>Das Programm sollte jetzt noch mitteilen, dass es eine Zahl gewählt hat:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Ich habe mir eine Zahl von 1-100 ausgedacht.&#39;</span>)</code></pre></div>
+<h1 id="einen-rateversuch-abfragen">Einen Rateversuch abfragen</h1>
+
+<p>Jetzt ist der Spieler an der Reihe.
+Dazu muss das Programm einen Rateversuch abfragen. Das geht am einfachsten
+mit der Funktion <code>input</code>, die Texteingaben mittels Tastatur entgegennimmt.
+Die Eingabe muss mit der Eingabetaste abgeschlossen werden.</p>
+
+<p>Als Argument kann man der Funktion <code>input</code> einen Text
+mitgeben, damit der Spieler weiß, was von ihm erwartet wird.
+Der Rückgabewert der Funktion ist die Eingabe des Spielers.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">versuch <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>)</code></pre></div>
+<p>Einen wichtigen Punkt müssen wir hier noch beachten:
+die Funktion <code>input</code> liefert einen Text, also einen Wert vom Typ <code>str</code>
+(&ldquo;string&rdquo;). Wenn der Benutzer bei obiger Codezeile also z.B. 99 eingegeben hat,
+dann würden wir in der Variable <code>versuch</code> den String <code>'99'</code> halten und nicht die Zahl <code>99</code>.</p>
+
+<p>Zum Glück ist eine Umwandlung in eine Zahl in Python sehr einfach:
+wir brauchen den String nur an die Funktion <code>int</code> zu übergeben.
+Damit sieht unsere Codezeile zum Abfragen des Rateversuchs so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">versuch <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>))</code></pre></div>
+<h1 id="den-versuch-auswerten">Den Versuch auswerten</h1>
+
+<p>Um zu entscheiden, ob der Spieler die Zahl erraten hat,
+müssen wir auf Gleichheit zwischen der gedachten Zahl,
+die wir uns in der Variable <code>n</code> gemerkt haben, und der
+eingegebenen Zahl, die wir in der Variable <code>versuch</code>
+abgelegt haben, prüfen. Dazu muss man in Python den Operator <code>==</code> verwenden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">==</span> n: 
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Erraten! Ich habe mir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht.&#39;</span> <span style="color:#f92672">%</span> n)</code></pre></div>
+<p>Wenn die gedachte Zahl nicht erraten wurde, wollen wir
+einen Hinweis geben:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&lt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu klein!&#39;</span>)
+<span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&gt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu groß!&#39;</span>)</code></pre></div>
+<h1 id="die-spielschleife">Die Spielschleife</h1>
+
+<p>Das Programm soll solange nach neuen Rateversuchen fragen,
+bis die gedachte Zahl erraten wurde. Dazu können wir das
+Abfragen und Auswerten in eine Endlosschleife packen (<code>while True: ...</code>),
+die bei Erfolg abgebrochen wird (<code>break</code>).
+Insgesamt sieht unsere Spielschleife dann so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">while</span> True:
+    versuch <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>))
+    <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">==</span> n: 
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Erraten! Ich habe mir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht.&#39;</span> <span style="color:#f92672">%</span> n)
+      <span style="color:#66d9ef">break</span>
+    <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&lt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu klein!&#39;</span>)
+    <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&gt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu groß!&#39;</span>)</code></pre></div>
+<h1 id="das-gesamte-programm">Das gesamte Programm</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+n <span style="color:#f92672">=</span> randint(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">100</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Ich habe mir eine Zahl von 1-100 ausgedacht.&#39;</span>)
+
+<span style="color:#66d9ef">while</span> True:
+    versuch <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Rate meine Zahl: &#39;</span>))
+    <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">==</span> n: 
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Erraten! Ich habe mir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht.&#39;</span> <span style="color:#f92672">%</span> n)
+      <span style="color:#66d9ef">break</span>
+    <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&lt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu klein!&#39;</span>)
+    <span style="color:#66d9ef">if</span> versuch <span style="color:#f92672">&gt;</span> n: <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;zu groß!&#39;</span>)</code></pre></div>
+<p>Ein Spielverlauf könnte dann so aussehen:</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/python/zahlenraten/img/Zahlenraten.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<h1 id="erweiterungsmöglichkeiten">Erweiterungsmöglichkeiten</h1>
+
+<p>Willst du das Programm noch ausbauen? Folgende Ideen dazu:</p>
+
+<ul>
+<li>Zu Beginn könnte das Programm abfragen, bis zu welcher Größe die gedachte Zahl sein soll.</li>
+<li>Bei einer leeren Eingabe könnte das Programm fragen, ob man aufgeben möchte,
+und die gedachte Zahl verraten.</li>
+</ul>
+
+<h3 id="aufgabe-für-fortgeschrittene">Aufgabe für Fortgeschrittene</h3>
+
+<p><strong>Rollen tauschen:</strong> schreibe ein Programm, das versucht, die vom Menschen
+gedachte Zahl zu erraten! (siehe dazu auch <a href="../zahlenraten-2">Zahlenraten, zweiter Teil</a>)</p>
+</p>
                     </div>
                     
                 </div>
@@ -290,19 +1188,256 @@
             
 
             
-            
+
             <div class="col mb-5">
+                
                 <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/python\/zahlenraten-2\/'">
-                    
+                
                     
                     
                     <div class="card-body">
+                        
                         <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
                             Level 
                         </span>
-                        <h5 class="card-title">Zahlen raten mit Python - Teil 2</h5>
                         
-                        <p class="card-text mt-4">Jetzt wollen wir die Rollen tauschen und den Computer eine vom Menschen gedachte Zahl erraten lassen.</p>
+                        <h5 class="card-title">Zahlen raten mit Python - Teil 2</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Jetzt wollen wir die Rollen tauschen und den Computer eine vom Menschen gedachte Zahl erraten lassen.</h6>
+                        <p class="card-text mt-4">
+
+<h1 id="zahlen-raten-mit-python-teil-2">Zahlen raten mit Python Teil 2</h1>
+
+<p>Kennst du den <a href="python-zahlenraten.html" target="_blank">ersten Teil</a>, wo wir ein Programm entwickelt haben,
+das sich eine Zahl ausdenkt und den Spieler erraten lässt?
+Jetzt wollen wir die Rollen tauschen und den Computer eine vom Menschen gedachte Zahl erraten lassen.
+Der Computer fragt zuerst, wie groß die gedachte Zahl höchstens sein kann, und beginnt dann
+mit dem Raten. Der Spieler gibt nach jedem Versuch an, ob die vom Computer ausgespuckte Zahl zu klein, zu groß
+oder richtig war.</p>
+
+<!--(insert PythonAllgemeines.md.html here)-->
+
+<h1 id="den-erlaubten-zahlenbereich-abfragen">Den erlaubten Zahlenbereich abfragen</h1>
+
+<p>Wir wollen annehmen, dass der Bereich, in dem die gedachte Zahl liegt, immer bei <code>1</code> beginnt.
+Jetzt muss das Programm noch die höchste erlaubte Zahl abfragen.
+Dazu verwenden wir die Funktion <code>input</code>, die eine Zeile Text einliest:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zahlMax_text <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Wie groß kann die gedachte Zahl höchstens sein? &#39;</span>)</code></pre></div>
+<p>Wenn man z.B. hier die Zahl <code>30</code> eingibt und sich gleich wieder ausgeben lässt,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(zahlMax_text)</code></pre></div>
+<p>erhält man</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#e6db74">&#39;30&#39;</span></code></pre></div>
+<p>Die Hochkommas rund um die eingegebene Zahl zeigen an, dass das Programm die Eingabe noch nicht als Zahl
+sondern als Zeichenkette (englisch: &ldquo;string&rdquo;) interpretiert.
+Python verwendet dafür das Kürzel <code>str</code>. Wenn man sich den Typ der Variable <code>zahlMax_text</code>
+mit <code>type(zahlMax_text)</code> bzw.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(type(zahlMax_text))</code></pre></div>
+<p>anzeigen lässt, erhält man folgende Ausgabe:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&lt;class <span style="color:#e6db74">&#39;str&#39;</span>&gt;</code></pre></div>
+<p>In Python 3 sind alle vordefinierten Typen als Klassen implementiert, das heißt sie unterscheiden sich in der Verwendung nicht
+von selbst definierten Klassen.</p>
+
+<p>Den Text müssen wir in eine Zahl umwandeln.
+Ganze Zahlen haben in Python den Typ <code>int</code> (ein Kürzel für die englische Bezeichnung &ldquo;integer&rdquo;).
+Wenn man sich den Typ einer ganzen Zahl z.B. mit</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(type(<span style="color:#ae81ff">1</span>))</code></pre></div>
+<p>anzeigen lässt, erhält man folgende Ausgabe:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&lt;class <span style="color:#e6db74">&#39;int&#39;</span>&gt;</code></pre></div>
+<p>Die Funktion zum Umwandeln in eine ganze Zahl heißt auch <code>int</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zahlMax <span style="color:#f92672">=</span> int(zahlMax_text)</code></pre></div>
+<p>Wenn wir uns jetzt die Variable <code>zahlMax</code> nach einer Eingabe von z.B. <code>30</code> zusammen mit ihrem Typ anzeigen lassen (<code>print(zahlMax, type(zahlMax)</code>),
+erhalten wir</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#ae81ff">30</span> &lt;class <span style="color:#e6db74">&#39;int&#39;</span>&gt;</code></pre></div>
+<h1 id="ausnahmebehandlung">Ausnahmebehandlung</h1>
+
+<p>Bevor wir mit dem Raten fortsetzen, wollen wir uns noch kurz mit unerwarteten Eingaben beschäftigen.
+Was passiert mit unserem bisherigen Programm</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zahlMax_text <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Wie groß kann die gedachte Zahl höchstens sein? &#39;</span>)
+zahlMax <span style="color:#f92672">=</span> int(zahlMax_text)</code></pre></div>
+<p>wenn das Programm als Eingabe gar keine Zahl erhält, sondern z.B. einen Text wie <code>egal</code> oder gar eine leere Eingabe?
+In so einem Fall würde unser bisheriges Programm (abgespeichert in einer Datei namens <code>Zahlenraten2.py</code>) mit einer Fahlermeldung abbrechen:</p>
+<pre><code>Traceback (most recent call last):
+  File &#34;Zahlenraten2.py&#34;, line 2, in &lt;module&gt;
+    zahlMax = int(zahlMax_text)
+ValueError: invalid literal for int() with base 10: &#39;egal&#39;</code></pre>
+<p>Die Umwandlungsfunktion <code>int</code> bricht mit einem <code>ValueError</code> ab, da das Argument <code>'egal'</code> nicht in eine Zahl umgewandelt werden kann.
+Diese Ausnahmesituation (englisch: &ldquo;exception&rdquo;) möchten wir abfangen. Dafür gibt es in Python die <code>try</code>-<code>except</code>-Kombination:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">try</span>:
+  zahlMax_text <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Wie groß kann die gedachte Zahl höchstens sein? &#39;</span>)
+  zahlMax <span style="color:#f92672">=</span> int(zahlMax_text)
+<span style="color:#66d9ef">except</span>:
+  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Ungültige Eingabe: &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39; ist keine Zahl&#34;</span> <span style="color:#f92672">%</span> zahlMax_text)</code></pre></div>
+<p>Die letzte Zeile mit der Fehlerausgabe wird nur ausgeführt, wenn die Umwandlung fehlschlägt.
+Um dem Spieler im Fehlerfall eine erneute Eingabe zu ermöglichen, stülpen wir noch eine Schleife über die Eingabe.
+Dass der Computer noch keine gültige obere Grenze kennt, wollen wir mit der Pythonkonstante <code>None</code> (was soviel bedeutet wie &ldquo;kein Wert&rdquo;) anzeigen.
+Unser Programmstart sieht dann so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">zahlMax <span style="color:#f92672">=</span> None
+<span style="color:#66d9ef">while</span> zahlMax <span style="color:#f92672">==</span> None:
+  <span style="color:#66d9ef">try</span>:
+    zahlMax_text <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Wie groß kann die gedachte Zahl höchstens sein? &#39;</span>)
+    zahlMax <span style="color:#f92672">=</span> int(zahlMax_text)
+  <span style="color:#66d9ef">except</span>:
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Ungültige Eingabe: &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39; ist keine Zahl&#34;</span> <span style="color:#f92672">%</span> zahlMax_text)</code></pre></div>
+<p>Solange die Umwandlung der Eingabe in eine ganze Zahl fehlschlägt, kann die Zuweisung zur Variable <code>zahlMax</code> nicht ausgeführt werden und sie bleibt
+auf dem Initialwert <code>None</code>. Beachte, dass für die Abfrage auf Gleichheit der Operator <code>==</code> verwendet wird, im Gegensatz zum Operator <code>=</code> für die Zuweisung von Werten an Variablen.</p>
+
+<p>Da die Konstante <code>None</code> im Speicher nur einmal angelegt wird, kann man hier auch den Operator <code>is</code> verwenden (<code>... while zahlMax is None: ...</code>).
+(Näheres zum Unterschied zwischen den Operatoren <code>==</code> und <code>is</code> findet man z.B. hier: <a href="https://www.geeksforgeeks.org/difference-operator-python/" target="_blank">www.geeksforgeeks.org/difference-operator-python</a>.)</p>
+
+<h1 id="einen-rateversuch-erzeugen">Einen Rateversuch erzeugen</h1>
+
+<p>Den Rateversuch wollen wir zufällig erzeugen. Dazu verwenden wir - wie schon im ersten Teil des Zahlenratens für die gedachte Zahl -
+die Funktion <code>randint</code> aus dem Modul <code>random</code>.</p>
+
+<p>Da unser Programm vom Spieler Hinweise bekommen soll, die den übrig gebliebenen Zahlenbereich auch von unten einschränken,
+wollen wir gleich eine untere erlaubte Schranke <code>zahlMin</code> einführen, die zu Beginn auf <code>1</code> gesetzt wird:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+zahlMin <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+versuch <span style="color:#f92672">=</span> randint(zahlMin, zahlMax)</code></pre></div>
+<h1 id="den-hinweis-abfragen-und-auswerten">Den Hinweis abfragen und auswerten</h1>
+
+<p>Als nächstes müssen wir den Spieler fragen, wo unser Versuch im Vergleich zu seiner gedachten Zahl liegt.
+Als mögliche Eingabe wollen wir eine der Zahlen 1-3 vorsehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">frage <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hast du dir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht?&#34;</span> <span style="color:#f92672">%</span> versuch
+anleitung <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Gib einen Hinweis (1 .. erraten, 2 .. zu klein, 3 .. zu groß): &#34;</span>
+hinweis <span style="color:#f92672">=</span> input(frage <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> anleitung)</code></pre></div>
+<p>Bevor wir den Hinweis verarbeiten, wollen wir sicherstellen, dass die Eingabe gültig ist,
+also <code>1</code>, <code>2</code> oder <code>3</code> war. Dazu verwenden wir eine Liste an gültigen Hinweisen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">erlaubteHinweise <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;1&#39;</span>, <span style="color:#e6db74">&#39;2&#39;</span>, <span style="color:#e6db74">&#39;3&#39;</span>]</code></pre></div>
+<p>Ob ein Hinweis in dieser Liste vorkommt, kann man so abfragen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">hinweisGueltig <span style="color:#f92672">=</span> hinweis <span style="color:#f92672">in</span> erlaubteHinweise</code></pre></div>
+<p>Der Operator <code>in</code> prüft, ob ein Wert in einer Liste vorkommt.
+Die Variable <code>hinweisGueltig</code> enthält dann einen Wahrheitswert, nämlich <code>True</code> oder <code>False</code>.
+Wenn wir wieder eine Schleife über die Eingabe stülpen, um so lange nachzufragen, bis
+der Hinweis gültig ist, und außerdem eine Fehlermeldung ausgeben, wenn der Hinweis ungültig ist,
+kann das so aussehen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">hinweisGueltig <span style="color:#f92672">=</span> False
+<span style="color:#66d9ef">while</span> <span style="color:#f92672">not</span> hinweisGueltig:
+  frage <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hast du dir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht?&#34;</span> <span style="color:#f92672">%</span> versuch
+  hinweis <span style="color:#f92672">=</span> input(frage <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> anleitung)
+  hinweisGueltig <span style="color:#f92672">=</span> hinweis <span style="color:#f92672">in</span> erlaubteHinweise
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hinweisGueltig:
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Ungültiger Hinweis &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39;; 1, 2 oder 3 erwartet!&#34;</span>)</code></pre></div>
+<p>Das Befüllen der Variable <code>anleitung</code> kommt hier nicht mehr vor, da der Wert fix ist und die Zuweisung nur einmal - am Beginn des Programms - zu erfolgen braucht.</p>
+
+<p>Um den Code lesbarer zu machen, wollen wir die Abfrage des Hinweises in eine Funktion packen.
+Dazu kann man die Schleife wie folgt umschreiben:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">frageNachHinweis</span>(versuch):
+  <span style="color:#66d9ef">while</span> True:
+    frage <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hast du dir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht?&#34;</span> <span style="color:#f92672">%</span> versuch
+    hinweis <span style="color:#f92672">=</span> input(frage <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> anleitung)
+    <span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">in</span> erlaubteHinweise:
+      <span style="color:#66d9ef">return</span> hinweis
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Ungültiger Hinweis &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39;; 1, 2 oder 3 erwartet!&#34;</span> <span style="color:#f92672">%</span> hinweis)</code></pre></div>
+<p>Diese Funktion kann dann so genutzt werden:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">hinweis <span style="color:#f92672">=</span> frageNachHinweis(versuch)</code></pre></div>
+<p>Nun müssen wir die 3 gülltigen Fälle behandeln:
+* Wenn der Spieler <code>1</code> eingegeben hat, sind wir fertig.
+* Wenn der Spieler <code>2</code> eingegeben hat, war unser Versuch zu klein und wir können <code>zahlMin</code> hinaufsetzen. (Auf welchen Wert)?
+* Wenn der Spieler <code>3</code> eingegeben hat, war unser Versuch zu groß und wir können <code>zahlMax</code> heruntersetzen. (Auf welchen Wert)?</p>
+
+<p>Denke über die Fälle nach, bevor du dir den folgenden Code-Teil ansiehst.</p>
+
+<p><em>Beachte, dass der abgefragte Hinweis ein Text, also vom Typ <code>str</code>, ist.</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;1&#39;</span>:
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Juhuu!&#39;</span>)
+<span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;2&#39;</span>:
+  zahlMin <span style="color:#f92672">=</span> versuch <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+<span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;3&#39;</span>:
+  zahlMax <span style="color:#f92672">=</span> versuch <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span></code></pre></div>
+<h1 id="die-spielschleife">Die Spielschleife</h1>
+
+<p>Jetzt wollen wir wieder eine Schleife über die Abfrage stülpen, bis ein gültiger Hinweis eingegeben wurde.
+Das sieht dann insgesamt so aus:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">while</span> True:
+  hinweis <span style="color:#f92672">=</span> frageNachHinweis(versuch)
+  <span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;1&#39;</span>:
+  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Juhuu!&#39;</span>)
+  <span style="color:#66d9ef">break</span>
+  <span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;2&#39;</span>:
+    zahlMin <span style="color:#f92672">=</span> versuch <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+  <span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;3&#39;</span>:
+    zahlMax <span style="color:#f92672">=</span> versuch <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span></code></pre></div>
+<h1 id="das-gesamte-programm">Das gesamte Programm</h1>
+
+<p>Wenn wir das gesamte Programm zusammenstellen, wollen wir noch folgende übliche Abfolge von Codeteilen beachten:</p>
+
+<ul>
+<li><code>import</code>-Befehle</li>
+<li>Konstantendefinitionen</li>
+<li>Funktionsdefinitionen</li>
+<li>Initialisierungen</li>
+
+<li><p>restliche Logik</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+
+anleitung <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Gib einen Hinweis (1 .. erraten, 2 .. zu klein, 3 .. zu groß): &#34;</span>
+erlaubteHinweise <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;1&#39;</span>, <span style="color:#e6db74">&#39;2&#39;</span>, <span style="color:#e6db74">&#39;3&#39;</span>]
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">frageNachHinweis</span>(versuch):
+<span style="color:#66d9ef">while</span> True:
+frage <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hast du dir </span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> gedacht?&#34;</span> <span style="color:#f92672">%</span> versuch
+hinweis <span style="color:#f92672">=</span> input(frage <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> anleitung)
+<span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">in</span> erlaubteHinweise:
+  <span style="color:#66d9ef">return</span> hinweis
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Ungültiger Hinweis &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39;; 1, 2 oder 3 erwartet!&#34;</span> <span style="color:#f92672">%</span> hinweis)
+
+zahlMin <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+zahlMax <span style="color:#f92672">=</span> None
+<span style="color:#66d9ef">while</span> zahlMax <span style="color:#f92672">==</span> None:
+<span style="color:#66d9ef">try</span>:
+zahlMax_text <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Wie groß kann die gedachte Zahl höchstens sein? &#39;</span>)
+zahlMax <span style="color:#f92672">=</span> int(zahlMax_text)
+<span style="color:#66d9ef">except</span>:
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Ungültige Eingabe: &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39; ist keine Zahl&#34;</span> <span style="color:#f92672">%</span> zahlMax_text)
+
+<span style="color:#66d9ef">while</span> True:
+versuch <span style="color:#f92672">=</span> randint(zahlMin, zahlMax)
+hinweis <span style="color:#f92672">=</span> frageNachHinweis(versuch)
+<span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;1&#39;</span>:
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Juhuu!&#39;</span>)
+<span style="color:#66d9ef">break</span>
+<span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;2&#39;</span>:
+zahlMin <span style="color:#f92672">=</span> versuch <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+<span style="color:#66d9ef">if</span> hinweis <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;3&#39;</span>:
+zahlMax <span style="color:#f92672">=</span> versuch <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span></code></pre></div></li>
+</ul>
+
+<p>Ein Spielverlauf könnte dann so aussehen:</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/python/zahlenraten-2/img/Zahlenraten2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<h1 id="erweiterungsmöglichkeiten">Erweiterungsmöglichkeiten</h1>
+
+<p>Willst du das Programm noch ausbauen? Folgende Ideen dazu:</p>
+
+<ul>
+<li>Was passiert, wenn der Spieler einen widersprüchlichen Hinweis gibt? (Das kann z.B. passieren,
+wenn beim Rateversuch <code>4</code> der Hinweis <code>2</code> (&ldquo;zu klein&rdquo;) gegeben wird, beim Rateversuch <code>5</code>
+aber der Hinweis <code>3</code> (&ldquo;zu groß&rdquo;).) Wie kann man das im Programm abfangen, um eine eigene Fehlermeldung auszugeben?</li>
+<li>Wie kann man die (durchschnittliche) Anzahl an Rateversuchen möglichst gering halten?</li>
+</ul>
+</p>
                     </div>
                     
                 </div>

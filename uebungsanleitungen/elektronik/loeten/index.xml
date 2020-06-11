@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Loeten on CoderDojo Linz</title>
+    <title>Löten on CoderDojo Linz</title>
     <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/</link>
-    <description>Recent content in Loeten on CoderDojo Linz</description>
+    <description>Recent content in Löten on CoderDojo Linz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-AT</language>
     
@@ -11,14 +11,84 @@
     
     
     <item>
-      <title>Wechselblinker löten</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</link>
+      <title>CoderDojo Bastel Programm</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coder-dojo-bastel-programm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/wechselblinker/</guid>
-      <description>Wechselblinker Einleitung In dieser Übung baust du eine Schaltung, die zwei LEDs abwechselnd blinken lässt (Wechselblinker). In der Fachsprache bezeichnet man diese Schaltung als Multivibrator.
-In dieser Anleitung lernst du, wie du die Schaltung auf einem experimentier-Steckboard ohne Löten zusammenstellst. Im CoderDojo machen wir Löt-Workshops, in denen du die Schaltung dann löten kannst.
-So eine Schaltung kann man natürlich auch berechnen. Wir gehen aber in dieser Übung nicht auf die technischen Details und die Mathematik dahinter ein.</description>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coder-dojo-bastel-programm/</guid>
+      <description>Ein Überblick über das CoderDojo Löten &amp;amp; Elektronik Programm.</description>
+    </item>
+    
+    <item>
+      <title>Grundlagen Löten</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/grundlagen-loeten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/grundlagen-loeten/</guid>
+      <description>Kurz und kompakt wird das Löten theoretisch beschrieben. Vor dem praktischen Einsatz diese Beschreibung bitte lesen.</description>
+    </item>
+    
+    <item>
+      <title>Löten ist einfach</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/loeten-ist-einfach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/loeten-ist-einfach/</guid>
+      <description>Diese Lötanleitung ist in einzelne Bilder aufgeteilt und zeigt das Löten aus einem anderen Blickwinkel.</description>
+    </item>
+    
+    <item>
+      <title>Kurzanleitung Kartonbausatz</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/kurzanleitung-kartonbausatz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/kurzanleitung-kartonbausatz/</guid>
+      <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung CoderDojo Logo</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</guid>
+      <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Clown</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</guid>
+      <description>Hier ist die größte Herausforderung Deine eigene Kreativität. Erstelle Deine eigene LED-Schaltung nach den Grundregeln der Elektronik.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Konstantstromquelle für LED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</guid>
+      <description>Ein Bausatz mit Transistoren. Die Konstantstromquelle stellt wie ein regelbarer Widerstand einen konstanten Strom für die Leuchtdiode ein.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Solar LED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</guid>
+      <description>Mit Solarzelle und Akku leuchtet eine LED in der Nacht und am Tag wird der Akku wieder geladen.</description>
+    </item>
+    
+    <item>
+      <title>Conrad Beschreibungen</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</guid>
+      <description>Du findest Internet Links auf der Conrad Homepage zu informativen Unterlagen und Beschreibungen welche Du Dir als pdf downloaden kannst.</description>
     </item>
     
   </channel>
