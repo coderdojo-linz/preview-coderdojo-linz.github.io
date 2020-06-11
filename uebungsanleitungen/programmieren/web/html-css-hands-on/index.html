@@ -163,7 +163,12 @@
 <li><a href="#variables">Variables</a></li>
 <li><a href="#calc">Calc</a></li>
 <li><a href="#media-queries">Media Queries</a></li>
-<li><a href="#flexbox">Flexbox</a></li>
+<li><a href="#flexbox">Flexbox</a>
+<ul>
+<li><a href="#css-properties-für-den-container">CSS Properties für den Container</a></li>
+<li><a href="#css-properties-für-die-items">CSS Properties für die Items</a></li>
+<li><a href="#flexbox-playgrounds">Flexbox Playgrounds</a></li>
+</ul></li>
 <li><a href="#grid">Grid</a>
 <ul>
 <li><a href="#positionierung-mit-zeilen-und-spalten">Positionierung mit Zeilen und Spalten</a></li>
@@ -392,6 +397,277 @@
 <script async src="//jsfiddle.net/karin112358/g3d4bjs2/96/embed/result/dark/"></script>
 
 <h3 id="flexbox">Flexbox</h3>
+
+<p>Eine Flexbox besteht aus einem Container und Items im Container. Damit die Items im Container als Flexbox dargestellt werden, muss am Container folgendes CSS Property gesetzt werden:</p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Glossary/Flex" target="_blank"><code>display: flex | inline-flex;</code></a></p>
+
+<h4 id="css-properties-für-den-container">CSS Properties für den Container</h4>
+
+<p><strong>Richtung</strong></p>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction" target="_blank"><code>flex-direction: row | row-reverse | column | column-reverse;</code></a><br />
+Richtung, in der die Items angeordnet werden (Zeile oder Spalte)</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank"><code>flex-wrap: nowrap | wrap | wrap-reverse;</code></a><br />
+Zeilen- bzw. Spaltenumbruch</li>
+</ul>
+
+<p><strong>Abstand (nur Firefox und Safari)</strong></p>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap" target="_blank"><code>column-gap: &lt;length&gt; | &lt;percentage&gt;;</code></a><br />
+Abstand zwischen den Spalten</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap" target="_blank"><code>row-gap: &lt;length&gt; | &lt;percentage&gt;;</code></a><br />
+Abstand zwischen den Zeilen</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gap" target="_blank"><code>gap: &lt;'row-gap'&gt; &lt;'column-gap'&gt;?;</code></a><br /></li>
+</ul>
+
+<p><strong>Ausrichtung</strong></p>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content" target="_blank"><code>justify-content: flex-start | flex-end | center | space-between | space-around;</code></a><br />
+Anordnung entlang der Hauptachse</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content" target="_blank"><code>align-content: flex-start | flex-end | center | space-between | space-around | stretch;</code></a><br />
+Anordnung entlang der Kreuzachse</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/place-content" target="_blank"><code>place-content: &lt;'alignContent'&gt; &lt;'justify-content'&gt;?;</code></a><br /></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items" target="_blank"><code>justify-items: start | end | center | stretch | ...;</code></a><br />
+setzt das <code>justify-self</code> Property für alle Elemente im Container</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items" target="_blank"><code>align-items: flex-start | flex-end | center | baseline | stretch;</code></a><br />
+setzt das <code>align-self</code> Property für alle Elemente im Container (nur bei wrap)</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/place-items" target="_blank"><code>place-items: &lt;'align-items'&gt; &lt;'justify-items'&gt;?;</code></a><br /></li>
+</ul>
+
+<h4 id="css-properties-für-die-items">CSS Properties für die Items</h4>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/order" target="_blank"><code>order: &lt;integer&gt;;</code></a><br />
+Reihenfolge des Items</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-self" target="_blank"><code>align-self: flex-start | flex-end | center | baseline | stretch;</code></a><br />
+Alignment entlang der Kreuzachse</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow" target="_blank"><code>flex-grow: &lt;number&gt;;</code></a><br />
+gibt an, wie viel das Item im Verhältnis zu den anderen Items wachsen darf - Ausgangsbasis ist <code>width</code> oder <code>height</code> oder <code>flex-basis</code></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink" target="_blank"><code>flex-shrink: &lt;number&gt;;</code></a><br />
+gibt an, wie viel das Item im Verhältnis zu den anderen Items schrumpfen darf - Ausgangsbasis ist <code>flex-basis</code> bzw. <code>width</code> oder <code>height</code></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis" target="_blank"><code>flex-basis: content | &lt;width&gt;;</code></a><br />
+initiale Größe des Elements</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex" target="_blank"><code>flex: [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt;];</code></a></li>
+</ul>
+
+<p><a href="https://jsfiddle.net/karin112358/zyng4hjb/#fork" target="_blank">Startprojekt öffnen</a></p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Verteile die Kästchen über die gesamte Breite.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Die Kästchen sollen jetzt zusätzlich die gesamte Höhe einnehmen.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Wenn die Kästchen größer sind haben sie in einer Zeile nicht mehr Platz. Sie sollen dann in die nächste Zeile rutschen.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-3.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Jedes dritte Kästchen soll mindestens 60px breit sein. Es darf auch größer werden aber nicht kleiner.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-4.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Jedes dritte Kästchen soll bis zu doppelt so groß sein wie die anderen, um den vorhanden Platz auszufüllen.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-5.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Alle Kästchen sollen 40px breit sein. Jedes dritte darf bis zu drei mal so groß werden, um den vorhandenen Platz auszufüllen.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-6.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p><p>Ordne die Kästchen in Spalten an.</p>
+
+<p>Höhe der Kästchen:</p>
+
+<ul>
+<li>90px</li>
+<li>jedes 2. 110px</li>
+<li>jedes 3. 1140px</li>
+</ul>
+
+<p>Du kannst auch die Reihenfolge ändern.</p>
+</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-7.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Jedes dritte Kästchen soll über die gesamte Breite gehen.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-8.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+
+
+
+     
+    
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p>Verteile die 9 Kästchen gleichmäßig.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <img src="/uebungsanleitungen/programmieren/web/html-css-hands-on/img/flexbox-result-9.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+
+
+<p><a href="https://jsfiddle.net/karin112358/o30nLe1u/#fork" target="_blank">Startprojekt öffnen</a></p>
+
+<script async src="//jsfiddle.net/karin112358/06jbcoxq/embed/result/dark/"></script>
+
+<h4 id="flexbox-playgrounds">Flexbox Playgrounds</h4>
+
+<ul>
+<li><a href="https://demo.agektmr.com/flexbox/" target="_blank">https://demo.agektmr.com/flexbox/</a></li>
+<li><a href="https://the-echoplex.net/flexyboxes/" target="_blank">https://the-echoplex.net/flexyboxes/</a></li>
+<li><a href="http://www.flexboxdefense.com/" target="_blank">http://www.flexboxdefense.com/</a></li>
+<li><a href="https://www.flexboxpatterns.com/" target="_blank">https://www.flexboxpatterns.com/</a></li>
+</ul>
 
 <h3 id="grid">Grid</h3>
 

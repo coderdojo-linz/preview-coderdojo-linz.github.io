@@ -192,47 +192,89 @@
 <li><p>Wiederhole die Schritte 3 und 4 ein paar Mal mit verändertem Text, damit wir ein wenig Inhalt zum Experimentieren haben.</p></li>
 
 <li><p>Klicke auf <em>Run</em> und kontrolliere, ob dein HTML richtig angezeigt wird.<br/>
-<img src="erste-schritte-mit-css/html-in-jsfiddle.png" alt="Unformatiertes HTML in JSFIDDLE" /></p></li>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/img/html-in-jsfiddle.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p></li>
 </ol>
 
 <h2 id="erste-formatierungen">Erste Formatierungen</h2>
 
 <p>Unser Ziel ist folgendes Layout. Wir möchten es nur mit Hilfe von CSS erreichen, ohne den HTML-Code zu verändern.<br/>
-<img src="erste-schritte-mit-css/html-erste-formatierungen.png" alt="HTML mit ersten Formatierungen" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/img/html-erste-formatierungen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p>
 
 <ol>
 <li><p>Als erstes ändern wir die Schriftart für den gesamten Text der Seite. Dazu formatieren wir den gesamten <em>body</em> der HTML-Seite mit folgendem CSS Element. Füge es in JSFIDDLE rechts oben im Bereich <em>CSS</em> ein und probiere die Auswirkung aus, indem du auf <em>Run</em> drückst.</p>
-<pre><code>body {
-    font-family:&#39;Arial&#39;;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span> {
+    <span style="color:#66d9ef">font-family</span>:<span style="color:#e6db74">&#39;Arial&#39;</span>;
+}</code></pre></div></li>
 
 <li><p>Formatiere die Überschrift erster Ordnung mit folgendem CSS Element.</p>
-<pre><code>h1 {
-    font-family:&#39;Arial Black&#39;;
-    color: #1a1a1a;
-    font-size: 4em;
-    background: #F2E6E6;
-    line-height: 150px;
-    margin: 0px 0px 0px 10px;
-    padding-left: 20px;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">h1</span> {
+    <span style="color:#66d9ef">font-family</span>:<span style="color:#e6db74">&#39;Arial Black&#39;</span>;
+    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#1a1a1a</span>;
+    <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">em</span>;
+    <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#F2E6E6</span>;
+    <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">150</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">padding-left</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div></li>
 
 <li><p>Formatiere die Überschriften zweiter Ordnung mit folgendem CSS:</p>
-<pre><code>h2 {
-    color: #313131;
-    font-size: 2em;
-    margin-top: 50px;
-    border-bottom: 2px red dotted;
-    overflow: hidden;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">h2</span> {
+    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#313131</span>;
+    <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">em</span>;
+    <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">border-bottom</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">red</span> <span style="color:#66d9ef">dotted</span>;
+    <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">hidden</span>;
+}</code></pre></div></li>
 
 <li><p>Formatiere den Fließtext mit folgendem CSS:</p>
-<pre><code>p {
-    color: #464646;
-    line-height: 150%;
-    padding-top: 10px;
-    padding-left: 60px;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">p</span> {
+    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#464646</span>;
+    <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">150</span><span style="color:#66d9ef">%</span>;
+    <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">padding-left</span>: <span style="color:#ae81ff">60</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div></li>
 
 <li><p>Spiele mit verschiedenen Farben (siehe auch <a href="http://www.w3schools.com/tags/ref_colorpicker.asp" target="_blank">HTML Color Picker</a>), Schriftgrößen und Abständen, indem du die CSS Elemente veränderst. Lies dazu auf <a href="http://www.w3schools.com/css/css_text.asp" target="_blank">w3schools</a> nach, um mehr über Textformatierung, Schriftarten, Ränder etc. zu erfahren.</p></li>
 </ol>
@@ -240,27 +282,48 @@
 <h2 id="klassen-und-ids-selektieren">Klassen und IDs selektieren</h2>
 
 <p>Als nächstes möchten wir mit Hilfe von <em>CSS selectors</em> gewisse Teile unserer Webseite besonders hervorheben. Unser Ziel ist folgendes Layout:<br/>
-<img src="erste-schritte-mit-css/css-mit-selektoren.png" alt="HTML mit Selektoren" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/img/css-mit-selektoren.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p>
 
 <ol>
 <li><p>Markiere den ersten Fließtext direkt unter der <code>h1</code> Überschrift mit einer CSS Klasse: <code>&lt;p class='intro'&gt;...&lt;/p&gt;</code></p></li>
 
 <li><p>Formatiere den Fließtext mit der Klasse <em>intro</em> mit folgendem CSS:</p>
-<pre><code>.intro {
-    font-size: larger;
-    padding-bottom: 10px;
-    background: #c8c8c8;
-    border-left: solid 25px #4c0000;
-    margin-left: 10px;
-    padding-left: 25px;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">intro</span> {
+    <span style="color:#66d9ef">font-size</span>: <span style="color:#66d9ef">larger</span>;
+    <span style="color:#66d9ef">padding-bottom</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#c8c8c8</span>;
+    <span style="color:#66d9ef">border-left</span>: <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#4c0000</span>;
+    <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">padding-left</span>: <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div></li>
 
 <li><p>Wir möchten in der ersten Überschrift das Wort <em>CoderDojo</em> in dunklem Rot hervorheben. Umschließe dafür das Wort <em>CoderDojo</em> mit einem <code>span</code> Element und ordne die CSS Klasse <code>highlight</code> zu: <code>&lt;h1&gt;&lt;span class='highlight'&gt;CoderDojo&lt;/span&gt; &amp;Uuml;bung&lt;/h1&gt;</code>.</p></li>
 
 <li><p>Formatiere <code>highlight</code> mit folgendem CSS:</p>
-<pre><code>.highlight {
-    color: #4c0000;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">highlight</span> {
+    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#4c0000</span>;
+}</code></pre></div></li>
 
 <li><p>Ändere den <code>intro</code>-Fließtext von <code>class</code> auf <code>id</code>: <code>&lt;p id='intro'&gt;...&lt;/p&gt;</code>. Aktualisiere das Ergebnis und du wirst sehen, dass der <code>.intro</code>-Selektor nicht mehr funktioniert.</p></li>
 
@@ -270,48 +333,90 @@
 <h2 id="verschachtelte-elemente-selektieren">Verschachtelte Elemente selektieren</h2>
 
 <p>In der nächsten Übung möchten wir Hyperlinks im Fließtext schöner formatieren. So sieht unser Ziel-Layout aus:<br/>
-<img src="erste-schritte-mit-css/formatierter-hyperlink.png" alt="HTML mit Selektoren" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/img/formatierter-hyperlink.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p>
 
 <ol>
 <li><p>Mache im ersten Fließtext-Absatz ein paar Wörter zu einem Hyperlink:</p>
-<pre><code>&lt;p id=&#39;intro&#39;&gt;Lorem ipsum &lt;a href=&#34;http://www.google.at&#34;&gt;dolor sit amet&lt;/a&gt;, consetetur ...&lt;/p&gt;</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&lt;</span><span style="color:#f92672">p</span> <span style="color:#f92672">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;intro&#39;</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">Lorem</span> <span style="color:#f92672">ipsum</span> <span style="color:#f92672">&lt;</span><span style="color:#f92672">a</span> <span style="color:#f92672">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://www.google.at&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">dolor</span> <span style="color:#f92672">sit</span> <span style="color:#f92672">amet</span><span style="color:#f92672">&lt;/</span><span style="color:#f92672">a</span><span style="color:#f92672">&gt;,</span> <span style="color:#f92672">consetetur</span> <span style="color:#f92672">...&lt;/</span><span style="color:#f92672">p</span><span style="color:#f92672">&gt;</span></code></pre></div></li>
 
 <li><p>Aktualisiere das Ergebnis und beachte, wie der Hyperlink standardmäßig formatiert wird.</p></li>
 
 <li><p>Definiere einen Stil, der nur auf Hyperlinks (<code>a</code> Tag) innnerhalb von Fließtexten (<code>p</code> Tag) angewendet wird. Probiere den Stil aus und experimentiere mit den Einstellungen.</p>
-<pre><code>p a {
-    color: #330000;
-    text-decoration: none;
-    border-bottom: 1px red dotted;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">p</span> <span style="color:#f92672">a</span> {
+    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#330000</span>;
+    <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">none</span>;
+    <span style="color:#66d9ef">border-bottom</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">red</span> <span style="color:#66d9ef">dotted</span>;
+}</code></pre></div></li>
 
 <li><p>Wenn der Hyperlink schon einmal angeklickt wurde (<code>visited</code>), soll er eine leicht andere Farbe haben. Verwende dazu folgenden Stil und probiere ihn aus. <code>visited</code> ist eine sogenannte <em>pseudo-Klasse</em>. Mehr dazu findest du auf <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">w3school</a>.</p>
-<pre><code>p a:visited {
-    color: #b20000;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">p</span> <span style="color:#f92672">a</span>:<span style="color:#a6e22e">visited</span> {
+    <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#b20000</span>;
+}</code></pre></div></li>
 </ol>
 
 <h2 id="arbeiten-mit-div">Arbeiten mit <code>div</code></h2>
 
 <p>Unser Ziel ist es, einen Kasten mit einem wichtigen Hinweis rechts neben die Einleitung zu setzen.<br/>
-<img src="erste-schritte-mit-css/hervorgehobener-kasten.png" alt="HTML mit Selektoren" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/img/hervorgehobener-kasten.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p>
 
 <ol>
 <li><p>Füge vor der Einleitung den Kastentext hinzu. Umschließe ihn mit einem <code>div</code> Element mit der Klasse <code>sidebar</code>.</p>
-<pre><code>&lt;div class=&#34;sidebar&#34;&gt;
-        Mehr zu dem Thema gibt es auf meiner Webseite. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-&lt;/div&gt;</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sidebar&#34;</span>&gt;
+    Mehr zu dem Thema gibt es auf meiner Webseite. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+&lt;/<span style="color:#f92672">div</span>&gt;</code></pre></div></li>
 
 <li><p>Formatiere die <em>sidebar</em> mit folgendem CSS. Experimentiere mit den Einstellungen.</p>
-<pre><code>.sidebar {
-    width: 200px;
-    float: right;
-    background: #b20000;
-    padding: 25px;
-    margin-left: 15px;
-    margin-top: 50px;
-    color: white;
-}</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">sidebar</span> {
+    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">200</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">float</span>: <span style="color:#66d9ef">right</span>;
+    <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#b20000</span>;
+    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span>;
+    <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+}</code></pre></div></li>
 </ol>
 
 <h2 id="styles-in-html-dateien">Styles in HTML-Dateien</h2>
@@ -324,57 +429,78 @@
 <li><p>Lege einen leeren Ordner an.</p></li>
 
 <li><p>Erstelle mit dem Editor eine Datei namens <em>content.html</em> und füge dort folgenden Code ein:</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Erste Schritte mit CSS&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">title</span>&gt;Erste Schritte mit CSS&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
 
-    &lt;!-- Hier bitte den HTML-Code aus JSFIDDLE einfügen --&gt; 
+    <span style="color:#75715e">&lt;!-- Hier bitte den HTML-Code aus JSFIDDLE einfügen --&gt;</span> 
 
-&lt;/body&gt;
-&lt;/html&gt;</code></pre></li>
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div></li>
 
 <li><p>Ersetze den Kommentar <code>&lt;!-- Hier bitte den HTML-Code aus JSFIDDLE einfügen --&gt;</code> durch den HTML-Code, den du zuvor in JSFIDDLE geschrieben hast.</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Erste Schritte mit CSS&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">title</span>&gt;Erste Schritte mit CSS&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
 
-&lt;h1&gt;&lt;span class=&#39;highlight&#39;&gt;CoderDojo&lt;/span&gt; &amp;Uuml;bung&lt;/h1&gt;
+&lt;<span style="color:#f92672">h1</span>&gt;&lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;highlight&#39;</span>&gt;CoderDojo&lt;/<span style="color:#f92672">span</span>&gt; &amp;Uuml;bung&lt;/<span style="color:#f92672">h1</span>&gt;
 
-&lt;p id=&#34;intro&#34;&gt;Ut labore ...&lt;/p&gt;
+&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;intro&#34;</span>&gt;Ut labore ...&lt;/<span style="color:#f92672">p</span>&gt;
 
-&lt;div class=&#34;sidebar&#34;&gt;Mehr zu dem Thema ...&lt;/div&gt;
-&lt;h2&gt;Einleitung&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum &lt;a href=&#34;http://www.google.at&#34;&gt;dolor sit amet&lt;/a&gt;, consetetur ...&lt;/p&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sidebar&#34;</span>&gt;Mehr zu dem Thema ...&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;<span style="color:#f92672">h2</span>&gt;Einleitung&lt;/<span style="color:#f92672">h2</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;Lorem ipsum &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://www.google.at&#34;</span>&gt;dolor sit amet&lt;/<span style="color:#f92672">a</span>&gt;, consetetur ...&lt;/<span style="color:#f92672">p</span>&gt;
 
-&lt;h2&gt;Mehr zum Thema&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ...&lt;/p&gt;
+&lt;<span style="color:#f92672">h2</span>&gt;Mehr zum Thema&lt;/<span style="color:#f92672">h2</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ...&lt;/<span style="color:#f92672">p</span>&gt;
 
-&lt;h2&gt;Abschluss&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, ...&lt;/p&gt; 
+&lt;<span style="color:#f92672">h2</span>&gt;Abschluss&lt;/<span style="color:#f92672">h2</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;Lorem ipsum dolor sit amet, ...&lt;/<span style="color:#f92672">p</span>&gt; 
 
-&lt;/body&gt;
-&lt;/html&gt;</code></pre></li>
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div></li>
 
 <li><p>Füge innerhalb des <code>head</code> Elements das Element <code>style</code> ein. In das <code>style</code> Elements musst du den CSS-Code einfügen, den zuvor in JSFIDDLE erstellt hast.</p>
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Erste Schritte mit CSS&lt;/title&gt;
-    &lt;style&gt;
-       &lt;!-- Hier den CSS Code aus JSFIDDLE einfügen --&gt;
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-...</code></pre></li>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">title</span>&gt;Erste Schritte mit CSS&lt;/<span style="color:#f92672">title</span>&gt;
+    &lt;<span style="color:#f92672">style</span>&gt;
+    <span style="color:#f92672">&lt;!</span><span style="color:#f92672">--</span> <span style="color:#f92672">Hier</span> <span style="color:#f92672">den</span> <span style="color:#f92672">CSS</span> <span style="color:#f92672">Code</span> <span style="color:#f92672">aus</span> <span style="color:#f92672">JSFIDDLE</span> <span style="color:#f92672">einfügen</span> <span style="color:#f92672">--</span><span style="color:#f92672">&gt;</span>
+    &lt;/<span style="color:#f92672">style</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+...</code></pre></div></li>
 
 <li><p>Falls du einen Editor wie <em>Visual Studio Code</em> verwendest, wirst du sehen, dass er dir das Schreiben von CSS erleichtert. Du musst nicht alles auswendig wissen. Der Editor bietet dir Auswahlmöglichkeiten an, zeigt dir gleich an, wie die gewählte Farbe aussieht und vieles mehr.<br/>
-<img src="erste-schritte-mit-css/style-in-vscode.png" alt="HTML mit Selektoren" /></p></li>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+        <img src="/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/img/style-in-vscode.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    </div>
+</div>
+</p></li>
 
 <li><p>Öffne die HTML-Datei mit einen Browser. Du solltest die schön formatierte Seite im Browser sehen.</p></li>
 </ol>

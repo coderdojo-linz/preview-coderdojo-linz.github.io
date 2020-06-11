@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>HTML Meine erste Webseite</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</guid>
-      <description>Meine erste Webseite In dieser Übung lernst du die Hypertext Markup Language (kurz HTML) kennen. Unser Ziel ist es, Schritt für Schritt eine HTML-Seite zu erstellen und dabei die wichtigsten Grundbegriffe von HTML zu entdecken. Wenn du nach dieser Übung mehr über HTML lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die HTML Einführung auf w3schools.com werfen.
-Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</description>
-    </item>
-    
-    <item>
       <title>Infos für Kinder und Jugendliche</title>
       <link>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +30,16 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
       <description>Neugierig auf Technik und Programmieren? Wolltest du immer schon wissen, wie Computer, iPad oder Smartphone funktionieren? Möchtest du Computerspiele nicht nur spielen sondern selbst programmieren? Reicht es dir nicht, deinen Status auf Facebook zu posten? Du möchtest lieber deine ganz eigene Webseite?
 Dann bist du richtig beim CoderDojo!
 Was sind CoderDojos? In Japan trifft man sich in einem Dojo, um Kampfsportarten wie Judo oder Karate zu üben. Beim CoderDojo treffen wir uns, um zu &amp;ldquo;coden&amp;rdquo;, also zu programmieren.</description>
+    </item>
+    
+    <item>
+      <title>Meine erste Webseite</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/</guid>
+      <description>Meine erste Webseite In dieser Übung lernst du die Hypertext Markup Language (kurz HTML) kennen. Unser Ziel ist es, Schritt für Schritt eine HTML-Seite zu erstellen und dabei die wichtigsten Grundbegriffe von HTML zu entdecken. Wenn du nach dieser Übung mehr über HTML lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die HTML Einführung auf w3schools.com werfen.
+Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</description>
     </item>
     
     <item>
