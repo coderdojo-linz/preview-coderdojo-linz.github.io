@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/</loc>
-    <lastmod>2020-05-17T08:41:32+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</loc>
   </url>
   
@@ -20,8 +15,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</loc>
-    <lastmod>2020-05-17T08:04:20+02:00</lastmod>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/</loc>
   </url>
   
   <url>
@@ -34,6 +28,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</loc>
   </url>
   
   <url>
@@ -76,21 +74,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/</loc>
-    <lastmod>2020-05-17T08:42:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberrypi/</loc>
-    <lastmod>2020-05-17T08:42:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/</loc>
-    <lastmod>2020-05-17T08:41:45+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/</loc>
     <lastmod>2020-05-17T08:13:15+02:00</lastmod>
   </url>
@@ -113,11 +96,6 @@
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/</loc>
     <lastmod>2020-05-17T08:03:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/</loc>
-    <lastmod>2020-05-17T08:00:39+02:00</lastmod>
   </url>
   
   <url>
@@ -158,6 +136,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/</loc>
   </url>
   
   <url>
@@ -229,6 +211,14 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/mentoren/rosemann-elisabeth/</loc>
   </url>
   
@@ -254,6 +244,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/unity/erste-schritte-mit-unity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/esp8266/</loc>
   </url>
   
   <url>
@@ -421,6 +415,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberrypi/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/</loc>
   </url>
   
@@ -494,6 +492,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/</loc>
   </url>
   
   <url>
