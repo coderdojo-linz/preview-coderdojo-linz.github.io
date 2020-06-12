@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</loc>
   </url>
   
@@ -40,6 +44,14 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</loc>
   </url>
   
   <url>
@@ -196,10 +208,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</loc>
   </url>
   
   <url>
@@ -403,10 +411,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pac-man/</loc>
   </url>
   
@@ -520,10 +524,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/towers-of-hanoi/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</loc>
   </url>
   
   <url>

@@ -21,6 +21,16 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
     </item>
     
     <item>
+      <title>Node.js Webserver</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</guid>
+      <description>Ein Webserver mit Node.js Ziel der Übung In dieser Übung lernst du, wie du eine Anwendung für das Web mit Server- und Clientteil baust. Du solltest mit HTML und JavaScript schon etwas vertraut sein. Falls das ganz neu für dich ist, frage erst einen Mentor um Übungsanleitungen, bei denen du die Grundlagen von HTML und JavaScript lernst.
+Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Programme kann man in einfachen Editoren wie Notepad erstellen.</description>
+    </item>
+    
+    <item>
       <title>Erste Schritte mit CSS</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,6 +38,28 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</guid>
       <description>Erste Schritte mit CSS Ziel der Übung In dieser Übung lernst du Cascading Style Sheets (kurz CSS) kennen. Unser Ziel ist es, eine HTML-Seite mit CSS zu formatieren und hübsch zu gestalten. Wenn du nach dieser Übung mehr über CSS lernen willst oder während der Übung Detailfragen hast, kannst du einen Blick auf die CSS Einführung auf w3schools.com werfen.
 Falls du noch überhaupt keine Erfahrung mit HTML hast, wende dich an eine CoderDojo Mentorin oder einen Mentor.</description>
+    </item>
+    
+    <item>
+      <title>Verschlüsseln mit JavaScript</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</guid>
+      <description>Verschlüsseln mit JavaScript 
+   Ziel der Übung In dieser Übung lernst du ein einfaches Verschlüsselungsverfahren kennen.
+Technisch lernst du einige Dinge über JavaScript und Node.js:
+ Wie programmiert man ein Kommandozeilenprogramm mit JavaScript? Was sind ASCII Codes? Wie arbeitet man in JavaScript mit Zeichenketten?  Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
+    </item>
+    
+    <item>
+      <title>Chat mit Node.js und Socket.io</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</guid>
+      <description>Chat mit Node.js und Socket.io Ziel der Übung In dieser Übung lernst du, wie du eine Chat-Anwendung mit Server- und Clientteil baust. Mehrere Benutzer können sich im Chat anmelden. Wenn jemand etwas sendet sollen alle anderen Benutzer das sofort sehen.
+Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver programmieren gemacht hast und diese bei dir auf deinem Computer funktioniert. Mache hier erst weiter, wenn du die vorbereitende Übung erfolgreich abgeschlossen hast.</description>
     </item>
     
     <item>
@@ -64,16 +96,6 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
-      <title>Chat mit Node.js und Socket.io</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</guid>
-      <description>Chat mit Node.js und Socket.io Ziel der Übung In dieser Übung lernst du, wie du eine Chat-Anwendung mit Server- und Clientteil baust. Mehrere Benutzer können sich im Chat anmelden. Wenn jemand etwas sendet sollen alle anderen Benutzer das sofort sehen.
-Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver programmieren gemacht hast und diese bei dir auf deinem Computer funktioniert. Mache hier erst weiter, wenn du die vorbereitende Übung erfolgreich abgeschlossen hast.</description>
-    </item>
-    
-    <item>
       <title>Erste Schritte mit Bootstrap</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -89,8 +111,9 @@ Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-hugo/</guid>
-      <description>Erste Schritte mit Hugo Was ist Hugo Hugo ist ein statischer Webseitengenerator. Man definiert Layoutmuster und Inhalte für die einzelnen Seiten und Hugo baut daraus HTML Seiten.
-Installation  Lade als erstes unter https://github.com/spf13/hugo/releases die aktuellste Version von Hugo für dein Betriebssystem runter. Kopiere dann den Inhalt der .zip Datei in einen neuen Ordner (z.B: C:\Hugo\). Benenne die Datei hugo_0.19_windows_amd64.exe in hugo.exe um. Öffne den Dialog zum Editieren deiner Umgebungsvariablen und füge zur Variable PATH, den Pfad zu deinem Ordner für Hugo hinzu (z.</description>
+      <description>Erste Schritte mit Hugo Was ist Hugo Hugo ist ein statischer Webseitengenerator, der auf der Sprache Go basiert.
+Was ist ein statischer Website Generator Dynamische Webseiten werden erst beim Abruf vom Server generiert (z.B. PHP, ASP.NET). Statische Webseiten bestehen nur aus HTML, JavaScript, CSS und weiteren Resourcen wie Bildern oder Fonts.
+Static Site Generators generieren statische Webseiten und ermöglichen damit die Trennung von Layout und Content. Mehr Infos dazu findest du unter https://www.</description>
     </item>
     
     <item>
@@ -149,16 +172,6 @@ Spielbeschreibung  Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein 
     </item>
     
     <item>
-      <title>Node.js Webserver</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</guid>
-      <description>Ein Webserver mit Node.js Ziel der Übung In dieser Übung lernst du, wie du eine Anwendung für das Web mit Server- und Clientteil baust. Du solltest mit HTML und JavaScript schon etwas vertraut sein. Falls das ganz neu für dich ist, frage erst einen Mentor um Übungsanleitungen, bei denen du die Grundlagen von HTML und JavaScript lernst.
-Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Programme kann man in einfachen Editoren wie Notepad erstellen.</description>
-    </item>
-    
-    <item>
       <title>Präsentationen mit HTML statt PowerPoint</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-prasentationen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -211,17 +224,6 @@ Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Nam
       <description>Tetris mit Blazor Kostenlose Voraussetzungen  Neueste Version von Visual Studio 2017 Community Edition mit ASP.NET and web development ASP.NET Core Blazor Language Services  Projekt anlegen  Visual Studio starten
  File / New / Project
  Neues ASP.NET Projekt anlegen:  Blazor Projekttyp auswählen:  Nach dem Anlegen des Projekt den Startmodus ändern:  Probiere, das Programm mit F5 oder Debug / Start Debugging zu starten. Es müsste ein Kommandozeilenfenster und ein Browser aufgehen.</description>
-    </item>
-    
-    <item>
-      <title>Verschlüsseln mit JavaScript</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</guid>
-      <description>Verschlüsseln mit JavaScript Ziel der Übung In dieser Übung lernst du ein einfaches Verschlüsselungsverfahren kennen.
-Technisch lernst du einige Dinge über JavaScript und Node.js:
- Wie programmiert man ein Kommandozeilenprogramm mit JavaScript? Was sind ASCII Codes? Wie arbeitet man in JavaScript mit Zeichenketten?  Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
     </item>
     
   </channel>

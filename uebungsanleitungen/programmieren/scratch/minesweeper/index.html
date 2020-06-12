@@ -142,6 +142,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">In diesem Spiel musst du die Bomben im Spielfeld finden. Klicke auf eine Zelle um sie umzudrehen. Wenn du gleichzeitig die Leertaste drückst, markierst du eine Zelle als Bombe.</p>
+                    
                     <table class="table">
                         <tr>
                             <td><i class="fas fa-dragon"></i>Figuren</td>
@@ -156,6 +157,7 @@
                             <td>6</td>
                         </tr>
                     </table>
+                    
                 </div>
             </div>
         </div>
@@ -185,12 +187,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Lösche als erstes die Figur Scratchy mit dem Namen <em>Sprite 1</em> indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/loeschen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/loeschen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -200,6 +204,8 @@
 
      
     
+
+
 
 
 
@@ -212,7 +218,7 @@
 <a href="https://scratch-minesweeper/Zelle.sprite2/" target="_blank">https://scratch-minesweeper/Zelle.sprite2/</a> downloaden.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/hochladen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/hochladen.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -228,12 +234,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Die zweite Figur <em>Nachrichten</em> besteht aus drei Kostümen: den Nachrichten <em>Spielfeld laden</em>, <em>Gewonnen</em> und <em>Verloren</em>. Diese kannst du nach deinen Vorstellungen gestalten.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/nachricht.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/nachricht.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -277,12 +285,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Wenn du alle Variablen und Listen richtig angelegt hast, solltest du bei den Figuren <em>Zelle</em> und <em>Nachrichten</em> folgende Daten sehen:</p>
     </div>
     <div class="col-12 col-md-4">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/daten-zelle.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/daten-zelle.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -301,13 +311,15 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Für die Figur <em>Nachrichten</em> brauchen wir nur wenige Skripte. Sie reagiert auf Nachrichten,
 die von der Figur <em>Zelle</em> geschickt werden und zeigt dem Benutzer die entsprechende Nachricht an. Es gibt vier mögliche Nachrichten, auf die die Figur reagieren kann: spielfeldLaden, spielfeldGeladen, gewonnen und verloren.</p>
     </div>
     <div class="col-12 col-md-4">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-nachricht.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-nachricht.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -327,12 +339,14 @@ die von der Figur <em>Zelle</em> geschickt werden und zeigt dem Benutzer die ent
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Als erstes müssen wir das Spielfeld initialisieren. Dazu schicken wir zuerst einmal eine Nachricht an die Figur <em>Nachrichten</em>, dass die Meldung <em>Spielfeld laden</em> angezeigt werden soll. Dann werden die Daten auf einen passenden Wert gesetzt. Als nächstes erstellen wir das Spielfeld, platzieren die Bomben und ermitteln für jedes Feld die Anzahl der umliegenden Bomben. Dazu verwenden wir eigene, neue Blöcke. Der Inhalt dazu kommt später. Am Schluss schicken wir nochmal eine Nachricht, dass das Spielfeld jetzt fertig geladen ist.</p>
     </div>
     <div class="col-12 col-md-4">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -342,6 +356,8 @@ die von der Figur <em>Zelle</em> geschickt werden und zeigt dem Benutzer die ent
 
      
     
+
+
 
 
 
@@ -353,7 +369,7 @@ die von der Figur <em>Zelle</em> geschickt werden und zeigt dem Benutzer die ent
         <p>Zum Erstellen des Spielfelds füllen wir die Listen <em>zellen</em> und <em>zellenStatus</em> mit Initialwerten. Die Liste <em>zellen</em> enthält für jede der 100 Positionen (10 x 10) auf dem Spielfeld eine der folgenden Informationen: - = nicht definiert, b = Bombe, 1 = 1 Bombe in den umliegenden Zellen, 2 = 2 Bomben in den umliegenden Zellen, usw. Zum Initialisieren setzen wir den Wert <em>-</em> für nicht definiert. Die Liste <em>zellenStatus</em> enthält für jede Zelle nur die Information, ob sie aufgedeckt sein soll (0 = nicht aufgedeckt, 1 = aufgedeckt). Das brauchen wir erst später, um bei Klick auf eine Zelle ohne umliegende Bomben automatisch auch die umliegenden Zellen aufzudecken. Außerdem erzeugen wir für jedes Feld einen Klon der Zelle. Diese wird dann im nächsten Skript an der richtigen Position im Spielfeld platziert.</p>
     </div>
     <div class="col-12 col-md-4">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -363,6 +379,8 @@ die von der Figur <em>Zelle</em> geschickt werden und zeigt dem Benutzer die ent
 
      
     
+
+
 
 
 
@@ -378,7 +396,7 @@ Die Positionen werden auf folgende Werte gesetzt:
 Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut werden.</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-3.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-3.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -388,6 +406,8 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
 
      
     
+
+
 
 
 
@@ -399,7 +419,7 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
         <p>Jetzt werden auf dem Spielfeld die Bomben platziert. Mittels Zufallszahl wird die Position der Bomben ermittelt und in der Liste <em>zellen</em> mit einem <em>b</em> gekennzeichnet.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-4.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-4.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -409,6 +429,8 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
 
      
     
+
+
 
 
 
@@ -420,7 +442,7 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
         <p>Jetzt kommt der wirklich schwierige Teil - wir müssen für jede Zelle am Spielfeld ermitteln, wie viele Bomben an sie angrenzen. Das sind im besten Fall 0 und im schlechtesten Fall 8, wenn alle umliegenden Zellen Bomben enthalten. Je nachdem, ob die Zelle im Eck, am Rand, oder in der Mitte liegt, hat sie mehr oder weniger umliegende Zellen. Das prüfen wir in diesem Skript und für jede der Zellen sehen wir nach, ob sie eine Bombe enthält. Am Ende tragen wir die ermittelte Zahl der Bomben in die Liste <em>zellen</em> ein.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-5.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-5.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -430,6 +452,8 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
 
      
     
+
+
 
 
 
@@ -441,7 +465,7 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
         <p>Nun können wir mit dem Spiel starten, der Spieler kann die erste Zelle anklicken. Mit der linken Maustaste wird eine Zelle aufgedeckt. Wird gleichzeitig die Leertaste gedrückt, wird eine Fahne gesetzt oder wieder entfernt. Falls eine Fahne zum Markieren einer Bombe gesetzt wird, müssen wir nachher überprüfen, ob schon alle Bomben gefunden wurden. Wird eine Zelle zum Aufdecken angeklickt, müssen wir dann das Kostüm ändern.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-6.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-6.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -451,6 +475,8 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
 
      
     
+
+
 
 
 
@@ -462,7 +488,7 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
         <p>Die Liste <em>zellen</em> enthält für jede Zelle die Anzahl der umliegenden Bomben. Wir müssen nach dem Anklicken nur noch das richtige Kostüm für die Zelle anzeigen. Du kannst das Skript <em>UmliegendeZellenAufdecken</em> noch leer lassen. Das Spiel wird jetzt schon funktionieren. Du kannst jetzt gleich ausprobieren, ob du alle Bomben findest.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-7.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-7.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -472,6 +498,8 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
 
      
     
+
+
 
 
 
@@ -483,7 +511,7 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
         <p>Wenn du das Skript <em>UmliegendeZellenAufdecken</em> implementierst, wird das Spiel noch besser. Wenn du eine Zelle ohne angrenzende Bomben anklickst, werden automatisch alle umliegenden Zellen aufgedeckt, solange bis Zellen mit angrenzenden Bomben gefunden werden. So musst du nicht alle Zellen mit dem Wert 0 selbst anklicken und kannst viel schneller spielen. In diesem Script werden alle Zellen, die aufgedeckt werden sollen, in der Liste <em>zellenStatus</em> mit 1 markiert. Dann wird die Nachricht <em>zellenAktualiseren</em> gesendet.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-8.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-8.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>
@@ -499,12 +527,14 @@ Wenn du das Spiel jetzt laufen lässt, müsste schon das Spielfeld aufgebaut wer
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Wenn die Nachricht <em>zellenAktualiseren</em> dann von jedem einzelnen Klon empfangen wird, prüft dieser, ob seine Position in der Liste <em>zellenStatus</em> schon mit 1 markiert ist. Wenn ja, wird die Zelle aufgedeckt.</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-9.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/minesweeper/img/code-zelle-9.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </li>

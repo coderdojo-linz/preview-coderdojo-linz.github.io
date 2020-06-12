@@ -142,6 +142,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">Erwecke Zellen zum Leben.</p>
+                    
                     <table class="table">
                         <tr>
                             <td><i class="fas fa-dragon"></i>Figuren</td>
@@ -156,6 +157,7 @@
                             <td>20</td>
                         </tr>
                     </table>
+                    
                 </div>
             </div>
         </div>
@@ -180,6 +182,8 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p><p>Die Idee zu „The Game Of Life“ geht auf den Mathematiker John Conway zurück. Das Spielfeld besteht aus einem großen Raster von Zellen, die zwei Zustände haben können: „tot“ (weiß) oder „lebendig“ (farbig). Basierend auf dem Zustand des Rasters wird die nächste Generation von Zellen berechnet, und zwar nach folgenden Regeln:</p>
@@ -195,7 +199,7 @@
 </p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/the-game-of-life.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/the-game-of-life.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -217,12 +221,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Wir benötigen nur zwei Figuren namens „Selection“ und „Grid“. Selection dient der Anzeige eines einfachen Befehlsmenüs im unteren Bereich. Grid ist unser Spielfeld, das sich fortlaufend selbst neu zeichnet.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/figuren.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/figuren.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -240,6 +246,8 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p><p>Für die Figur Selection benötigen wir sechs Kostüme für die sechs Kommandos, die man via Mausklick ausführen kann. Verwende dazu das Textwerkzeug, und schreibe die Namen der Kommandos wie oben angegeben in das Zeichenfeld. Setze den Drehpunkt der Kostüme jeweils in das linke untere Eck des Textbereichs. Wähle den Textbereich nicht zu groß, damit die Befehle nebeneinander Platz haben. Eine Höhe von etwa 20 Pixeln geht sich gut aus. Alternativ kannst du die Figur ohne Skripte auch hier herunterladen und in dein Projekt importieren:</p>
@@ -248,7 +256,7 @@
 </p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/kostueme-selection.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/kostueme-selection.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -264,12 +272,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Die Skripte von Selection sind relativ einfach. Sie dienen dazu die Menükommandos zu zeichnen, und bei Mausklick entsprechende Nachrichten an das Grid zu senden:</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/skripte-selection.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/skripte-selection.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -287,13 +297,15 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Hier ist das eigentliche Spiel implementiert. Das Grid zeichnet sich mit dem Malstift selbst, daher hat es nur ein leeres Kostüm:
 Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur für diese Figur“, also für die Figur Grid:</p>
     </div>
     <div class="col-12 col-md-4">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/daten-grid.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/daten-grid.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -311,12 +323,14 @@ Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>InsertPattern dient dem Einfügen von Mustern in das Grid. Wichtig: Selektiere bei allen Blöcken „Ohne Bildschirmaktualisierung laufen lassen“, sonst ist das Programm zu langsam.</p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/neue-funktion.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/neue-funktion.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -334,12 +348,14 @@ Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p></p>
     </div>
     <div class="col-12 col-md-12">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/funktion-insert-pattern.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/funktion-insert-pattern.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -358,12 +374,14 @@ Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p></p>
     </div>
     <div class="col-12 col-md-12">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/funktion-calculate-next-generation.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/funktion-calculate-next-generation.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </p>
@@ -382,12 +400,14 @@ Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p></p>
     </div>
     <div class="col-12 col-md-12">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/funktion-paint-and-init-grid.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/funktion-paint-and-init-grid.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 </p>
@@ -407,12 +427,14 @@ Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p></p>
     </div>
     <div class="col-12 col-md-12">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/skripte-grid-1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/skripte-grid-1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -432,12 +454,14 @@ Nun können wir die Variablen anlegen. Bitte erstelle alle Variablen für „Nur
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p></p>
     </div>
     <div class="col-12 col-md-12">
-        <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/skripte-grid-2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/the-game-of-life/img/skripte-grid-2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 

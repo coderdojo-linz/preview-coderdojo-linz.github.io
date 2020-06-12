@@ -154,6 +154,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">In this example, we want to build a chess engine, and above all, the two most important functions - the calculation and application of different move combinations, and the evaluation of resulting boards.</p>
+                    
                     <table class="table">
                         <tr>
                             <td><i class="fas fa-dragon"></i>Figuren</td>
@@ -168,6 +169,7 @@
                             <td>42</td>
                         </tr>
                     </table>
+                    
                 </div>
             </div>
         </div>
@@ -200,6 +202,8 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p><p>We would like to implement these two missing function blocks. You can find them in the upper left corner of the &ldquo;Board&rdquo; sprite&rsquo;s script:</p>
@@ -208,7 +212,7 @@
 </p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-blocks-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-blocks-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -220,6 +224,8 @@
 
      
     
+
+
 
 
 
@@ -240,7 +246,7 @@
 </p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-eval-code-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-eval-code-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -262,12 +268,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>The runtime performance of Scratch only allows to look a few moves ahead. Thereafter, the resulting board is evaluated and compared with previous boards. This results in a decision tree as depicted below, with nodes representing the board states and their evaluation, and  arrows representing the respective moves to transition from one board state to another. The best guaranteed evaluation in this example is 5. Even if a board with an evaluation of 10 seems possible, the opponent can prevent this by a skillful countermove, which then results in a worse rating (namely 2). We therefore choose the move that ensures an evaluation of 5, no matter which move the opponent will play.</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -289,12 +297,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Our intermediate values (Min, Max, Alpha, Beta, Moves) are all stored in lists. This is necessary for recursions because there are no local variables in Scratch (and function parameters cannot be changed). Scratch variables are not sufficient for this, otherwise we would overwrite them in cascaded AlphaBetaMinMaxImpl() calls. These lists contain an entry for every possible call depth. An alternative would be to label the variables from 1 to N and to duplicate the whole custom block for each draft depth. But we really do not want to go that path (the full project would require 15 duplicate variables and custom blocks). The resulting MiniMax / Alpha-Beta Pruning implementation looks like this</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax-code-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax-code-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 

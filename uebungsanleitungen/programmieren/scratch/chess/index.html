@@ -142,6 +142,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <p class="mb-4">In diesem Beispiel wollen wir ein Schachspiel bauen, und dabei vor allem die beiden wichtigsten Funktionen - das Ausführen von verschiedenen Zugkombinationen, und die Bewertung des daraus resultierenden Brettbilds.</p>
+                    
                     <table class="table">
                         <tr>
                             <td><i class="fas fa-dragon"></i>Figuren</td>
@@ -156,6 +157,7 @@
                             <td>42</td>
                         </tr>
                     </table>
+                    
                 </div>
             </div>
         </div>
@@ -188,6 +190,8 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p><p>Diese beiden zu Beginn noch leeren Funktionsblöcke möchten wir implementieren. Du findest sie links oben im Skript der Figur „Board“:</p>
@@ -196,7 +200,7 @@
 </p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-blocks.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-blocks.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -208,6 +212,8 @@
 
      
     
+
+
 
 
 
@@ -228,7 +234,7 @@
 </p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-eval-code.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-eval-code.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -250,12 +256,14 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Die Geschwindigkeit von Scratch erlaubt es uns nur wenige Züge in die Zukunft zu sehen. Danach wird das resultierende Brett bewertet, und mit bisherigen Bewertungen verglichen. Daraus entsteht ein Entscheidungsbaum wie unten, wobei die Knoten die Bretter mit Bewertung darstellen, und die Pfeile die jeweiligen Züge dazwischen. Die beste garantiert erreichbare Bewertung in diesem Beispiel ist 5. Auch wenn ein Brett mit der Bewertung 10 möglich ist, kann der Gegner dies durch einen geschickten Gegenzug verhindern, was dann in einer schlechteren Bewertung (nämlich 2) resultiert. Wir wählen daher den Zug, der eine Bewertung von 5 sicherstellt, egal welchen Zug der Gegner wählt.</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-minimax.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-minimax.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 
@@ -275,13 +283,15 @@
 
 
 
+
+
 <div class="row">
     <div class="col">
         <p>Wir programmieren das alles in einem Funktionsblock, der sich immer wieder selbst aufruft. Man nennt das eine rekursive Funktion. Wir führen einen Zug aus, und rufen die aktuelle Funktion nochmal auf, damit der darauffolgende Zug ausgeführt wird. Irgendwann müssen wir das natürlich beenden - und zwar dann, wenn wir eine Zugtiefe von MaxDepth erreicht haben (je nach Schwierigkeitsgrad sind das zwei, drei oder vier Züge). Dann wird das Brett bewertet. Unsere Zwischendaten (Min, Max, Alpha, Beta, Züge) werden alle in Listen gespeichert. Das ist in Scratch bei Rekursionen nötig, weil es keine lokalen Variablen gibt und Funktions-Parameter nicht verändert werden können. Figuren-Variablen reichen dafür nicht, da wir sonst die Variablenwerte in kaskadierten Aufrufen überschreiben würden. In diesen Listen gibt es für jede Zugtiefe einen Eintrag, also zum Beispiel für den gerade berechneten Zug. Eine Alternative wäre die Variablen von 1 bis N durchzunummerieren, und den ganzen Funktionsblock für jede Zugtiefe zu duplizieren. Aber das möchten wir eigentlich nicht.
 Die einfachste MiniMax/Alpha-Beta Implementierung ergibt sich daraus wie folgt:</p>
     </div>
     <div class="col-12 col-md-8">
-        <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-minimax-code.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block;" />
+    <img src="/uebungsanleitungen/programmieren/scratch/chess/img/chess-minimax-code.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
     </div>
 </div>
 

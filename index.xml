@@ -52,6 +52,16 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
     </item>
     
     <item>
+      <title>Node.js Webserver</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</guid>
+      <description>Ein Webserver mit Node.js Ziel der Übung In dieser Übung lernst du, wie du eine Anwendung für das Web mit Server- und Clientteil baust. Du solltest mit HTML und JavaScript schon etwas vertraut sein. Falls das ganz neu für dich ist, frage erst einen Mentor um Übungsanleitungen, bei denen du die Grundlagen von HTML und JavaScript lernst.
+Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Programme kann man in einfachen Editoren wie Notepad erstellen.</description>
+    </item>
+    
+    <item>
       <title>Erste Schritte mit CSS</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,6 +98,28 @@ Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen un
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/konto-anlegen/</guid>
       <description>Um deine Projekte in Scratch speichern und teilen zu können, brauchst du ein Konto. Die folgenden Schritte zeigen dir, wie du ein neues Konto anlegst. Anschließend starten wir Scratch zum ersten Mal.
 Scratch Webseite öffnen   Öffne einen Webbrowser, gib in der Adresszeile die Adresse scratch.mit.edu ein und drücke Enter. Das https:// vor der Scratch-Adresse musst du nicht unbedingt eingeben. Es wird automatisch erscheinen, nachdem du auf Enter gedrückt hast.</description>
+    </item>
+    
+    <item>
+      <title>Verschlüsseln mit JavaScript</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</guid>
+      <description>Verschlüsseln mit JavaScript 
+   Ziel der Übung In dieser Übung lernst du ein einfaches Verschlüsselungsverfahren kennen.
+Technisch lernst du einige Dinge über JavaScript und Node.js:
+ Wie programmiert man ein Kommandozeilenprogramm mit JavaScript? Was sind ASCII Codes? Wie arbeitet man in JavaScript mit Zeichenketten?  Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
+    </item>
+    
+    <item>
+      <title>Chat mit Node.js und Socket.io</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</guid>
+      <description>Chat mit Node.js und Socket.io Ziel der Übung In dieser Übung lernst du, wie du eine Chat-Anwendung mit Server- und Clientteil baust. Mehrere Benutzer können sich im Chat anmelden. Wenn jemand etwas sendet sollen alle anderen Benutzer das sofort sehen.
+Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver programmieren gemacht hast und diese bei dir auf deinem Computer funktioniert. Mache hier erst weiter, wenn du die vorbereitende Übung erfolgreich abgeschlossen hast.</description>
     </item>
     
     <item>
@@ -320,16 +352,6 @@ Ein Ziel dieser Übung ist es, dass du C# auf eine Weise kennenlernst, die Spaß
     </item>
     
     <item>
-      <title>Chat mit Node.js und Socket.io</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</guid>
-      <description>Chat mit Node.js und Socket.io Ziel der Übung In dieser Übung lernst du, wie du eine Chat-Anwendung mit Server- und Clientteil baust. Mehrere Benutzer können sich im Chat anmelden. Wenn jemand etwas sendet sollen alle anderen Benutzer das sofort sehen.
-Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver programmieren gemacht hast und diese bei dir auf deinem Computer funktioniert. Mache hier erst weiter, wenn du die vorbereitende Übung erfolgreich abgeschlossen hast.</description>
-    </item>
-    
-    <item>
       <title>Chess</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/chess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -451,8 +473,9 @@ In ihrer Freizeit ist sie außerdem Mitglied des Organisationsteams des Technolo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-hugo/</guid>
-      <description>Erste Schritte mit Hugo Was ist Hugo Hugo ist ein statischer Webseitengenerator. Man definiert Layoutmuster und Inhalte für die einzelnen Seiten und Hugo baut daraus HTML Seiten.
-Installation  Lade als erstes unter https://github.com/spf13/hugo/releases die aktuellste Version von Hugo für dein Betriebssystem runter. Kopiere dann den Inhalt der .zip Datei in einen neuen Ordner (z.B: C:\Hugo\). Benenne die Datei hugo_0.19_windows_amd64.exe in hugo.exe um. Öffne den Dialog zum Editieren deiner Umgebungsvariablen und füge zur Variable PATH, den Pfad zu deinem Ordner für Hugo hinzu (z.</description>
+      <description>Erste Schritte mit Hugo Was ist Hugo Hugo ist ein statischer Webseitengenerator, der auf der Sprache Go basiert.
+Was ist ein statischer Website Generator Dynamische Webseiten werden erst beim Abruf vom Server generiert (z.B. PHP, ASP.NET). Statische Webseiten bestehen nur aus HTML, JavaScript, CSS und weiteren Resourcen wie Bildern oder Fonts.
+Static Site Generators generieren statische Webseiten und ermöglichen damit die Trennung von Layout und Content. Mehr Infos dazu findest du unter https://www.</description>
     </item>
     
     <item>
@@ -794,16 +817,6 @@ Projekt erstellen  NetBeans starten Menü File &amp;gt; Menüpunkt New Project &
     </item>
     
     <item>
-      <title>Node.js Webserver</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</guid>
-      <description>Ein Webserver mit Node.js Ziel der Übung In dieser Übung lernst du, wie du eine Anwendung für das Web mit Server- und Clientteil baust. Du solltest mit HTML und JavaScript schon etwas vertraut sein. Falls das ganz neu für dich ist, frage erst einen Mentor um Übungsanleitungen, bei denen du die Grundlagen von HTML und JavaScript lernst.
-Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Programme kann man in einfachen Editoren wie Notepad erstellen.</description>
-    </item>
-    
-    <item>
       <title>Pac Man</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pac-man/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1079,17 +1092,6 @@ Notwendige Software Wir verwenden für Online CoderDojos die Webmeeting-Plattfor
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/towers-of-hanoi/</guid>
       <description>Türme von Hanoi Einleitung Die Türme von Hanoi sind ein klassisches Übungsbeispiel für Programmierer. Für Kinder gibt es das Rätsel auch als Holzspielzeug zu kaufen. Die Regeln sind einfach:
  Man hat ein Spielbrett mit drei Stangen. Nennen wir sie L for Links, M für Mitte und R für Rechts. Auf der Stange A ist ein Turm von Spielsteinen aufgetürmt. Jeder Spielstein ist etwas kleiner als der darunter. Die Aufgabe ist es, den Turm von Stange L auf Stange M zu übersiedeln.</description>
-    </item>
-    
-    <item>
-      <title>Verschlüsseln mit JavaScript</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</guid>
-      <description>Verschlüsseln mit JavaScript Ziel der Übung In dieser Übung lernst du ein einfaches Verschlüsselungsverfahren kennen.
-Technisch lernst du einige Dinge über JavaScript und Node.js:
- Wie programmiert man ein Kommandozeilenprogramm mit JavaScript? Was sind ASCII Codes? Wie arbeitet man in JavaScript mit Zeichenketten?  Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
     </item>
     
     <item>
