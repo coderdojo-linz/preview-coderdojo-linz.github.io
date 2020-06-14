@@ -11,6 +11,14 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hello-world/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</loc>
   </url>
   
@@ -24,6 +32,14 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/schnell-start-anleitung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</loc>
   </url>
   
   <url>
@@ -43,7 +59,11 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/sicherheitshinweise/</loc>
   </url>
   
   <url>
@@ -51,7 +71,23 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/erste-schritte/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/</loc>
   </url>
   
   <url>
@@ -71,6 +107,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/info/schulen/</loc>
   </url>
   
@@ -83,7 +123,15 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/poster/</loc>
   </url>
   
   <url>
@@ -240,10 +288,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/02_first-plugin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_ersteschritte_block/</loc>
   </url>
   
   <url>
@@ -404,10 +448,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/memory/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_moonhack_2018/</loc>
   </url>
   
   <url>

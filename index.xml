@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>Hello World</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hello-world/</guid>
+      <description>Die ersten Schritte mit micro:bit und der Block-Programmierung beginnen immer mit &amp;ldquo;Hello World&amp;rdquo;. Die aktuellste Anleitung findest Du immer im Internet auf der Originalseite microbit.org.</description>
+    </item>
+    
+    <item>
       <title>Infos für Kinder und Jugendliche</title>
       <link>https://linz-preview.coderdojo.net/info/kinder-und-jugendliche/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -59,6 +68,15 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</guid>
       <description>Ein Webserver mit Node.js Ziel der Übung In dieser Übung lernst du, wie du eine Anwendung für das Web mit Server- und Clientteil baust. Du solltest mit HTML und JavaScript schon etwas vertraut sein. Falls das ganz neu für dich ist, frage erst einen Mentor um Übungsanleitungen, bei denen du die Grundlagen von HTML und JavaScript lernst.
 Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Programme kann man in einfachen Editoren wie Notepad erstellen.</description>
+    </item>
+    
+    <item>
+      <title>Schnellstart-Anleitung</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/schnell-start-anleitung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/schnell-start-anleitung/</guid>
+      <description>&amp;hellip;</description>
     </item>
     
     <item>
@@ -101,6 +119,24 @@ Scratch Webseite öffnen   Öffne einen Webbrowser, gib in der Adresszeile die A
     </item>
     
     <item>
+      <title>Missile Shooter</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</guid>
+      <description>Zwei Spieler spielen gegeneinander. Die beiden micro:bit sind mit bluetoot miteinander verbunden. Jeder kann einen Lichtstrahl abfeuern und versuchen den anderen zu treffen. Gleichzeitig muss dem kommenden Lichtstrahl ausgewichen werden.</description>
+    </item>
+    
+    <item>
+      <title>Sicherheitshinweise</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/sicherheitshinweise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/sicherheitshinweise/</guid>
+      <description>&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Verschlüsseln mit JavaScript</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,6 +149,15 @@ Technisch lernst du einige Dinge über JavaScript und Node.js:
     </item>
     
     <item>
+      <title>Beschleunigungssensor</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</guid>
+      <description>Hier wird gezeigt wie der micro:bit seine Bewegung erkennt und wie diese im Programm auswertet werden können.</description>
+    </item>
+    
+    <item>
       <title>Chat mit Node.js und Socket.io</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,6 +165,17 @@ Technisch lernst du einige Dinge über JavaScript und Node.js:
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</guid>
       <description>Chat mit Node.js und Socket.io Ziel der Übung In dieser Übung lernst du, wie du eine Chat-Anwendung mit Server- und Clientteil baust. Mehrere Benutzer können sich im Chat anmelden. Wenn jemand etwas sendet sollen alle anderen Benutzer das sofort sehen.
 Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver programmieren gemacht hast und diese bei dir auf deinem Computer funktioniert. Mache hier erst weiter, wenn du die vorbereitende Übung erfolgreich abgeschlossen hast.</description>
+    </item>
+    
+    <item>
+      <title>Erste Schritte mit micro:bit Blockprogrammierung</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/erste-schritte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/erste-schritte/</guid>
+      <description>Deine ersten Schritte mit micro:bit - Blockprogrammierung Der BBC micro:bit ist ein kleiner anprogrammierbarer Computer mit Bewegungssensoren und Kompass. Weitere Informationen und einer ausführerlichen Anleitung zu den ersten Schritten gibt es hier.
+Ausstattung 
+   In der Mitte befinden sich 25 LED-Lämpchen in einem 5x5 Raster. Links hast du den A-Knopf (Button) und rechts den B-Knopf. Auf der Rückseite befinden sich die Anschlüsse für das Batteriefach und ein Micro-USB-Kabel.</description>
     </item>
     
     <item>
@@ -163,6 +219,15 @@ Als Mentoren begleiten wir in CoderDojos Kinder beim spielerischen Entdecken ihr
     </item>
     
     <item>
+      <title>Grundlagen</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen/</guid>
+      <description>&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Infos für Schulen</title>
       <link>https://linz-preview.coderdojo.net/info/schulen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -192,12 +257,30 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Grundlagen Bauelemente</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</guid>
+      <description>&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Lötübung CoderDojo Logo</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</guid>
       <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+    </item>
+    
+    <item>
+      <title>BBC micro:bit Poster</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/poster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/poster/</guid>
+      <description>&amp;hellip;</description>
     </item>
     
     <item>
@@ -391,17 +474,6 @@ Was ist der Unterschied zum normalen CoderDojo?  Es sind nur wenige Mentorinnen 
       <description>Dein erstes Plugin /sayhello Inhalt:
  Einleitung Neues NetBeans-Projekt Ausführliche Anleitung Kurzversion für Profis  Einleitung Nach den Vorbereitungsarbeiten können wir nun endlich unser erstes Plugin entwickeln. Wenn wir mit dieser Episode fertig sind, wirst du in Minecraft den Befehl /sayhello eingeben können und du wirst eine Antwort erhalten und er wird dich sogar mit deinem Minecraft-Namen ansprechen.
 Dieses wird vielleicht noch nicht das absolute Killer-Plugin auf Curse sein aber eine Reise beginnt immer mit ihrem ersten Schritt.</description>
-    </item>
-    
-    <item>
-      <title>Deine ersten Schritte mit micro:bit - Blockprogrammierung</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_ersteschritte_block/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_ersteschritte_block/</guid>
-      <description>Deine ersten Schritte mit micro:bit - Blockprogrammierung Der BBC micro:bit ist ein kleiner anprogrammierbarer Computer mit Bewegungssensoren und Kompass. Weitere Informationen und einer ausführerlichen Anleitung zu den ersten Schritten gibt es hier.
-Ausstattung In der Mitte befinden sich 25 LED-Lämpchen in einem 5x5 Raster. Links hast du den A-Knopf (Button) und rechts den B-Knopf. Auf der Rückseite befinden sich die Anschlüsse für das Batteriefach und ein Micro-USB-Kabel.
-Verbinde den micro:bit Um zu Beginnen verbinde deinen micro:bit mit dem zusätzlichen Batteriefach oder mit einem USB-Kabel mit deinem Laptop.</description>
     </item>
     
     <item>
@@ -743,16 +815,6 @@ Wenn er nicht vorm Computer sitzt, kocht und liest er gerne, und er hat nach jah
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/memory/</guid>
       <description>Figuren anlegen Das Spiel besteht aus nur zwei Figuren: der Karte mit einer Vorder- und einer Rückseite und der Bilder, die auf den Karten angezeigt werden sollen. Alle Bilder werden als Kostüme in einer Figur zusammengefasst.
   Lösche als erstes die Figur Scratchy mit dem Namen Sprite1 indem du auf das blaue X klickst oder mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.</description>
-    </item>
-    
-    <item>
-      <title>micro:bit Moonhack 2018</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_moonhack_2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/microbit_moonhack_2018/</guid>
-      <description>micro:bit Moonhack 2018 Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond, aber das Raumschiff am richtigen Ort zu landen war nicht einfach. Der Pilot, Neil Armstrong, musste das Raumschiff präzise zu dem Landepunkt steuern um dort landen zu können und in diesem Spiel werden wir versuchen die Landeansteuerung nachzubauen.
-Wenn du keinen physischen micro:bit hast kannst du das Spiel in dem Online-Editor coden.</description>
     </item>
     
     <item>
