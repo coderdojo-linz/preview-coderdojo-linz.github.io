@@ -31,6 +31,18 @@
     </item>
     
     <item>
+      <title>Erste Schritte mit Python</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/erste-schritte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/erste-schritte/</guid>
+      <description>Erste Schritte mit Python Diese Übung gibt eine erste Einführung in das Programmieren mit Python. Die Inhalte sind zum größten Teil aus dem Buch Programmieren supereasy.
+Was ist Python? Python ist eine Programmiersprache, die mit englischen Textbefehlen arbeitet. Sie ist etwas schwieriger als Scratch, dafür gibt es allerdings viel mehr Verwendungsmöglichkeiten.
+Zur Vorbereitung werden wir nun zuerst Python installieren und uns dann mit der Oberfläche vertraut machen.
+Python installieren Lade Python nun herunter und installiere es auf deinem Computer.</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -416,6 +428,18 @@ Downloads    Figur      Ball Figur downloaden   Block Figur downloaden   Schläg
     </item>
     
     <item>
+      <title>Bubble Blaster</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/bubble-blaster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/bubble-blaster/</guid>
+      <description>Bubble Blaster Mit dem Package Tkinter programmieren wir ein erstes Spiel in Python. Ein U-Boot, das mit Pfeiltasten gesteuert wird, soll in der vorgegebenen Zeit so viel Blasen wie möglich zum Platzen bringen. (Die Beschreibung erfolgt in Anlehnung an Beispiele aus dem Buch Programmieren supereasy).
+
+   Voraussetzungen Übungsbeispiel „Alien“
+Python Starte für Python die Programmierumgebung IDLE und öffne eine neue Datei (File -&amp;gt; New File) und speichere die Datei als Dateityp auf deinem Computer (File -&amp;gt; Save As).</description>
+    </item>
+    
+    <item>
       <title>C# Kennenlernen</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/ant-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -549,18 +573,6 @@ In ihrer Freizeit ist sie außerdem Mitglied des Organisationsteams des Technolo
       <description>Erste Schritte mit Hugo Was ist Hugo Hugo ist ein statischer Webseitengenerator, der auf der Sprache Go basiert.
 Was ist ein statischer Website Generator Dynamische Webseiten werden erst beim Abruf vom Server generiert (z.B. PHP, ASP.NET). Statische Webseiten bestehen nur aus HTML, JavaScript, CSS und weiteren Resourcen wie Bildern oder Fonts.
 Static Site Generators generieren statische Webseiten und ermöglichen damit die Trennung von Layout und Content. Mehr Infos dazu findest du unter https://www.</description>
-    </item>
-    
-    <item>
-      <title>Erste Schritte mit Python</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/erste-schritte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/erste-schritte/</guid>
-      <description>Erste Schritte mit Python Diese Übung gibt eine erste Einführung in das Programmieren mit Python. Die Inhalte sind zum größten Teil aus dem Buch Programmieren supereasy.
-Was ist Python? Python ist eine Programmiersprache, die mit englischen Textbefehlen arbeitet. Sie ist etwas schwieriger als Scratch, dafür gibt es allerdings viel mehr Verwendungsmöglichkeiten.
-Zur Vorbereitung werden wir nun zuerst Python installieren und uns dann mit der Oberfläche vertraut machen.
-Python installieren Lade Python nun herunter und installiere es auf deinem Computer.</description>
     </item>
     
     <item>

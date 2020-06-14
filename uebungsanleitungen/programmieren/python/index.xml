@@ -24,6 +24,18 @@ Python installieren Lade Python nun herunter und installiere es auf deinem Compu
     </item>
     
     <item>
+      <title>Bubble Blaster</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/bubble-blaster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/bubble-blaster/</guid>
+      <description>Bubble Blaster Mit dem Package Tkinter programmieren wir ein erstes Spiel in Python. Ein U-Boot, das mit Pfeiltasten gesteuert wird, soll in der vorgegebenen Zeit so viel Blasen wie möglich zum Platzen bringen. (Die Beschreibung erfolgt in Anlehnung an Beispiele aus dem Buch Programmieren supereasy).
+
+   Voraussetzungen Übungsbeispiel „Alien“
+Python Starte für Python die Programmierumgebung IDLE und öffne eine neue Datei (File -&amp;gt; New File) und speichere die Datei als Dateityp auf deinem Computer (File -&amp;gt; Save As).</description>
+    </item>
+    
+    <item>
       <title>Geisterspiel mit Python</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/geisterspiel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
