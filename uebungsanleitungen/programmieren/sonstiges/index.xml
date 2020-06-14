@@ -12,6 +12,20 @@
     
     
     <item>
+      <title>ANTLR Hello World</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/antlr-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/antlr-hello-world/</guid>
+      <description>ANTLR Hello World Installation  Installieren von [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/#section=windows) (kostenlos)
+ IntelliJ starten
+ Ein neues Projekt mit New Project - Empty Project starten. In dieser Anleitung gehen wir davon aus, dass das Projekt antlr-hello-world heißt.
+ Settings-Dialog mit Strg+Alt+S öffnen, nach dem antlr Plugin suchen und installieren 
+    IntelliJ neu starten und das zuvor angelegte Projekt wieder laden
+  Erste Grammatik anlegen  Neue Datei Hello.</description>
+    </item>
+    
+    <item>
       <title>Back to Basics - Assembler Hello World</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/assembler-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

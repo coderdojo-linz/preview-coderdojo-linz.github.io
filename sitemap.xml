@@ -179,7 +179,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/antlr-hello-world/</loc>
   </url>
   
   <url>
@@ -192,6 +192,14 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/sonstiges/assembler-hello-world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/blazor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/bootstrap/</loc>
   </url>
   
   <url>
@@ -224,6 +232,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/termine/playgrounds/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/css/</loc>
   </url>
   
   <url>
@@ -339,7 +351,15 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/categories/html/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/hugo/</loc>
   </url>
   
   <url>
@@ -356,6 +376,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/01_installationen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/javascript/</loc>
   </url>
   
   <url>
@@ -411,6 +435,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/categories/node.js/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/pac-man/</loc>
   </url>
   
@@ -431,11 +459,15 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/categories/phaser/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/mentoren/gerhofer-pia/</loc>
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-prasentationen/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-praesentationen/</loc>
   </url>
   
   <url>
@@ -452,6 +484,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberrypi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/reveal.js/</loc>
   </url>
   
   <url>
@@ -499,6 +535,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/categories/svg/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/svg-schreibtrainer/</loc>
   </url>
   
@@ -520,6 +560,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/termine/online-coderdojo-tipps/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/categories/typescript/</loc>
   </url>
   
   <url>

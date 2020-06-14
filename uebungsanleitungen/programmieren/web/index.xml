@@ -83,19 +83,6 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
-      <title>ANTLR Hello World</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/antlr-hello-world/</guid>
-      <description>ANTLR Hello World Installation  Installieren von [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/#section=windows) (kostenlos)
- IntelliJ starten
- Ein neues Projekt mit New Project - Empty Project starten. In dieser Anleitung gehen wir davon aus, dass das Projekt antlr-hello-world heißt.
- Settings-Dialog mit Strg+Alt+S öffnen, nach dem antlr Plugin suchen und installieren  IntelliJ neu starten und das zuvor angelegte Projekt wieder laden
-  Erste Grammatik anlegen  Neue Datei Hello.g4 anlegen  Folgende Grammatik in die neue Datei einfügen:</description>
-    </item>
-    
-    <item>
       <title>Erste Schritte mit Bootstrap</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/erste-schritte-mit-bootstrap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -145,7 +132,8 @@ Am jeweils oberen Ende der beiden neuen Linie zweichne wieder jeweils zwei neue 
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/hangman/</guid>
       <description>Hangman Ziel der Übung Der erste Spieler gibt ein Wort ein, das vom zweiten Spieler erraten werden muss.
 Zuerst sieht der zweite Spieler nur ein Sternchen für jeden Buchstaben. Jeder erratene Buchstabe wird aufgedeckt. Für jeden falsch geratenen Buchstaben wird der Galgen um eine Linie erweitert. Ziel ist es, das Wort zu erraten bevor der Galgen fertig ist.
-Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Namen hangman.</description>
+
+   Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Namen hangman.</description>
     </item>
     
     <item>
@@ -168,15 +156,15 @@ Startprojekt öffnen
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/labyrinth-mit-svg/</guid>
       <description>Labyrinth-Spiel mit Scratch und JavaScript Ziel der Übung In dieser Übung programmierst du ein Labyrinth-Spiel erst mit Scratch und danach mit JavaScript. So lernst du, das, was du in Scratch über Programmieren gelernt hast, in einer textbasierten Programmiersprache anzuwenden.
 Es ist wichtig, dass du vor dieser Übung die Scratch-Variante dieses Spiels genau angesehen oder noch besser selbst programmiert hast.
-Spielbeschreibung  Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein Ziel ist es, das mit &#34;</description>
+Spielbeschreibung Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein Ziel ist es, das mit &amp;ldquo;X&amp;rdquo; markierte Ziel zu erreichen.</description>
     </item>
     
     <item>
       <title>Präsentationen mit HTML statt PowerPoint</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-prasentationen/</link>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-praesentationen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-prasentationen/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-praesentationen/</guid>
       <description>Präsentationen mit HTML statt PowerPoint Ziel der Übung Egal ob in der Schule, auf der Uni oder später im Beruf - es kommt immer wieder vor, dass man Präsentationen erstellen muss. Die meisten greifen dabei zu Microsoft PowerPoint.
 Das muss aber nicht sein. Als Coder mit HTML- und CSS-Kenntnissen kann man beeindruckende Präsentationen für den Browser erstellen. In dieser Übung lernst du Reveal.js kennen. Mit Grundkenntnissen in HTML und CSS kannst du mit Reveal deine nächste Präsentation ganz ohne PowerPoint erledigen.</description>
     </item>
@@ -187,8 +175,8 @@ Das muss aber nicht sein. Als Coder mit HTML- und CSS-Kenntnissen kann man beein
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/snake-mit-nodejs/</guid>
-      <description>Snake mit Node.js {: .max-full }
-Ziel der Übung In dieser Übung lernst du, wie du mit Node.js einfache Spiele programmieren kannst.
+      <description>Snake mit Node.js 
+   Ziel der Übung In dieser Übung lernst du, wie du mit Node.js einfache Spiele programmieren kannst.
 Systemvoraussetzungen Du brauchst für diese Übung die gleichen Tools (Visual Studio Code, Node.js, npm), die schon in der Übung Ein Webserver mit Node.js erwähnt sind. Falls du die Übung schon gemacht hast, hast du schon alle notwendigen Tools. Falls nicht, schau dort bitte nach.
 Du kannst das Beispiel unter Windows, Linux oder MacOS bauen.</description>
     </item>
@@ -200,7 +188,8 @@ Du kannst das Beispiel unter Windows, Linux oder MacOS bauen.</description>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/space-shooter/</guid>
       <description>Space Shooter mit Phaser.io Ziel der Übung In unserem Dojo hast du möglicherweise schon bei den Scratch-Übungen den Space Shooter erstellt. Falls nicht, wirf bitte vor diesem Beispiel einen Blick auf die Space Shooter Scratch Übung und probiere die Scratch-Implementierung aus. Unser Ziel ist es, diesen Space Shooter mit Web-Technologien für den Browser zu entwickeln.
-Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls HTML, JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
+
+   Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls HTML, JavaScript, Node.</description>
     </item>
     
     <item>
@@ -212,7 +201,8 @@ Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls HTML,
       <description>SVG Schreibtrainer Ziel der Übung Du baust ein Spiel das dir hilft, deine Tipp-Geschwindigkeit zu verbessern.
 Am oberen Spielfeldrand erscheinen Kreise mit Buchstaben, die nach unten fallen. Tippe den Buchstaben, bevor er den unteren Rand des Spielfelds berührt.
 Auf Wikipedia findest du eine Grafik zum Zehnfingersystem, die erklärt, welche Taste mit welchem Finger gedrückt werden soll.
-Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Namen schreibtrainer.</description>
+
+   Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Namen schreibtrainer.</description>
     </item>
     
     <item>
@@ -223,7 +213,10 @@ Grundgerüst der HTML Seite Erstelle als erstes eine neue HTML Seite mit dem Nam
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/blazor-tetris/</guid>
       <description>Tetris mit Blazor Kostenlose Voraussetzungen  Neueste Version von Visual Studio 2017 Community Edition mit ASP.NET and web development ASP.NET Core Blazor Language Services  Projekt anlegen  Visual Studio starten
  File / New / Project
- Neues ASP.NET Projekt anlegen:  Blazor Projekttyp auswählen:  Nach dem Anlegen des Projekt den Startmodus ändern:  Probiere, das Programm mit F5 oder Debug / Start Debugging zu starten. Es müsste ein Kommandozeilenfenster und ein Browser aufgehen.</description>
+ Neues ASP.NET Projekt anlegen: 
+    Blazor Projekttyp auswählen: 
+    Nach dem Anlegen des Projekt den Startmodus ändern: 
+    Probiere, das Programm mit F5 oder Debug / Start Debugging zu starten.</description>
     </item>
     
   </channel>

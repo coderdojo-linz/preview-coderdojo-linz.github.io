@@ -25,7 +25,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.f5b53262f7ae54a74cab5e2c495d70dd05173f435ab7af1be0740f43e6e5e4fc.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.6088d7d87b1282d4dffb4d5654e0db87116c7bcbea730faf824217582c50443c.css">
     <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -165,12 +165,34 @@ Rand des Spielfelds berührt.</p>
 <a href="https://de.wikipedia.org/wiki/Zehnfingersystem#/media/File:QWERTZ-10Finger-Layout.svg" target="_blank">Zehnfingersystem</a>, die erklärt, welche Taste
 mit welchem Finger gedrückt werden soll.</p>
 
-<p><img src="images/schreibtrainer.png" alt="Schreibtrainer" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/svg-schreibtrainer/img/schreibtrainer.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
 
 <h2 id="grundgerüst-der-html-seite">Grundgerüst der HTML Seite</h2>
 
 <p>Erstelle als erstes eine neue HTML Seite mit dem Namen <code>schreibtrainer.html</code>.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
 
@@ -202,12 +224,10 @@ mit welchem Finger gedrückt werden soll.</p>
 &lt;/<span style="color:#f92672">body</span>&gt;
 
 &lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
-
 <h2 id="styles">Styles</h2>
 
 <p>Die Styles sind hier nicht direkt im HTML enthalten, sondern es wird auf die externe Datei <code>schreibtrainer.css</code> verwiesen. Die Datei muss sich im selben Ordner wie schreibtrainer.htm befinden.
 Du kannst die Datei entweder unter <a href="schreibtrainer.css">schreibtrainer.css</a> herunterladen, oder du erstellst eine neue Datei <code>schreibtrainer.css</code> mit folgendem Inhalt:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">body</span> {
 	<span style="color:#66d9ef">font-family</span>: Verdana;
 	<span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
@@ -226,12 +246,10 @@ Du kannst die Datei entweder unter <a href="schreibtrainer.css">schreibtrainer.c
 	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
 	<span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
 }</code></pre></div>
-
 <h2 id="skripte">Skripte</h2>
 
 <p>Für die Skripte verwenden wir in diesem Spiel eine eigene Datei. Lege dazu eine neue Datei <code>schreibtrainer.js</code> an. Im HTML wird auf diese Datei verwiesen. Wir starten
 mit folgenden Grundgerüst:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">svg</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Snap</span>(<span style="color:#e6db74">&#34;#svg&#34;</span>);
 <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">buchstaben</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;fjdkslaöghärueiwoqptzüvnbmcxy&#34;</span>;
 <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">level</span>;
@@ -263,20 +281,16 @@ mit folgenden Grundgerüst:</p>
 	<span style="color:#75715e">// TODO
 </span><span style="color:#75715e"></span>}
 </code></pre></div>
-
 <p>Wenn du die Seite schreibtrainer.html jetzt aufrufst, siehst du nur das leere Spielfeld. Sonst passiert noch nichts. Als erstes fügen wir den Code
 für die Funktion datenAusgeben ein. Hier geben wir in den HTML Element <code>anzahlFehler</code> und <code>anzahlTreffer</code> die aktuellen Werte der Variablen <code>fehler</code> und <code>treffer</code> aus.</p>
 
 <p><strong>Code für die Function datenAusgeben()</strong></p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;anzahlFehler&#34;</span>).<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fehler</span>.<span style="color:#a6e22e">toString</span>();
 document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;anzahlTreffer&#34;</span>).<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">treffer</span>.<span style="color:#a6e22e">toString</span>();
 </code></pre></div>
-
 <p>Damit die Buchstaben im Spielfeld angezeigt werden, müssen wir jetzt noch die Function <code>neuerBuchstabe</code> implementieren.</p>
 
 <p><strong>Code für die Function neuerBuchstabe()</strong></p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">spielAktiv</span>) {
 	<span style="color:#75715e">// bestimme x und y position und den angezeigten Buchstaben
 </span><span style="color:#75715e"></span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getRandomInt</span>(<span style="color:#ae81ff">40</span>, <span style="color:#ae81ff">760</span>);
@@ -308,12 +322,10 @@ document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e
 </span><span style="color:#75715e"></span>	<span style="color:#a6e22e">setTimeout</span>(<span style="color:#a6e22e">neuerBuchstabe</span>, <span style="color:#ae81ff">1000</span>);
 }
 </code></pre></div>
-
 <p>In der Function <code>neuerBuchstabe</code> wird eine weitere Function <code>getRandomInt</code> aufgerufen. Sie liefert uns eine Zufallszahl zwischen den beiden übergebenen Zahlen.
 Diese Funktion müssen wir noch zu unserer JavaScript Datei hinzufügen, damit der Code funktioniert. Füge den nachfolgenden Code am Ende der Datei ein.</p>
 
 <p><strong>Neue Function getRandomInt</strong></p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">// gibt eine Zufallszahl zwischen min (inklusive) und max (inklusive) zurück 
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">getRandomInt</span>(<span style="color:#a6e22e">min</span>, <span style="color:#a6e22e">max</span>) {
 	<span style="color:#a6e22e">min</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">ceil</span>(<span style="color:#a6e22e">min</span>);
@@ -321,14 +333,12 @@ Diese Funktion müssen wir noch zu unserer JavaScript Datei hinzufügen, damit d
 	<span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">floor</span>(Math.<span style="color:#a6e22e">random</span>() <span style="color:#f92672">*</span> (<span style="color:#a6e22e">max</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">min</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)) <span style="color:#f92672">+</span> <span style="color:#a6e22e">min</span>;
 }
 </code></pre></div>
-
 <p>Wenn du die Seite schreibtrainer.html jetzt aufrufst erscheinen bereits die Buchstaben und fallen nach unten.</p>
 
 <p>Jetzt müssen wir uns noch darum kümmern, dass wir Tastatureingaben erkennen. Es gibt in Javascript dazu das Event document.onkeyup. Füge dazu den
 folgenden Code am Ende der Datei ein.</p>
 
 <p><strong>Neues Event document.onkeyup</strong></p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">// reagiert wenn eine Taste gedrückt wird
 </span><span style="color:#75715e"></span>document.<span style="color:#a6e22e">onkeyup</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">event</span>) {
 	<span style="color:#75715e">// finde alle Figuren im Spiel
@@ -352,11 +362,9 @@ folgenden Code am Ende der Datei ein.</p>
 	}
 };
 </code></pre></div>
-
 <p>In dieser Funktion wird eine weitere Funktion <code>buchstabeGetippt</code> aufgerufen, die wir ebenfalls noch zu unserer JavaScript Datei hinzufügen müssen.</p>
 
 <p><strong>Neue Function buchstabeGetippt</strong></p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">// zeigt an, dass eine richtige Taste gedrückt wurde
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">buchstabeGetippt</span>(<span style="color:#a6e22e">figur</span>) {
 	<span style="color:#75715e">// ändere den Wert getippt der Figur auf true
@@ -377,7 +385,6 @@ folgenden Code am Ende der Datei ein.</p>
 	}
 }
 </code></pre></div>
-
 <p>Das Spiel ist jetzt fertig. Wenn du einen Buchstaben tippst, der gerade im Spielfeld angezeigt wird, wird der Kreis gröer und grün, dann verschwindet
 der Buchstabe.</p>
 

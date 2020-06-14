@@ -25,7 +25,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.f5b53262f7ae54a74cab5e2c495d70dd05173f435ab7af1be0740f43e6e5e4fc.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.6088d7d87b1282d4dffb4d5654e0db87116c7bcbea730faf824217582c50443c.css">
     <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -164,16 +164,39 @@
 
 <h2 id="ziel-der-übung">Ziel der Übung</h2>
 
-<p>In unserem Dojo hast du möglicherweise schon bei den Scratch-Übungen den <a href="http://coderdojo-linz.github.io/trainingsanleitungen/scratch/scratch-space-shooter.html" target="_blank">Space Shooter</a> erstellt. Falls nicht, wirf bitte vor diesem Beispiel einen Blick auf die Space Shooter Scratch Übung und <a href="https://scratch.mit.edu/projects/70593136/" target="_blank">probiere die Scratch-Implementierung aus</a>. Unser Ziel ist es, diesen Space Shooter mit Web-Technologien für den Browser zu entwickeln.</p>
+<p>In unserem Dojo hast du möglicherweise schon bei den Scratch-Übungen den <a href="/uebungsanleitungen/programmieren/scratch/space-shooter/">Space Shooter</a> erstellt. Falls nicht, wirf bitte vor diesem Beispiel einen Blick auf die Space Shooter Scratch Übung und <a href="https://scratch.mit.edu/projects/70593136/" target="_blank">probiere die Scratch-Implementierung aus</a>. Unser Ziel ist es, diesen Space Shooter mit Web-Technologien für den Browser zu entwickeln.</p>
 
-<p><img src="space-shooter/phaser-space-shooter.png" alt="Space Shooter" /></p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/space-shooter/img/phaser-space-shooter.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
 
 <p><strong>Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist!</strong> Falls HTML, JavaScript, Node.js und <a href="https://code.visualstudio.com/" title="Homepage von Visual Studio Code" target="_blank">Visual Studio Code</a> für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut. Dazu sind folgende Übungsanleitungen zu empfehlen:</p>
 
 <ul>
-<li>HTML Grundlagen: <a href="http://coderdojo-linz.github.io/trainingsanleitungen/web/html-meine-erste-webseite.html" target="_blank">Baue deine erste Webseite</a></li>
-<li>JavaScript Grundlagen: <a href="http://coderdojo-linz.github.io/trainingsanleitungen/web/javascript-zahlen-raten.html" target="_blank">Zahlen raten</a></li>
-<li>Node.js Grundlagen: <a href="http://coderdojo-linz.github.io/trainingsanleitungen/web/nodejs-webserver.html" target="_blank">Ein Webserver mit Node.js</a></li>
+<li>HTML Grundlagen: <a href="/uebungsanleitungen/programmieren/web/html-meine-erste-webseite/">Baue deine erste Webseite</a></li>
+<li>JavaScript Grundlagen: <a href="/uebungsanleitungen/programmieren/web/javascript-zahlen-raten/">Zahlen raten</a></li>
+<li>Node.js Grundlagen: <a href="/uebungsanleitungen/programmieren/web/nodejs-webserver/">Ein Webserver mit Node.js</a></li>
 </ul>
 
 <h2 id="systemvoraussetzungen">Systemvoraussetzungen</h2>
@@ -194,14 +217,60 @@
 
 <ol>
 <li><p>Lade den Code, den du zum Starten brauchst, <a href="https://github.com/rstropek/ts-space-shooter-starter/tree/master" target="_blank">von GitHub herunter</a>:
-<img src="space-shooter/GitDownload.png" alt="Download GitHub" /></p></li>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/space-shooter/img/GitDownload.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+</p></li>
 
 <li><p>Pro Tipp: Weißt du schon, was <em>Git</em> ist? Natürlich kannst du dann das GitHub Repository auch <em>klonen</em>. Es macht nichts, wenn du noch nicht weißt, was das bedeutet.</p></li>
 
 <li><p>Kopiere den Inhalt der ZIP-Datei, die du heruntergeladen hast, in ein <em>neues, leeres Verzeichnis</em>. In dieser Anleitung gehe ich davon aus, dass du das Verzeichnis <em>c:\temp\shooter</em> genannt hast.</p></li>
 
 <li><p>Öffne das <em>shooter</em> Verzeichnis in <em>Visual Studio Code</em>:
-<img src="space-shooter/VSCodeOpenFolder.png" alt="Open Folder VSCode" /></p></li>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/space-shooter/img/VSCodeOpenFolder.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+</p></li>
 
 <li><p>Öffne das <em>Terminal</em> in VSCode (<em>Strg+ö</em>).</p></li>
 
@@ -210,7 +279,30 @@
 <li><p>Starte das Programm mit dem Befehl <code>npm start</code>.</p></li>
 
 <li><p>Jetzt müsste ein Browserfenster aufgehen und du müsstest eine Meldung wie diese sehen:
-<img src="space-shooter/StarterRun.png" alt="Starter Code Run" /></p></li>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/space-shooter/img/StarterRun.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+</p></li>
 </ol>
 
 <p><strong>Hinweis:</strong> Im Startcode, den du gerade heruntergeladen hast, stecken eine Menge interessante (aber nicht einfache) Details rund um Webentwicklung. Auf die gehen wir hier nicht ein. Wer aber schon mehr Erfahrung mit Webentwicklung hat, der kann in den vorgefertigten Code reinschauen und versuchen, Teile davon zu verstehen.</p>

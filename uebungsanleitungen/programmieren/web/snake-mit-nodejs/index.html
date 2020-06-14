@@ -25,7 +25,7 @@
     
     
     
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.f5b53262f7ae54a74cab5e2c495d70dd05173f435ab7af1be0740f43e6e5e4fc.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.6088d7d87b1282d4dffb4d5654e0db87116c7bcbea730faf824217582c50443c.css">
     <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -158,7 +158,30 @@
 
 <h1 id="snake-mit-node-js">Snake mit Node.js</h1>
 
-<p><img src="snake-mit-nodejs/snake.png" alt="Snake" />{: .max-full }</p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/snake-mit-nodejs/img/snake.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
 
 <h2 id="ziel-der-übung">Ziel der Übung</h2>
 
@@ -174,11 +197,34 @@
 
 <p>Als erstes brauchen wir einen Ordern, in dem wir das Spiel erstellen können. Lege im Dateiexplorer einen Ordner an und öffne dann diesen Pfad in der Eingabeaufforderung. Dort rufst du den Befehl <code>npm init</code> auf. Damit wird in deinem Ordner eine Datei <code>package.json</code> erzeugt, in der wir zusätzlich benötigte Pakete speichern können.</p>
 
-<p><img src="snake-mit-nodejs/npm-init.png" alt="npm init" />{: .max-full }</p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/snake-mit-nodejs/img/npm-init.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
 
 <p>Wir brauchen für unser Spiel die beiden Pakete <code>ansi</code> und <code>keypress</code>. Diese können wir durch die folgenden beiden Befehle in der Eingabeaufforderung laden:</p>
-<pre><code>npm install ansi
-npm install keypress</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">npm install ansi
+npm install keypress</code></pre></div>
 <p>Nachdem du die beiden Pakete installiert hast, kannst du in deinem Ordner eine neue Datei für dein Spiel anlegen (z.B. game.js). Zum Starten geben wir den Text &ldquo;MY GAME&rdquo; aus und malen ein paar farbige Punkte:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">/*jslint node: true, for: true */</span>
 <span style="color:#e6db74">&#39;use strict&#39;</span>;
@@ -221,16 +267,62 @@ npm install keypress</code></pre>
 }
 </code></pre></div>
 <p>Du kannst das Programm ausführen, indem du in der Eingabeaufforderung folgendes Kommando eingibst:</p>
-<pre><code>node game.js</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">node game.js</code></pre></div>
 <p>Wenn du das Spiel nun laufen lässt, werden zuerst drei Leerzeichen mit roten Hintergrund gezeichnet, dann wird der Text &ldquo;MY GAME&rdquo; in gelb ausgegeben, und dann kommen wieder drei Leerzeichen mit rotem Hintergrund.</p>
 
-<p><img src="snake-mit-nodejs/my-game.png" alt="MY GAME" />{: .max-full }</p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/snake-mit-nodejs/img/my-game.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
 
 <h2 id="spielfeld-zeichnen">Spielfeld zeichnen</h2>
 
 <p>Als nächstes wollen wir ein Spielfeld zeichnen:</p>
 
-<p><img src="snake-mit-nodejs/game-area.png" alt="Spielfeld" />{: .max-full }</p>
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/web/snake-mit-nodejs/img/game-area.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
 
 <p>Dazu definieren wir global die Größe des Spielfelds mit <code>var width = 40;</code>und <code>var height = 20;</code>. Den Code im <code>try</code> Block ändern wir, um die vier Linien zu zeichnen. Damit wir nicht jeden Punkt der Linie einzeln zeichnen müssen, bauen wir dafür die Funktionen <code>drawHorizontalLine</code> und <code>drawVerticalLine</code>.</p>
 
