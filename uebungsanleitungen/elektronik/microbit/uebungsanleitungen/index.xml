@@ -16,16 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hello-world/</guid>
-      <description>Die ersten Schritte mit micro:bit und der Block-Programmierung beginnen immer mit &amp;ldquo;Hello World&amp;rdquo;. Die aktuellste Anleitung findest Du immer im Internet auf der Originalseite microbit.org.</description>
-    </item>
-    
-    <item>
-      <title>Missile Shooter</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</guid>
-      <description>Zwei Spieler spielen gegeneinander. Die beiden micro:bit sind mit bluetoot miteinander verbunden. Jeder kann einen Lichtstrahl abfeuern und versuchen den anderen zu treffen. Gleichzeitig muss dem kommenden Lichtstrahl ausgewichen werden.</description>
+      <description></description>
     </item>
     
     <item>
@@ -34,7 +25,62 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</guid>
-      <description>Hier wird gezeigt wie der micro:bit seine Bewegung erkennt und wie diese im Programm auswertet werden können.</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fan Controller</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/fan-controller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/fan-controller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hot Wire - der heiße Draht</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hot-wire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hot-wire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Missile Shooter</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moonhack 2018</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/moonhack-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/moonhack-2018/</guid>
+      <description>micro:bit Moonhack 2018 Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond, aber das Raumschiff am richtigen Ort zu landen war nicht einfach. Der Pilot, Neil Armstrong, musste das Raumschiff präzise zu dem Landepunkt steuern um dort landen zu können und in diesem Spiel werden wir versuchen die Landeansteuerung nachzubauen.
+Wenn du keinen physischen micro:bit hast kannst du das Spiel in dem Online-Editor coden.</description>
+    </item>
+    
+    <item>
+      <title>Schere-Stein-Papier</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/schere-stein-papier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/schere-stein-papier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spielwürfel</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/spielwuerfel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/spielwuerfel/</guid>
+      <description></description>
     </item>
     
   </channel>

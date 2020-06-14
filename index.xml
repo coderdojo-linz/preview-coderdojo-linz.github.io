@@ -48,7 +48,7 @@ Python installieren Lade Python nun herunter und installiere es auf deinem Compu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hello-world/</guid>
-      <description>Die ersten Schritte mit micro:bit und der Block-Programmierung beginnen immer mit &amp;ldquo;Hello World&amp;rdquo;. Die aktuellste Anleitung findest Du immer im Internet auf der Originalseite microbit.org.</description>
+      <description></description>
     </item>
     
     <item>
@@ -131,15 +131,6 @@ Scratch Webseite öffnen   Öffne einen Webbrowser, gib in der Adresszeile die A
     </item>
     
     <item>
-      <title>Missile Shooter</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</guid>
-      <description>Zwei Spieler spielen gegeneinander. Die beiden micro:bit sind mit bluetoot miteinander verbunden. Jeder kann einen Lichtstrahl abfeuern und versuchen den anderen zu treffen. Gleichzeitig muss dem kommenden Lichtstrahl ausgewichen werden.</description>
-    </item>
-    
-    <item>
       <title>Sicherheitshinweise</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/sicherheitshinweise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -158,15 +149,6 @@ Scratch Webseite öffnen   Öffne einen Webbrowser, gib in der Adresszeile die A
    Ziel der Übung In dieser Übung lernst du ein einfaches Verschlüsselungsverfahren kennen.
 Technisch lernst du einige Dinge über JavaScript und Node.js:
  Wie programmiert man ein Kommandozeilenprogramm mit JavaScript? Was sind ASCII Codes? Wie arbeitet man in JavaScript mit Zeichenketten?  Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls JavaScript, Node.js und Visual Studio Code für dich neu sind, mache dich erst mit diesen Technologien und Werkzeugen vertraut.</description>
-    </item>
-    
-    <item>
-      <title>Beschleunigungssensor</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</guid>
-      <description>Hier wird gezeigt wie der micro:bit seine Bewegung erkennt und wie diese im Programm auswertet werden können.</description>
     </item>
     
     <item>
@@ -418,6 +400,15 @@ In dieser Übung probieren wir, ein Programm direkt in Maschinensprache zu progr
     </item>
     
     <item>
+      <title>Beschleunigungssensor</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Breakout</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/breakout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -605,6 +596,15 @@ Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der 
     </item>
     
     <item>
+      <title>Fan Controller</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/fan-controller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/fan-controller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fang die Äpfel</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -734,6 +734,15 @@ Der Besuch der HTL (Elektronik/Informatik) und das Studium Softwae Engeneering a
     </item>
     
     <item>
+      <title>Hot Wire - der heiße Draht</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hot-wire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/hot-wire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HTML &amp; CSS Hands On</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-css-hands-on/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -851,6 +860,15 @@ Einleitung Ziel dieser Anleitung ist das Betreiben eines Minecraft Servers auf B
     </item>
     
     <item>
+      <title>Missile Shooter</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/missile-shooter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mit Scratch eine Geschichte erzählen</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/geschichte-katze-und-ente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -870,6 +888,16 @@ Neues Projekt erstellen   Öffne Scratch und klicke links oben im Menü auf Entw
       <description>In diesem Spiel musst du mit dem Lunar Module auf dem Mond landen. Aber Vorsicht, die Landung muss sanft sein und du hast nur eine begrenzte Menge an Raktentreibstoff.
 Du kannst das fertige Spiel unter https://scratch.mit.edu/projects/236734138/ auch gleich ausprobieren.
 Downloads Figur    Hintergrund Hintergrund downloaden   Lunar Module Figur downloaden   Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond.</description>
+    </item>
+    
+    <item>
+      <title>Moonhack 2018</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/moonhack-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/moonhack-2018/</guid>
+      <description>micro:bit Moonhack 2018 Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond, aber das Raumschiff am richtigen Ort zu landen war nicht einfach. Der Pilot, Neil Armstrong, musste das Raumschiff präzise zu dem Landepunkt steuern um dort landen zu können und in diesem Spiel werden wir versuchen die Landeansteuerung nachzubauen.
+Wenn du keinen physischen micro:bit hast kannst du das Spiel in dem Online-Editor coden.</description>
     </item>
     
     <item>
@@ -1001,6 +1029,15 @@ Sein Kernaufgabengebiet liegt in der Architekturberatung und im Coaching von gr�
     </item>
     
     <item>
+      <title>Schere-Stein-Papier</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/schere-stein-papier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/schere-stein-papier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Schriftlich Multiplizieren mit Python</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1083,6 +1120,15 @@ Für diese Übung solltest du bereits einfache Programmierkentnisse haben, die K
       <description>Space Shooter mit Phaser.io Ziel der Übung In unserem Dojo hast du möglicherweise schon bei den Scratch-Übungen den Space Shooter erstellt. Falls nicht, wirf bitte vor diesem Beispiel einen Blick auf die Space Shooter Scratch Übung und probiere die Scratch-Implementierung aus. Unser Ziel ist es, diesen Space Shooter mit Web-Technologien für den Browser zu entwickeln.
 
    Bitte beachte, dass dieses Beispiel keine Übung für Anfänger ist! Falls HTML, JavaScript, Node.</description>
+    </item>
+    
+    <item>
+      <title>Spielwürfel</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/spielwuerfel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/spielwuerfel/</guid>
+      <description></description>
     </item>
     
     <item>
