@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coder-dojo-bastel-programm/</guid>
-      <description>Ein Überblick über das CoderDojo Löten &amp;amp; Elektronik Programm.</description>
+      <description></description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@ Falls du noch überhaupt keine Erfahrung mit HTML hast, wende dich an eine Coder
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/grundlagen-loeten/</guid>
-      <description>Kurz und kompakt wird das Löten theoretisch beschrieben. Vor dem praktischen Einsatz diese Beschreibung bitte lesen.</description>
+      <description></description>
     </item>
     
     <item>
@@ -189,7 +189,7 @@ Als Mentoren begleiten wir in CoderDojos Kinder beim spielerischen Entdecken ihr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/loeten-ist-einfach/</guid>
-      <description>Diese Lötanleitung ist in einzelne Bilder aufgeteilt und zeigt das Löten aus einem anderen Blickwinkel.</description>
+      <description></description>
     </item>
     
     <item>
@@ -247,7 +247,7 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/kurzanleitung-kartonbausatz/</guid>
-      <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+      <description></description>
     </item>
     
     <item>
@@ -265,7 +265,7 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/coderdojo-logo/</guid>
-      <description>Das CoderDojo Logo zum Einstieg. Der erste und einfachste Bausatz mit blinkender Leuchtdiode.</description>
+      <description></description>
     </item>
     
     <item>
@@ -283,7 +283,7 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</guid>
-      <description>Hier ist die größte Herausforderung Deine eigene Kreativität. Erstelle Deine eigene LED-Schaltung nach den Grundregeln der Elektronik.</description>
+      <description></description>
     </item>
     
     <item>
@@ -292,7 +292,7 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</guid>
-      <description>Ein Bausatz mit Transistoren. Die Konstantstromquelle stellt wie ein regelbarer Widerstand einen konstanten Strom für die Leuchtdiode ein.</description>
+      <description></description>
     </item>
     
     <item>
@@ -301,7 +301,7 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</guid>
-      <description>Mit Solarzelle und Akku leuchtet eine LED in der Nacht und am Tag wird der Akku wieder geladen.</description>
+      <description></description>
     </item>
     
     <item>
@@ -310,7 +310,7 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</guid>
-      <description>Du findest Internet Links auf der Conrad Homepage zu informativen Unterlagen und Beschreibungen welche Du Dir als pdf downloaden kannst.</description>
+      <description></description>
     </item>
     
     <item>
@@ -605,6 +605,15 @@ Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der 
     </item>
     
     <item>
+      <title>Fang den Punkt</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/fang-den-punkt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/fang-den-punkt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fang die Äpfel</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-die-aepfel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -783,6 +792,15 @@ Damit dein Computer ein Minecraft-Server wird, musst du eine bestimmte Software 
       <guid>https://linz-preview.coderdojo.net/mentoren/huber-karin/</guid>
       <description>Karin Huber ist Mitgründerin und Geschäftsführerin der Firma software architechts gmbh und ist seit mehr als 15 Jahren in der Softwareentwicklung tätig.
 Ihre Schwerpunkte liegen im Bereich WPF und Silverlight, sowie in der Webentwicklung mit HTML5, CSS3 und AngularJS. Außerdem ist sie Mitautorin der beiden Bücher &amp;ldquo;XAML. schnell + kompakt&amp;rdquo; und &amp;ldquo;WPF und XAML Programmierhandbuch&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Kompass</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/kompass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/kompass/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1161,6 +1179,15 @@ Hier in Linz sind wir ein gemeinnütziger Verein, an dessen oberster Stelle das 
 Das Spiel basiert auf dem Spiel Gravity!! von gilnz21.
 Figuren anlegen   Lösche als erstes die Figur Scratchy mit dem Namen Sprite 1 indem du mit der rechten Maustaste darauf klickst. Im angezeigten Menü kannst du Scratchy löschen.
      Suche dir ein Bühnenbild für dein Spiel aus.</description>
+    </item>
+    
+    <item>
+      <title>Stoppuhr</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/stoppuhr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/stoppuhr/</guid>
+      <description></description>
     </item>
     
     <item>
