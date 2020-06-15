@@ -7,6 +7,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/computational-thinking/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</loc>
   </url>
   
@@ -63,6 +67,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/pimoroni-inventors-kit/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/sicherheitshinweise/</loc>
   </url>
   
@@ -84,6 +92,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/grove-inventor-kit/</loc>
   </url>
   
   <url>
@@ -116,6 +128,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/kurzanleitung-kartonbausatz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/mi-node-kit/</loc>
   </url>
   
   <url>
@@ -207,6 +223,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/adafruit-neopixel-guide/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/css-advanced-styles/</loc>
   </url>
   
@@ -248,6 +268,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/categories/blazor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/bme280/</loc>
   </url>
   
   <url>
@@ -423,6 +447,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/i2c-bus/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/images/</loc>
   </url>
   
@@ -456,6 +484,14 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/labyrinth-mit-svg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/lcd-16-02/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/led-array/</loc>
   </url>
   
   <url>
@@ -504,6 +540,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/categories/node.js/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/oled-128-64/</loc>
   </url>
   
   <url>

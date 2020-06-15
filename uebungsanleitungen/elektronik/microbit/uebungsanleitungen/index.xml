@@ -20,11 +20,29 @@
     </item>
     
     <item>
+      <title>Adafruit NeoPixel Guide</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/adafruit-neopixel-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/adafruit-neopixel-guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Beschleunigungssensor</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/beschleunigungssensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BME280</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/bme280/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/bme280/</guid>
       <description></description>
     </item>
     
@@ -56,11 +74,38 @@
     </item>
     
     <item>
+      <title>i2c-Bus</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/i2c-bus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/i2c-bus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kompass</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/kompass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/kompass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LCD</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/lcd-16-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/lcd-16-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Led-Array</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/led-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/led-array/</guid>
       <description></description>
     </item>
     
@@ -81,6 +126,15 @@
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/moonhack-2018/</guid>
       <description>micro:bit Moonhack 2018 Einleitung Am 20. Juli 1969 erreichten die ersten Menschen mit der Mondlandefähre (Englisch Lunar Module) den Mond, aber das Raumschiff am richtigen Ort zu landen war nicht einfach. Der Pilot, Neil Armstrong, musste das Raumschiff präzise zu dem Landepunkt steuern um dort landen zu können und in diesem Spiel werden wir versuchen die Landeansteuerung nachzubauen.
 Wenn du keinen physischen micro:bit hast kannst du das Spiel in dem Online-Editor coden.</description>
+    </item>
+    
+    <item>
+      <title>OLED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/oled-128-64/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/uebungsanleitungen/oled-128-64/</guid>
+      <description></description>
     </item>
     
     <item>
