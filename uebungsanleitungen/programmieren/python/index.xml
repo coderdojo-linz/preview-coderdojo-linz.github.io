@@ -24,6 +24,18 @@ Python installieren Lade Python nun herunter und installiere es auf deinem Compu
     </item>
     
     <item>
+      <title>Alien</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/alien/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/alien/</guid>
+      <description>Wir zeichnen einen Alien Mit dem Package Tkinter zeichnen wir einen Alien und lassen ihn auf Tastendruck reagieren. Die Beschreibung erfolgt in Anlehnung an Beispiele aus dem Buch Programmieren supereasy.
+
+   Voraussetzungen Übungsbeispiele Erste Schritte in Python und Von Scratch zu Python.
+Python Starte für Python die Programmierumgebung IDLE und öffne eine neue Datei (File -&amp;gt; New File) und speichere die Datei als Dateityp auf deinem Computer (File -&amp;gt; Save A).</description>
+    </item>
+    
+    <item>
       <title>Bubble Blaster</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/bubble-blaster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,6 +77,18 @@ Unsinnige Sätze =============== Drücke einfach ENTER, um einen neuen Satz zu e
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/</guid>
       <description>Schriftlich Multiplizieren mit Python Es wäre doch nett, wenn ein Programm das schriftliche Multiplizieren mit allen Zwischenschritten vorführen könnte? Für die Faktoen 345 und 789 soll das Programm z.B. folgendes ausgeben:
 345 x 789 --------- 2415 2760 3105 ------ 272205 Allgemeines zur Programmiersprache Python Wir verwenden für die Programmierung die Programmiersprache Python (siehe die Python Homepage www.python.org), genauer gesagt Python 3, also eine Version von Python, deren Bezeichnung mit 3 beginnt, z.</description>
+    </item>
+    
+    <item>
+      <title>Von Scratch zu Python</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/von-scratch-zu-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/von-scratch-zu-python/</guid>
+      <description>Von Scratch zu Python Du zeichnest eine geometrische Figur in Scratch und dann übersetzt du das Programm in die Programmiersprache Python.
+
+   Voraussetzungen Übungsbeispiel: Erste Schritte in Python
+Scratch Laden des Malstifts Um in Scratch zu zeichnen, muss man zuerst die Erweiterung „Malstift“ laden. Klicke dazu auf das Symbol in der linken unteren Ecke und wähle dann den Malstift aus. Damit bekommst du einen neuen Eintrag „Malstift“ im Menü am linken Bildschirmrand und eine Menge neuer Blöcke, die du zum Zeichnen verwenden kannst.</description>
     </item>
     
     <item>

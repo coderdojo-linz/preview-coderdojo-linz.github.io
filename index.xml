@@ -355,6 +355,18 @@ Als Mitbegründer des Technologieplauscherls ist er als Organisator und Moderato
     </item>
     
     <item>
+      <title>Alien</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/alien/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/alien/</guid>
+      <description>Wir zeichnen einen Alien Mit dem Package Tkinter zeichnen wir einen Alien und lassen ihn auf Tastendruck reagieren. Die Beschreibung erfolgt in Anlehnung an Beispiele aus dem Buch Programmieren supereasy.
+
+   Voraussetzungen Übungsbeispiele Erste Schritte in Python und Von Scratch zu Python.
+Python Starte für Python die Programmierumgebung IDLE und öffne eine neue Datei (File -&amp;gt; New File) und speichere die Datei als Dateityp auf deinem Computer (File -&amp;gt; Save A).</description>
+    </item>
+    
+    <item>
       <title>Animierte Ansichtskarte</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/animated-postcard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1246,6 +1258,18 @@ Notwendige Software Wir verwenden für Online CoderDojos die Webmeeting-Plattfor
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/towers-of-hanoi/</guid>
       <description>Türme von Hanoi Einleitung Die Türme von Hanoi sind ein klassisches Übungsbeispiel für Programmierer. Für Kinder gibt es das Rätsel auch als Holzspielzeug zu kaufen. Die Regeln sind einfach:
  Man hat ein Spielbrett mit drei Stangen. Nennen wir sie L for Links, M für Mitte und R für Rechts. Auf der Stange A ist ein Turm von Spielsteinen aufgetürmt. Jeder Spielstein ist etwas kleiner als der darunter. Die Aufgabe ist es, den Turm von Stange L auf Stange M zu übersiedeln.</description>
+    </item>
+    
+    <item>
+      <title>Von Scratch zu Python</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/von-scratch-zu-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/von-scratch-zu-python/</guid>
+      <description>Von Scratch zu Python Du zeichnest eine geometrische Figur in Scratch und dann übersetzt du das Programm in die Programmiersprache Python.
+
+   Voraussetzungen Übungsbeispiel: Erste Schritte in Python
+Scratch Laden des Malstifts Um in Scratch zu zeichnen, muss man zuerst die Erweiterung „Malstift“ laden. Klicke dazu auf das Symbol in der linken unteren Ecke und wähle dann den Malstift aus. Damit bekommst du einen neuen Eintrag „Malstift“ im Menü am linken Bildschirmrand und eine Menge neuer Blöcke, die du zum Zeichnen verwenden kannst.</description>
     </item>
     
     <item>
