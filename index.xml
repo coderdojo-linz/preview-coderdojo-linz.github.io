@@ -180,7 +180,7 @@ Wichtig: Diese Übung geht davon aus, dass du die Übung Einen Node.js Webserver
     </item>
     
     <item>
-      <title>Erste Schritte mit micro:bit Blockprogrammierung</title>
+      <title>Erste Schritte</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/erste-schritte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -287,6 +287,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>:MOVE mini robot for BBC micro:bit</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/move-mini-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/move-mini-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Grundlagen Bauelemente</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -314,29 +323,29 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
-      <title>Lötübung Clown</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</link>
+      <title>micro:bit with Arduino</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/microbit-with-arduino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/microbit-with-arduino/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lötübung Konstantstromquelle für LED</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</link>
+      <title>MAKERbuino Build Guide</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/makerbuino-build-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/makerbuino-build-guide/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lötübung Solar LED</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</link>
+      <title>EDU days 2018 - micro:bit Temeraturmessung</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/microbit-temperaturmessung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</guid>
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/microbit-temperaturmessung/</guid>
       <description></description>
     </item>
     
@@ -927,6 +936,33 @@ Spielbeschreibung Steuere mit den Cursortasten den Spieler (blaue Kugel). Dein Z
 Systemvoraussetzungen Bevor du den Minecraft-Server installieren kannst, musst du folgende Software installieren:
  Java SE Development Kit (kurz JDK) Lade die Windows-Version von der Download-Seite herunter und installiere sie.
  Git Lade die Windows-Version von der Download-Seite herunter und installiere sie. Installiere alle verfügbaren Teile von Git, die im Installationsprogramm auswählbar sind.</description>
+    </item>
+    
+    <item>
+      <title>Lötübung Clown</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lötübung Konstantstromquelle für LED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lötübung Solar LED</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</guid>
+      <description></description>
     </item>
     
     <item>

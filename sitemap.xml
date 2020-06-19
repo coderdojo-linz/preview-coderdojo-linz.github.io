@@ -135,6 +135,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/move-mini-robot/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</loc>
   </url>
   
@@ -147,15 +151,15 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/microbit-with-arduino/</loc>
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/makerbuino-build-guide/</loc>
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/microbit-temperaturmessung/</loc>
   </url>
   
   <url>
@@ -496,6 +500,18 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/clown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/konstantstromquelle-fuer-led/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/solar-led/</loc>
   </url>
   
   <url>
