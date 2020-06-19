@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Elektronik Programm</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/elektronik-programm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/elektronik-programm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Erste Schritte in Scratch</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/erste-schritte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -170,6 +179,15 @@ Technisch lernst du einige Dinge über JavaScript und Node.js:
     </item>
     
     <item>
+      <title>Übung 1</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chat mit Node.js und Socket.io</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -230,6 +248,15 @@ Als Mentoren begleiten wir in CoderDojos Kinder beim spielerischen Entdecken ihr
     </item>
     
     <item>
+      <title>Übung 2</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fang Mich</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/fang-mich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -287,6 +314,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Übung 3</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>:MOVE mini robot for BBC micro:bit</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/move-mini-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -302,6 +338,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</guid>
       <description>&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Lösungen zu Übungen 1, 2 &amp; 3</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/loesungen-uebung-1-2-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/loesungen-uebung-1-2-3/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -332,6 +377,24 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Übungsbeispiele</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebungsbeispiele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebungsbeispiele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grundlagen der Elektronik</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/grundlagen-der-elektronik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/grundlagen-der-elektronik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MAKERbuino Build Guide</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/erweiterungen/makerbuino-build-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -350,11 +413,29 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Elektronikbasteln für Anfänger</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/elektronik-basteln-fuer-anfaenger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/elektronik-basteln-fuer-anfaenger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Conrad Beschreibungen</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conrad Downloads</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/conrad-downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/conrad-downloads/</guid>
       <description></description>
     </item>
     
