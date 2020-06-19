@@ -51,6 +51,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberry-pi/start/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/schnell-start-anleitung/</loc>
   </url>
   
@@ -60,6 +64,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberry-pi/raspberry-pi-computer/</loc>
   </url>
   
   <url>
@@ -687,7 +695,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberrypi/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/raspberry-pi/</loc>
   </url>
   
   <url>
