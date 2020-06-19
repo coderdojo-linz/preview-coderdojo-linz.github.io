@@ -43,11 +43,19 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/microcomputer-start/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</loc>
   </url>
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/schnell-start-anleitung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/sprach-referenz/</loc>
   </url>
   
   <url>
@@ -91,6 +99,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-uno-start/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</loc>
   </url>
   
@@ -120,6 +132,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-uno-pinout/</loc>
   </url>
   
   <url>
@@ -155,6 +171,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-nanov3-start/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</loc>
   </url>
   
@@ -167,6 +187,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-nanov3-pinout/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/poster/</loc>
   </url>
   
@@ -176,6 +200,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebungsbeispiele/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-portable/</loc>
   </url>
   
   <url>
@@ -195,11 +223,27 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/grove-starter-kit/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</loc>
   </url>
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/conrad-downloads/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/grove-einfuehrung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/ps2-joystick-shield/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/ps2-joystick-shield-alt/</loc>
   </url>
   
   <url>

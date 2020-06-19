@@ -91,6 +91,15 @@ Das Grundgerüst einer HTML-Seite  Öffne einen beliebigen Texteditor.</descript
     </item>
     
     <item>
+      <title>MicroComputer Start</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/microcomputer-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/microcomputer-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Node.js Webserver</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-webserver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -107,6 +116,15 @@ Visual Studio Code Editor installieren Ganz einfache HTML und JavaScript Program
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/schnell-start-anleitung/</guid>
       <description>&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Arduino Sprach-Referenz</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/sprach-referenz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/sprach-referenz/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -188,6 +206,15 @@ Technisch lernst du einige Dinge über JavaScript und Node.js:
     </item>
     
     <item>
+      <title>Arduino UNO V3 Tutorial</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-uno-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-uno-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chat mit Node.js und Socket.io</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/nodejs-socketio-chat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -253,6 +280,15 @@ Als Mentoren begleiten wir in CoderDojos Kinder beim spielerischen Entdecken ihr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebung-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino UNO Pinout Diagramm</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-uno-pinout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-uno-pinout/</guid>
       <description></description>
     </item>
     
@@ -332,6 +368,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Arduino Nano V3 Tutorial</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-nanov3-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-nanov3-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Grundlagen Bauelemente</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/grundlagen-bauelemente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -359,6 +404,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Arduino Nano Pinout Diagramm</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-nanov3-pinout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-nanov3-pinout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BBC micro:bit Poster</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/microbit/grundlagen/poster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -382,6 +436,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/uebungsbeispiele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino Portabel installieren</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-portable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/arduino-portable/</guid>
       <description></description>
     </item>
     
@@ -422,6 +485,15 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
     </item>
     
     <item>
+      <title>Grove Starter Kit</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/grove-starter-kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/grove-starter-kit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Conrad Beschreibungen</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/loeten/conrad-beschreibungen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -436,6 +508,33 @@ Das Spiel soll folgendermaßen funktionieren: Der Computer denkt sich eine Zahl 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/elektronik/conrad-downloads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grove Einführung</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/grove-einfuehrung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/grove-einfuehrung/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PS2 Joystick Shield</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/ps2-joystick-shield/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/ps2-joystick-shield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PS2 Joystick Shield (alt)</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/ps2-joystick-shield-alt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/elektronik/arduino/ps2-joystick-shield-alt/</guid>
       <description></description>
     </item>
     
