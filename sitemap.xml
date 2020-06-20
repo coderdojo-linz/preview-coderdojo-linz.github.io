@@ -431,15 +431,15 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/01_redstone-trap/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge/</loc>
   </url>
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/dragons-realm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/</loc>
   </url>
   
   <url>
@@ -464,6 +464,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/erste-schritte-mit-redstone/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/redstone/erste-schritte/</loc>
   </url>
   
   <url>
@@ -695,6 +699,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/html-praesentationen/</loc>
   </url>
   
@@ -715,6 +723,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/redstone/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/categories/reveal.js/</loc>
   </url>
   
@@ -724,6 +736,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/schriftlich-multiplizieren/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/server/</loc>
   </url>
   
   <url>

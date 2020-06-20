@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> NetBeans Projektsetup </title>
+    <title> Eine einfache Falle mit Redstone </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="generator" content="Hugo 0.71.1" /> <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet'
@@ -109,7 +109,7 @@
         
         
         <li class="breadcrumb-item">
-            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/">Plugins</a>
+            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/redstone/">Redstone</a>
         </li>
         
         
@@ -135,77 +135,199 @@
                 <h2>Inhalt</h2>
                 <nav id="TableOfContents">
 <ul>
-<li><a href="#netbeans-projektsetup">NetBeans Projektsetup</a>
+<li><a href="#eine-einfache-falle-mit-redstone">Eine einfache Falle mit Redstone</a>
 <ul>
-<li><a href="#projekt-erstellen">Projekt erstellen</a></li>
-<li><a href="#craftbukkit-bibliothek-hinzufügen">Craftbukkit Bibliothek hinzufügen</a></li>
-<li><a href="#package-hinzufügen">Package hinzufügen</a></li>
-<li><a href="#hauptklasse-hinzufügen">Hauptklasse hinzufügen</a></li>
-<li><a href="#plugin-yml-hinzufügen">plugin.yml hinzufügen</a></li>
-<li><a href="#resultat">Resultat</a></li>
-<li><a href="#projekt-bauen-und-deployen">Projekt bauen und deployen</a></li>
+<li><a href="#vorbereitung">Vorbereitung</a></li>
+<li><a href="#unterbau">Unterbau</a></li>
+<li><a href="#steuerung-der-falle">Steuerung der Falle</a></li>
 </ul></li>
 </ul>
 </nav>
             </div>
-            <div class="col-12 sushi-content"> 
+            <div class="col-12 sushi-content"> <h1 id="eine-einfache-falle-mit-redstone">Eine einfache Falle mit Redstone</h1>
 
-<h1 id="netbeans-projektsetup">NetBeans Projektsetup</h1>
+<p>In diesem Beispiel werden wir eine hinterhältige Falle bauen die Minecraft-Monster einfach zerquetscht.
+Dazu müssen wir die Creeper und/oder Zombies einfach in einen Gang locken. Eignet sich auch zum <a href="https://www.zos-gaming.de/looten/" target="_blank">looten</a></p>
 
-<p>Kurzanleitung, wie das Projekt in NetBeans aufgesetzt werden muss, um für deine Minecraft Plugins vorbereitet zu sein.</p>
+<h2 id="vorbereitung">Vorbereitung</h2>
 
-<h2 id="projekt-erstellen">Projekt erstellen</h2>
+<p>Was wir dafür benötigen ist in erster linie Cobblestone (Bruchstein), 2-3 Pistons (Kolben), einen Schalter, eine Pressure Plate (Druckplatte) und etwas Redstone.</p>
 
-<ol>
-<li>NetBeans starten</li>
-<li>Menü <strong>File</strong> &gt; Menüpunkt <strong>New Project &hellip;</strong></li>
-<li>Auswahl: Categories <strong>Java</strong>, Projects <strong>Java Class Library</strong> &gt; Klick auf <strong>Next</strong></li>
-<li>Vergabe des Projektnamens unter <strong>Project Name</strong> (z.B. FirstPlugin) &gt; Klick auf <strong>Finish</strong></li>
-</ol>
 
-<h2 id="craftbukkit-bibliothek-hinzufügen">Craftbukkit Bibliothek hinzufügen</h2>
 
-<ol>
-<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Libraries</strong> mit der rechten Maustaste klicken &gt; <strong>Add JAR/Folder</strong> auswählen.</li>
-<li>Die Datei <strong>craftbukkit.jar</strong> auswählen &gt; Klick auf <strong>Open</strong></li>
-</ol>
 
-<h2 id="package-hinzufügen">Package hinzufügen</h2>
+     
+    
 
-<ol>
-<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Source Packages</strong> mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>Java Package</strong> auswählen.</li>
-<li>Als <strong>Package Name</strong> folgendes vergeben: io.coderdojo.<deinName>.minecraft.<pluginName> (wobei <deinName> sowie <pluginName> in Kleinschreibung ersetzt wird, z.B. durch &ldquo;lisi&rdquo; und &ldquo;firstplugin&rdquo;) &gt; Klick auf <strong>Finish</strong></li>
-</ol>
 
-<h2 id="hauptklasse-hinzufügen">Hauptklasse hinzufügen</h2>
 
-<ol>
-<li>Auf der linken Seite (Tab <strong>Projects</strong>) in <strong>Source Packages</strong> auf dein neu erstelltes Package mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>Java Class</strong> auswählen.</li>
-<li>Als <strong>Class Name</strong> dein Plugin benennen, z.B. FirstPlugin &gt; Klick auf <strong>Finish</strong></li>
-<li>Sicherstellen dass nach dem Klassennamen <code>extends JavaPlugin</code> steht.</li>
-</ol>
 
-<h2 id="plugin-yml-hinzufügen">plugin.yml hinzufügen</h2>
 
-<ol>
-<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Source Packages</strong> mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>YAML File</strong> auswählen.</li>
-<li>Als <strong>File Name</strong> den Namen <code>plugin</code> eingeben &gt; Klick auf <strong>Finish</strong></li>
-</ol>
 
-<h2 id="resultat">Resultat</h2>
 
-<p>Dein Projektsetup sollte jetzt so aussehen:
-<img src="netbeans_cheatsheet/netbeans_structure.jpg" alt="Netbeans screenshot" /></p>
 
-<h2 id="projekt-bauen-und-deployen">Projekt bauen und deployen</h2>
 
-<ol>
-<li>In der Icon Leiste oben auf den Hammer <strong>Build Project (F11)</strong> klicken.</li>
-<li>Im Fenster <strong>Output</strong> (wenn nicht vorhanden, über Menüpunkt <strong>Window</strong> &gt; <strong>Output (Strg+4)</strong> anzeigen lassen) den Pfad zum *.jar kopieren (endet auf <code>dist/</code>).</li>
-<li>Im Explorer die <code>*.jar</code> Datei aus <code>dist/</code> in den Server Plugins Ordner (<code>craftbukkit/plugins/</code>) kopieren.</li>
-<li>In der Server Konsole das Kommando <code>reload</code> eingeben.</li>
-</ol>
- </div>
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/img/01_inventory-begin.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
+
+<h2 id="unterbau">Unterbau</h2>
+
+<p>Damit wir die Pistons ordentlich platzieren können, heben wir eine 2 Block tiefe Grube und platzieren die Pistons. Anschließend noch Repeater an die Pistons anschließen (bitte auf die Richtung achten - müssen zum Piston hin zeigen). Dann noch alles mit Redstone verbinden und irgendwo weiter weg an die Oberfläche leiten. Am Eingang platzieren wir eine Pressure-Plate damit die Falle ausglöst werden kann.</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/img/02_build-1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
+
+<p>Danach können wir alles schön mit Cobblestone zumachen damit man nicht gleich sieht dass es eine Falle ist.</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/img/03_build-2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
+
+<p>Wenn der Gang mit der versteckten <em>&ldquo;Überraschung&rdquo;</em> dann fertig ist, sieht es ungefähr so aus:</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/img/04_trap_ready.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
+
+<p>Gut - die Falle selbst wäre jetzt fertig - unglücklicherweise kann man sie noch nicht auslösen. Das muss sich noch ändern.</p>
+
+<h2 id="steuerung-der-falle">Steuerung der Falle</h2>
+
+<p>Als ersten Versuch verbinden wir die Pressure-Plate einfach mittels Redstone-Leitung mit den Pistons. Damit wird die Falle sofort ausgelöst sobald irgendetwas die Platte betritt.</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/img/05_redstone_leitung_1.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
+
+<p>Wie man auf dem Bild sieht bringt das leider noch nicht so viel, da die Falle zu schnell auslöst. Der Creeper hat sich lediglich etwas erschreckt &hellip;.</p>
+
+<p>Besser wäre es die Falle ein wenig zu verzögern. Das geht mit Redstone-Repeatern:</p>
+
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/img/06_redstone_leitung_2.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+
+
+
+<div class="alert alert-primary">
+Achtung: die Repeater müssen in die richtige Richtung zeigen, sonst funktioniert es nicht.
+</div>
+
+
+<p>Durch Rechtsklick auf die Repeater kann man eine Verzögerung in 3 Stufen einstellen. Damit hat der Creeper dann genug Zeit um in die Falle hineinzugehen, bevor sie zuschnappt. Probiert es einfach aus.</p> </div>
         </div>
     </div>
 </section>  <footer>
