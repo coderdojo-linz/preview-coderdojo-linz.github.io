@@ -11,6 +11,48 @@
     
     
     <item>
+      <title>Lokaler Minecraft-Server mit Scriptcraft</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server-mit-scriptcraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server-mit-scriptcraft/</guid>
+      <description>Installation eines Minecraft Servers mit Scriptcraft Voraussetzungen In dieser Übung installieren wir einen Minecraft Server mit Scriptcraft auf deinem Windows-Computer.
+Systemvoraussetzungen Bevor du den Minecraft-Server installieren kannst, musst du folgende Software installieren:
+ Java SE Development Kit (kurz JDK) Lade die Windows-Version von der Download-Seite herunter und installiere sie.
+ Git Lade die Windows-Version von der Download-Seite herunter und installiere sie. Installiere alle verfügbaren Teile von Git, die im Installationsprogramm auswählbar sind.</description>
+    </item>
+    
+    <item>
+      <title>Grundlagen von Minecraft Mods mit JavaScript</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/scriptcraft-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/scriptcraft-basics/</guid>
+      <description>Grundlagen von Minecraft Mods mit JavaScript Systemvoraussetzungen Du brauchst für diese Übungen einen Minecraft Server mit Scriptcraft. Wenn du keine Erfahrung bzgl. Konfiguration von Computern, Java etc. hast, komm ins CoderDojo und bitte eine Mentorin, dir einen solchen Server zur Verfügung zu stellen. Ansonsten hast du folgende Möglichkeiten:
+ Folge der Anleitung auf unserer Homepage Installiere Scriptcraft lokal auf deinem Computer (Installationsanleitung in Englisch)  Zum Programmieren von JavaScript brauchst du einen Texteditor.</description>
+    </item>
+    
+    <item>
+      <title>Installationen</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/installationen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/installationen/</guid>
+      <description>Installationen Einleitung Damit du deine Plugins bequem testen kannst, ist es sinnvoll zuerst einen Minecraft-Server auf deinem eigenen Computer zu installieren.
+Damit dein Computer ein Minecraft-Server wird, musst du eine bestimmte Software installieren, nämlich den &amp;ldquo;Minecraft-Server&amp;rdquo;. Das klingt jetzt ein wenig seltsam. Das kommt daher, dass wir Informatiker das Wort &amp;ldquo;Server&amp;rdquo; manchmal für einen ganzen Computer benutzen (z. B. &amp;ldquo;Der Web-Server ist heute wieder mal superschnell&amp;rdquo;). Aber manchmal verwenden wir das Wort &amp;ldquo;Server&amp;rdquo; auch nur für ein Programm, die Server-Software, die einen Computer zu einem Server macht.</description>
+    </item>
+    
+    <item>
+      <title>NetBeans Projektsetup</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans-cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans-cheatsheet/</guid>
+      <description>NetBeans Projektsetup Kurzanleitung, wie das Projekt in NetBeans aufgesetzt werden muss, um für deine Minecraft Plugins vorbereitet zu sein.
+Projekt erstellen  NetBeans starten Menü File &amp;gt; Menüpunkt New Project &amp;hellip; Auswahl: Categories Java, Projects Java Class Library &amp;gt; Klick auf Next Vergabe des Projektnamens unter Project Name (z.B. FirstPlugin) &amp;gt; Klick auf Finish  Craftbukkit Bibliothek hinzufügen  Auf der linken Seite (Tab Projects) auf Libraries mit der rechten Maustaste klicken &amp;gt; Add JAR/Folder auswählen.</description>
+    </item>
+    
+    <item>
       <title>Dein erstes Plugin</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/02_first-plugin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,16 +73,6 @@ Dieses wird vielleicht noch nicht das absolute Killer-Plugin auf Curse sein aber
 Vorbereitungen Zuerst ist es notwending die Entwicklungsumgebung herunterzuladen und zu installieren. Verwendet hierfür die &amp;ldquo;Community Edition&amp;rdquo;. Wenn das geschehen ist, bitte das Modul für Minecraft hinzufügen.
 Dafür bitte unter &amp;ldquo;File&amp;rdquo; -&amp;gt; &amp;ldquo;Settings&amp;rdquo; die Einstellungen öffnen und danach &amp;ldquo;Plugins&amp;rdquo; klicken.
 Danach könnt ihr mit &amp;ldquo;Browse repositories&amp;rdquo; und dem Suchfeld nach &amp;ldquo;Minecraft&amp;rdquo; suchen.</description>
-    </item>
-    
-    <item>
-      <title>Erste Schritte mit Redstone</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/erste-schritte-mit-redstone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/erste-schritte-mit-redstone/</guid>
-      <description>Erste Schritte mit Redstone Voraussetzung Für diese Übung brauchst du Minecraft. Du solltest mit den Grundfunktionen wie Steuerung des Spielers, verwenden von grundlegenden Blöcken etc. vertraut sein.
-Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der echten Welt mit Strom kannst du mit Redstone in Minecraft Schaltkreise (Englisch Ciruits) bauen. Egal ob Falle für Monster, Lichtsteuerung oder automatische Türen - für all das verwendest du Redstone.</description>
     </item>
     
     <item>
@@ -73,69 +105,6 @@ Was ist Redstone?  Redstone ist ein wichtiger Rohstoff in Minecraft. Wie in der 
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/03_getafix-player/</guid>
       <description>Miraculix der Druide - Teil 1 Inhalt:
  Einleitung Ausführliche Anleitung /gethealth Ausführliche Anleitung /heal Kurzversion für Profis  Einleitung Vielleicht hast du schon einmal Asterix und Obelix gelesen oder einen der Filme angesehen. Dann wirst du dich sicherlich an den Druiden Miraculix erinnern, das ist der, der den Zaubertrank zubereiten kann. Wir werden in dieser und einigen weiteren Episoden ein Plugin programmieren, mit dem du Miraculix spielen kannst. Wir fangen damit an, dass du dich und andere Spieler sofort heilen kannst.</description>
-    </item>
-    
-    <item>
-      <title>Grundlagen von Minecraft Mods mit JavaScript</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/08_scriptcraft_basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/08_scriptcraft_basics/</guid>
-      <description>Grundlagen von Minecraft Mods mit JavaScript Systemvoraussetzungen Du brauchst für diese Übungen einen Minecraft Server mit Scriptcraft. Wenn du keine Erfahrung bzgl. Konfiguration von Computern, Java etc. hast, komm ins CoderDojo und bitte eine Mentorin, dir einen solchen Server zur Verfügung zu stellen. Ansonsten hast du folgende Möglichkeiten:
- Folge der Anleitung auf unserer Homepage Installiere Scriptcraft lokal auf deinem Computer (Installationsanleitung in Englisch)  Zum Programmieren von JavaScript brauchst du einen Texteditor.</description>
-    </item>
-    
-    <item>
-      <title>Installation eines Minecraft Servers</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/minecraft-server/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/minecraft-server/</guid>
-      <description>Installation eines Minecraft Servers Voraussetzungen In dieser Übung installieren wir einen Minecraft Server. Als Grundlage brauchst du dafür einen Computer, auf dem Linux installiert ist. Linux ist eine freie Software, die kostenlos im Internet zu haben ist.
-Falls du nicht sicher bist, welches Linux du verwenden sollst, empfehlen wir für diese Übung Ubuntu. Du bekommst den Ubuntu Server zur Installation kostenlos im Internet. Eine deutsche Anleitung zur Installation von Ubuntu findest du z.</description>
-    </item>
-    
-    <item>
-      <title>Installationen</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/01_installationen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/01_installationen/</guid>
-      <description>Installationen Inhalt:
- Einleitung Installation Java Installation NetBeans Installation Craftbukkit Server-Software Mein eigener Server  Einleitung Damit du deine Plugins bequem testen kannst, ist es sinnvoll zuerst einen Minecraft-Server auf deinem eigenen Computer zu installieren.
-Damit dein Computer ein Minecraft-Server wird, musst du eine bestimmte Software installieren, nämlich den &amp;ldquo;Minecraft-Server&amp;rdquo;. Das klingt jetzt ein wenig seltsam. Das kommt daher, dass wir Informatiker das Wort &amp;ldquo;Server&amp;rdquo; manchmal für einen ganzen Computer benutzen (z.</description>
-    </item>
-    
-    <item>
-      <title>Lokaler Minecraft-Server mit Scriptcraft</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server/</guid>
-      <description>Installation eines Minecraft Servers mit Scriptcraft Voraussetzungen In dieser Übung installieren wir einen Minecraft Server mit Scriptcraft auf deinem Windows-Computer.
-Systemvoraussetzungen Bevor du den Minecraft-Server installieren kannst, musst du folgende Software installieren:
- Java SE Development Kit (kurz JDK) Lade die Windows-Version von der Download-Seite herunter und installiere sie.
- Git Lade die Windows-Version von der Download-Seite herunter und installiere sie. Installiere alle verfügbaren Teile von Git, die im Installationsprogramm auswählbar sind.</description>
-    </item>
-    
-    <item>
-      <title>Minecraft Server für ScriptCraft</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/07_spigot_scriptcraft_docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/07_spigot_scriptcraft_docker/</guid>
-      <description>Minecraft Server für ScriptCraft Wichtiger Hinweis: Diese Anleitung ist für erfahrene Coder, Mentorinnen und Mentoren. Wenn du im generellen Umgang mit Linux-Servern, Docker, JRE etc. noch unerfahren bist, bitte eine Mentorin aus dem CoderDojo, den Minecraft-Server für dich herzurichten. Später kannst du dich selbst am Installieren eines MineCraft-Servers wie hier beschrieben heran wagen.
-Einleitung Ziel dieser Anleitung ist das Betreiben eines Minecraft Servers auf Basis von Spigot mit installiertem Scriptcraft Mod zum Programmieren von Minecraft mit JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>NetBeans Projektsetup</title>
-      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans_cheatsheet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans_cheatsheet/</guid>
-      <description>NetBeans Projektsetup Kurzanleitung, wie das Projekt in NetBeans aufgesetzt werden muss, um für deine Minecraft Plugins vorbereitet zu sein.
-Projekt erstellen  NetBeans starten Menü File &amp;gt; Menüpunkt New Project &amp;hellip; Auswahl: Categories Java, Projects Java Class Library &amp;gt; Klick auf Next Vergabe des Projektnamens unter Project Name (z.B. FirstPlugin) &amp;gt; Klick auf Finish  Craftbukkit Bibliothek hinzufügen  Auf der linken Seite (Tab Projects) auf Libraries mit der rechten Maustaste klicken &amp;gt; Add JAR/Folder auswählen.</description>
     </item>
     
     <item>

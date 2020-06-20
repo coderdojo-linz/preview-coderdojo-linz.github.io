@@ -35,6 +35,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server-mit-scriptcraft/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/loeten/</loc>
   </url>
   
@@ -76,6 +80,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/loeten/grundlagen-loeten/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/scriptcraft-basics/</loc>
   </url>
   
   <url>
@@ -131,6 +139,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/installationen/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/loeten/loeten-ist-einfach/</loc>
   </url>
   
@@ -172,6 +184,10 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/microbit/erweiterungen/mi-node-kit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans-cheatsheet/</loc>
   </url>
   
   <url>
@@ -463,10 +479,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/erste-schritte-mit-redstone/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/redstone/erste-schritte/</loc>
   </url>
   
@@ -523,10 +535,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/08_scriptcraft_basics/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/mentoren/ehrenberger-guenter/</loc>
   </url>
   
@@ -567,11 +575,11 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/minecraft-server/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/server/installation-minecraft-server/</loc>
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/01_installationen/</loc>
+    <loc>https://linz-preview.coderdojo.net/categories/java/</loc>
   </url>
   
   <url>
@@ -603,7 +611,7 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server/</loc>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/server/scriptcraft-installieren/</loc>
   </url>
   
   <url>
@@ -631,10 +639,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/07_spigot_scriptcraft_docker/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/minesweeper/</loc>
   </url>
   
@@ -656,10 +660,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/n-ecke-malen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/netbeans_cheatsheet/</loc>
   </url>
   
   <url>

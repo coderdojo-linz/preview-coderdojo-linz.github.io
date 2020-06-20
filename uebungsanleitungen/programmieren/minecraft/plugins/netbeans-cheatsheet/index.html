@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Server </title>
+    <title> NetBeans Projektsetup </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="generator" content="Hugo 0.71.1" /> <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,500,600,700,800' rel='stylesheet'
@@ -53,14 +53,15 @@
             </ul>
         </div>
     </div>
-</nav>    
+</nav>     
 
-<section id="exercises" class="exercises">
-    <div class="container-fluid breadcrumb-container">
+<div class="container-fluid breadcrumb-container">
     <div class="container">
         <nav class="breadcrumb-nav" aria-label="breadcrumb">
         <ol class="breadcrumb">
             
+        
+        
         
         
         
@@ -107,6 +108,16 @@
 
         
         
+        <li class="breadcrumb-item">
+            <a href="https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/">Plugins</a>
+        </li>
+        
+        
+        
+        
+
+        
+        
         
         
         </ol>
@@ -114,105 +125,113 @@
         
         </nav>
     </div>
-</div>
+</div> 
 
+<section id="sushi">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>Server</h1>
+            
+            <div class="col-12 sushi-toc">
+                <h2>Inhalt</h2>
+                <nav id="TableOfContents">
+<ul>
+<li><a href="#netbeans-projektsetup">NetBeans Projektsetup</a>
+<ul>
+<li><a href="#projekt-erstellen">Projekt erstellen</a></li>
+<li><a href="#craftbukkit-bibliothek-hinzufügen">Craftbukkit Bibliothek hinzufügen</a></li>
+<li><a href="#package-hinzufügen">Package hinzufügen</a></li>
+<li><a href="#hauptklasse-hinzufügen">Hauptklasse hinzufügen</a></li>
+<li><a href="#plugin-yml-hinzufügen">plugin.yml hinzufügen</a></li>
+<li><a href="#resultat">Resultat</a></li>
+<li><a href="#projekt-bauen-und-deployen">Projekt bauen und deployen</a></li>
+</ul></li>
+</ul>
+</nav>
             </div>
-        </div>
+            <div class="col-12 sushi-content"> 
 
-        
-        
-            
-        
-            
-        
+<h1 id="netbeans-projektsetup">NetBeans Projektsetup</h1>
 
-        
+<p>Kurzanleitung, wie das Projekt in NetBeans aufgesetzt werden muss, um für deine Minecraft Plugins vorbereitet zu sein.</p>
 
-        <div class="row row-cols-1 row-cols-md-3 category-cards">
-            
+<h2 id="projekt-erstellen">Projekt erstellen</h2>
 
-            
-            
-            
-            
-            
+<ol>
+<li>NetBeans starten</li>
+<li>Menü <strong>File</strong> &gt; Menüpunkt <strong>New Project &hellip;</strong></li>
+<li>Auswahl: Categories <strong>Java</strong>, Projects <strong>Java Class Library</strong> &gt; Klick auf <strong>Next</strong></li>
+<li>Vergabe des Projektnamens unter <strong>Project Name</strong> (z.B. FirstPlugin) &gt; Klick auf <strong>Finish</strong></li>
+</ol>
 
-            
+<h2 id="craftbukkit-bibliothek-hinzufügen">Craftbukkit Bibliothek hinzufügen</h2>
 
-            
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Libraries</strong> mit der rechten Maustaste klicken &gt; <strong>Add JAR/Folder</strong> auswählen.</li>
+<li>Die Datei <strong>craftbukkit.jar</strong> auswählen &gt; Klick auf <strong>Open</strong></li>
+</ol>
 
-            
+<h2 id="package-hinzufügen">Package hinzufügen</h2>
 
-            <div class="col mb-5 category category-alle ">
-                
-                <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/minecraft\/server\/installation-minecraft-server\/'">
-                
-                    
-                    <div class="card-header" style="padding: 0; height: 200px;">
-                        <img src="/img/uebungsanleitungen/programmieren/minecraft/server/installation-minecraft-server/../server-verbinden.png" class="card-img-top mx-auto" alt="Installation eines Minecraft Servers" style="object-fit: cover; object-position: center center; height: 100%;">
-                    </div>
-                    
-                    
-                    <div class="card-body">
-                        
-                        <span class="badge badge-pill badge-success" style="float: right; margin-left: 10px;">
-                            Level 2
-                        </span>
-                        
-                        <h5 class="card-title">Installation eines Minecraft Servers</h5>
-                        
-                        <p class="card-text mt-4">In dieser Übung installieren wir einen Minecraft Server. Als Grundlage brauchst du dafür einen Computer, auf dem Linux installiert ist. Linux ist eine freie Software, die kostenlos im Internet zu haben ist.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Source Packages</strong> mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>Java Package</strong> auswählen.</li>
+<li>Als <strong>Package Name</strong> folgendes vergeben: io.coderdojo.<deinName>.minecraft.<pluginName> (wobei <deinName> sowie <pluginName> in Kleinschreibung ersetzt wird, z.B. durch &ldquo;lisi&rdquo; und &ldquo;firstplugin&rdquo;) &gt; Klick auf <strong>Finish</strong></li>
+</ol>
 
-            
-            
-            
-            
-            
+<h2 id="hauptklasse-hinzufügen">Hauptklasse hinzufügen</h2>
 
-            
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) in <strong>Source Packages</strong> auf dein neu erstelltes Package mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>Java Class</strong> auswählen.</li>
+<li>Als <strong>Class Name</strong> dein Plugin benennen, z.B. FirstPlugin &gt; Klick auf <strong>Finish</strong></li>
+<li>Sicherstellen dass nach dem Klassennamen <code>extends JavaPlugin</code> steht.</li>
+</ol>
 
-            
+<h2 id="plugin-yml-hinzufügen">plugin.yml hinzufügen</h2>
 
-            
+<ol>
+<li>Auf der linken Seite (Tab <strong>Projects</strong>) auf <strong>Source Packages</strong> mit der rechten Maustaste klicken &gt; <strong>New</strong> auswählen &gt; <strong>YAML File</strong> auswählen.</li>
+<li>Als <strong>File Name</strong> den Namen <code>plugin</code> eingeben &gt; Klick auf <strong>Finish</strong></li>
+</ol>
 
-            <div class="col mb-5 category category-alle ">
-                
-                <div class="card h-100" onclick="location.href='https:\/\/linz-preview.coderdojo.net\/uebungsanleitungen\/programmieren\/minecraft\/server\/scriptcraft-installieren\/'">
-                
-                    
-                    <div class="card-header" style="padding: 0; height: 200px;">
-                        <img src="/img/uebungsanleitungen/programmieren/minecraft/server/scriptcraft-installieren/../scriptcraft.png" class="card-img-top mx-auto" alt="Lokaler Minecraft-Server mit Scriptcraft" style="object-fit: cover; object-position: center center; height: 100%;">
-                    </div>
-                    
-                    
-                    <div class="card-body">
-                        
-                        <span class="badge badge-pill badge-danger" style="float: right; margin-left: 10px;">
-                            Level 3
-                        </span>
-                        
-                        <h5 class="card-title">Lokaler Minecraft-Server mit Scriptcraft</h5>
-                        
-                        <p class="card-text mt-4">In dieser Übung lernst du, einen Minecraft-Server mit Scriptcraft auf deinem Computer zu installieren.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            
+<h2 id="resultat">Resultat</h2>
+
+<p>Dein Projektsetup sollte jetzt so aussehen:
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col-12 col-md-12">
+    <img src="/uebungsanleitungen/programmieren/minecraft/plugins/netbeans-cheatsheet/img/netbeans_structure.jpg" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    </div>
+</div>
+</p>
+
+<h2 id="projekt-bauen-und-deployen">Projekt bauen und deployen</h2>
+
+<ol>
+<li>In der Icon Leiste oben auf den Hammer <strong>Build Project (F11)</strong> klicken.</li>
+<li>Im Fenster <strong>Output</strong> (wenn nicht vorhanden, über Menüpunkt <strong>Window</strong> &gt; <strong>Output (Strg+4)</strong> anzeigen lassen) den Pfad zum *.jar kopieren (endet auf <code>dist/</code>).</li>
+<li>Im Explorer die <code>*.jar</code> Datei aus <code>dist/</code> in den Server Plugins Ordner (<code>craftbukkit/plugins/</code>) kopieren.</li>
+<li>In der Server Konsole das Kommando <code>reload</code> eingeben.</li>
+</ol>
+ </div>
         </div>
     </div>
-</section>
-
- <footer>
+</section>  <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

@@ -11,6 +11,28 @@
     
     
     <item>
+      <title>Lokaler Minecraft-Server mit Scriptcraft</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server-mit-scriptcraft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/lokaler-minecraft-server-mit-scriptcraft/</guid>
+      <description>Installation eines Minecraft Servers mit Scriptcraft Voraussetzungen In dieser Übung installieren wir einen Minecraft Server mit Scriptcraft auf deinem Windows-Computer.
+Systemvoraussetzungen Bevor du den Minecraft-Server installieren kannst, musst du folgende Software installieren:
+ Java SE Development Kit (kurz JDK) Lade die Windows-Version von der Download-Seite herunter und installiere sie.
+ Git Lade die Windows-Version von der Download-Seite herunter und installiere sie. Installiere alle verfügbaren Teile von Git, die im Installationsprogramm auswählbar sind.</description>
+    </item>
+    
+    <item>
+      <title>Grundlagen von Minecraft Mods mit JavaScript</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/scriptcraft-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/scriptcraft-basics/</guid>
+      <description>Grundlagen von Minecraft Mods mit JavaScript Systemvoraussetzungen Du brauchst für diese Übungen einen Minecraft Server mit Scriptcraft. Wenn du keine Erfahrung bzgl. Konfiguration von Computern, Java etc. hast, komm ins CoderDojo und bitte eine Mentorin, dir einen solchen Server zur Verfügung zu stellen. Ansonsten hast du folgende Möglichkeiten:
+ Folge der Anleitung auf unserer Homepage Installiere Scriptcraft lokal auf deinem Computer (Installationsanleitung in Englisch)  Zum Programmieren von JavaScript brauchst du einen Texteditor.</description>
+    </item>
+    
+    <item>
       <title>Verschlüsseln mit JavaScript</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/web/caesar-verschluesseln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
