@@ -207,6 +207,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/erstes-plugin/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/microbit/grundlagen/grundlagen-bauelemente/</loc>
   </url>
   
@@ -235,6 +239,10 @@
   </url>
   
   <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/miraculix-teil-1/</loc>
+  </url>
+  
+  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/raspberry-pi/themenhefte/</loc>
   </url>
   
@@ -252,6 +260,14 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/microbit/erweiterungen/makerbuino-build-guide/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/miraculix-teil-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/welcome-listener/</loc>
   </url>
   
   <url>
@@ -276,6 +292,14 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/arduino/grove-einfuehrung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/miraculix-teil-3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/teleporter/</loc>
   </url>
   
   <url>
@@ -443,10 +467,6 @@
   </url>
   
   <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/02_first-plugin/</loc>
-  </url>
-  
-  <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/zauberlehrlinge/</loc>
   </url>
   
@@ -456,10 +476,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/redstone/redstone-trap/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/09_teleporter/</loc>
   </url>
   
   <url>
@@ -520,18 +536,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/geisterspiel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/04_getafix-arguments/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/06_getafix-magicpotion/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/03_getafix-player/</loc>
   </url>
   
   <url>
@@ -840,10 +844,6 @@
   
   <url>
     <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/weihnachten-2016/</loc>
-  </url>
-  
-  <url>
-    <loc>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/minecraft/plugins/05_welcome-listener/</loc>
   </url>
   
   <url>
