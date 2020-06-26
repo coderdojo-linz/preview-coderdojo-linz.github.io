@@ -1249,6 +1249,15 @@ Wenn er nicht vorm Computer sitzt, kocht und liest er gerne, und er hat nach jah
     </item>
     
     <item>
+      <title>Michael Wagner</title>
+      <link>https://linz-preview.coderdojo.net/mentoren/michael-wagner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/mentoren/michael-wagner/</guid>
+      <description>IT Leiter, Technikfreak, Bastler, Elektroniker und Amateurfunker</description>
+    </item>
+    
+    <item>
       <title>Minesweeper</title>
       <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/scratch/minesweeper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1381,8 +1390,8 @@ Privat ist er verheiratet und Vater zweier Söhne im Alter von 13 und 16 Jahren.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/mentoren/gerhofer-pia/</guid>
-      <description>Nachdem Pia Gerhofer ihr Bachelorstudium an der FH Oberösterreich - Campus Hagenberg in &amp;ldquo;Bio- und Medizininformatik&amp;rdquo; abgeschlossen hatte, begann sie das Masterstudium &amp;ldquo;Software Engineering&amp;rdquo; ebenfalls in Hagenberg. Im Zuge ihres Bachelorstudiums war sie ein halbes Jahr in einer Bioinformatik-Forschungsgruppe der Universität Basel tätig, wo sie mit PHP, Javascript, Python und Solr die Suchfunktion für eine Webseite entworfen habe.
-Nebenberuflich ist sie seit Beginn des Masterstudiums als Junior Software Developer bei der Firma Catalysts in Linz tätig.</description>
+      <description>Pia Gerhofer is a software developer based in Linz mainly working on business applications implemented with the Spring Framework in Java and Kotlin and web applications implemented with Angular. Furthermore, she is a part-time teacher at a coding Bootcamp located in Linz.
+She is passionate about technology, the environment, enabling women in the IT industry and education and therefore she can often be found at one of Linz&amp;rsquo; local meetups or mentoring at the CoderDojo.</description>
     </item>
     
     <item>
@@ -1476,6 +1485,17 @@ Bühne &amp;amp; Figuren Das Spiel besteht aus drei Figuren: der Schlange, dem A
    Ziel der Übung In dieser Übung lernst du, wie du mit Node.js einfache Spiele programmieren kannst.
 Systemvoraussetzungen Du brauchst für diese Übung die gleichen Tools (Visual Studio Code, Node.js, npm), die schon in der Übung Ein Webserver mit Node.js erwähnt sind. Falls du die Übung schon gemacht hast, hast du schon alle notwendigen Tools. Falls nicht, schau dort bitte nach.
 Du kannst das Beispiel unter Windows, Linux oder MacOS bauen.</description>
+    </item>
+    
+    <item>
+      <title>Snake mit Python</title>
+      <link>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/snake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/python/snake/</guid>
+      <description>Python Snake In dieser Übung erstellen wir das Computerspiel Snake mit Python. So wie für das Bubble Blaster Spiel werden wir auch hier auf das Package Tkinter zurückgreifen, um die Spielelemente (Kugeln aus denen die Schlage besteht, Apfel) auf den Bildschirm zu malen.
+Voraussetzungen Es wäre ideal, wenn du das Bubble Blaster Spiel davor schon programmiert hast, um dich so mit Tkinter vertraut zu machen.
+8 Schritte zum fertigen Snake Spiel Es ist oft eine gute Strategie ein Programm nicht in einem einzelnen Wurf zu entwickeln, sondern es in kleine Unterschritte zu unterteilen, die für sich gesehen bewältigbarer sind.</description>
     </item>
     
     <item>
