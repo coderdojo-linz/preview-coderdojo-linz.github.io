@@ -267,7 +267,7 @@ c<span style="color:#f92672">.</span>pack()</code></pre></div>
 
 <h4 id="snake-körperelement-laden">Snake Körperelement laden</h4>
 
-<p>Der Körper unserer Schlange besteht aus lauter kleinen Kugeln, die wir aus der Datei <a href="snake_body.png" target="_blank">snake_body.png</a> in ein Image Objekt aus der PIL Bibliothek laden. Dieses Bild ist nicht exakt 23 x 23 Pixel groß und wir müssen es daher zunächst noch auf diese Größe verkleinern. Der Zusatz Image.ANTIALIAS als Argument der <em>body_img.resize</em> Funktion hilft dabei zu verhinder, dass das Bild durch das Verkleinern <em>schlechter aussieht</em>.</p>
+<p>Der Körper unserer Schlange besteht aus lauter kleinen Kugeln, die wir aus der Datei <a href="img/snake_body.png" target="_blank">snake_body.png</a> in ein Image Objekt aus der PIL Bibliothek laden. Dieses Bild ist nicht exakt 23 x 23 Pixel groß und wir müssen es daher zunächst noch auf diese Größe verkleinern. Der Zusatz Image.ANTIALIAS als Argument der <em>body_img.resize</em> Funktion hilft dabei zu verhinder, dass das Bild durch das Verkleinern <em>schlechter aussieht</em>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Snake Körperelement laden</span>
 body_width <span style="color:#f92672">=</span> grid_length
 body_height <span style="color:#f92672">=</span> grid_length
@@ -696,7 +696,7 @@ y_up <span style="color:#f92672">=</span> <span style="color:#ae81ff">50</span><
 
 <ul>
 <li>Den High Score abspeichern und am Ende eines Spiels immer den aktuellen Score mit dem High Score vergleichen.</li>
-<li>Der Schlange einen schönen Kopf geben, der nicht einfach ein normales Schlangenelement ist. Es gebe dafür z.B. das Bild <a href="snake_head.png" target="_blank">snake_head.png</a>.</li>
+<li>Der Schlange einen schönen Kopf geben, der nicht einfach ein normales Schlangenelement ist. Es gebe dafür z.B. das Bild <a href="img/snake_head.png" target="_blank">snake_head.png</a>.</li>
 <li>Hindernisse einbauen</li>
 <li>Mehr als einen Apfel gleichzeitig platzieren</li>
 <li>Die Schlange mit einer künstlichen Intelligenz automatisch steuern lassen</li>
