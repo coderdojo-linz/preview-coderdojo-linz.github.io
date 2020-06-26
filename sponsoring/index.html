@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://linz-preview.coderdojo.net/css/animate.css">
      
      
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.d241b7d147af8e4902d535ccf8befe0863eaf6958b4b0ec06130d531a5224300.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.1b9c230a2f66f97f2552e09c6b72c8faae703335708079af48049b975a8c480e.css">
     <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -35,7 +35,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <a class="navbar-brand" href="/"><img src="/img/logo-linz.png" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -83,13 +83,11 @@
                 </div>
             </div>
         </div>
-    </section>    
-
-<section>
+    </section>     
+<section id="sponsoring" class="sponsoring">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                
+            <div class="col"> 
 
 <h1 id="sponsoring">Sponsoring</h1>
 
@@ -119,20 +117,31 @@
 
 <p>Wenn gewünscht, wirst du gerne auf unserer Webseite namentlich erwähnt. Schicke uns dazu bitte eine kurze Info an info@coderdojo-linz.org.</p>
 
-<h5 id="bankverbindung">Bankverbindung</h5>
+<div class="inner-section secondary bankdetails">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 text-center">
+                <h4>Bankverbindung</h4> 
+                <p>
+                    Raiffeisen Landesbank Oberösterreich<br /> 
+                    IBAN: AT81 3400 0000 0508 7333<br /> 
+                    BIC: RZOOAT2L<br />
+                </p>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <h4>PayPal</h4>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="FZS4TBU73STVA">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" name="submit"
+                        alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal." border="0">
+                    <img alt="" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1" border="0">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>Raiffeisen Landesbank Oberösterreich<br />
-IBAN: AT81 3400 0000 0508 7333<br />
-BIC: RZOOAT2L</p>
-
-<h5 id="paypal">PayPal</h5>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="FZS4TBU73STVA">
-    <input type="image" src="https://www.paypalobjects.com/de_DE/AT/i/btn/btn_donateCC_LG.gif" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal." border="0">
-    <img alt="" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1" border="0">
-</form>
 
 <h4 id="sponsor-a-dojo-ab-100">Sponsor a Dojo: ab 100€</h4>
 
@@ -176,17 +185,44 @@ Zusätzlich die Möglichkeit zur Veranstaltung eines firmen-internes Dojo mit un
 <h4 id="lizenzspende">Lizenzspende</h4>
 
 <p>Du möchtest den Kindern die Möglichkeit geben, kommerzielle Werkzeuge zu verwenden? Dann freuen wir uns über die Spende von Lizenzen.</p>
+ </div>
+        </div>
+    </div>
+</section> 
 
-<h2 id="kontakt">Kontakt</h2>
-
-<p>Bei Fragen zu unserem Verein oder zu Sponsoring-Möglichkeiten kontaktiere uns bitte unter info@coderdojo-linz.org. Wir freuen uns auf deine Unterstützung!</p>
-
-<p>Dein CoderDojo Linz - Team</p>
-
+<!-- Contact Section --> 
+<section id="contact" class="secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
+                <h2>Kontakt</h2>
+                <p class="text-center">Bei Fragen zu unserem Verein oder zu Sponsoring-Möglichkeiten kontaktiere uns bitte. Wir freuen uns auf deine Unterstützung!</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
+                <form id="contact-form" novalidate class="mb-4">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Emailadresse" name="email" id="contact-email" required>
+                        <div class="invalid-feedback">Gib bitte eine gültige Emailadresse an, damit wir dich kontaktieren können.</div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Nachricht" rows="5" name="message" id="contact-text" required></textarea>
+                        <div class="invalid-feedback">Gib bitte eine Nachricht ein.</div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" onclick="sendContactForm(&#34;CoderDojo Sponsoring Anfrage&#34;); return false;">Nachricht senden</button>
+                    </div>
+                </form>
+                <div id="contact-success" class="alert alert-success">
+                    <p>Die Abfrage wurde erfolgreich abgeschickt. Wir werden uns sobald als möglich bei dir melden.</p>
+                </div>
+                <div id="contact-error" class="alert alert-danger">
+                    <p>Die Abfrage konnte gerade nicht abgeschickt wird. Bitte versuche es etwas später nocheinmal oder schick uns eine Mail an <a href="mailto:linz.coderdojo.net">info@linz.coderdojo.net</a></p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
  <footer>
         <div class="container">

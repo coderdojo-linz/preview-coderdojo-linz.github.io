@@ -1046,7 +1046,7 @@ Am jeweils oberen Ende der beiden neuen Linie zweichne wieder jeweils zwei neue 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/programmieren/csharp/geisterspiel/</guid>
-      <description>Geisterspiel - C In dieser Übung erstellen wir ein erstes, einfaches Konsolenspiel mit C# (C-Sharp). Das Spiel wird textuell gesteuert d.h Ein/-Ausgaben werden auf einer Konsole zu lesen/schreiben sein.
+      <description>Geisterspiel In dieser Übung erstellen wir ein erstes, einfaches Konsolenspiel mit C# (C-Sharp). Das Spiel wird textuell gesteuert d.h Ein/-Ausgaben werden auf einer Konsole zu lesen/schreiben sein.
 Die Aufgabe Der Geist versteckt sich zufällig hinter einer von 3 Türen. Du entscheidest, welche Türe du öffnen möchtest. Tippe dazu 1, 2 oder 3 und drücke die ENTER-Taste. Unser Programm soll nun prüfen, ob der Geist sich hinter der Tür befindet und eine entsprechende Meldung ausgeben; also entweder ‘Geist gefunden’ und damit das Spiel verloren oder ‘Kein Geist’ und der Spieler darf zur nächsten Station mit wieder 3 Türen und einem zufällig versteckten Geist weitergehen.</description>
     </item>
     
@@ -1528,16 +1528,6 @@ Für diese Übung solltest du bereits einfache Programmierkentnisse haben, die K
       
       <guid>https://linz-preview.coderdojo.net/uebungsanleitungen/loeten-und-elektronik/microbit/uebungsanleitungen/spielwuerfel/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Sponsoring</title>
-      <link>https://linz-preview.coderdojo.net/images/sponsoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linz-preview.coderdojo.net/images/sponsoring/</guid>
-      <description>Sponsoring Wer sind wir? In der weltweiten CoderDojo Gemeinschaft bieten Freiwillige Programmierclubs für Kinder und Jugendliche an. Dort wird spielerisch Technologie entdeckt und gelernt wie man Code schreibt, Webseiten entwickelt, Apps und Spiele programmiert und vieles mehr. Technologieinteressierte Kinder treffen Gleichgesinnte und können sich über ihre Projekte austauschen.
-Hier in Linz sind wir ein gemeinnütziger Verein, an dessen oberster Stelle das gemeinsame Entdecken, Teamarbeit und Mentoring zur Vermittlung von Technologien und Programmierung an Kinder steht.</description>
     </item>
     
     <item>

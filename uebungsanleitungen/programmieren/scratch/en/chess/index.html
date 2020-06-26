@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://linz-preview.coderdojo.net/css/animate.css">
      
      
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.d241b7d147af8e4902d535ccf8befe0863eaf6958b4b0ec06130d531a5224300.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.1b9c230a2f66f97f2552e09c6b72c8faae703335708079af48049b975a8c480e.css">
     <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -35,7 +35,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <a class="navbar-brand" href="/"><img src="/img/logo-linz.png" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -206,7 +206,7 @@
 </p>
     </div>
     <div class="col-12 col-md-6">
-    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-blocks-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-blocks-en.png" alt="(.Get 1)" class="mx-auto ml-md-auto mr-md-0" style="display: block; width: auto" />
     </div>
 </div>
 
@@ -240,7 +240,7 @@
 </p>
     </div>
     <div class="col-12 col-md-8">
-    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-eval-code-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-eval-code-en.png" alt="(.Get 1)" class="mx-auto ml-md-auto mr-md-0" style="display: block; width: auto" />
     </div>
 </div>
 
@@ -269,7 +269,7 @@
         <p>The runtime performance of Scratch only allows to look a few moves ahead. Thereafter, the resulting board is evaluated and compared with previous boards. This results in a decision tree as depicted below, with nodes representing the board states and their evaluation, and  arrows representing the respective moves to transition from one board state to another. The best guaranteed evaluation in this example is 5. Even if a board with an evaluation of 10 seems possible, the opponent can prevent this by a skillful countermove, which then results in a worse rating (namely 2). We therefore choose the move that ensures an evaluation of 5, no matter which move the opponent will play.</p>
     </div>
     <div class="col-12 col-md-8">
-    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax.png" alt="(.Get 1)" class="mx-auto ml-md-auto mr-md-0" style="display: block; width: auto" />
     </div>
 </div>
 
@@ -298,7 +298,7 @@
         <p>Our intermediate values (Min, Max, Alpha, Beta, Moves) are all stored in lists. This is necessary for recursions because there are no local variables in Scratch (and function parameters cannot be changed). Scratch variables are not sufficient for this, otherwise we would overwrite them in cascaded AlphaBetaMinMaxImpl() calls. These lists contain an entry for every possible call depth. An alternative would be to label the variables from 1 to N and to duplicate the whole custom block for each draft depth. But we really do not want to go that path (the full project would require 15 duplicate variables and custom blocks). The resulting MiniMax / Alpha-Beta Pruning implementation looks like this</p>
     </div>
     <div class="col-12 col-md-8">
-    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax-code-en.png" alt="(.Get 1)" class="mx-xl-auto" style="margin-left: auto; margin-right: 0; display: block; width: auto" />
+    <img src="/uebungsanleitungen/programmieren/scratch/en/chess/img/chess-minimax-code-en.png" alt="(.Get 1)" class="mx-auto ml-md-auto mr-md-0" style="display: block; width: auto" />
     </div>
 </div>
 

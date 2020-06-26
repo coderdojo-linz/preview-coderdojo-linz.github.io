@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://linz-preview.coderdojo.net/css/animate.css">
      
      
-    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.d241b7d147af8e4902d535ccf8befe0863eaf6958b4b0ec06130d531a5224300.css">
+    <link rel="stylesheet" href="https://linz-preview.coderdojo.net/style.min.1b9c230a2f66f97f2552e09c6b72c8faae703335708079af48049b975a8c480e.css">
     <script src="https://kit.fontawesome.com/5bb5b2cc9c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -35,7 +35,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="/img/logo.png" height="30"></a>
+        <a class="navbar-brand" href="/"><img src="/img/logo-linz.png" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -335,7 +335,7 @@ Seither war er in Produkt- und Projektentwicklung tätig. Unter anderem für ein
     </div>
 </section>
 
-<section id="mentors-call-to-action" class="dark">
+<section id="mentors-call-to-action" class="secondary">
     <div class="container">
         <div class="row">
             <div class="col"> 
@@ -348,32 +348,33 @@ Seither war er in Produkt- und Projektentwicklung tätig. Unter anderem für ein
     </div>
 </section> 
 
-<!-- Contact Section --> <section id="contact">
+<!-- Contact Section --> 
+<section id="contact" class="">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h2>Schnuppertermin</h2>
-                <p class="text-center">Schreib uns, wann du zum Schnuppern vorbeikommen willst.</p>
+            <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
+                <h2>Kontakt</h2>
+                <p class="text-center">Willst du zu einem der nächsten Termine vorbeikommen? Oder hast du andere Fragen?</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-8 offset-lg-2">
-                <form id="contact-form" novalidate>
+                <form id="contact-form" novalidate class="mb-4">
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Emailadresse" name="email" required>
+                        <input type="email" class="form-control" placeholder="Emailadresse" name="email" id="contact-email" required>
                         <div class="invalid-feedback">Gib bitte eine gültige Emailadresse an, damit wir dich kontaktieren können.</div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" placeholder="Nachricht" rows="5" name="message" required></textarea>
+                        <textarea class="form-control" placeholder="Nachricht" rows="5" name="message" id="contact-text" required></textarea>
                         <div class="invalid-feedback">Gib bitte eine Nachricht ein.</div>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary mt-4" onclick="sendContactForm(); return false;">Nachricht senden</button>
+                        <button type="submit" class="btn btn-primary" onclick="sendContactForm(&#34;CoderDojo Mentoren Anfrage&#34;); return false;">Nachricht senden</button>
                     </div>
                 </form>
-                <div id="success">
-                    <p></p>
+                <div id="contact-success" class="alert alert-success">
+                    <p>Die Abfrage wurde erfolgreich abgeschickt. Wir werden uns sobald als möglich bei dir melden.</p>
                 </div>
-                <div id="error">
-                    <p></p>
+                <div id="contact-error" class="alert alert-danger">
+                    <p>Die Abfrage konnte gerade nicht abgeschickt wird. Bitte versuche es etwas später nocheinmal oder schick uns eine Mail an <a href="mailto:linz.coderdojo.net">info@linz.coderdojo.net</a></p>
                 </div>
             </div>
         </div>
