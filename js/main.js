@@ -198,7 +198,7 @@ function loadEvents(eventsTable) {
           formattedBeginTime = '16:00';
           formattedEndTime = '18:00';
 
-          if (formattedDate === '13.10.2023') {
+          if (formattedDate === '09.02.2024') {
             if (event.location.indexOf('Leonding') >= 0) {
               formattedBeginTime = '15:00';
               formattedEndTime = '17:00';
@@ -294,7 +294,7 @@ function loadEvents(eventsTable) {
             formattedDate !== '10.09.2023'
           ) {
             row +=
-              '<p>Der Link zur Anmeldung wird 2 Wochen vor dem Event bekannt gegeben.</p>';
+              '<p>Keine Anmeldung erforderlich.</p>';
           }
         }
 
@@ -381,7 +381,7 @@ function loadEvents(eventsTable) {
         } else {
           if (event.type.toLowerCase() === 'coderdojo virtual') {
             row +=
-              '<p>Die Workshops werden zwei Tage vor dem Event bekanntgegeben. Keine Anmeldung erforderlich.</p>';
+              '<p>Die Workshops werden zwei Tage vor dem Event bekanntgegeben.<br/>Keine Anmeldung erforderlich.</p>';
           }
         }
 
